@@ -1,10 +1,12 @@
 clean:
-	find . -name "*~" -exec rm -rf {} \;
-	rm -rf *.log
-	rm -rf *.txt
-	rm -rf *.pyc
+	@echo "Basic cleaning..."
+	@find . -name "*~" -exec rm -rf {} \;
+	@rm -rf *.log
+	@rm -rf *.txt
+	@rm -rf *.pyc
 
-cleandata:
+cleandata:clean
+	@echo "Cleaning data..."
 	@rm -rf tmp/* data/* recycle/*
 
 cleanall:clean cleandata

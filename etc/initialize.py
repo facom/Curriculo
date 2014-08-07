@@ -487,9 +487,9 @@ for field in Fields:
 
 sql+="""
 primary key (100_Codigo)
-) row_format=dynamic;
+);
 """
-#print sql
+print sql
 db.execute(sql)
 
 ###################################################
