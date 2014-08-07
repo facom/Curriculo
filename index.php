@@ -19,6 +19,26 @@ foreach(array_keys($_POST) as $field){
 }
 
 ////////////////////////////////////////////////////
+//AUTHORIZATION
+////////////////////////////////////////////////////
+$ADMIN=0;
+if(isset($_COOKIE["verify"])){
+  $verify=$_COOKIE["verify"];
+  $ADMIN=$PASS_INFORMATION["$verify"];
+}
+
+////////////////////////////////////////////////////
+//COOKIE INFORMATION
+////////////////////////////////////////////////////
+/*
+$verify=$_COOKIE["verify"];
+$inst=$PASS_INFORMATION["$verify"];
+echo "COOKIE:$verify<br/>";
+echo "INSTITUTO:$inst<br/>";
+//phpinfo();
+*/
+
+////////////////////////////////////////////////////
 //ROUTINES
 ////////////////////////////////////////////////////
 function generateSelection($values,$name,$value)
@@ -42,15 +62,93 @@ function generateSelection($values,$name,$value)
 $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
 
 ////////////////////////////////////////////////////
-//COMMON
+//HEADER
 ////////////////////////////////////////////////////
+if(!$ADMIN){
+  $headbar="";
+$admin=<<<ADMIN
+  <li>
+    <b>
+      <a href='login.php'>Conectarse como Administrador</a>.
+    </b>
+    Si es administrador aquí podrá conectarse para realizar tareas de
+    edición.
+  </li>
+ADMIN;
+ }else{
+  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>ADMINISTRADOR: $ADMIN</div>";
+$admin=<<<ADMIN
+  <li>
+    <b>
+      <a href='login.php?logout'>Desconectarse</a>.
+    </b>
+  Esta conectado como administrador (usuario: <b>$ADMIN</b>).  Use sus atributos con responsabilidad.
+  </li>
+ADMIN;
+ }
+
 echo<<<CURRICULO
-<h1>Microcurriculos</h1>
-<h3>
-<a href="?">Lista Cursos</a> -
-<a href="?entra_curso">Nuevo Curso</a>
-</h3>
+$headbar
+<table width=100% border=0>
+<tr>
+<td width=10%><image src="images/udea_fcen.jpg"/ height=120px></td>
+<td valign=bottom>
+  <b style='font-size:32'>Plataforma de Información Curricular</b><br/>
+  <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
+  <b style='font-size:24'>Universidad de Antioquia</b><br/>
+</td>
+</table>
+<hr/>
+<p style='font-size:16'>
+
+Bienvenido al sistema de información curricular de la Facultad de
+Ciencias Exactas y Naturales.<br/><br/>
+
+En este sitio encontrará información sobre diversos aspectos del
+currículo de los programas de la Facultad incluyendo acceso a los
+documentos rectores de la Transformación Curricular de cada
+dependencia, planes de estudio, entre otros.<br/><br/>
+
+De acuerdo a sus necesidades escoja una de las siguientes opciones:
+<ul>
+
+  <li>
+    <b>
+      <aa href='?descargas'>Sección de Descargas</a>.
+    </b>
+    Aquí podrá descargar distintos documentos relacionados con la
+    Transformación Curricular de la Facultad.
+  </li>
+
+  <li>
+    <b>
+      <aa href='?planes_estudio'>Planes de Estudio</a>.
+    </b>
+    Aquí podrá ver los planes de estudio de todos los programas de la
+    Facultad.
+  </li>
+
+  <li>
+    <b>
+      <a href='?planes_asignatura'>Planes de Asignatura</a>.
+    </b>
+    Aquí podrá ver (o editar en caso de ser administrador) los planes
+    de asignatura de todos los cursos de la Facultad.
+  </li>
+
+  $admin
+</ul>
+
+<i>Toda la información consignada aquí es de caracter informativo y ha
+sido publicada para facilitar su acceso desde cualquier lugar.  Los
+documentos originales y aprobados por las autoridades de la
+Universidad deben consultarse en sus fuentes originales.  Algunos de
+esos documentos podrían tener cambios respecto a los publicados
+aquí.</i>
+
+</p>
 CURRICULO;
+
 if($accion=="Guardar" or $accion=="Reciclar"){
   $table="MicroCurriculos";
   if($accion=="Reciclar"){$table="MicroCurriculos_Recycle";}
@@ -438,7 +536,8 @@ echo<<<FORM
 $buttons
 </form>
 FORM;
-}else{
+}
+if($lista){
 
   $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos order by 280_Instituto;";
   $out=mysqli_query($db,$sql);
@@ -470,6 +569,10 @@ FORM;
   $recycle.="</ul>";
 
 echo<<<LISTA
+<h3>
+<a href="?">Lista Cursos</a> -
+<a href="?entra_curso">Nuevo Curso</a>
+</h3>
   <h2>Lista de Cursos</h2>
   $lista
   <h3>Reciclaje</h3>
@@ -484,6 +587,8 @@ LISTA;
 ////////////////////////////////////////////////////
 ?>
 <hr/>
-<a href=mailto:zuluagajorge@gmail.com>Jorge I. Zuluaga</a> (CC) 2014
+<p style='font-size:12px'>
+<a href=mailto:jorge.zuluaga@udea.edu.co>Jorge I. Zuluaga</a> (C) 2014
+</p>
 </body>
 </html>

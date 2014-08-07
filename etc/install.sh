@@ -2,6 +2,11 @@
 echo "Copiando archivos plantilla..."
 cp temp/*.* etc
 
+#Archivo de base de datos para php
+echo "Generando md5 para contraseñas..."
+cp temp/configuration.php etc/
+php temp/configuration.php >> etc/configuration.php
+
 #Instala Curriculo en un servidor
 echo "Pasandome al directorio de configuracion..."
 cd etc
