@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script src="etc/jquery.js"></script>
 </head>
 <body>
 <?
@@ -17,26 +18,24 @@ foreach(array_keys($_GET) as $field){
 foreach(array_keys($_POST) as $field){
     $$field=$_POST[$field];
 }
+date_default_timezone_set('UTC-5');
+$DATE=date(DATE_RFC2822);
 
 ////////////////////////////////////////////////////
 //AUTHORIZATION
 ////////////////////////////////////////////////////
 $ADMIN=0;
+$QADMIN=0;
 if(isset($_COOKIE["verify"])){
   $verify=$_COOKIE["verify"];
   $ADMIN=$PASS_INFORMATION["$verify"];
+  $INSTITUTO=$INSTITUTOS["$ADMIN"];
+  $QADMIN=1;
 }
-
-////////////////////////////////////////////////////
-//COOKIE INFORMATION
-////////////////////////////////////////////////////
-/*
-$verify=$_COOKIE["verify"];
-$inst=$PASS_INFORMATION["$verify"];
-echo "COOKIE:$verify<br/>";
-echo "INSTITUTO:$inst<br/>";
-//phpinfo();
-*/
+$QAUTH=0;
+if($INSTITUTO=="Facultad"){
+  $QAUTH=1;
+}
 
 ////////////////////////////////////////////////////
 //ROUTINES
@@ -62,9 +61,45 @@ function generateSelection($values,$name,$value)
 $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
 
 ////////////////////////////////////////////////////
-//HEADER
+//HEADER DEFINITION
 ////////////////////////////////////////////////////
-if(!$ADMIN){
+$menu="";
+$menu.="<a href=index.php>Principal</a>";
+$menu.=" - <a href=index.php?planes_asignatura>Planes de Asignatura</a>";
+if(!$QADMIN){
+  $headbar="";
+  $menu.=" - <a href=login.php>Conectarse</a>";
+}
+else{
+  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>ADMINISTRADOR: $ADMIN ($INSTITUTO)</div>";
+  $menu.=" - <a href=login.php?logout>Desconectarse</a>";
+  $menu.=" - <a href=index.php?edita_curso>Nuevo curso</a>";
+}
+$header=<<<HEADER
+$headbar
+<table width=100% border=0>
+<tr>
+<td width=10%><image src="images/udea_fcen.jpg"/ height=120px></td>
+<td valign=bottom>
+  <b style='font-size:32'><a href=index.php>Plataforma de Información Curricular</a></b><br/>
+  <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
+  <b style='font-size:24'>Universidad de Antioquia</b><br/>
+</td>
+</table>
+<hr/>
+$menu
+<hr/>
+HEADER;
+$errmsg=<<<ERR
+$header
+  <i style="color:red">Este contenido solo esta habilitado para un usuario autorizado</i>
+ERR;
+
+////////////////////////////////////////////////////
+//PÁGINA PRINCIPAL
+////////////////////////////////////////////////////
+if(count(array_keys($_GET))<1 and count(array_keys($_POST))<1){
+if(!$QADMIN){
   $headbar="";
 $admin=<<<ADMIN
   <li>
@@ -87,18 +122,8 @@ $admin=<<<ADMIN
 ADMIN;
  }
 
-echo<<<CURRICULO
-$headbar
-<table width=100% border=0>
-<tr>
-<td width=10%><image src="images/udea_fcen.jpg"/ height=120px></td>
-<td valign=bottom>
-  <b style='font-size:32'>Plataforma de Información Curricular</b><br/>
-  <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
-  <b style='font-size:24'>Universidad de Antioquia</b><br/>
-</td>
-</table>
-<hr/>
+echo<<<MAIN
+$header
 <p style='font-size:16'>
 
 Bienvenido al sistema de información curricular de la Facultad de
@@ -147,11 +172,104 @@ esos documentos podrían tener cambios respecto a los publicados
 aquí.</i>
 
 </p>
-CURRICULO;
+MAIN;
+}
+////////////////////////////////////////////////////
+//LISTA DE CURSOS
+////////////////////////////////////////////////////
+if(isset($_GET["planes_asignatura"])){
+  $page="$header";
+  $page.="<h2>Lista de Cursos</h2>";
+  foreach(array_keys($INSTITUTOS) as $key){
+    $instituto=$INSTITUTOS["$key"];
+    if($instituto=="Facultad"){continue;}
+    $page.="<h4>Instituto de $instituto</h4>";
+    $sql="select 100_Codigo,110_Nombre_Asignatura from MicroCurriculos where 280_Instituto='Instituto de $instituto' order by 330_Semestre_Plan;";
+    //echo "$sql<br/>";
+    if(!($out=mysqli_query($db,$sql))){
+      die("Error:".mysqli_error($db));
+    }
+    $lista="";
+    while($row=mysqli_fetch_array($out)){
+      $codigo=$row[0];
+      $nombre=$row[1];
+      $instituto=$row[2];
+      $lista.="<li>$nombre - $codigo ";
+      if($QADMIN and ($instituto==$INSTITUTO or $INSTITUTO=="Facultad")){
+	$lista.="(";
+	$lista.="<a href='?carga_curso=$codigo&edita_curso'>Cargar</a> - ";
+	$lista.="<a href='?ver_curso=$codigo'>Ver</a>";
+	$lista.=")";
+      }
+      $lista.="</li>";
+    }
+    if(!preg_match("/\w+/",$lista)){$lista="<i>(No se encontraron cursos)</i>";}
+    else{$lista.="</ul>";}
+    $page.="<ul>$lista</ul>";
+  }
+	
+  if($QADMIN){
+    $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos_Recycle;";
+    $out=mysqli_query($db,$sql);
+    $recycle="";
+    while($row=mysqli_fetch_array($out)){
+      $codigo=$row[0];
+      $nombre=$row[1];
+      $instituto=$row[2];
+      $recycle.="<li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&edita_curso&recover'>Recuperar</a>)</li>";
+    }	
+    if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
+    else{$recycle.="</ul>";}
+    $page.="<h4>Papelera de reciclaje</h4><ul>$recycle</ul>";
+  }
+  echo $page;
+}
 
-if($accion=="Guardar" or $accion=="Reciclar"){
+////////////////////////////////////////////////////
+//ACCIONES
+////////////////////////////////////////////////////
+$result="";
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//CARGA UN CURSO GUARDADO
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if(isset($carga_curso) and $QADMIN){
   $table="MicroCurriculos";
-  if($accion=="Reciclar"){$table="MicroCurriculos_Recycle";}
+  if(isset($recover)){
+    $table="MicroCurriculos_Recycle";
+  }
+  $sql="select * from $table where 100_Codigo='$carga_curso';";
+  $out=mysqli_query($db,$sql);
+  if(!($row=mysqli_fetch_array($out))){
+    die("Error:".mysqli_error($db));
+  }else{
+    $result="<i style='color:blue'>Curso $carga_curso cargado exitosamente.</i>";
+  }
+  foreach($FIELDS as $field){
+    $type=$DBASE[$field]["type"];
+    if($type=="text"){continue;}
+    $$field=$row["$field"];
+  }
+  //CARGANDO TEXT INFORMATION
+  $coursedir="data/$carga_curso";
+  if(isset($recover)){$coursedir="recycle/$carga_curso";}
+  foreach($FIELDS as $field){
+    $value=$$field;
+    $type=$DBASE[$field]["type"];
+    if($type!="text"){continue;}
+    $file="$coursedir/$field.txt";
+    $fl=fopen($file,"r");
+    $$field=fread($fl,filesize($file));
+    fclose($fl);
+  }
+ }else if(!$QADMIN and isset($carga_curso)){echo $errmsg;return;}
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//CARGA UN CURSO GUARDADO
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
+  $table="MicroCurriculos";
+  if($accion=="Reciclar"){
+    $table="MicroCurriculos_Recycle";
+  }
   ////////////////////////////////////////////////////
   //GUARDANDO REGISTRO
   ////////////////////////////////////////////////////
@@ -179,14 +297,14 @@ if($accion=="Guardar" or $accion=="Reciclar"){
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
-    echo "<i style='color:blue'>Registro guardado exitosamente.</i>";
+    $result="<i style='color:blue'>Registro guardado exitosamente.</i>";
   }
   if($accion=="Reciclar"){
     $sql="delete from MicroCurriculos where 100_Codigo=\"$codigo\";";
     if(!mysqli_query($db,$sql)){
       die("Error:".mysqli_error($db));
     }else{
-      echo "<i style='color:red'>Registro reciclado exitosamente.</i>";
+      $result="<i style='color:red'>Registro reciclado exitosamente.</i>";
     }
   }
   //SAVE TEXT FIELDS
@@ -208,41 +326,103 @@ if($accion=="Guardar" or $accion=="Reciclar"){
       fclose($fl);
     }
   }
-}
-if(isset($carga_curso)){
-  ////////////////////////////////////////////////////
-  //CARGANDO REGISTRO
-  ////////////////////////////////////////////////////
-  $table="MicroCurriculos";
-  if(isset($recover)){$table="MicroCurriculos_Recycle";}
-  $sql="select * from $table where 100_Codigo='$carga_curso';";
-  $out=mysqli_query($db,$sql);
-  if(!($row=mysqli_fetch_array($out))){
-    die("Error:".mysqli_error($db));
-  }else{
-    echo "<i style='color:blue'>Curso $carga_curso cargado exitosamente.</i>";
-  }
-  //print_r($row);
-  foreach($FIELDS as $field){
-    $type=$DBASE[$field]["type"];
-    if($type=="text"){continue;}
-    $$field=$row["$field"];
-    //echo "Normal $field = ".$$field;echo "<br/>";
-  }
-  //CARGANDO TEXT INFORMATION
-  $coursedir="data/$carga_curso";
-  if(isset($recover)){$coursedir="recycle/$carga_curso";}
+ }else if(!$QADMIN and ($accion=="Guardar" or $accion=="Reciclar")){echo $accion.$errmsg;return;}
+
+////////////////////////////////////////////////////
+//EDICIÓN DE UN CURSO
+////////////////////////////////////////////////////
+if(isset($edita_curso) and $QADMIN){
+  $page="";
+$page.=<<<FORM
+$header
+  <h2>Edición de Plan de Asignatura</h2>
+<div>
+$result
+</div>
+<form action="index.php" method="post">
+<input type='hidden' name='edita_curso' value=1>
+FORM;
+
+$buttons=<<<BUTTONS
+<div style='position:fixed;right:0px;'>
+<input type='submit' name='accion' value='Guardar'>
+<input type='submit' name='accion' value='Reciclar'>
+</div>
+<br/><br/>
+BUTTONS;
+ $page.=$buttons;
   foreach($FIELDS as $field){
     $value=$$field;
+    $query=$DBASE[$field]["query"];
     $type=$DBASE[$field]["type"];
-    if($type!="text"){continue;}
-    $file="$coursedir/$field.txt";
-    $fl=fopen($file,"r");
-    $$field=fread($fl,filesize($file));
-    fclose($fl);
-    //echo "Text $field = ".$$field;echo "<br/>";
+    $default=$DBASE[$field]["default"];
+    $values=$DBASE[$field]["values"];
+    if(!preg_match("/[\w\d]+/",$value)){
+      $value=$default;
+    }
+    $values=$DBASE[$field]["values"];
+    $help=$DBASE[$field]["help"];
+    $help=preg_replace("/\n/","<br/>",$help);
+    //echo "FIELD:$field<br/>";
+    //BLOCK
+    $block="";
+    $qauth=0;
+    $display="block";
+    //CAMPOS OCULTOS
+    if(preg_match("/AUTH/",$field) and !$QAUTH){
+      $input="$value<input type='hidden' name='$field' value='$value'><br/>";
+      $qauth=1;
+      $display="none";
+      //echo "AUTH<br/>";
+    }
+    if(preg_match("/AUTO/",$field)){
+      $block="disabled";
+      //echo "AUTO<br/>";
+      if(preg_match("/_Fecha/",$field)){
+	$value=$DATE;
+      }
+      if(preg_match("/_Usuario/",$field)){
+	$value=$INSTITUTO;
+      }
+      if(preg_match("/_Version/",$field)){
+	$value=$value+1;
+      }
+    }    
+    //CAMPOS DE ENTRADA SIMPLE
+    if(!preg_match("/\w/",$values) and !$qauth){
+      if(preg_match("/varchar\((\d+)\)/",$type,$matches)){
+	$size=$matches[1];
+	$input="<input type='text' name='$field' value='$value' size=$size $block>";
+      }else if(!preg_match("/text/",$type)){
+	$input="<input type='text' name='$field' value='$value' size=10 $block>";
+      }else{
+	$input="<textarea name='$field' rows=10 cols=80>$value</textarea>";
+      }
+    }
+    //CAMPOS DE TEXTO
+    else if(!$qauth){
+      $input=generateSelection($values,$field,$value);
+    }
+
+$page.=<<<QUERY
+<div style='display:$display'>
+<b>$query</b>
+<sup>
+<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px">Ayuda</a>
+</sup>
+<br/>
+$input
+<div id="help_$field" style="display:none;font-style:italic;background-color:lightblue;width:600px;padding:10px">$help</div>
+<br/>
+</div>
+QUERY;
   }
-}
+ echo $page;
+}else if(!$QADMIN and isset($edita_curso)){echo $errmsg;return;}
+
+////////////////////////////////////////////////////
+//ACCIONES
+////////////////////////////////////////////////////
 if(isset($ver_curso)){
   ////////////////////////////////////////////////////
   //VIENDO CURSO
@@ -488,96 +668,8 @@ TABLE;
   return;
 }
 if(isset($entra_curso)){
-  ////////////////////////////////////////////////////
-  //COURSE FORM
-  ////////////////////////////////////////////////////
-echo<<<FORM
-<h2>Entrada de Plan de Asignatura</h2>
-<form method="post">
-<input type='hidden' name='entra_curso' value=1>
-FORM;
-  $buttons=<<<BUTTONS
-<input type='submit' name='accion' value='Guardar'>
-<input type='submit' name='accion' value='Reciclar'>
-<br/><br/>
-BUTTONS;
-  echo $buttons;
-  foreach($FIELDS as $field){
-    $value=$$field;
-    $query=$DBASE[$field]["query"];
-    $type=$DBASE[$field]["type"];
-    $default=$DBASE[$field]["default"];
-    $values=$DBASE[$field]["values"];
-    if(!preg_match("/[\w\d]+/",$value)){
-      $value=$default;
-    }
-    $values=$DBASE[$field]["values"];
-    $help=$DBASE[$field]["help"];
-    if(!preg_match("/\w/",$values)){
-      if(preg_match("/varchar\((\d+)\)/",$type,$matches)){
-	$size=$matches[1];
-	$input="<input type='text' name='$field' value='$value' size=$size>";
-      }else{
-	$input="<textarea name='$field' rows=10 cols=80>$value</textarea>";
-      }
-    }else{
-      $input=generateSelection($values,$field,$value);
-    }
-echo<<<QUERY
-<b>$query</b>
-<br/>
-$input
-<br/>
-<i>$help</i>
-<br/><br/>
-QUERY;
-  }
-echo<<<FORM
-$buttons
-</form>
-FORM;
 }
 if($lista){
-
-  $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos order by 280_Instituto;";
-  $out=mysqli_query($db,$sql);
-  $lista="";
-  $lista.="<ul>";
-  while($row=mysqli_fetch_array($out)){
-    $codigo=$row[0];
-    $nombre=$row[1];
-    $instituto=$row[2];
-    $lista.="<li>$instituto - $nombre - $codigo (";
-    $lista.="<a href='?carga_curso=$codigo&entra_curso'>Cargar</a> - ";
-    $lista.="<a href='?ver_curso=$codigo&mode=Todo'>Todo</a> - ";
-    $lista.="<a href='?ver_curso=$codigo&mode=FCEN'>FCEN</a> - ";
-    $lista.="<a href='?ver_curso=$codigo&mode=Vicedocencia'>Vicedocencia</a>";
-    $lista.=")</li>";
-  }	
-  $lista.="</ul>";
-
-  $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos_Recycle;";
-  $out=mysqli_query($db,$sql);
-  $recycle="";
-  $recycle.="<ul>";
-  while($row=mysqli_fetch_array($out)){
-    $codigo=$row[0];
-    $nombre=$row[1];
-    $instituto=$row[2];
-    $recycle.="<li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&entra_curso&recover'>Recuperar</a>)</li>";
-  }	
-  $recycle.="</ul>";
-
-echo<<<LISTA
-<h3>
-<a href="?">Lista Cursos</a> -
-<a href="?entra_curso">Nuevo Curso</a>
-</h3>
-  <h2>Lista de Cursos</h2>
-  $lista
-  <h3>Reciclaje</h3>
-  $recycle
-LISTA;
 }
 ?>
 

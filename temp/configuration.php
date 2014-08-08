@@ -1,5 +1,22 @@
 <?
-$LOGIN_INFORMATION=array('admin'=>'fcen2014','fisica'=>'fisica2014');
+$LOGIN_INFORMATION=array
+    (
+     'admin'=>'fcen2014',
+     'fisica'=>'fisica2014',
+     'matematicas'=>'matematicas2014',
+     'biologia'=>'biologia2014',
+     'quimica'=>'quimica2014',
+     );
+
+$INSTITUTOS=array
+  (
+   'admin'=>'Facultad',
+   'fisica'=>'Física',
+   'matematicas'=>'Matemáticas',
+   'biologia'=>'Biología',
+   'quimica'=>'Química',
+   );
+
 $USER="curriculo";
 $PASSWORD="123";
 $DATABASE="Curriculo";

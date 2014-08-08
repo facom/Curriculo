@@ -12,10 +12,10 @@ include("configuration.php");
 define('USE_USERNAME', true);
 
 // User will be redirected to this page after logout
-define('LOGOUT_URL', '?');
+define('LOGOUT_URL', 'index.php');
 
 // time out after NN minutes of inactivity. Set to 0 to not timeout
-define('TIMEOUT_MINUTES',1);
+define('TIMEOUT_MINUTES',60);
 
 // This parameter is only useful when TIMEOUT_MINUTES is not zero
 // true - timeout time from last activity, false - timeout time from login
