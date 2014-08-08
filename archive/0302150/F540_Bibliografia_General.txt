@@ -1,0 +1,9 @@
+Learning Python, Mark Lutz. Deitel.  2003.
+
+Cómo programar en C/C++, Deitel 2 ed.  2005.
+
+C y C++ de afán, Manuel Páez 2 ed., Universidad de Antioquia.  2001. 
+
+Introducción a la programación con Python, Andrés Marzal (Libro Electrónico), 2010.
+
+Manuales y documentación de las herramientas conocidas en clase.

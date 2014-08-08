@@ -1,0 +1,13 @@
+Identificar y enumerar las componentes de hardware y software de un computador.
+
+Describir las funciones de las componente del hardware de un computador.
+
+Enumerar los más importantes sistemas operativos utilizados por computadores de escritorio.
+
+Definir lo que es un protocolo de comunicación y enumerar algunos protocolos de comunicación básicos (IP, http, etc.)
+
+Definir lo que es un lenguaje de programación interpretado y uno compilado.
+
+Enumerar las diferencias, pros y contras de los lenguajes de programación interpretados y compilados.
+
+Enumerar las herramientas computacionales fundamentales utilizadas en la ciencia en general y en su disciplina en particular.

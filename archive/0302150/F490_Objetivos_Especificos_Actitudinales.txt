@@ -1,0 +1,9 @@
+Reconocer la computación como un área fundamental en la formación del científico y demostrar compromiso para conocer y asimilar nuevas herramientas.
+
+Describir la importancia de la representación gráfica de los datos para el trabajo científico.
+
+Valorar el trabajo realizado por desarrolladores e ingenieros en el desarrollo de herramientas que facilitan el trabajo científico.
+
+Reconocer la importancia de las herramientas de código abierto en el desarrollo colaborativo de soluciones a problemas en la informática y las ciencias.
+
+Reflexionar sobre la importancia del respeto por los derechos de autor y el licenciamiento de herramientas de software usadas en el trabajo científico. 

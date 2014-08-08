@@ -1,0 +1,9 @@
+Este curso es de naturaleza teórico-práctica.  Por la misma razón se requiere la participación activa de los estudiantes en todas las actividades de clase.  Para ello se sugiere:
+
+Realizar presentaciones cortas de los contenidos conceptuales especialmente si requieren la exposición de conceptos teóricos.
+
+Toda exposición teórica deberá contener secciones de ejercicios cortos, tanto computacionales como simplemente de reflexión, para involucrar a los estudiantes en la exposición.
+
+Las actividades de caracter práctico realizadas presencialmente (ejemplos de elaboración de algoritmos, programas y otras soluciones computacionales) involucraran activamente a uno o todos los estudiantes mediante la salida al tablero o la realización de pequeñas tareas encaminadas a la solución completa del problema.
+
+Se realizarán actividades de carácter práctico individuales y en grupo destinadas a la evaluación formativa del proceso.  Estas actividades tendrán lugar en el tiempo de clase y gozarán del acompañamiento del docente. 
