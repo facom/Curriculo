@@ -201,7 +201,7 @@ if(isset($_GET["planes_asignatura"])){
       $codigo=$row[0];
       $nombre=$row[1];
       $instituto=$row[2];
-      $lista.="<li>$nombre - $codigo ";
+      $lista.="<li><a href='?ver_curso=$codigo&mode=Plano'>$nombre - $codigo</a> ";
       if($QADMIN and ($instituto=="Instituto de $INSTITUTO" or $INSTITUTO=="Facultad")){
 	$lista.="(";
 	$lista.="<a href='?carga_curso=$codigo&edita_curso'>Cargar</a> - ";
@@ -537,7 +537,7 @@ TITULO;
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   //GENERA ARCHIVO EN FORMATO REQUERIDO
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- if($mode=="Plano"){
+ if($mode=="Plano" or 1){
     $table="";
 $table.=<<<TABLE
 <html>
@@ -567,9 +567,10 @@ TABLE;
     $table.="</table></body></html>";
     $coursedir="data/$ver_curso";
     $fl=fopen("$coursedir/$ver_curso-plano.html","w");
-    shell_exec("cd $coursedir;unoconv $ver_curso-plano.html $ver_curso-plano.pdf");
     fwrite($fl,$table);
     fclose($fl);
+    sleep(2);
+    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-plano.html $ver_curso-plano.pdf");
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-plano.html target=_blank>
   Formato plano
@@ -580,7 +581,7 @@ $page.=<<<DESCARGA
 DESCARGA;
   }
   
-  if($mode=="FCEN"){
+  if($mode=="FCEN" or 1){
     //UNIDADES
     $unidades="";
     $offset=600;
@@ -785,9 +786,10 @@ TABLE;
     $mpdf->Output();
     */
     $fl=fopen("$coursedir/$ver_curso-FCEN.html","w");
-    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
     fwrite($fl,$table);
     fclose($fl);
+    sleep(2);
+    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
 
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-FCEN.html target=_blank>
