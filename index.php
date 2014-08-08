@@ -12,7 +12,7 @@ $SCRIPTNAME=$_SERVER[SCRIPT_FILENAME];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
-require("$ROOTDIR/etc/mpdf/mpdf.php");
+//require("$ROOTDIR/etc/mpdf/mpdf.php");
 
 foreach(array_keys($_GET) as $field){
     $$field=$_GET[$field];
