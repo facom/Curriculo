@@ -559,6 +559,7 @@ DESCARGA;
     for($i=1;$i<=10;$i++){
       $n=$offset+10*($i-1);
       $var="$n_Unidad$i_Titulo";
+      echo "$var<br/>";
       $titulo=$$var;
       echo "Unidad $i:$titulo<br/>";
       if(isBlank($titulo)){break;}
