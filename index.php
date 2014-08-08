@@ -552,6 +552,30 @@ DESCARGA;
   }
   
   if($mode=="FCEN"){
+    //UNIDADES
+    $unidades="";
+    for($i=1;$i<=10;$i++){
+      $var="Unidad$i_Titulo";
+      $titulo=$$var;
+      echo "Unidad $i:$titulo<br/>";
+      if(isBlanck($titulo)){break;}
+      $var="Unidad$i_Conceptual";
+      $conceptual=$$var;
+      $var="Unidad$i_Procedimental";
+      $procedimental=$$var;
+      $var="Unidad$i_Actitudinal";
+      $procedimental=$$var;
+$unidades.=<<<UNIDADES
+<b>Unidad $i. $titulo</b><br/><br/>
+  <p>Contenidos coneptuales:</p>
+	<blockquote>$conceptuales</blockquote>
+  <p>Contenidos procedimentales</p>:
+ 	<blockquote>$procedimentales</blockquote>
+  <p>Contenidos actitudinales</p>:
+ 	<blockquote>$actitudinales</blockquote>
+UNIDADES;
+    }
+
     $table="";
 $table.=<<<TABLE
 <html>
@@ -706,6 +730,10 @@ $table.=<<<TABLE
       <td colspan=4 style='$border;'>
       <p><b>Contenido Resumido</b></p>
       <blockquote>$Contenido_Resumido</blockquote>
+      <p><b>Unidades Detalladas</b></p>
+      <blockquote>
+      $unidades
+      </blockquote>
       </td>
     </tr>
     <tr><td style='$border;$heavygray;' colspan=4>8. ESTRATEGIAS METODOLÓGICAS</td></tr>
