@@ -283,7 +283,7 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
   $name="100_Codigo";
   $codigo=$$name;
   $sql="insert into $table (100_Codigo) values (\"$codigo\") on duplicate key update 100_Codigo=\"$codigo\"";
-  //echo "SQL:<pre>$sql</pre>";
+  echo "SQL:<pre>$sql</pre>";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }
@@ -475,7 +475,7 @@ if(isset($ver_curso)){
   foreach($FIELDS as $field){
     $value=$$field;
     $fname=preg_replace("/^\d+_/","",$field);
-    echo "$fname = $value<br/>";
+    //echo "$fname = $value<br/>";
     $$fname=$value;
     $type=$DBASE[$field]["type"];
     if($type!="text"){continue;}
@@ -485,7 +485,7 @@ if(isset($ver_curso)){
     $value=$$field;
     $value=preg_replace("/\n/","<br/>",$value);
     $$fname=$value;
-    echo "$fname<br/>";
+    //echo "$fname<br/>";
     fclose($fl);
   }
 
