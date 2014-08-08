@@ -559,9 +559,9 @@ DESCARGA;
     for($i=1;$i<=10;$i++){
       $n=$offset+10*($i-1);
       $var="Unidad${i}_Titulo";
-      echo "$var<br/>";
+      //echo "$var<br/>";
       $titulo=$$var;
-      echo "Unidad $i:$titulo<br/>";
+      //echo "Unidad $i:$titulo<br/>";
       if(isBlank($titulo)){break;}
       $var="Unidad${i}_Conceptual";
       $conceptual=$$var;
