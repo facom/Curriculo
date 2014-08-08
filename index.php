@@ -346,7 +346,7 @@ if(isset($edita_curso) and $QADMIN){
   if(isBlank($auto)){
     $auto=$DBASE["020_AUTH_Autorizacion_Vicedecano"]["default"];
   }
-  echo "AUTO:$auto<br/>";
+  //echo "AUTO:$auto<br/>";
   if(!$QAUTH and 
      $auto=="Si"){
 echo<<<NOAUTH
