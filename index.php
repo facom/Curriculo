@@ -555,8 +555,10 @@ DESCARGA;
   if($mode=="FCEN"){
     //UNIDADES
     $unidades="";
+    $offset=600;
     for($i=1;$i<=10;$i++){
-      $var="Unidad$i_Titulo";
+      $n=$offset+10*($i-1);
+      $var="$n_Unidad$i_Titulo";
       $titulo=$$var;
       echo "Unidad $i:$titulo<br/>";
       if(isBlank($titulo)){break;}
