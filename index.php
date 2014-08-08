@@ -713,7 +713,7 @@ $table.=<<<TABLE
     <tr><td style='$border;$heavygray;' colspan=4>9. EVALUACIÓN</td></tr>
     <tr><td style='$border;' colspan=4>$Evaluacion</td>
     <tr><td style='$border;$heavygray;' colspan=4>10. BIBLIOGRAFÍA</td></tr>
-    <tr><td style='$border;' colspan=4>$Unidad1_Bibliografia</td>
+    <tr><td style='$border;' colspan=4>$Bibliografia_General</td>
   </table>
 	 
 </body>
