@@ -241,6 +241,7 @@ if(isset($_GET["planes_asignatura"])){
     $archive="";
     foreach($courses as $course){
       $course=trim($course);
+      if(isBlank($course)){continue;}
       $archive.="<li>$course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
     }
     if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
