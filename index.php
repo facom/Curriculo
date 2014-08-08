@@ -573,9 +573,9 @@ $unidades.=<<<UNIDADES
 <b>Unidad $i. $titulo</b><br/><br/>
   <p>Contenidos coneptuales:</p>
 	<blockquote>$conceptuales</blockquote>
-  <p>Contenidos procedimentales</p>:
+  <p>Contenidos procedimentales:</p>
  	<blockquote>$procedimentales</blockquote>
-  <p>Contenidos actitudinales</p>:
+  <p>Contenidos actitudinales:</p>
  	<blockquote>$actitudinales</blockquote>
 UNIDADES;
     }
