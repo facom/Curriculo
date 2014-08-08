@@ -333,6 +333,12 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
 ////////////////////////////////////////////////////
 if(isset($edita_curso) and $QADMIN){
   $page="";
+
+  field="020_AUTH_AUtorizacion_Vicedecano";
+  if(!$QAUTH and $$field=="No"){
+    echo "No esta autorizado por Vicedecano.";
+  }
+
 $page.=<<<FORM
 $header
   <h2>Edición de Plan de Asignatura</h2>
