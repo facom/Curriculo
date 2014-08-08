@@ -147,6 +147,22 @@ Database={
         "0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas teóricas por semana."
         ],
+    "183_Horas_Practicas_Semanales":
+        [
+        "varchar(3)",
+        "Horas Prácticas Semanales",
+        "4",
+        "0,1,2,3,4,5,6,7,8,9,10,11,12",
+        "Indique el número de horas prácticas por semana."
+        ],
+    "186_Horas_Teorico_Practicas_Semanales":
+        [
+        "varchar(3)",
+        "Horas Teórico-Prácticas Semanales",
+        "4",
+        "0,1,2,3,4,5,6,7,8,9,10,11,12",
+        "Indique el número de horas teórico-prácticas por semana."
+        ],
     "190_Horas_Teoricas_Semestrales":
         [
         "varchar(3)",
@@ -154,6 +170,22 @@ Database={
         "64",
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas teóricas por semestre."
+        ],
+    "193_Horas_Practicas_Semestrales":
+        [
+        "varchar(3)",
+        "Horas prácticas semestrales",
+        "64",
+        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "Indique el número de horas prácticas por semestre."
+        ],
+    "196_Horas_TeoricoPracticas_Semestrales":
+        [
+        "varchar(3)",
+        "Horas teórico-prácticas semestrales",
+        "64",
+        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "Indique el número de horas teórico-prácticas por semestre."
         ],
     "200_Semanas":
         [
