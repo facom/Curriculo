@@ -475,7 +475,7 @@ if(isset($ver_curso)){
   foreach($FIELDS as $field){
     $value=$$field;
     $fname=preg_replace("/^\d+_/","",$field);
-    echo "$fname<br/>";
+    echo "$fname = $value<br/>";
     $$fname=$value;
     $type=$DBASE[$field]["type"];
     if($type!="text"){continue;}
