@@ -558,16 +558,16 @@ DESCARGA;
     $offset=600;
     for($i=1;$i<=10;$i++){
       $n=$offset+10*($i-1);
-      $var="${n}_Unidad$i_Titulo";
+      $var="Unidad${i}_Titulo";
       echo "$var<br/>";
       $titulo=$$var;
       echo "Unidad $i:$titulo<br/>";
       if(isBlank($titulo)){break;}
-      $var="Unidad$i_Conceptual";
+      $var="Unidad${i}_Conceptual";
       $conceptual=$$var;
-      $var="Unidad$i_Procedimental";
+      $var="Unidad${i}_Procedimental";
       $procedimental=$$var;
-      $var="Unidad$i_Actitudinal";
+      $var="Unidad${i}_Actitudinal";
       $procedimental=$$var;
 $unidades.=<<<UNIDADES
 <b>Unidad $i. $titulo</b><br/><br/>
