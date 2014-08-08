@@ -570,7 +570,7 @@ DESCARGA;
       $var="Unidad${i}_Actitudinal";
       $procedimental=$$var;
 $unidades.=<<<UNIDADES
-<b>Unidad $i. $titulo</b><br/><br/>
+<b>Unidad $i. $titulo</b><br/>
   <p>Contenidos coneptuales:</p>
 	<blockquote>$conceptuales</blockquote>
   <p>Contenidos procedimentales:</p>
