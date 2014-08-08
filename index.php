@@ -484,7 +484,7 @@ if(isset($ver_curso)){
     $value=$$field;
     $value=preg_replace("/\n/","<br/>",$value);
     $$fname=$value;
-    //echo "$fname<br/>";
+    echo "$fname<br/>";
     fclose($fl);
   }
 
