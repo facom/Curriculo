@@ -12,6 +12,8 @@ $SCRIPTNAME=$_SERVER[SCRIPT_FILENAME];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
+require("$ROOTDIR/etc/mpdf/mpdf.php");
+
 foreach(array_keys($_GET) as $field){
     $$field=$_GET[$field];
 }
@@ -189,7 +191,7 @@ if(isset($_GET["planes_asignatura"])){
     $instituto=$INSTITUTOS["$key"];
     if($instituto=="Facultad"){continue;}
     $page.="<h4>Instituto de $instituto</h4>";
-    $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos where 280_Instituto='Instituto de $instituto' order by 330_Semestre_Plan;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto from MicroCurriculos where F280_Instituto='Instituto de $instituto' order by F330_Semestre_Plan;";
     //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -215,7 +217,10 @@ if(isset($_GET["planes_asignatura"])){
   }
 	
   if($QADMIN){
-    $sql="select 100_Codigo,110_Nombre_Asignatura,280_Instituto from MicroCurriculos_Recycle;";
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    //RECYCLE BIN
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto from MicroCurriculos_Recycle;";
     $out=mysqli_query($db,$sql);
     $recycle="";
     while($row=mysqli_fetch_array($out)){
@@ -227,6 +232,19 @@ if(isset($_GET["planes_asignatura"])){
     if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
     else{$recycle.="</ul>";}
     $page.="<h4>Papelera de reciclaje</h4><ul>$recycle</ul>";
+
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    //FILE BIN
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    $out=shell_exec("cd archive/;ls -md *");
+    $courses=preg_split("/\s*,\s*/",$out);
+    $archive="";
+    foreach($courses as $course){
+      $course=trim($course);
+      $archive.="<li>$course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
+    }
+    if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
+    $page.="<h4>Archivo en disco</h4><ul>$archive</ul>";
   }
   echo $page;
 }
@@ -239,25 +257,31 @@ $result="";
 //CARGA UN CURSO GUARDADO
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if(isset($carga_curso) and $QADMIN){
-  $table="MicroCurriculos";
-  if(isset($recover)){
-    $table="MicroCurriculos_Recycle";
-  }
-  $sql="select * from $table where 100_Codigo='$carga_curso';";
-  $out=mysqli_query($db,$sql);
-  if(!($row=mysqli_fetch_array($out))){
-    die("Error:".mysqli_error($db));
+  if(isset($archive)){
+    include("archive/$carga_curso/notext.txt");
+    $result="<i style='color:blue'>Curso $carga_curso desarchivado exitosamente.</i>";
   }else{
-    $result="<i style='color:blue'>Curso $carga_curso cargado exitosamente.</i>";
-  }
-  foreach($FIELDS as $field){
-    $type=$DBASE[$field]["type"];
-    if($type=="text"){continue;}
-    $$field=$row["$field"];
+    $table="MicroCurriculos";
+    if(isset($recover)){
+      $table="MicroCurriculos_Recycle";
+    }
+    $sql="select * from $table where F100_Codigo='$carga_curso';";
+    $out=mysqli_query($db,$sql);
+    if(!($row=mysqli_fetch_array($out))){
+      die("Error:".mysqli_error($db));
+    }else{
+      $result="<i style='color:blue'>Curso $carga_curso cargado exitosamente.</i>";
+    }
+    foreach($FIELDS as $field){
+      $type=$DBASE[$field]["type"];
+      if($type=="text"){continue;}
+      $$field=$row["$field"];
+    }
   }
   //CARGANDO TEXT INFORMATION
   $coursedir="data/$carga_curso";
   if(isset($recover)){$coursedir="recycle/$carga_curso";}
+  if(isset($archive)){$coursedir="archive/$carga_curso";}
   foreach($FIELDS as $field){
     $value=$$field;
     $type=$DBASE[$field]["type"];
@@ -280,9 +304,9 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
   //GUARDANDO REGISTRO
   ////////////////////////////////////////////////////
   //INSERT IF NOT EXISTS
-  $name="100_Codigo";
+  $name="F100_Codigo";
   $codigo=$$name;
-  $sql="insert into $table (100_Codigo) values (\"$codigo\") on duplicate key update 100_Codigo=\"$codigo\"";
+  $sql="insert into $table (F100_Codigo) values (\"$codigo\") on duplicate key update F100_Codigo=\"$codigo\"";
   //echo "SQL:<pre>$sql</pre>";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
@@ -291,22 +315,22 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
   $sql="update $table set ";
   foreach($FIELDS as $field){
     $type=$DBASE[$field]["type"];
-    if($field=="100_Codigo" or $type=="text"){continue;}
+    if($field=="F100_Codigo" or $type=="text"){continue;}
     $value=$$field;
     $sql.="$field='$value',";
   }
   $sql=trim($sql,",");
-  $name="100_Codigo";
+  $name="F100_Codigo";
   $codigo=$$name;
-  $sql.=" where 100_Codigo='$codigo';";
-  echo "SQL:<p>$sql</p>";
+  $sql.=" where F100_Codigo='$codigo';";
+  //echo "SQL:<p>$sql</p>";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
     $result="<i style='color:blue'>Registro guardado exitosamente.</i>";
   }
   if($accion=="Reciclar"){
-    $sql="delete from MicroCurriculos where 100_Codigo=\"$codigo\";";
+    $sql="delete from MicroCurriculos where F100_Codigo=\"$codigo\";";
     if(!mysqli_query($db,$sql)){
       die("Error:".mysqli_error($db));
     }else{
@@ -320,6 +344,7 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
     $coursedir="recycle/$codigo";
   }
   $fc=fopen("$coursedir/notext.txt","w");
+  fwrite($fc,"<?\n");
   foreach($FIELDS as $field){
     $value=$$field;
     $type=$DBASE[$field]["type"];
@@ -332,6 +357,8 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
       fclose($fl);
     }
   }
+  fwrite($fc,"?>\n");
+  fclose($fc);
  }else if(!$QADMIN and ($accion=="Guardar" or $accion=="Reciclar")){echo $accion.$errmsg;return;}
 
 ////////////////////////////////////////////////////
@@ -341,10 +368,10 @@ if(isset($edita_curso) and $QADMIN){
   $page="";
 
   //AUTORIZACION VICEDECANO
-  $var="020_AUTH_Autorizacion_Vicedecano";
+  $var="F020_AUTH_Autorizacion_Vicedecano";
   $auto=$$var;
   if(isBlank($auto)){
-    $auto=$DBASE["020_AUTH_Autorizacion_Vicedecano"]["default"];
+    $auto=$DBASE["F020_AUTH_Autorizacion_Vicedecano"]["default"];
   }
   //echo "AUTO:$auto<br/>";
   if(!$QAUTH and 
@@ -459,7 +486,7 @@ if(isset($ver_curso)){
   $page.="$header";
   //RECUPERA INFORMACION DEL CURSO DE LA BASE DE DATOS
   $table="MicroCurriculos";
-  $sql="select * from $table where 100_Codigo='$ver_curso';";
+  $sql="select * from $table where F100_Codigo='$ver_curso';";
   $out=mysqli_query($db,$sql);
   if(!($row=mysqli_fetch_array($out))){die("Error:".mysqli_error($db));}
 
@@ -474,7 +501,7 @@ if(isset($ver_curso)){
   $coursedir="data/$ver_curso";
   foreach($FIELDS as $field){
     $value=$$field;
-    $fname=preg_replace("/^\d+_/","",$field);
+    $fname=preg_replace("/^F\d+_/","",$field);
     //echo "$fname = $value<br/>";
     $$fname=$value;
     $type=$DBASE[$field]["type"];
@@ -492,7 +519,7 @@ if(isset($ver_curso)){
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   //TITULO
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  $var="110_Nombre_Asignatura";
+  $var="F110_Nombre_Asignatura";
   $curso=$$var;
   $border="border:1px solid;";
   $colorgray="background-color:lightgray";
@@ -747,15 +774,20 @@ $table.=<<<TABLE
     <tr><td style='$border;$heavygray;' colspan=4>10. BIBLIOGRAFÍA</td></tr>
     <tr><td style='$border;' colspan=4>$Bibliografia_General</td>
   </table>
-	 
 </body>
 </html>
 TABLE;
     $coursedir="data/$ver_curso";
+    /*
+    $mpdf=new mPDF();
+    $mpdf->WriteHTML($table);
+    $mpdf->Output();
+    */
     $fl=fopen("$coursedir/$ver_curso-FCEN.html","w");
-    shell_exec("cd $coursedir;unoconv $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
+    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
     fwrite($fl,$table);
     fclose($fl);
+
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-FCEN.html target=_blank>
   Formato FCEN

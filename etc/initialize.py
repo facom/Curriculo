@@ -13,9 +13,8 @@ Field structure:
 4:Help
 """
 Database={
-    
     #META
-    "010_AUTO_Fecha_Actualizacion":
+    "F010_AUTO_Fecha_Actualizacion":
         [
         "varchar(30)",
         "Fecha de actualización",
@@ -23,7 +22,7 @@ Database={
         "",
         "Fecha en la que se realiza la actualización."
         ],
-    "015_AUTO_Usuario_Actualizacion":
+    "F015_AUTO_Usuario_Actualizacion":
         [
         "varchar(30)",
         "Usuario que realiza la actualización",
@@ -31,7 +30,7 @@ Database={
         "",
         "Este es el usuario administrativo que esta realizando esta actualización."
         ],
-    "020_AUTH_Autorizacion_Vicedecano":
+    "F020_AUTH_Autorizacion_Vicedecano":
         [
         "varchar(30)",
         "Autorización Vicedecano",
@@ -39,7 +38,7 @@ Database={
         "Si,No",
         "Una vez el vicedecano autoriza el curso no puede ser editado por ningún otro usuario autorizado.  El curso solo puede volverse a editar cuando el vicedecano cambie este campo a No."
         ],
-    "025_AUTH_Version":
+    "F025_AUTH_Version":
         [
         "varchar(3)",
         "Última versión del curso",
@@ -47,7 +46,7 @@ Database={
         "",
         "Última versión del curso."
         ],
-    "030_AUTH_Acta_Numero":
+    "F030_AUTH_Acta_Numero":
         [
         "varchar(4)",
         "Número de Acta del Consejo de Facultad",
@@ -55,7 +54,7 @@ Database={
         "",
         "Número de acta en el que el curso fue aprobado.  Si el número de acta es 00 el curso nunca ha sido aprobado. Si es distinto pero el Vicedecano no lo ha aprobado esta acta corresponde a la versión anterior del curso."
         ],
-    "040_AUTH_Acta_Fecha":
+    "F040_AUTH_Acta_Fecha":
         [
         "varchar(30)",
         "Fecha del Acta del Consejo de Facultad",
@@ -63,7 +62,7 @@ Database={
         "",
         "Fecha del acta del Consejo de Facultad. Si la fecha es MM/DD/CCYY el curso nunca ha sido aprobado.  Si es distinto pero el Vicedecano no lo ha aprobado esta acta corresponde a la versión anterior del curso."
         ],
-    "050_Nombre_Actualiza":
+    "F050_Nombre_Actualiza":
         [
         "varchar(30)",
         "Nombre de quien modifica esta última versión",
@@ -73,7 +72,7 @@ Database={
         ],
 
     #IDENTIFICACION
-    "100_Codigo":
+    "F100_Codigo":
         [
         "varchar(10)",
          "Codigo Curso",
@@ -83,7 +82,7 @@ Database={
         ],
 
     #PROPIEDADES BASICAS
-    "110_Nombre_Asignatura":
+    "F110_Nombre_Asignatura":
         [
         "varchar(100)",
         "Nombre de la Asignatura",
@@ -91,7 +90,7 @@ Database={
         "",
         "El nombre completo del curso debe coincidir con el que esta en el sistema Mares"
         ],
-    "120_Tipo_Curso":
+    "F120_Tipo_Curso":
         [
         "varchar(20)",
         "Tipo de Curso",
@@ -99,7 +98,7 @@ Database={
         "Básico,Profesional,Profundización",
         "Tipo de curso deacuerdo a su ubicación en el pensum."
         ],
-    "130_Asistencia":
+    "F130_Asistencia":
         [
         "varchar(50)",
         "Tipo de Asistencia",
@@ -107,7 +106,7 @@ Database={
         "Obligatoria,No obligatoria",
         "Indique el tipo de asistencia. El Comité de Curriculo define normalmente qué tipo de cursos son de asistencia obligatoria."
         ],
-    "140_Creditos":
+    "F140_Creditos":
         [
         "varchar(3)",
         "Numero de Creditos",
@@ -115,7 +114,7 @@ Database={
         "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
         "Indique el número de créditos.  De acuerdo al 1295 cada crédito corresponde a 3 horas de trabajo en el curso."
         ],
-    "150_Intensidad_HDD":
+    "F150_Intensidad_HDD":
         [
         "varchar(3)",
         "Horas de Docencia Directa (HDD)",
@@ -123,7 +122,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de docencia directa por semestre. Equivalen al número de horas por semana multiplicado por 16."
         ],
-    "160_Intensidad_HDA":
+    "F160_Intensidad_HDA":
         [
         "varchar(3)",
         "Horas de Docencia Asistida",
@@ -131,7 +130,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de docencia directa por semana. Equivalen al número de horas por semana multiplicado por 16."
         ],
-    "170_Intensidad_TI":
+    "F170_Intensidad_TI":
         [
         "varchar(3)",
         "Horas de Trabajo Independiente",
@@ -139,7 +138,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de trabajo independiente por semana. Equivalen al número de horas por semana multiplicado por 16."
         ],
-    "180_Horas_Teoricas_Semanales":
+    "F180_Horas_Teoricas_Semanales":
         [
         "varchar(3)",
         "Horas teóricas semanales",
@@ -147,7 +146,7 @@ Database={
         "0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas teóricas por semana."
         ],
-    "183_Horas_Practicas_Semanales":
+    "F183_Horas_Practicas_Semanales":
         [
         "varchar(3)",
         "Horas Prácticas Semanales",
@@ -155,7 +154,7 @@ Database={
         "0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas prácticas por semana."
         ],
-    "186_Horas_Teorico_Practicas_Semanales":
+    "F186_Horas_Teorico_Practicas_Semanales":
         [
         "varchar(3)",
         "Horas Teórico-Prácticas Semanales",
@@ -163,7 +162,7 @@ Database={
         "0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas teórico-prácticas por semana."
         ],
-    "190_Horas_Teoricas_Semestrales":
+    "F190_Horas_Teoricas_Semestrales":
         [
         "varchar(3)",
         "Horas teóricas semestrales",
@@ -171,7 +170,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas teóricas por semestre."
         ],
-    "193_Horas_Practicas_Semestrales":
+    "F193_Horas_Practicas_Semestrales":
         [
         "varchar(3)",
         "Horas prácticas semestrales",
@@ -179,7 +178,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas prácticas por semestre."
         ],
-    "196_Horas_TeoricoPracticas_Semestrales":
+    "F196_Horas_TeoricoPracticas_Semestrales":
         [
         "varchar(3)",
         "Horas teórico-prácticas semestrales",
@@ -187,7 +186,7 @@ Database={
         "0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas teórico-prácticas por semestre."
         ],
-    "200_Semanas":
+    "F200_Semanas":
         [
         "varchar(3)",
         "Número de semanas",
@@ -195,7 +194,7 @@ Database={
         "16,17,18",
         "Número de semanas por semestre."
         ],
-    "210_Teorico":
+    "F210_Teorico":
         [
         "varchar(2)",
         "Curso teórico",
@@ -203,7 +202,7 @@ Database={
         "Si,No",
         "Indique si es un curso teórico."
         ],
-    "220_Practico":
+    "F220_Practico":
         [
         "varchar(2)",
         "Curso práctico",
@@ -211,7 +210,7 @@ Database={
         "Si,No",
         "Indique si es un curso práctico."
         ],
-    "230_Teorico_Practico":
+    "F230_Teorico_Practico":
         [
         "varchar(2)",
         "Curso teórico-práctico",
@@ -219,7 +218,7 @@ Database={
         "Si,No",
         "Indique si es un curso teórico-práctico."
         ],
-    "240_Habilitable":
+    "F240_Habilitable":
         [
         "varchar(2)",
         "Curso habilitable",
@@ -227,7 +226,7 @@ Database={
         "Si,No",
         "Indique si es un curso habilitable. No aplica normalmente para cursos prácticos."
         ],
-    "250_Validable":
+    "F250_Validable":
         [
         "varchar(2)",
         "Curso validable",
@@ -235,7 +234,7 @@ Database={
         "Si,No",
         "Indique si es un curso validable."
         ],
-    "260_Clasificable":
+    "F260_Clasificable":
         [
         "varchar(2)",
         "Curso clasificable",
@@ -245,7 +244,7 @@ Database={
         ],
 
     #LOCALIZACION    
-    "270_Facultad":
+    "F270_Facultad":
         [
         "varchar(50)",
         "Facultad",
@@ -253,7 +252,7 @@ Database={
         "",
         "Facultad"
         ],
-    "280_Instituto":
+    "F280_Instituto":
         [
         "varchar(50)",
         "Instituto",
@@ -261,7 +260,7 @@ Database={
         "Instituto de Física,Instituto de Química,Instituto de Biología,Instituto de Matemáticas",
         "Instituto"
         ],
-    "290_Programas_Academicos":
+    "F290_Programas_Academicos":
         [
         "varchar(80)",
         "Programas académicos a los que se ofrece",
@@ -269,7 +268,7 @@ Database={
         "",
         "Programas académicos a los que se ofrece"
         ], 
-    "300_Area_Academica":
+    "F300_Area_Academica":
         [
         "varchar(50)",
         "Área académica",
@@ -277,7 +276,7 @@ Database={
         "Astronomía,Biología,Química,Física,Matemáticas,Sociohumanística,Inglés,Ciencias",
         "Indique el área específica en la que se enmarca el curso.  El comité de currículo define un número límitado de áreas en la Facultad."
         ],
-    "310_Campo_Formacion":
+    "F310_Campo_Formacion":
         [
         "varchar(50)",
         "Campo de formación",
@@ -285,7 +284,7 @@ Database={
         "",
         "Indique el área de formación dentro de la disciplina."
         ],
-    "320_Ciclo":
+    "F320_Ciclo":
         [
         "varchar(30)",
         "Ciclo",
@@ -293,7 +292,7 @@ Database={
         "Fundamentación,Profesionalización,Profundización",
         "Ciclo de formación de acuerdo al Documento Rector de la Transformación Curricular."
         ],
-    "330_Semestre":
+    "F330_Semestre":
         [
         "varchar(10)",
         "Semestre actual",
@@ -301,7 +300,7 @@ Database={
         "",
         "Indique el último semestre en el que se ofrece el programa.",
         ],
-    "330_Semestre_Plan":
+    "F330_Semestre_Plan":
         [
         "varchar(3)",
         "Semestre en el Plan de Formación",
@@ -309,7 +308,7 @@ Database={
         "1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el semestre en el plan de formación.",
         ],
-    "340_Horario_clase":
+    "F340_Horario_clase":
         [
         "varchar(20)",
         "Horario de clase",
@@ -317,7 +316,7 @@ Database={
         "",
         "Horario u horarios en los que se ofrece el curso en el último semestre.  Para múltiples horarios use ',', e.g. MJ12-14, L16-18"
         ],
-    "350_Requisitos":
+    "F350_Requisitos":
         [
         "varchar(100)",
         "Prerrequisitos",
@@ -325,7 +324,7 @@ Database={
         "",
         "Prerrequisitos del curso.  Indique el código de los prerrequisito de acuerdo a la última versión del pensum aprobada."
         ],
-    "360_Correquisitos":
+    "F360_Correquisitos":
         [
         "varchar(100)",
         "Correquisitos",
@@ -333,7 +332,7 @@ Database={
         "",
         "Correquisitos del curso.  Indique el código de los correquisito de acuerdo a la última versión del pensum aprobada."
         ],
-    "370_Sede":
+    "F370_Sede":
         [
         "varchar(100)",
         "Sede en el que se ofrece",
@@ -343,7 +342,7 @@ Database={
         ],
 
     #RESPONSABILIDAD
-    "380_Profesores_Responsables":
+    "F380_Profesores_Responsables":
         [
         "varchar(100)",
         "Profesores Responsables",
@@ -351,7 +350,7 @@ Database={
         "",
         "Indique el(los) profesor(es) que ofrecieron el curso en el último semestre."
         ],
-    "390_Profesores_Oficinas":
+    "F390_Profesores_Oficinas":
         [
         "varchar(50)",
         "Oficina de Profesores",
@@ -359,7 +358,7 @@ Database={
         "",
         "Indique las oficinas de los profesores que ofrecieron el curso en el último semestre."
         ],
-    "400_Horario_atencion":
+    "F400_Horario_atencion":
         [
         "varchar(50)",
         "Horario de los profesores",
@@ -367,7 +366,7 @@ Database={
         "",
         "Indique el horario de atención de los profesores que ofrecieron el curso en el último semestre."
         ],
-    "410_Profesores_Elaboran":
+    "F410_Profesores_Elaboran":
         [
         "varchar(100)",
         "Profesores que elaboran",
@@ -375,7 +374,7 @@ Database={
         "",
         "Indique el nombre de los profesores que elaboran esta versión del programa."
         ],
-    "420_Correos_Electronicos":
+    "F420_Correos_Electronicos":
         [
         "varchar(100)",
         "Correos electronicos de profesores que elaboran",
@@ -385,7 +384,7 @@ Database={
         ],
 
     #JUSTIFICACION
-    "430_Descripcion":
+    "F430_Descripcion":
         [
         "text",
         "Descripción general del curso",
@@ -393,7 +392,7 @@ Database={
         "",
         """Corresponde a una síntesis de los principales elementos que caracterizan la asignatura a la luz de los contenidos,  problemas y preguntas. Cuando se describe se da respuesta a: qué es, cómo es, cómo se comporta, que partes lo constituyen, para qué sirve, qué hace, cómo se define; en este caso, en el contexto del campo de la ciencia y/o disciplina."""
         ],
-    "440_Proposito":
+    "F440_Proposito":
         [
         "text",
         "Propósito del curso es:",
@@ -401,7 +400,7 @@ Database={
         "",
         "Normalmente se puede usar para este campo el mismo que la Descripción.  También se puede dejar en blanco."
         ],
-    "450_Justificacion":
+    "F450_Justificacion":
         [
         "text",
         "Justificación del curso",
@@ -409,7 +408,7 @@ Database={
         "",
         """Debe incluir: (1) La pertinencia de la asignatura en el plan de formación en relación con: (a) El objetivo y los propósitos de formación del respectivo programa de pregrado de ciencias exactas y naturales, (b) La(s) relación(es) de formación entre el ciclo anterior y el posterior, (c) Los saberes y experiencias previas en las asignaturas ya cursadas y las que se desarrollan de modo paralelo.  (2) El aporte al desarrollo de las competencias genéricas y específicas propias de la formación del profesional en el respectivo programa de ciencias exactas y naturales: cognitivas, de comunicación y representación, así como   procedimentales y actitudinales. (3) La actualidad e importancia científica, cultural y social de las problemáticas específicas que serán tratadas  en la asignatura. (4) Las relaciones disciplinares e interdisciplinares con otras asignaturas del plan de formación del respectivo programa. (5) La proyección académica y social de los contenidos de la asignatura en relación con el desarrollo del individuo, de la sociedad y de la profesión."""
         ],
-    "460_Objetivo_General":
+    "F460_Objetivo_General":
         [
         "text",
         "Objetivo General",
@@ -417,7 +416,7 @@ Database={
         "",
         "Se refiere a la concreción de las intenciones educativas en la asignatura según el ciclo de formación (fundamentación, profesionalización o profundización); se expresa en términos de las competencias que los estudiantes  deben desarrollar, lo cual implica proyectar los avances de aprendizaje esperados en los ámbitos conceptual, procedimental y actitudinal."
         ],
-    "470_Objetivos_Especificos_Conceptuales":
+    "F470_Objetivos_Especificos_Conceptuales":
         [
         "text",
         "Objetivos específicos conceptuales",
@@ -425,7 +424,7 @@ Database={
         "",
         "Teorías, conceptos y leyes, representaciones de diversos tipos y  lenguaje científico entre otros."
         ],
-    "480_Objetivos_Especificos_Procedimentales":
+    "F480_Objetivos_Especificos_Procedimentales":
         [
         "text",
         "Objetivos específicos procedimentales",
@@ -433,7 +432,7 @@ Database={
         "",
         "Metodologías experimentales, resolución de problemas, producción de textos referidos a informes, reseñas, resúmenes, comentarios, presentaciones y ensayos entre otras opciones."
         ],
-    "490_Objetivos_Especificos_Actitudinales":
+    "F490_Objetivos_Especificos_Actitudinales":
         [
         "text",
         "Objetivos específicos actitudinales",
@@ -441,7 +440,7 @@ Database={
         "",
         "Entusiasmo y pasión por el estudio y el conocimiento científico, cumplimiento de tareas y su reelaboración, responsabilidad por el aprendizaje, respeto por autores citados y los cánones de la publicación científica, entre otros."
         ],
-    "500_Estrategia_Metodologica":
+    "F500_Estrategia_Metodologica":
         [
         "text",
         "Estrategia metodológica",
@@ -460,7 +459,7 @@ Es importante tener en cuenta la definición y enunciación de las actividades s
 •Ciclo de profundización: actividades presenciales y de trabajo independiente con mayor autonomía del estudiante.
 """
         ],
-    "510_Evaluacion":
+    "F510_Evaluacion":
         [
         "text",
         "Evaluacion",
@@ -483,7 +482,7 @@ Es importante describir las formas y los instrumentos de evaluación que el plan
 Es importante  construir con los estudiantes estrategias para la valoración del curso en términos de sus fortalezas y debilidades.
 """
         ],
-    "520_Actividades_Obligatorias":
+    "F520_Actividades_Obligatorias":
         [
         "text",
         "Actividades de asistencia obligatoria",
@@ -493,7 +492,7 @@ Es importante  construir con los estudiantes estrategias para la valoración del
         ],
 
     #CONTENIDO RESUMIDO
-    "530_Contenido_Resumido":
+    "F530_Contenido_Resumido":
         [
         "text",
         "Contenido Resumido",
@@ -501,7 +500,7 @@ Es importante  construir con los estudiantes estrategias para la valoración del
         "",
         "Indique el contenido resumido.  Si deja en blanco el título de las unidades indicadas abajo será usado para construir este campo en el formato de salida."
         ],
-    "540_Bibliografia_General":
+    "F540_Bibliografia_General":
         [
         "text",
         "Bibliografía General del Curso",
@@ -519,7 +518,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         ],
     
     #UNIDADES
-    "600_Unidad_Titulo":
+    "F600_Unidad_Titulo":
         [
         "varchar(30)",
         "Título de la Unidad X",
@@ -527,7 +526,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         "",
         "Título de la Unidad.  Use un título abreviado e informativo."
         ],
-    "601_Unidad_Conceptual":
+    "F601_Unidad_Conceptual":
         [
         "text",
         "Unidad X - Contenidos Conceptuales",
@@ -535,7 +534,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         "",
         "Contenidos conceptuales específicos de la unidad.  Teorías, conceptos y leyes, representaciones de diversos tipos y  lenguaje científico entre otros"
         ],
-    "602_Unidad_Procedimental":
+    "F602_Unidad_Procedimental":
         [
         "text",
         "Unidad X - Contenidos Procedimentales",
@@ -543,7 +542,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         "",
         "Contenidos procedimentales específicos de la unidad.  Tienen que ver con metodologías experimentales, resolución de problemas, producción de textos referidos a informes, reseñas, resúmenes, comentarios, presentaciones y ensayos entre otras opciones."
         ],
-    "603_Unidad_Actitudinal":
+    "F603_Unidad_Actitudinal":
         [
         "text",
         "Unidad X - Contenidos Actitudinales",
@@ -551,7 +550,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         "",
         "Contenidos actitudinales específicos de la unidad. Tienen que ver con entusiasmo y pasión por el estudio y el conocimiento científico, cumplimiento de tareas y su reelaboración, responsabilidad por el aprendizaje, respeto por autores citados y los cánones de la publicación científica, entre otros."
         ],
-    "604_Unidad_Bibliografia":
+    "F604_Unidad_Bibliografia":
         [
         "text",
         "Unidad X - Bibliografia Específica",
@@ -559,7 +558,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
         "",
         "Bibliografía específica de la Unidad.  Si es la misma que la general deje en blanco."
         ],
-    "605_Unidad_Semanas":
+    "F605_Unidad_Semanas":
         [
         "varchar(3)",
         "Semanas para la Unidad",
@@ -574,14 +573,14 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
 ###################################################
 for field in Database.keys():
     if not "Unidad_" in field:continue
-    r=re.search("(\d+)_Unidad_(.+)",field)
+    r=re.search("F(\d+)_Unidad_(.+)",field)
     num=int(r.group(1))
     name=r.group(2)
     cont=Database[field]
     for i in xrange(0,10):
         n=i+1
         numu=num+i*10
-        fieldu="%d_Unidad%d_%s"%(numu,n,name)
+        fieldu="F%d_Unidad%d_%s"%(numu,n,name)
         contu=cont+[]
         contu[1]=contu[1].replace("X","%d"%n)
         Database[fieldu]=contu
@@ -609,7 +608,7 @@ for field in Fields:
     sql+="\n\t%s %s %s,"%(field,tipo,default)
 
 sql+="""
-primary key (100_Codigo)
+primary key (F100_Codigo)
 );
 """
 #print sql
@@ -626,7 +625,7 @@ for field in Fields:
     sql+="\n\t%s %s %s,"%(field,tipo,default)
 
 sql+="""
-primary key (100_Codigo)
+primary key (F100_Codigo)
 );
 """
 print sql
@@ -642,7 +641,7 @@ fields_content="$FIELDS=array("
 dbase_content="$DBASE=array("
 
 for field in Fields:
-    fname=re.search("\d+_(.+)",field).group(1)
+    fname=re.search("F\d+_(.+)",field).group(1)
     fields_content+="\"%s\","%field
     tipo=Database[field][0]
     query=Database[field][1]
