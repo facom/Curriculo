@@ -558,7 +558,7 @@ DESCARGA;
       $var="Unidad$i_Titulo";
       $titulo=$$var;
       echo "Unidad $i:$titulo<br/>";
-      if(isBlanck($titulo)){break;}
+      if(isBlanck($titulo)){$i=11;}
       $var="Unidad$i_Conceptual";
       $conceptual=$$var;
       $var="Unidad$i_Procedimental";
