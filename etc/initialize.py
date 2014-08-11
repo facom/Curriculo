@@ -70,6 +70,14 @@ Database={
         "",
         "Indique el nombre de quien esta modificando esta última versión del curso."
         ],
+    "F060_Publica_Curso":
+        [
+        "varchar(3)",
+        "Publica curso",
+        "No",
+        "Si,No",
+        "Si coloca *Si* el curso será visible por usuarios no autorizados."
+        ],
 
     #IDENTIFICACION
     "F100_Codigo":
@@ -257,8 +265,8 @@ Database={
         "varchar(50)",
         "Instituto",
         "Instituto de Física",
-        "Instituto de Física,Instituto de Química,Instituto de Biología,Instituto de Matemáticas",
-        "Instituto"
+        "Instituto de Física,Instituto de Química,Instituto de Biología,Instituto de Matemáticas,Facultad",
+        "Instituto o Dependencia al que pertenece"
         ],
     "F290_Programas_Academicos":
         [
@@ -462,7 +470,7 @@ Es importante tener en cuenta la definición y enunciación de las actividades s
     "F510_Evaluacion":
         [
         "text",
-        "Evaluacion",
+        "Evaluacion General",
         "",
         "",
         """Según la profesora Salinas en conferencia presentada a la facultad de Ciencias Exactas y Naturales en el 2010, la evaluación, en su sentido general, está articulada a una valoración de los procesos formativos consignados en el Documento Rector de la Facultad para todos los programas de pregrado. Desde allí se brinda el marco de referencia sobre el cual descansan las políticas de evaluación. Para el caso de cada uno de las asignaturas, se espera que se expliciten los criterios que orientarán la evaluación en su sentido integral y las pautas desde las cuales se llevará a cabo el seguimiento y promoción de los estudiantes. Ello supone aclarar y mencionar cuáles son los procedimientos para la calificación, la agenda para la presentación de pruebas, las condiciones para la presentación de sustentaciones y exposiciones orales, documentos y trabajos escritos, la distribución de porcentajes relacionados con las notas parciales u otros aspectos que se consideren pertinentes; todo ello en concordancia con el Reglamento Estudiantil.
@@ -481,6 +489,14 @@ Es importante describir las formas y los instrumentos de evaluación que el plan
 
 Es importante  construir con los estudiantes estrategias para la valoración del curso en términos de sus fortalezas y debilidades.
 """
+        ],
+    "F515_Evaluacion_Especifica":
+        [
+        "text",
+        "Actividades de Evaluación Específicas",
+        "",
+        "",
+        "Detalle aquí la lista de actividades de evaluación específicas indicando, nombre de la actividad, porcentaje total que cada actividad representa en el total de la evaluación y fechas específicas de las actividades de evaluación."
         ],
     "F520_Actividades_Obligatorias":
         [
@@ -520,7 +536,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
     #UNIDADES
     "F600_Unidad_Titulo":
         [
-        "varchar(30)",
+        "varchar(50)",
         "Título de la Unidad X",
         "",
         "",
@@ -561,7 +577,7 @@ Nota: La autonomía intelectual implica que los estudiantes puedan acceder a inf
     "F605_Unidad_Semanas":
         [
         "varchar(3)",
-        "Semanas para la Unidad",
+        "Semanas para la Unidad X",
         "3",
         "",
         "Semanas requeridas para el desarrollo de la unidad incluyendo todas las posibles actividades evaluativas."

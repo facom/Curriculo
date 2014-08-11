@@ -1,35 +1,16 @@
 Reconocer la diferencia en prestaciones de distintas configuraciones de hardware y software en un computador.
-
-Utilizar buscadores de internet usando opciones no triviales.
-
+Utilizar buscadores de Internet usando opciones no triviales.
 Buscar literatura especializada usando herramientas de búsqueda propias de su disciplina (Google Scholar, ADS, inSpires, arXiv).
-
 Instalar el sistema operativo Linux en un computador de escritorio.
-
 Manipular archivos y directorios utilizando la línea de comandos de Linux.
-
 Editar archivos de texto plano utilizando editores simples en el sistema operativo Linux.
-
-Describir algoritmos para tareas computacionales básicas usando números.
-
-Escribir algoritmos en al menos un lenguaje de pseudocódigo y utilizando diagramas de flujo.
-
-Realizar una prueba de escritorio de un algoritmo.
-
-Escribir un programa básico en un lenguaje de programación interpretado (python, bash, perl, etc.) que use entrada y sálida desde el teclado o el disco duro hacia la pantalla o el disco duro.
-
-Escribir un programa básico en un lenguaje de programación compilado (python, bash, perl, etc.) que use entrada y sálida desde el teclado o el disco duro hacia la pantalla o el disco duro.
-
-Traducir un algoritmo en pseudocódigo en un programa de computadora.
-
-Manipular listas de datos (arreglos) en lenguajes de programación compilados e interpretados.
-
-Realizar gráficos básicos en 2 dimensiones, tanto de datos como de funciones.
-
-Escribir un documento que use formato de texto, fórmulas matemáticas e incluya tablas y figuras, usando para ello el sistema de procesamiento de texto LaTeX.
-
-Utilizar funciones básicas para procesamiento de datos usando software de hoja de cálculo (Excel, Libre Office Calc, QtPlot).
-
+Describir algoritmos para tareas computacionales básicas usando operaciones numéricas simples.
 Descomponer problemas numéricos simples de forma algorítmica.
-
-
+Escribir algoritmos en al menos un lenguaje de pseudocódigo y utilizando diagramas de flujo.
+Realizar una prueba de escritorio de un algoritmo.
+Escribir un programa básico en un lenguaje de programación interpretado (python, bash, perl, etc.) que use entrada y salida desde el teclado o el disco duro hacia la pantalla o el disco duro.
+Escribir un programa básico en un lenguaje de programación compilado (python, bash, perl, etc.) que use entrada y sálida desde el teclado o el disco duro hacia la pantalla o el disco duro.
+Traducir un algoritmo en pseudocódigo en un programa de computadora.
+Manipular listas de datos (arreglos) en lenguajes de programación compilados e interpretados.
+Realizar gráficos básicos en 2 dimensiones, tanto de datos como de funciones.
+Escribir un documento que use formato de texto, fórmulas matemáticas e incluya tablas y figuras, usando para ello el sistema de procesamiento de texto LaTeX.

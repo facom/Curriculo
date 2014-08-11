@@ -1,9 +1,9 @@
-Este curso es de naturaleza teórico-práctica.  Por la misma razón se requiere la participación activa de los estudiantes en todas las actividades de clase.  Para ello se sugiere:
+Este curso es de naturaleza teórico-práctica.  Por la misma razón se requiere la participación activa de los estudiantes en todas las actividades de clase.  
 
-Realizar presentaciones cortas de los contenidos conceptuales especialmente si requieren la exposición de conceptos teóricos.
+Para conseguir este objetivo se sugiere utilizar las siguientes estrategias metodológicas:
 
-Toda exposición teórica deberá contener secciones de ejercicios cortos, tanto computacionales como simplemente de reflexión, para involucrar a los estudiantes en la exposición.
+Para la presentación de los contenidos teóricos se recomienda restringirse a exposiciones cortas que involucren ejercicios rápidos de parte de los estudiantes.  Los ejercicios pueden incluir la solución a preguntas abiertas, la búsqueda de material en Internet o la solución a pequeños problemas.
 
-Las actividades de caracter práctico realizadas presencialmente (ejemplos de elaboración de algoritmos, programas y otras soluciones computacionales) involucraran activamente a uno o todos los estudiantes mediante la salida al tablero o la realización de pequeñas tareas encaminadas a la solución completa del problema.
+Para las sesiones de carácter práctico con acompañamiento directo del Profesor se sugiere involucrar siempre a los estudiantes en el proceso.  Para ello se puede hacer pasar a un estudiante al computador del profesor, resolver partes del problema práctico y realizar una revisión permanente del proceso de solución.
 
-Se realizarán actividades de carácter práctico individuales y en grupo destinadas a la evaluación formativa del proceso.  Estas actividades tendrán lugar en el tiempo de clase y gozarán del acompañamiento del docente. 
+La evaluación de carácter formativo es fundamental en el curso.  Para ello es importante promover la participación de los estudiantes en la solución de preguntas o la realización de encuestas sencillas sobre el avance del proceso en clase.

@@ -1,14 +1,38 @@
+<?
+////////////////////////////////////////////////////
+//OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
+////////////////////////////////////////////////////
+if(isset($_GET["profesor"])){
+  $query=preg_replace("/&profesor/","",$_SERVER["QUERY_STRING"]);
+echo<<<LOGIN
+<html>
+<head>
+  <META HTTP-EQUIV="refresh" CONTENT="0;URL=login.php?$query"</head>
+<body>
+LOGIN;
+return;
+}
+?>
+
+<?
+////////////////////////////////////////////////////
+//HEADER
+////////////////////////////////////////////////////
+echo<<<START
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <script src="etc/jquery.js"></script>
 </head>
 <body>
+START;
+?>
+
 <?
 ////////////////////////////////////////////////////
 //CONFIGURATION
 ////////////////////////////////////////////////////
-$SCRIPTNAME=$_SERVER[SCRIPT_FILENAME];
+$SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
@@ -32,7 +56,9 @@ if(isset($_COOKIE["verify"])){
   $verify=$_COOKIE["verify"];
   $ADMIN=$PASS_INFORMATION["$verify"];
   $INSTITUTO=$INSTITUTOS["$ADMIN"];
-  $QADMIN=1;
+  if($INSTITUTO=="Facultad"){$QADMIN=3;}
+  else if($INSTITUTO=="Profesor"){$QADMIN=1;}
+  else{$QADMIN=2;}
 }
 $QAUTH=0;
 if($INSTITUTO=="Facultad"){
@@ -62,6 +88,16 @@ function isBlank($string)
   return 0;
 }
 
+function upAccents($string)
+{
+  $string=strtoupper($string);
+  $accents=array("á"=>"Á","é"=>"É","í"=>"Í","ó"=>"Ó","ú"=>"Ú");
+  foreach(array_keys($accents) as $acc){
+    $string=preg_replace("/$acc/",$accents["$acc"],$string);
+  }
+  return $string;
+}
+
 ////////////////////////////////////////////////////
 //DATABASE
 ////////////////////////////////////////////////////
@@ -78,8 +114,10 @@ if(!$QADMIN){
   $menu.=" - <a href=login.php>Conectarse</a>";
 }
 else{
-  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>ADMINISTRADOR: $ADMIN ($INSTITUTO)</div>";
+  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>ADMINISTRADOR: $ADMIN ($INSTITUTO) - Nivel: $QADMIN</div>";
   $menu.=" - <a href=login.php?logout>Desconectarse</a>";
+}
+if($QADMIN>1){
   $menu.=" - <a href=index.php?edita_curso>Nuevo curso</a>";
 }
 $header=<<<HEADER
@@ -106,6 +144,7 @@ ERR;
 //PÁGINA PRINCIPAL
 ////////////////////////////////////////////////////
 if(count(array_keys($_GET))<1 and count(array_keys($_POST))<1){
+/*
 if(!$QADMIN){
   $headbar="";
 $admin=<<<ADMIN
@@ -128,6 +167,7 @@ $admin=<<<ADMIN
   </li>
 ADMIN;
  }
+*/
 
 echo<<<MAIN
 $header
@@ -186,12 +226,14 @@ MAIN;
 ////////////////////////////////////////////////////
 if(isset($_GET["planes_asignatura"])){
   $page="$header";
-  $page.="<h2>Lista de Cursos</h2>";
+  $publicos="";
+  $privados="";
   foreach(array_keys($INSTITUTOS) as $key){
     $instituto=$INSTITUTOS["$key"];
-    if($instituto=="Facultad"){continue;}
-    $page.="<h4>Instituto de $instituto</h4>";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto from MicroCurriculos where F280_Instituto='Instituto de $instituto' order by F330_Semestre_Plan;";
+    if($instituto=="Profesor"){continue;}
+    $listapub="";
+    $listapriv="";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_Publica_Curso from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
     //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -200,23 +242,42 @@ if(isset($_GET["planes_asignatura"])){
     while($row=mysqli_fetch_array($out)){
       $codigo=$row[0];
       $nombre=$row[1];
-      $instituto=$row[2];
-      $lista.="<li><a href='?ver_curso=$codigo&mode=Plano'>$nombre - $codigo</a> ";
-      if($QADMIN and ($instituto=="Instituto de $INSTITUTO" or $INSTITUTO=="Facultad")){
-	$lista.="(";
-	$lista.="<a href='?carga_curso=$codigo&edita_curso'>Cargar</a> - ";
-	$lista.="<a href='?ver_curso=$codigo&mode=Plano'>Ver Plano</a> - ";
-	$lista.="<a href='?ver_curso=$codigo&mode=FCEN'>Ver FCEN</a>";
-	$lista.=")";
+      //$instituto=$row[2];
+      $publica=$row[3];
+      if($publica=="Si"){
+	$listapub.="<li><a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a> ";
+	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
+	  $listapub.="(";
+	  $listapub.="<a href='?carga_curso=$codigo&edita_curso' target='_blank'>Editar</a>";
+	  $listapub.=")";
+	}
+	$listapub.="</li>";
+      }else{
+	$listapriv.="<li><a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a> ";
+	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
+	  $listapriv.="(";
+	  $listapriv.="<a href='?carga_curso=$codigo&edita_curso' target='_blank'>Editar</a>";
+	  $listapriv.=")";
+	}
+	$listapriv.="</li>";
       }
-      $lista.="</li>";
     }
-    if(!preg_match("/\w+/",$lista)){$lista="<i>(No se encontraron cursos)</i>";}
-    else{$lista.="</ul>";}
-    $page.="<ul>$lista</ul>";
+    //LISTA PUBLICOS
+    if(!preg_match("/\w+/",$listapub)){$listapub="<i>(No se encontraron cursos)</i>";}
+    else{$listapub.="</ul>";}
+    //LISTA NO PUBLICOS
+    if(!preg_match("/\w+/",$listapriv)){$listapriv="<i>(No se encontraron cursos)</i>";}
+    else{$listapriv.="</ul>";}
+    //MUESTRA LISTAS
+    $publicos.="<h4>$instituto</h4><ul>$listapub</ul>";
+    $privados.="<h4>$instituto</h4><ul>$listapriv</ul>";
   }
-	
   if($QADMIN){
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    //NOT PUBLIC COURSES
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    $page.="<h2>Todos los Cursos</h2>$privados";
+
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //RECYCLE BIN
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -231,7 +292,7 @@ if(isset($_GET["planes_asignatura"])){
     }	
     if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
     else{$recycle.="</ul>";}
-    $page.="<h4>Papelera de reciclaje</h4><ul>$recycle</ul>";
+    $page.="<hr/><h2>Papelera de reciclaje</h2><ul>$recycle</ul>";
 
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //FILE BIN
@@ -245,8 +306,10 @@ if(isset($_GET["planes_asignatura"])){
       $archive.="<li>$course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
     }
     if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
-    $page.="<h4>Archivo en disco</h4><ul>$archive</ul>";
+    $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul>";
   }
+  $page.="<h2>Lista de Cursos Públicos</h2>$publicos";
+	
   echo $page;
 }
 
@@ -278,7 +341,16 @@ if(isset($carga_curso) and $QADMIN){
       if($type=="text"){continue;}
       $$field=$row["$field"];
     }
+    if(isset($recover)){
+      //REMOVE ENTRY
+      $sql="delete from MicroCurriculos_Recycle where F100_Codigo=\"$carga_curso\";";
+      if(!mysqli_query($db,$sql)){
+	die("Error:".mysqli_error($db));
+      }
+      shell_exec("rm -rf recycle/$carga_curso");
+    }
   }
+
   //CARGANDO TEXT INFORMATION
   $coursedir="data/$carga_curso";
   if(isset($recover)){$coursedir="recycle/$carga_curso";}
@@ -296,7 +368,18 @@ if(isset($carga_curso) and $QADMIN){
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //CARGA UN CURSO GUARDADO
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
+if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADMIN){
+
+  if($accion=="Archivar" or 1){
+    if(file_exists("archive/$codigo")){
+      shell_exec("rm -rf archive/$codigo");
+    }
+    shell_exec("cp -rf data/$codigo archive");
+    if($accion=="Archivar"){
+      $result="<i style='color:green'>Curso archivado exitosamente.</i>";
+      goto end_archive;
+    }
+  }
   $table="MicroCurriculos";
   if($accion=="Reciclar"){
     $table="MicroCurriculos_Recycle";
@@ -360,6 +443,12 @@ if(($accion=="Guardar" or $accion=="Reciclar") and $QADMIN){
   }
   fwrite($fc,"?>\n");
   fclose($fc);
+  if($accion=="Reciclar"){
+    echo "$header$result";
+    goto footer;
+  }
+ end_archive:
+  $qarchive=1;
  }else if(!$QADMIN and ($accion=="Guardar" or $accion=="Reciclar")){echo $accion.$errmsg;return;}
 
 ////////////////////////////////////////////////////
@@ -385,10 +474,19 @@ $header
 NOAUTH;
  return;
   }
-
+  if(isset($F100_Codigo)){
+$verprograma=<<<VERPROGRAMA
+<h3>
+  <a href="?ver_curso=$F100_Codigo&mode=Todos" target="_blank">
+    Ver programa
+  </a>
+</h3>
+VERPROGRAMA;
+  }else{$verprograma="";}
 $page.=<<<FORM
 $header
   <h2>Edición de Plan de Asignatura</h2>
+  $verprograma
 <div>
 $result
 </div>
@@ -400,6 +498,7 @@ $buttons=<<<BUTTONS
 <div style='position:fixed;right:0px;'>
 <input type='submit' name='accion' value='Guardar'>
 <input type='submit' name='accion' value='Reciclar'>
+<input type='submit' name='accion' value='Archivar'>
 </div>
 <br/><br/>
 BUTTONS;
@@ -430,7 +529,12 @@ BUTTONS;
       $display="none";
       //echo "AUTH<br/>";
     }
-    if(preg_match("/AUTO/",$field)){
+    if(preg_match("/AUTO/",$field) or
+       (preg_match("/Codigo/",$field) and
+	isset($F100_Codigo) and
+	!isset($archive) and
+	!$QAUTH)
+       ){
       $block="disabled";
       //echo "AUTO<br/>";
       if(preg_match("/_Fecha/",$field)){
@@ -520,24 +624,26 @@ if(isset($ver_curso)){
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   //TITULO
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  $var="F110_Nombre_Asignatura";
-  $curso=$$var;
   $border="border:1px solid;";
   $colorgray="background-color:lightgray";
   $heavygray="background-color:gray";
-  
+
 $page.=<<<TITULO
 <p>
 <b>Curso</b>
 <br/>
-<b style='font-size:20px'>$curso</b>
+<b style='font-size:20px'>$Nombre_Asignatura</b>
 </p>
 TITULO;
 
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   //GENERA ARCHIVO EN FORMATO REQUERIDO
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- if($mode=="Plano" or 1){
+ 
+ //==================================================
+ //FORMATO PLANO
+ //==================================================
+ if($mode=="Plano" or $mode=="Todos"){
     $table="";
 $table.=<<<TABLE
 <html>
@@ -545,15 +651,21 @@ $table.=<<<TABLE
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<h1>$curso</h1>
+<h1>
+  $Nombre_Asignatura<br/>
+  $Codigo
+</h1>
 TABLE;
     $table.="<table border=0 width=650 style='border-collapse:collapse;'>";
     foreach($FIELDS as $field){
-      $value=$$field;
-      $value=preg_replace("/\n/","<br/>",$value);
+      $fname=preg_replace("/^F\d+_/","",$field);
+      $value=$$fname;
+      //echo "FIELD: $fname<br/>VALUE: $value<br/>";
       $query=$DBASE[$field]["query"];
       $type=$DBASE[$field]["type"];
-      if(preg_match("/Unidad/",$field) and !preg_match("/\w/",$value)){
+      if(preg_match("/Unidad\d+_Titulo/",$field) and 
+	 !preg_match("/\w/",$value)){
+	//echo "Last field: $field,$fname,$value<br/>";
 	break;
       }
       if($type!="text"){
@@ -569,22 +681,34 @@ TABLE;
     $fl=fopen("$coursedir/$ver_curso-plano.html","w");
     fwrite($fl,$table);
     fclose($fl);
-    sleep(2);
-    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-plano.html $ver_curso-plano.pdf");
+    if(file_exists("$coursedir/.$ver_curso-plano.pdf.md5sum")){
+      shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > /tmp/md5");
+      $out=shell_exec("cd $coursedir;diff /tmp/md5 .$ver_curso-plano.pdf.md5sum");
+    }else{$out="NEW";}
+    if(!isBlank($out)){
+      sleep(2);
+      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-plano.html $ver_curso-plano.pdf");
+      shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > .$ver_curso-plano.pdf.md5sum");
+    }
+
+    if(file_exists("$coursedir/$ver_curso-plano.pdf")){
+      $filepdf="(<a href=$coursedir/$ver_curso-plano.pdf target=_blank>PDF</a>)";
+    }else{
+      $filepdf="";
+    }
 $page.=<<<DESCARGA
-<a href=$coursedir/$ver_curso-plano.html target=_blank>
-  Formato plano
-</a><br/>
-<a href=$coursedir/$ver_curso-plano.pdf target=_blank>
-  Descarga en pdf
-</a><br/>
+<a href=$coursedir/$ver_curso-plano.html target=_blank>Formato plano</a>
+$filepdf
+<br/>
 DESCARGA;
   }
   
-  if($mode=="FCEN" or 1){
+  if($mode=="FCEN" or $mode=="Todos"){
     //UNIDADES
     $unidades="";
     $offset=600;
+    $ContenidoResumido="";
+    $BibliografiaCompleta="";
     for($i=1;$i<=10;$i++){
       $n=$offset+10*($i-1);
       $var="Unidad${i}_Titulo";
@@ -597,18 +721,28 @@ DESCARGA;
       $var="Unidad${i}_Procedimental";
       $procedimental=$$var;
       $var="Unidad${i}_Actitudinal";
-      $procedimental=$$var;
+      $actitudinal=$$var;
+      $var="Unidad${i}_Bibliografia";
+      $bibliografia=$$var;
+      $var="Unidad${i}_Semanas";
+      $semanas=$$var;
+      $semtxt="";
+      if($semanas>0){
+	$semtxt="($semanas semanas)";
+      }
+      $BibliografiaCompleta.="$bibliografia";
 $unidades.=<<<UNIDADES
-<b>Unidad $i. $titulo</b><br/>
-  <p>Contenidos coneptuales:</p>
-	<blockquote>$conceptuales</blockquote>
-  <p>Contenidos procedimentales:</p>
- 	<blockquote>$procedimentales</blockquote>
-  <p>Contenidos actitudinales:</p>
- 	<blockquote>$actitudinales</blockquote>
+  <b>Unidad $i. $titulo</b> $semtxt<br/>
+  <p><i>Contenidos coneptuales:</i></p>
+	<blockquote>$conceptual</blockquote>
+  <p><i>Contenidos procedimentales:</i></p>
+ 	<blockquote>$procedimental</blockquote>
+  <p><i>Contenidos actitudinales:</i></p>
+ 	<blockquote>$actitudinal</blockquote>
 UNIDADES;
+      $ContenidoResumido.="$i-$titulo<br/>";
     }
-
+    if(isBlank($Contenido_Resumido)){$Contenido_Resumido=$ContenidoResumido;}
     $table="";
 $table.=<<<TABLE
 <html>
@@ -631,9 +765,9 @@ $table.=<<<TABLE
     </tr>
     <tr><td></td>
       <td style='$border;$colorgray;'>ACTA</td>
-      <td style='$border;'></td>
+      <td style='$border;'>$AUTH_Acta_Numero</td>
       <td style='$border;$colorgray;'>DEL</td>
-      <td style='$border;'></td>
+      <td style='$border;'>$AUTH_Acta_Fecha</td>
     </tr>
   </table>
   <p style='width:650px;text-align:center;'>FORMATO DE MICROCURRICULO O PLAN DE ASIGNATURA</p>
@@ -643,7 +777,7 @@ $table.=<<<TABLE
     </tr>
     <tr>
       <td style='$border;$heavygray;' colspan=4>
-	1. IDENTIFICACIÓN GENERAL
+	<b>1. IDENTIFICACIÓN GENERAL</b>
       </td>
     </tr>
     <tr>
@@ -672,7 +806,7 @@ $table.=<<<TABLE
     </tr>
     <tr>
       <td style='$border;$heavygray;' colspan=4>
-	2. IDENTIFICACIÓN ESPECÍFICA
+	<b>2. IDENTIFICACIÓN ESPECÍFICA</b>
       </td>
     </tr>
     <tr>
@@ -691,7 +825,7 @@ $table.=<<<TABLE
       <td style='$border;$colorgray;' colspan=1>Número de Créditos</td><td colspan=3 style='$border;'>$Creditos</td>
     </tr>
     <tr>
-      <td style='$border;$colorgray;' colspan=1>Intensidad horaria:</td>
+      <td style='$border;$colorgray;' colspan=1>Horas Semestrales</td>
       <td colspan=1 style='$border;'>HDD:$Intensidad_HDD</td>
       <td colspan=1 style='$border;'>HDA:$Intensidad_HDA</td>
       <td colspan=1 style='$border;'>TI:$Intensidad_TI</td>
@@ -700,10 +834,10 @@ $table.=<<<TABLE
       <td style='$border;$colorgray;' colspan=1>Semanas</td><td style='$border;' colspan=3>$Semanas</td>
     </tr>
     <tr>
-      <td style='$border;$colorgray;' colspan=1>Curso</td>
-      <td style='$border;' colspan=1>Teórico: $Teorico</td>
-      <td style='$border;' colspan=1>Práctico: $Practico</td>
-      <td style='$border;' colspan=1>Teórico-Práctico: $Teorico_Practico</td>
+      <td style='$border;$colorgray;' colspan=1>Intensidad Semanal</td>
+      <td style='$border;' colspan=1>Teórico: $Horas_Teoricas_Semanales</td>
+      <td style='$border;' colspan=1>Práctico: $Horas_Practicas_Semanales</td>
+      <td style='$border;' colspan=1>Teórico-Práctico: $Horas_Teorico_Practicas_Semanales</td>
     </tr>
     <tr>
       <td style='$border;$colorgray;' colspan=1>H (Habilitable)</td>
@@ -731,7 +865,7 @@ $table.=<<<TABLE
     </tr>
     <tr>
       <td style='$border;$heavygray;' colspan=4>
-	3. DATOS DE LOS PROFESORES QUE ELABORAN EL PLAN DE ASIGNATURA
+	<b>3. DATOS DE LOS PROFESORES QUE ELABORAN EL PLAN DE ASIGNATURA</b>
       </td>
     </tr>
     <tr>
@@ -742,11 +876,11 @@ $table.=<<<TABLE
       <td style='$border;$colorgray;' colspan=1>Correo Electrónico</td>
       <td style='$border;' colspan=3>$Correos_Electronicos</td>
     </tr>
-    <tr><td style='$border;$heavygray;' colspan=4>4. DESCRIPCIÓN</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>4. DESCRIPCIÓN</b></td></tr>
     <tr><td style='$border;' colspan=4>$Descripcion</td>
-    <tr><td style='$border;$heavygray;' colspan=4>5. JUSTIFICACIÓN</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>5. JUSTIFICACIÓN</b></td></tr>
     <tr><td style='$border;' colspan=4>$Justificacion</td>
-    <tr><td style='$border;$heavygray;' colspan=4>6. OBJETIVOS</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>6. OBJETIVOS</b></td></tr>
     <tr>
       <td style='$border;' colspan=4>
 	<p><b>Objetivo General:</b></p>
@@ -758,7 +892,7 @@ $table.=<<<TABLE
 	<p>Objetivos Procedimentales:<br/><blockquote>$Objetivos_Especificos_Procedimentales</blockquote></p>
       </td>
     </tr>
-    <tr><td style='$border;$heavygray;' colspan=4>7. CONTENIDOS</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>7. CONTENIDOS</b></td></tr>
     <tr>
       <td colspan=4 style='$border;'>
       <p><b>Contenido Resumido</b></p>
@@ -769,12 +903,12 @@ $table.=<<<TABLE
       </blockquote>
       </td>
     </tr>
-    <tr><td style='$border;$heavygray;' colspan=4>8. ESTRATEGIAS METODOLÓGICAS</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>8. ESTRATEGIAS METODOLÓGICAS</b></td></tr>
     <tr><td style='$border;' colspan=4>$Estrategia_Metodologica</td>
-    <tr><td style='$border;$heavygray;' colspan=4>9. EVALUACIÓN</td></tr>
+    <tr><td style='$border;$heavygray;' colspan=4><b>9. EVALUACIÓN</b></td></tr>
     <tr><td style='$border;' colspan=4>$Evaluacion</td>
-    <tr><td style='$border;$heavygray;' colspan=4>10. BIBLIOGRAFÍA</td></tr>
-    <tr><td style='$border;' colspan=4>$Bibliografia_General</td>
+    <tr><td style='$border;$heavygray;' colspan=4><b>10. BIBLIOGRAFÍA</b></td></tr>
+    <tr><td style='$border;' colspan=4>$Bibliografia_General<br/>$BibliografiaCompleta</td>
   </table>
 </body>
 </html>
@@ -788,18 +922,344 @@ TABLE;
     $fl=fopen("$coursedir/$ver_curso-FCEN.html","w");
     fwrite($fl,$table);
     fclose($fl);
-    sleep(2);
-    shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
+    if(file_exists("$coursedir/.$ver_curso-FCEN.pdf.md5sum")){
+      shell_exec("cd $coursedir;md5sum $ver_curso-FCEN.html > /tmp/md5");
+      $out=shell_exec("cd $coursedir;diff /tmp/md5 .$ver_curso-FCEN.pdf.md5sum");
+    }else{$out="NEW";}
+    if(!isBlank($out)){
+      sleep(2);
+      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
+      shell_exec("cd $coursedir;md5sum $ver_curso-FCEN.html > .$ver_curso-FCEN.pdf.md5sum");
+    }
+
+    if(file_exists("$coursedir/$ver_curso-FCEN.pdf")){
+      $filepdf="(<a href=$coursedir/$ver_curso-FCEN.pdf target=_blank>PDF</a>)";
+    }else{
+      $filepdf="";
+    }
 
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-FCEN.html target=_blank>
   Formato FCEN
-</a><br/>
-<a href=$coursedir/$ver_curso-FCEN.pdf target=_blank>
-  Descarga en pdf
-</a><br/>
+</a>$filepdf<br/>
 DESCARGA;
-  }  
+  }
+
+  if($mode=="Vicedocencia" or $mode=="Todos"){
+    $table="";
+    $INST=upAccents($Instituto);
+    $CURSO=upAccents($Nombre_Asignatura);
+    $col1=40;
+    $col2=100-$col1;
+
+    $ContenidoResumido="";
+    $BibliografiaCompleta="$Bibliografia_General";
+    $unidades="";
+    for($i=1;$i<=10;$i++){
+      $n=$offset+10*($i-1);
+      $var="Unidad${i}_Titulo";
+      //echo "$var<br/>";
+      $titulo=$$var;
+      //echo "Unidad $i:$titulo<br/>";
+      if(isBlank($titulo)){break;}
+      $var="Unidad${i}_Conceptual";
+      $conceptual=$$var;
+      $var="Unidad${i}_Procedimental";
+      $procedimental=$$var;
+      $var="Unidad${i}_Actitudinal";
+      $actitudinal=$$var;
+      $var="Unidad${i}_Bibliografia";
+      $bibliografia=$$var;
+      $var="Unidad${i}_Semanas";
+      $semanas=$$var;
+      $semtxt="";
+      if($semanas>0){
+	$semtxt="$semanas";
+      }
+      $BibliografiaCompleta.="$bibliografia";
+      if(isblank($bibliografia)){
+	$bibliografia=$Bibliografia_General;
+      }
+$unidades.=<<<UNIDADES
+<p><b>Unidad No. $i.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=$col1%></td><td width=$col2%></td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=$col2% style='$border;'>$titulo</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Subtemas</b></td>
+    <td width=$col2% style='$border;'>
+      $conceptual<br/>
+      $procedimental<br/>
+      $actitudinal<br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=$col2% style='$border;'>$semtxt</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' colspan=2>$bibliografia</td>
+  </tr>
+</table>
+UNIDADES;
+      $ContenidoResumido.="$i-$titulo<br/>";
+    }
+    if(isBlank($Contenido_Resumido)){$Contenido_Resumido=$ContenidoResumido;}
+
+$table.=<<<TABLE
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  BODY{
+  font-family:Arial,Helvetica;
+  }
+  </style>
+</head>
+<body>
+<table border=0 width=650>
+  <tr>
+    <td style='text-align:center'>
+      UNIVERSIDAD DE ANTIOQUIA<br/>
+      FACULTAD DE CIENCIAS EXACTAS Y NATURALES<br/><br/>
+      <div style='font-size:20px'>$INST</div>
+    </td>
+  </tr>
+</table>
+<p></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=50%></td><td width=50%></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style='text-align:center;$border;'>
+      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA $AUTH_Acta_Numero DEL $AUTH_Acta_Fecha.
+    </td>
+  </tr>
+</table>
+<p></p>
+<p></p>
+<p style="text-align:center;font-size:18px;width:650px">
+  <b>PROGRAMA DE $CURSO</b>
+</p>
+<p></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=$col1%></td><td width=$col2%></td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>NOMBRE DE LA MATERIA</b></td>
+    <td width=$col2% style='$border;'>$Nombre_Asignatura</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>PROFESOR</b></td>
+    <td width=$col2% style='$border;'>$Profesores_Responsables</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>OFICINA</b></td>
+    <td width=$col2% style='$border;'>$Profesores_Oficinas</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>HORARIO DE CLASE</b></td>
+    <td width=$col2% style='$border;'>$Horario_clase</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>HORARIO DE ATENCIÓN</b></td>
+    <td width=$col2% style='$border;'>$Horario_atencion</td>
+  </tr>
+</table>
+<p></p>
+<p><b>INFORMACIÓN GENERAL</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=$col1%></td><td width=$col2%></td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Código de la materia</b></td>
+    <td width=$col2% style='$border;'>$Codigo</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Semestre</b></td>
+    <td width=$col2% style='$border;'>$Semestre_Plan</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Área</b></td>
+    <td width=$col2% style='$border;'>$Area_Academica</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Horas teóricas semanales</b></td>
+    <td width=$col2% style='$border;'>$Horas_Teoricas_Semanales</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Horas teóricas semestrales</b></td>
+    <td width=$col2% style='$border;'>$Horas_Teoricas_Semestrales</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>No. de créditos</b></td>
+    <td width=$col2% style='$border;'>$Creditos</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Horas de clase por semestre</b></td>
+    <td width=$col2% style='$border;'>$Intensidad_HDD</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Campo de Formación</b></td>
+    <td width=$col2% style='$border;'>$Campo_Formacion</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Validable</b></td>
+    <td width=$col2% style='$border;'>$Validable</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Habilitable</b></td>
+    <td width=$col2% style='$border;'>$Habilitable</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Clasificable</b></td>
+    <td width=$col2% style='$border;'>$Clasificable</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Requisitos</b></td>
+    <td width=$col2% style='$border;'>$Requisitos</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Corequisitos</b></td>
+    <td width=$col2% style='$border;'>$Correquisitos</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;'><b>Programas a los que se ofrece la materia</b></td>
+    <td width=$col2% style='$border;'>$Programas_Academicos</td>
+  </tr>
+</table>
+
+<p></p>
+<p><b>INFORMACIÓN COMPLEMENTARIA</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=$col1%></td><td width=$col2%></td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Propósito del Curso:</b></td>
+    <td width=$col2% style='$border;'>$Proposito</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Justificación:</b></td>
+    <td width=$col2% style='$border;'>$Justificacion</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Objetivo General:</b></td>
+    <td width=$col2% style='$border;'>$Objetivo_General</td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Objetivos Específicos:</b></td>
+    <td width=$col2% style='$border;'>
+      $Objetivos_Especificos_Conceptuales<br/>
+      $Objetivos_Especificos_Procedimentales<br/>
+      $Objetivos_Especificos_Actitudinales<br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=$col1% style='$border;' valign=top><b>Contenido Resumido:</b></td>
+    <td width=$col2% style='$border;'>$ContenidoResumido</td>
+  </tr>
+</table>
+
+<p></p>
+<p><b>UNIDADES DETALLADAS</b></p>
+$unidades
+
+<p></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td style='$border;' valign=top>
+      <b>METODOLOGÍA a seguir en el desarrollo del curso:</b>
+      <p>
+	$Estrategia_Metodologica
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=30%></td><td width=30%></td><td width=30%></td>
+  </tr>
+  <tr>
+    <td style='$border;' valign=top colspan=3>
+      <b>EVALUACIÓN</b>
+    </td>
+  </tr>
+  <tr>
+    <td style='$border;' colspan=1><b>Actividad</b></td>
+    <td style='$border;' colspan=1><b>Porcentaje</b></td>
+    <td style='$border;' colspan=1><b>Fecha (día, mes, año)</b></td>
+  </tr>
+  <tr>
+    <td style='$border;' valign=top colspan=3>
+      $Evaluacion_Especifica
+    </td>
+  </tr>
+</table>
+
+<p></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td style='$border;' valign=top>
+      <b>Actividades de Asistencia Obligatoria:</b>
+      <p>
+	$Actividades_Obligatorias
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p></p>
+<b>BIBLIOGRAFÍA COMPLEMENTARIA
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td style='$border;' valign=top>
+      $BibliografiaCompleta
+    </td>
+  </tr>
+</table>
+
+TABLE;
+    
+    $fl=fopen("$coursedir/$ver_curso-vicedocencia.html","w");
+    fwrite($fl,$table);
+    fclose($fl);
+    if(file_exists("$coursedir/.$ver_curso-vicedocencia.pdf.md5sum")){
+      shell_exec("cd $coursedir;md5sum $ver_curso-vicedocencia.html > /tmp/md5");
+      $out=shell_exec("cd $coursedir;diff /tmp/md5 .$ver_curso-vicedocencia.pdf.md5sum");
+    }else{$out="NEW";}
+    if(!isBlank($out)){
+      sleep(2);
+      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-vicedocencia.html $ver_curso-vicedocencia.pdf");
+      shell_exec("cd $coursedir;md5sum $ver_curso-vicedocencia.html > .$ver_curso-vicedocencia.pdf.md5sum");
+    }
+
+    if(file_exists("$coursedir/$ver_curso-vicedocencia.pdf")){
+      $filepdf="(<a href=$coursedir/$ver_curso-vicedocencia.pdf target=_blank>PDF</a>)";
+    }else{
+      $filepdf="";
+    }
+    
+$page.=<<<DESCARGA
+<a href=$coursedir/$ver_curso-vicedocencia.html target=_blank>
+  Formato Vicedocencia
+</a>$filepdf<br/>
+DESCARGA;
+  }
   echo $page;
   return;
 }
@@ -813,6 +1273,7 @@ if($lista){
 ////////////////////////////////////////////////////
 //FOOTER
 ////////////////////////////////////////////////////
+footer:
 ?>
 <hr/>
 <p style='font-size:12px'>

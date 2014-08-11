@@ -6,15 +6,17 @@ $LOGIN_INFORMATION=array
      'matematicas'=>'matematicas2014',
      'biologia'=>'biologia2014',
      'quimica'=>'quimica2014',
+     'profesor'=>'profesor2014',
      );
 
 $INSTITUTOS=array
   (
    'admin'=>'Facultad',
-   'fisica'=>'Física',
-   'matematicas'=>'Matemáticas',
-   'biologia'=>'Biología',
-   'quimica'=>'Química',
+   'fisica'=>'Instituto de Física',
+   'matematicas'=>'Instituto de Matemáticas',
+   'biologia'=>'Instituto de Biología',
+   'quimica'=>'Instituto de Química',
+   'profesor'=>'Profesor'
    );
 
 $USER="curriculo";

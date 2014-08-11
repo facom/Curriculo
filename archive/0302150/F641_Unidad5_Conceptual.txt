@@ -1,0 +1,4 @@
+Tipos de Lenguajes de Programación
+Introducción al lenguaje bash de la línea de comandos de Linux
+Introducción al lenguaje python: entrada y salida, variables, rutinas, arreglos
+Introducción al lenguaje C/C++: entrada y salida, variables, rutinas, arreglos

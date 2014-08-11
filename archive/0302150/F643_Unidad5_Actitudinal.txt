@@ -1,0 +1,2 @@
+Reconocimiento de la independencia de la programación del lenguaje en el que se programe.
+Importancia de la documentación interna (comentarios) en la elaboración de programas.

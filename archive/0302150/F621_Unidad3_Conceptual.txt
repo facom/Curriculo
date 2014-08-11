@@ -1,0 +1,5 @@
+Funcionamiento general del Sistema Operativo
+Sistemas Operativos populares: comparativo
+El Sistema Operativo Linux: una introducción
+El sistema de archivos de Linux
+La línea de comandos de Linux

@@ -1,0 +1,5 @@
+Herramientas para la elaboración de documentos científicos.
+Introducción al lenguaje LaTeX: historia y motivación.
+Comandos básicos de formato con LaTeX.
+Comandos matemáticos con LaTeX.
+Tablas, figuras y bibliografía en LaTeX.

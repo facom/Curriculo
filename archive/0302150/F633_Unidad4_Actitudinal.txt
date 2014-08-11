@@ -1,0 +1,3 @@
+Pensamiento analítico y algorítmico como competencias fundamentales para el trabajo científico.
+La importancia de la elaboración completa de algoritmos previo a implementación como programas de computadora.
+La importancia de las pruebas en el desarrollo de algoritmos.

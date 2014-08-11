@@ -1,0 +1,4 @@
+Manual de Supervivencia en Linux. F. Solsona y E. Viso. UNAM. 2013.
+Guía de Campo de Linux. F.García. Ediciones de la U. 2011.
+Ubuntu Linux.  M.D. Serrat. Alfaomega. 2010.
+Linux, el Sistema Operativo del Futuro. H. Broy.  Macro. 2012.

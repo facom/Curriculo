@@ -1,0 +1,3 @@
+Tipo de gráficos científicos.
+Introducción a Gnuplot.
+Introducción a Matplotlib.

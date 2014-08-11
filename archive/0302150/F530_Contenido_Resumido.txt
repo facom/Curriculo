@@ -1,7 +1,0 @@
-1. El Computador.
-2. La Internet Científica.
-3. El Sistema Operativo.
-4. Algoritmos.
-5. Programación de Computadores.
-6. Graficación de datos científicos.
-7. Presentación de Reportes y Artículos.

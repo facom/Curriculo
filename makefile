@@ -29,7 +29,7 @@ create:
 permissions:
 	@chown -R www-data.www-data .
 
-reset:
+reset:cleanall
 	$(shell echo "drop database Curriculo;drop user 'curriculo'@'localhost';" > /tmp/sql)
 	@echo "Enter mysql root password:"
 	@mysql -u root -p < /tmp/sql

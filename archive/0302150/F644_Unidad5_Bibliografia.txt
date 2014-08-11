@@ -1,0 +1,5 @@
+Introducción a la Computación y Programación con Python. Guzdial y Ericson. Pearson. 2013.
+Introducción a la Programación en Python. A. Downey y E.C.Meyers.  U. Javeriana. 2009.
+C y C++ de Afán. M. Paez. U. de A. 2004.
+C/C++. M. Acera. Distrididaktica. 2012.
+Manuales en línea de programación en los lenguajes vistos.
