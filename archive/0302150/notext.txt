@@ -1,5 +1,5 @@
 <?
-$F010_AUTO_Fecha_Actualizacion="Sun, 10 Aug 2014 22:40:36 -0500";
+$F010_AUTO_Fecha_Actualizacion="Sun, 10 Aug 2014 23:05:36 -0500";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";

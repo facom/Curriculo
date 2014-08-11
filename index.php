@@ -730,15 +730,23 @@ DESCARGA;
       if($semanas>0){
 	$semtxt="($semanas semanas)";
       }
+      
+      if(!isBlank($conceptual)){
+	$txtconcep="<p><i>Contenidos conceptuales:</i></p><blockquote>$conceptual</blockquote>";
+      }else{$txtconcep="";}
+      if(!isBlank($procedimental)){
+	$txtproced="<p><i>Contenidos procedimentales:</i></p><blockquote>$procedimental</blockquote>";
+      }else{$txtproced="";}
+      if(!isBlank($actitudinal)){
+	$txtactitud="<p><i>Contenidos actitudinales:</i></p><blockquote>$actitudinal</blockquote>";
+      }else{$txtactitud="";}
+
       $BibliografiaCompleta.="$bibliografia";
 $unidades.=<<<UNIDADES
   <b>Unidad $i. $titulo</b> $semtxt<br/>
-  <p><i>Contenidos coneptuales:</i></p>
-	<blockquote>$conceptual</blockquote>
-  <p><i>Contenidos procedimentales:</i></p>
- 	<blockquote>$procedimental</blockquote>
-  <p><i>Contenidos actitudinales:</i></p>
- 	<blockquote>$actitudinal</blockquote>
+  $txtconcep
+  $txtproced
+  $txtactitud
 UNIDADES;
       $ContenidoResumido.="$i-$titulo<br/>";
     }
