@@ -233,7 +233,7 @@ if(isset($_GET["planes_asignatura"])){
     if($instituto=="Profesor"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_Publica_Curso from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
     //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));

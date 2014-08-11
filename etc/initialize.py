@@ -70,7 +70,7 @@ Database={
         "",
         "Indique el nombre de quien esta modificando esta última versión del curso."
         ],
-    "F060_Publica_Curso":
+    "F060_AUTH_Publica_Curso":
         [
         "varchar(3)",
         "Publica curso",
