@@ -248,7 +248,7 @@ if(isset($_GET["planes_asignatura"])){
 	$listapub.="<li><a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a> ";
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	  $listapub.="(";
-	  $listapub.="<a href='?carga_curso=$codigo&edita_curso' target='_blank'>Editar</a>";
+	  $listapub.="<a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
 	  $listapub.=")";
 	}
 	$listapub.="</li>";
