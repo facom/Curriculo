@@ -306,7 +306,7 @@ if(isset($_GET["planes_asignatura"])){
       $archive.="<li>$course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
     }
     if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
-    $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul>";
+    $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul><hr/>";
   }
   $page.="<h2>Lista de Cursos Públicos</h2>$publicos";
 	
@@ -376,7 +376,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     if(file_exists("archive/$codigo")){
       shell_exec("rm -rf archive/$codigo");
     }
-    shell_exec("cp -rf data/$codigo archive");
+    shell_exec("cp -rf data/$codigo archive/");
     if($accion=="Archivar"){
       $result="<i style='color:green'>Curso archivado exitosamente.</i>";
       goto end_archive;
