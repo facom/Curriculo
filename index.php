@@ -429,7 +429,9 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     shell_exec("rm -rf $coursedir");
     $coursedir="recycle/$codigo";
   }
+  system("mkdir -p \"$coursedir\"");
   $fc=fopen("$coursedir/notext.txt","w");
+  echo "COURSE DIR: $fc<br/>";
   fwrite($fc,"<?\n");
   foreach($FIELDS as $field){
     $value=$$field;
@@ -437,7 +439,6 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     if($type!="text"){
       fwrite($fc,"\$$field=\"$value\";\n");
     }else{
-      system("mkdir -p \"$coursedir\"");
       $fl=fopen("$coursedir/$field.txt","w");
       fwrite($fl,$value);
       fclose($fl);
