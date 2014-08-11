@@ -292,7 +292,7 @@ if(isset($_GET["planes_asignatura"])){
     }	
     if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
     else{$recycle.="</ul>";}
-    $page.="<hr/><h2>Papelera de reciclaje</h2><ul>$recycle</ul>";
+    $page.="<hr/><h2>Papelera de reciclaje</h2><ul>$recycle</ul></hr>";
 
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //FILE BIN
