@@ -369,6 +369,8 @@ if(isset($carga_curso) and $QADMIN){
 //CARGA UN CURSO GUARDADO
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADMIN){
+  $name="F100_Codigo";
+  $codigo=$$name;
 
   if($accion=="Archivar" or 1){
     if(file_exists("archive/$codigo")){
