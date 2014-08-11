@@ -783,9 +783,11 @@ $table.=<<<TABLE
   </table>
   <p style='width:650px;text-align:center;'>FORMATO DE MICROCURRICULO O PLAN DE ASIGNATURA</p>
   <table border=0 width=650 style='border-collapse:collapse'>
+  <thead>
     <tr>
       <td width=30%></td><td width=20%></td><td width=20%></td><td width=20%></td>
     </tr>
+  </thead>
     <tr>
       <td style='$border;$heavygray;' colspan=4>
 	<b>1. IDENTIFICACIÓN GENERAL</b>
