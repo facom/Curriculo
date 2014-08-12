@@ -572,13 +572,14 @@ $result.=<<<RESULT
 <br/><br/>
 
 <div style='color:red;background-color:yellow;padding:10px;width:600px'>
-  Archivo de bloqueo existente (<b>$props[1]</b>, <b>$props[0]</b>).  Esto
-  indica que otro usuario esta editando este curso en este momento.
-  También puede indicar que el último usuario que lo dejo no presionó
-  el botón de salir al términar.  Revise la hora del último bloqueo
-  (arriba en negrilla).  Si es de hace mucho la recomendación es
-  desbloquear manualmente el archivo con el botón 'Desbloquea' a la
-  derecha.  Use esta opción con precaución.
+  Archivo de bloqueo existente (<b>$props[1]</b>, <b>$props[0]</b>).
+  Esto indica que otro usuario esta editando este curso en este
+  momento.  También puede indicar que el último usuario que lo dejo no
+  presionó el botón de salir al términar.  Revise la hora del último
+  bloqueo (arriba en negrilla).  Si es de hace mucho la recomendación
+  es desbloquear manualmente el archivo con el botón 'Desbloquea' a la
+  derecha.  Use esta opción con precaución.  También puede esperar un
+  poco e intentar cargar esta página mas tarde.
 </div>
 
   <br/>
