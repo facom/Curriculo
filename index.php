@@ -34,6 +34,7 @@ START;
 ////////////////////////////////////////////////////
 $SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
+$H2PDF="wkhtmltopdf";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
 //require("$ROOTDIR/etc/mpdf/mpdf.php");
@@ -690,7 +691,7 @@ TABLE;
     }else{$out="NEW";}
     if(!isBlank($out)){
       sleep(2);
-      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-plano.html $ver_curso-plano.pdf");
+      shell_exec("cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf");
       shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > .$ver_curso-plano.pdf.md5sum");
     }
 
@@ -941,7 +942,7 @@ TABLE;
     }else{$out="NEW";}
     if(!isBlank($out)){
       sleep(2);
-      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
+      shell_exec("cd $coursedir;$H2PDF $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
       shell_exec("cd $coursedir;md5sum $ver_curso-FCEN.html > .$ver_curso-FCEN.pdf.md5sum");
     }
 
@@ -1259,7 +1260,7 @@ TABLE;
     }else{$out="NEW";}
     if(!isBlank($out)){
       sleep(2);
-      shell_exec("cd $coursedir;wkhtmltopdf $ver_curso-vicedocencia.html $ver_curso-vicedocencia.pdf");
+      shell_exec("cd $coursedir;$H2PDF $ver_curso-vicedocencia.html $ver_curso-vicedocencia.pdf");
       shell_exec("cd $coursedir;md5sum $ver_curso-vicedocencia.html > .$ver_curso-vicedocencia.pdf.md5sum");
     }
 
