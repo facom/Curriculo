@@ -34,7 +34,8 @@ START;
 ////////////////////////////////////////////////////
 $SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
-$H2PDF="wkhtmltopdf";
+//$H2PDF="wkhtmltopdf";
+$H2PDF="../temp/wkhtmltopdf-i386";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
 //require("$ROOTDIR/etc/mpdf/mpdf.php");
