@@ -2,6 +2,9 @@
 ////////////////////////////////////////////////////
 //OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
 ////////////////////////////////////////////////////
+session_start();
+$SESSID=session_id();
+//echo "SESSID: $SESSID<br/>";
 if(isset($_GET["profesor"])){
   $query=preg_replace("/&profesor/","",$_SERVER["QUERY_STRING"]);
 echo<<<LOGIN
@@ -11,6 +14,9 @@ echo<<<LOGIN
 <body>
 LOGIN;
 return;
+}
+if(isset($_GET["phpinfo"])){
+  phpinfo();
 }
 ?>
 
@@ -40,6 +46,31 @@ require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
 //require("$ROOTDIR/etc/mpdf/mpdf.php");
 
+////////////////////////////////////////////////////
+//DESBLOQUEO SALIR
+////////////////////////////////////////////////////
+if($_POST["accion"]=="Salir"){
+  $curso=$_POST["F100_Codigo"];
+  $coursedir="data/$curso";
+  $lockfile="$coursedir/.lock";
+  shell_exec("rm -rf $lockfile");
+  $_GET=array();
+  $_POST=array();
+ }
+if($_POST["accion"]=="Desbloquea"){
+  $curso=$_POST["F100_Codigo"];
+  $coursedir="data/$curso";
+  $lockfile="$coursedir/.lock";
+  shell_exec("rm -rf $lockfile");
+  $_POST["carga_curso"]=$curso;
+  $_GET["carga_curso"]=$curso;
+  //print_r($_GET);
+}
+
+
+////////////////////////////////////////////////////
+//ENTRADAS
+////////////////////////////////////////////////////
 foreach(array_keys($_GET) as $field){
     $$field=$_GET[$field];
 }
@@ -108,6 +139,7 @@ $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
 ////////////////////////////////////////////////////
 //HEADER DEFINITION
 ////////////////////////////////////////////////////
+if(!isset($edita_curso)){
 $menu="";
 $menu.="<a href=index.php>Principal</a>";
 $menu.=" - <a href=index.php?planes_asignatura>Planes de Asignatura</a>";
@@ -122,20 +154,23 @@ else{
 if($QADMIN>1){
   $menu.=" - <a href=index.php?edita_curso>Nuevo curso</a>";
 }
+$menu.="<hr/>";
+ $a="a";
+ }else{$menu="";$a="aa";}
+
 $header=<<<HEADER
 $headbar
 <table width=100% border=0>
 <tr>
 <td width=10%><image src="images/udea_fcen.jpg"/ height=120px></td>
 <td valign=bottom>
-  <b style='font-size:32'><a href=index.php>Plataforma de Información Curricular</a></b><br/>
+  <b style='font-size:32'><$a href=index.php>Plataforma de Información Curricular</a></b><br/>
   <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
   <b style='font-size:24'>Universidad de Antioquia</b><br/>
 </td>
 </table>
 <hr/>
 $menu
-<hr/>
 HEADER;
 $errmsg=<<<ERR
 $header
@@ -274,7 +309,7 @@ if(isset($_GET["planes_asignatura"])){
     $publicos.="<h4>$instituto</h4><ul>$listapub</ul>";
     $privados.="<h4>$instituto</h4><ul>$listapriv</ul>";
   }
-  if($QADMIN){
+  if($QADMIN>=2){
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //NOT PUBLIC COURSES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -366,6 +401,7 @@ if(isset($carga_curso) and $QADMIN){
     $$field=fread($fl,filesize($file));
     fclose($fl);
   }
+
  }else if(!$QADMIN and isset($carga_curso)){echo $errmsg;return;}
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //CARGA UN CURSO GUARDADO
@@ -405,6 +441,17 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     $type=$DBASE[$field]["type"];
     if($field=="F100_Codigo" or $type=="text"){continue;}
     $value=$$field;
+    if(preg_match("/AUTO/",$field)){
+      if(preg_match("/_Fecha/",$field)){
+	$value=$DATE;
+      }
+      if(preg_match("/_Usuario/",$field)){
+	$value=$INSTITUTO;
+      }
+      if(preg_match("/_Version/",$field)){
+	$value=$value+1;
+      }
+    }
     $sql.="$field='$value',";
   }
   $sql=trim($sql,",");
@@ -433,7 +480,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   }
   system("mkdir -p \"$coursedir\"");
   $fc=fopen("$coursedir/notext.txt","w");
-  echo "COURSE DIR: $fc<br/>";
+  //echo "COURSE DIR: $fc<br/>";
   fwrite($fc,"<?\n");
   foreach($FIELDS as $field){
     $value=$$field;
@@ -460,6 +507,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
 //EDICIÓN DE UN CURSO
 ////////////////////////////////////////////////////
 if(isset($edita_curso) and $QADMIN){
+
   $page="";
 
   //AUTORIZACION VICEDECANO
@@ -488,6 +536,68 @@ $verprograma=<<<VERPROGRAMA
 </h3>
 VERPROGRAMA;
   }else{$verprograma="";}
+
+$buttons=<<<BUTTONS
+<div style='position:fixed;right:0px;'>
+<input type='submit' name='accion' value='Guardar'>
+<input type='submit' name='accion' value='Salir'>
+BUTTONS;
+
+ if($QADMIN>=2){
+$buttons.=<<<BUTTONS
+<input type='submit' name='accion' value='Reciclar'>
+<input type='submit' name='accion' value='Archivar'>
+BUTTONS;
+ }
+
+$buttons.=<<<BUTTONS
+</div>
+<br/><br/>
+BUTTONS;
+
+  //ARCHIVO DE BLOQUEO
+ if(isset($carga_curso)){
+   $curso_lock=$carga_curso;
+ }else{
+   $curso_lock=$F100_Codigo;
+ }
+ //if(isset($F100_Codigo)){$curso_lock=$F100_Codigo;}
+ $coursedir="data/$curso_lock";
+ $lockfile="$coursedir/.lock";
+ //echo "$lockfile<br/>";
+ if(file_exists($lockfile)){
+     $props=file($lockfile);
+     if(trim($props[2])!=$SESSID){
+$result.=<<<RESULT
+<br/><br/>
+
+<div style='color:red;background-color:yellow;padding:10px;width:600px'>
+  Archivo de bloqueo existente (<b>$props[1]</b>, <b>$props[0]</b>).  Esto
+  indica que otro usuario esta editando este curso en este momento.
+  También puede indicar que el último usuario que lo dejo no presionó
+  el botón de salir al términar.  Revise la hora del último bloqueo
+  (arriba en negrilla).  Si es de hace mucho la recomendación es
+  desbloquear manualmente el archivo con el botón 'Desbloquea' a la
+  derecha.  Use esta opción con precaución.
+</div>
+
+  <br/>
+
+RESULT;
+    $buttons="";
+$buttons=<<<BUTTONS
+<div style='position:fixed;right:0px;'>
+<input type='submit' name='accion' value='Desbloquea'>
+</div>
+<br/><br/>
+BUTTONS;
+     }
+ }else{
+   shell_exec("date > $coursedir/.lock");
+   shell_exec("echo $INSTITUTO >> $coursedir/.lock");
+   shell_exec("echo $SESSID >> $coursedir/.lock");
+ }
+
 $page.=<<<FORM
 $header
   <h2>Edición de Plan de Asignatura</h2>
@@ -499,14 +609,6 @@ $result
 <input type='hidden' name='edita_curso' value=1>
 FORM;
 
-$buttons=<<<BUTTONS
-<div style='position:fixed;right:0px;'>
-<input type='submit' name='accion' value='Guardar'>
-<input type='submit' name='accion' value='Reciclar'>
-<input type='submit' name='accion' value='Archivar'>
-</div>
-<br/><br/>
-BUTTONS;
 //$page.=$buttons;
  $form="";
   foreach($FIELDS as $field){
@@ -542,6 +644,7 @@ BUTTONS;
        ){
       $block="disabled";
       //echo "AUTO<br/>";
+      /*
       if(preg_match("/_Fecha/",$field)){
 	$value=$DATE;
       }
@@ -551,6 +654,7 @@ BUTTONS;
       if(preg_match("/_Version/",$field)){
 	$value=$value+1;
       }
+      */
     }    
     //CAMPOS DE ENTRADA SIMPLE
     if(!preg_match("/\w/",$values) and !$qauth){

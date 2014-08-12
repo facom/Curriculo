@@ -1,6 +1,6 @@
 <?
-$F010_AUTO_Fecha_Actualizacion="Mon, 11 Aug 2014 11:44:04 -0500";
-$F015_AUTO_Usuario_Actualizacion="Instituto de Física";
+$F010_AUTO_Fecha_Actualizacion="Mon, 11 Aug 2014 20:03:10 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="00";
@@ -8,7 +8,7 @@ $F040_AUTH_Acta_Fecha="MM/DD/CCYY";
 $F050_Nombre_Actualiza="Jorge I. Zuluaga";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0302150";
-$F110_Nombre_Asignatura="Fundamentación en Computación";
+$F110_Nombre_Asignatura="Fundamentación en Computaciónn";
 $F120_Tipo_Curso="Básico";
 $F130_Asistencia="Obligatoria";
 $F140_Creditos="2";
