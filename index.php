@@ -1157,9 +1157,11 @@ $table.=<<<TABLE
 <p></p>
 <p><b>INFORMACIÓN COMPLEMENTARIA</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
+  <thead>
   <tr>
     <td width=$col1%></td><td width=$col2%></td>
   </tr>
+  </thead>
   <tr>
     <td width=$col1% style='$border;' valign=top><b>Propósito del Curso:</b></td>
     <td width=$col2% style='$border;'>$Proposito</td>
