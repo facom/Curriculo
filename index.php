@@ -156,7 +156,7 @@ if($QADMIN>1){
 }
 $menu.="<hr/>";
  $a="a";
- }else{$menu="";$a="aa";}
+ }else{$menu="";$a="a";}
 
 $header=<<<HEADER
 $headbar
@@ -558,8 +558,10 @@ BUTTONS;
   //ARCHIVO DE BLOQUEO
  if(isset($carga_curso)){
    $curso_lock=$carga_curso;
- }else{
+ }else if(isset($F100_Codigo)){
    $curso_lock=$F100_Codigo;
+ }else{
+   $curso_lock="0300000";
  }
  //if(isset($F100_Codigo)){$curso_lock=$F100_Codigo;}
  $coursedir="data/$curso_lock";
