@@ -543,7 +543,7 @@ $buttons=<<<BUTTONS
 <input type='submit' name='accion' value='Salir'>
 BUTTONS;
 
- if($QADMIN>=2){
+ if($QADMIN>=3){
 $buttons.=<<<BUTTONS
 <input type='submit' name='accion' value='Reciclar'>
 <input type='submit' name='accion' value='Archivar'>
