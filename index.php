@@ -1156,7 +1156,7 @@ $table.=<<<TABLE
 
 <p></p>
 <p><b>INFORMACIÓN COMPLEMENTARIA</b></p>
-<table border=0 width=650px style='border-collapse:collapse'>
+<table border=0 width=650px style='border-collapse:collapse;page-break-inside:avoid'>
   <thead>
   <tr>
     <td width=$col1%></td><td width=$col2%></td>
