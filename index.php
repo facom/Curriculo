@@ -1398,10 +1398,14 @@ if($lista){
 //FOOTER
 ////////////////////////////////////////////////////
 footer:
-?>
+$filetime=date(DATE_RFC2822,filemtime("index.php"));
+echo<<<FOOTER
 <hr/>
 <p style='font-size:12px'>
+  Última actualización: $filetime - 
 <a href=mailto:jorge.zuluaga@udea.edu.co>Jorge I. Zuluaga</a> (C) 2014
 </p>
 </body>
 </html>
+FOOTER;
+?>
