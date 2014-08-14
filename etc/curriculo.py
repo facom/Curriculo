@@ -6,6 +6,7 @@ import copy
 import pickle
 from os import system
 import re
+from sys import argv
 
 ###################################################
 #CONFIGURACION

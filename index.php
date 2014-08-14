@@ -270,7 +270,7 @@ if(isset($_GET["planes_asignatura"])){
     if($instituto=="Profesor"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
     //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -279,24 +279,39 @@ if(isset($_GET["planes_asignatura"])){
     while($row=mysqli_fetch_array($out)){
       $codigo=$row[0];
       $nombre=$row[1];
-      //$instituto=$row[2];
+      $instituto=$row[2];
       $publica=$row[3];
+      $actualizacion=$row[4];
+      $usuario=$row[5];
+      $modifica=$row[6];
+      $lockfile="data/$codigo/.lock";
+      $lock="";
+      if(file_exists($lockfile)){
+	$props=file($lockfile);
+	$lock="<i style='color:red'>El curso esta siendo editado desde $props[0].</i><br/>";
+      }
       if($publica=="Si"){
-	$listapub.="<li><a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a> ";
+$listapub=<<<LISTA
+<li>
+$nombre - $codigo<br/>
+<a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
+LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	  $listapub.="(";
-	  $listapub.="<a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
-	  $listapub.=")";
+	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
 	}
 	$listapub.="</li>";
       }else{
-	$listapriv.="<li><a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a> ";
+$listapriv.=<<<LISTA
+<li>
+  <b>$nombre - $codigo</b><br/>
+  Última actualización: $actualizacion - $usuario - $modifica <br/>
+  $lock
+<a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
+LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	  $listapriv.="(";
-	  $listapriv.="<a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
-	  $listapriv.=")";
+	  $listapriv.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
 	}
-	$listapriv.="</li>";
+	$listapriv.="</li><br/>";
       }
     }
     //LISTA PUBLICOS
@@ -325,7 +340,9 @@ if(isset($_GET["planes_asignatura"])){
       $codigo=$row[0];
       $nombre=$row[1];
       $instituto=$row[2];
-      $recycle.="<li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&edita_curso&recover'>Recuperar</a>)</li>";
+$recycle=<<<RECYCLE
+<li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&edita_curso&recover'>Recuperar</a>)</li>
+RECYCLE;
     }	
     if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
     else{$recycle.="</ul>";}
@@ -614,6 +631,9 @@ FORM;
 
 //$page.=$buttons;
  $form="";
+$form=<<<FORM
+<a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);$('#mostrar').text('Ocultar ayudas');" style="font-size:12px">Mostrar ayudas</a><br/><br/>
+FORM;
   foreach($FIELDS as $field){
     $value=$$field;
     $query=$DBASE[$field]["query"];
@@ -625,7 +645,9 @@ FORM;
     }
     $values=$DBASE[$field]["values"];
     $help=$DBASE[$field]["help"];
+    $ejemplo=$DBASE[$field]["ejemplo"];
     $help=preg_replace("/\n/","<br/>",$help);
+    $ejemplo=preg_replace("/\n/","<br/>",$ejemplo);
     //echo "FIELD:-$field-<br/>";
     //BLOCK
     $block="";
@@ -682,13 +704,31 @@ $form.=<<<QUERY
 <div style='display:$display'>
 <b>$query</b>
 <sup>
-<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px">Ayuda</a>
+<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px">Ayuda</a>,
+<a href="JavaScript:void(null)" onclick="$('#ejemplo_$field').toggle('fast',null);" style="font-size:10px">Ejemplo</a>
 </sup>
 <br/>
 $input
-<div id="help_$field" style="display:none;font-style:italic;background-color:lightblue;width:600px;padding:10px">$help</div>
+
+<!--AYUDA-->
+<div class="hidden" id="help_$field" style="display:none;font-style:italic;background-color:lightblue;width:600px;padding:10px">
+<div style="position:relative;left:560px;top:-5px">
+<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px">Ocultar</a>
+</div>
+  $help
+</div>
+
+<!--EJEMPLO-->
+<div class="hidden" id="ejemplo_$field" style="display:none;background-color:pink;width:600px;padding:10px">
+<div style="position:relative;left:560px;top:-5px">
+<a href="JavaScript:void(null)" onclick="$('#ejemplo_$field').toggle('fast',null);" style="font-size:10px">Ocultar</a>
+</div>
+  $ejemplo
+</div>
+
 <br/>
 </div>
+
 QUERY;
   }
   $page.="$buttons$form";
