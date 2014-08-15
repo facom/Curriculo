@@ -324,7 +324,7 @@ if(isset($_GET["planes_asignatura"])){
     if($instituto=="Profesor"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
     //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -338,6 +338,7 @@ if(isset($_GET["planes_asignatura"])){
       $actualizacion=$row[4];
       $usuario=$row[5];
       $modifica=$row[6];
+      $autorizacion=$row[7];
       //echo "Codigo: $codigo<br/>";
       $porcentaje=porcentajeCompletado($codigo);
       //echo "Porcentaje: $porcentaje<br/>";
@@ -363,6 +364,7 @@ $listapriv.=<<<LISTA
 <li>
   <b>$nombre - $codigo</b><br/>
   Última actualización: $actualizacion - $usuario - $modifica <br/>
+  Revisado y Aprobado: $autorizacion<br/>
   Porcentaje completado: $porcentaje <br/>
   $lock
 <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
