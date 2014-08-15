@@ -149,6 +149,7 @@ function porcentajeCompletado($codigo)
   $vfields=0;
   $nocontent="(No contenido)";
   foreach($FIELDS as $field){
+    $equivalent=1;
     $type=$DBASE[$field]["type"];
     $values=$DBASE[$field]["values"];
     if(preg_match("/AUTO/",$field) or
@@ -160,6 +161,7 @@ function porcentajeCompletado($codigo)
       $file="$coursedir/$field.txt";
       $fl=fopen($file,"r");
       $value=fread($fl,filesize($file));
+      $equivalent=10;
     }
     if(preg_match("/Unidad(\d+)_Titulo/",$field,$matchings)){
       //echo "F:$field, $value, $matchings[1]<br/>";
@@ -176,12 +178,12 @@ function porcentajeCompletado($codigo)
     }
     if(preg_match("/[\w\d]+/",$value) and
        !preg_match("/--/",$value)){
-      $vfields++;
+      $vfields+=$equivalent;
     }else{
       //echo "Field $field<br/>";
       //echo "Value: $value<br/>";
     }
-    $nfields++;
+    $nfields+=$equivalent;
   }
   //echo "$vfields,$nfields<br/>";
   $p=(1.0*$vfields)/$nfields*100;
