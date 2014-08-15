@@ -369,7 +369,7 @@ $listapriv.=<<<LISTA
 LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	  $link="$SITE?carga_curso=$codigo&edita_curso&profesor";
-	  $listapriv.=" - <a href='$link' target='_blank'>Editar</a>";
+	  $listapriv.=" - <a href='$link' ttarget='_blank'>Editar</a>";
 	  $listapriv.="<br/>Enlace para enviar al profesor: <i style='background-color:lightgray;padding:5px'>$link</i>";
 	}
 	$listapriv.="</li><br/>";
