@@ -353,7 +353,7 @@ $nombre - $codigo<br/>
 <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
 LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
+	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
 	}
 	$listapub.="</li>";
       }
@@ -538,7 +538,8 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
-    $result="<i style='color:blue'>Registro guardado exitosamente.</i>";
+    $porcentaje=porcentajeCompletado($codigo);
+    $result="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
   }
   if($accion=="Reciclar"){
     $sql="delete from MicroCurriculos where F100_Codigo=\"$codigo\";";
