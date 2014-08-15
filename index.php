@@ -2,6 +2,7 @@
 ////////////////////////////////////////////////////
 //OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
 ////////////////////////////////////////////////////
+$SITE="http://fisica.udea.edu.co/Curriculo/index.php";
 session_start();
 $SESSID=session_id();
 //echo "SESSID: $SESSID<br/>";
@@ -365,7 +366,9 @@ $listapriv.=<<<LISTA
 <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
 LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	  $listapriv.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
+	  $link="$SITE?carga_curso=$codigo&edita_curso&profesor";
+	  $listapriv.=" - <a href='$link' target='_blank'>Editar</a>";
+	  $listapriv.="<br/>Enlace para profesor: <input type='text' name='nothing' value='$link' size=65>";
 	}
 	$listapriv.="</li><br/>";
 
