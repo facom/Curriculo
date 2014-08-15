@@ -318,8 +318,8 @@ Database={
         [
         "varchar(50)",
         "Área académica",
-        "Astronomía",
-        "Astronomía,Biología,Química,Física,Matemáticas,Sociohumanística,Inglés,Ciencias,Computación",
+        "--",
+        "--,Astronomía,Biología,Química,Física,Matemáticas,Sociohumanística,Inglés,Ciencias,Computación",
         "Indique el área específica en la que se enmarca el curso.  El comité de currículo define un número límitado de áreas en la Facultad.",
         "Astronomía"
         ],
