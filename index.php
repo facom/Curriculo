@@ -29,6 +29,9 @@ echo<<<START
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <script src="etc/jquery.js"></script>
+  <script>
+  
+  </script>
 </head>
 <body>
 START;
@@ -105,7 +108,7 @@ function generateSelection($values,$name,$value)
 {
   $parts=preg_split("/,/",$values);
   $selection="";
-  $selection.="<select name='$name'>";
+  $selection.="<select name='$name' style=''>";
   foreach($parts as $part){
     $selected="";
     if($part==$value){$selected="selected";}
@@ -135,6 +138,54 @@ function upAccents($string)
 //DATABASE
 ////////////////////////////////////////////////////
 $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
+
+function porcentajeCompletado($codigo)
+{
+  global $FIELDS,$DBASE;
+  $coursedir="data/$codigo";
+  include("$coursedir/notext.txt");
+  $nfields=0;
+  $vfields=0;
+  $nocontent="(No contenido)";
+  foreach($FIELDS as $field){
+    $type=$DBASE[$field]["type"];
+    $values=$DBASE[$field]["values"];
+    if(preg_match("/AUTO/",$field) or
+       preg_match("/AUTH/",$field) or 
+       preg_match("/DEPRECATED/",$values)){continue;}
+    if($type!="text"){
+      $value=$$field;
+    }else{
+      $file="$coursedir/$field.txt";
+      $fl=fopen($file,"r");
+      $value=fread($fl,filesize($file));
+    }
+    if(preg_match("/Unidad(\d+)_Titulo/",$field,$matchings)){
+      //echo "F:$field, $value, $matchings[1]<br/>";
+      if($matchings[1]=="1"){
+	$nocontent="(No contenido)";
+      }
+      if(isBlank($value) and $matchings[1]>1){
+	$nuni=$matchings[1]-1;
+	$nocontent="(Contenido hasta unidad $nuni)";
+      }
+      if(isBlank($value)){
+	break;
+      }	
+    }
+    if(preg_match("/[\w\d]+/",$value) and
+       !preg_match("/--/",$value)){
+      $vfields++;
+    }else{
+      //echo "Field $field<br/>";
+      //echo "Value: $value<br/>";
+    }
+    $nfields++;
+  }
+  //echo "$vfields,$nfields<br/>";
+  $p=(1.0*$vfields)/$nfields*100;
+  return round($p,0)."% $nocontent";
+}
 
 ////////////////////////////////////////////////////
 //HEADER DEFINITION
@@ -284,6 +335,10 @@ if(isset($_GET["planes_asignatura"])){
       $actualizacion=$row[4];
       $usuario=$row[5];
       $modifica=$row[6];
+      //echo "Codigo: $codigo<br/>";
+      $porcentaje=porcentajeCompletado($codigo);
+      //echo "Porcentaje: $porcentaje<br/>";
+      //return;
       $lockfile="data/$codigo/.lock";
       $lock="";
       if(file_exists($lockfile)){
@@ -300,11 +355,12 @@ LISTA;
 	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
 	}
 	$listapub.="</li>";
-      }else{
+      }
 $listapriv.=<<<LISTA
 <li>
   <b>$nombre - $codigo</b><br/>
   Última actualización: $actualizacion - $usuario - $modifica <br/>
+  Porcentaje completado: $porcentaje <br/>
   $lock
 <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
 LISTA;
@@ -312,7 +368,7 @@ LISTA;
 	  $listapriv.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
 	}
 	$listapriv.="</li><br/>";
-      }
+
     }
     //LISTA PUBLICOS
     if(!preg_match("/\w+/",$listapub)){$listapub="<i>(No se encontraron cursos)</i>";}
@@ -533,6 +589,9 @@ if(isset($edita_curso) and $QADMIN){
   if(isBlank($auto)){
     $auto=$DBASE["F020_AUTH_Autorizacion_Vicedecano"]["default"];
   }
+  if(isBlank($F280_Instituto)){
+    $F280_Instituto="$INSTITUTO";
+  }
   //echo "AUTO:$auto<br/>";
   if(!$QAUTH and 
      $auto=="Si"){
@@ -554,10 +613,16 @@ $verprograma=<<<VERPROGRAMA
 VERPROGRAMA;
   }else{$verprograma="";}
 
+  $display="none";
+  $bcolor="white";
+  if($accion=="Guardar"){$display="block";$bcolor="pink";}
 $buttons=<<<BUTTONS
 <div style='position:fixed;right:0px;'>
+<div id='recuerdo' style='background-color:pink;display:$display;padding:10px;width:200px;font-style:italic'>
+  Señor profesor/administrador: no olvide darle salir después de terminar.
+</div>
 <input type='submit' name='accion' value='Guardar'>
-<input type='submit' name='accion' value='Salir'>
+<input id='salir' type='submit' name='accion' value='Salir' style='background-color:$bcolor;'>
 BUTTONS;
 
  if($QADMIN>=3){
@@ -634,7 +699,11 @@ FORM;
 $form=<<<FORM
 <a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);$('#mostrar').text('Ocultar ayudas');" style="font-size:12px">Mostrar ayudas</a><br/><br/>
 FORM;
+
   foreach($FIELDS as $field){
+    $onfocus="onfocus=\"$('#field_$field').css('background-color','pink')\"";
+    $onblur="onblur=\"$('#field_$field').css('background-color','white')\"";
+    $id="id='field_$field'";
     $value=$$field;
     $query=$DBASE[$field]["query"];
     $type=$DBASE[$field]["type"];
@@ -653,6 +722,9 @@ FORM;
     $block="";
     $qauth=0;
     $display="block";
+    
+    //CAMPOS DEPRECATED
+    if(preg_match("/DEPRECATED/",$values)){continue;}
 
     //CAMPOS OCULTOS
     if(preg_match("/AUTH/",$field) and !$QAUTH){
@@ -685,27 +757,28 @@ FORM;
     if(!preg_match("/\w/",$values) and !$qauth){
       if(preg_match("/varchar\((\d+)\)/",$type,$matches)){
 	$size=$matches[1];
-	$input="<input type='text' name='$field' value='$value' size=$size $block>";
+	$input="<input $id $onfocus $onblur type='text' name='$field' value='$value' size=$size $block>";
 	if($block=="disabled"){
 	  $input.="<input type='hidden' name='$field' value='$value'>";
 	}
       }else if(!preg_match("/text/",$type)){
-	$input="<input type='text' name='$field' value='$value' size=10 $block>";
+	$input="<input $id type='text' name='$field' value='$value' size=10 $block $onfocus $onblur>";
       }else{
-	$input="<textarea name='$field' rows=10 cols=80>$value</textarea>";
+	$input="<textarea $id name='$field' rows=10 cols=80 $onfocus $onblur>$value</textarea>";
       }
     }
     //CAMPOS DE TEXTO
     else if(!$qauth){
       $input=generateSelection($values,$field,$value);
+      $input=preg_replace("/style=''/","style='' $id $onfocus $onblur",$input);
     }
 
 $form.=<<<QUERY
 <div style='display:$display'>
 <b>$query</b>
 <sup>
-<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px">Ayuda</a>,
-<a href="JavaScript:void(null)" onclick="$('#ejemplo_$field').toggle('fast',null);" style="font-size:10px">Ejemplo</a>
+<a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px" tabIndex="-1">Ayuda</a>,
+<a href="JavaScript:void(null)" onclick="$('#ejemplo_$field').toggle('fast',null);" style="font-size:10px" tabIndex="-1">Ejemplo</a>
 </sup>
 <br/>
 $input
@@ -902,7 +975,7 @@ $unidades.=<<<UNIDADES
 UNIDADES;
       $ContenidoResumido.="$i-$titulo<br/>";
     }
-    if(isBlank($Contenido_Resumido)){$Contenido_Resumido=$ContenidoResumido;}
+    $Contenido_Resumido=$ContenidoResumido;
     $table="";
 $table.=<<<TABLE
 <html>

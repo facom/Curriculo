@@ -1,14 +1,14 @@
 <?
-$F010_AUTO_Fecha_Actualizacion="Mon, 11 Aug 2014 20:08:33 -050";
-$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F010_AUTO_Fecha_Actualizacion="Thu, 14 Aug 2014 18:32:42 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="00";
 $F040_AUTH_Acta_Fecha="MM/DD/CCYY";
-$F050_Nombre_Actualiza="Mario Sucerquia";
-$F060_AUTH_Publica_Curso="No";
+$F050_Nombre_Actualiza="Jorge I. Zuluaga";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302150";
-$F110_Nombre_Asignatura="Fundamentación en Computaciónn";
+$F110_Nombre_Asignatura="Fundamentación en Computación";
 $F120_Tipo_Curso="Básico";
 $F130_Asistencia="Obligatoria";
 $F140_Creditos="2";

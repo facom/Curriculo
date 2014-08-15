@@ -42,8 +42,8 @@ Database={
         [
         "varchar(30)",
         "Autorización Vicedecano",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Una vez el vicedecano autoriza el curso no puede ser editado por ningún otro usuario autorizado.  El curso solo puede volverse a editar cuando el vicedecano cambie este campo a No.",
         "Si"
         ],
@@ -51,7 +51,7 @@ Database={
         [
         "varchar(3)",
         "Última versión del curso",
-        "1",
+        "",
         "",
         "Última versión del curso.",
         "1"
@@ -60,7 +60,7 @@ Database={
         [
         "varchar(4)",
         "Número de Acta del Consejo de Facultad",
-        "00",
+        "",
         "",
         "Número de acta en el que el curso fue aprobado.  Si el número de acta es 00 el curso nunca ha sido aprobado. Si es distinto pero el Vicedecano no lo ha aprobado esta acta corresponde a la versión anterior del curso.",
         "123"
@@ -69,7 +69,7 @@ Database={
         [
         "varchar(30)",
         "Fecha del Acta del Consejo de Facultad",
-        "MM/DD/CCYY",
+        "",
         "",
         "Fecha del acta del Consejo de Facultad. Si la fecha es MM/DD/CCYY el curso nunca ha sido aprobado.  Si es distinto pero el Vicedecano no lo ha aprobado esta acta corresponde a la versión anterior del curso.",
         "11/01/2014"
@@ -78,7 +78,7 @@ Database={
         [
         "varchar(30)",
         "Nombre de quien modifica esta última versión",
-        "Jorge I. Zuluaga",
+        "",
         "",
         "Indique el nombre de quien esta modificando esta última versión del curso.",
         "Jorge I. Zuluaga"
@@ -87,8 +87,8 @@ Database={
         [
         "varchar(3)",
         "Publica curso",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Si coloca *Si* el curso será visible por usuarios no autorizados.",
         "No"
         ],
@@ -109,7 +109,7 @@ Database={
         [
         "varchar(100)",
         "Nombre de la Asignatura",
-        "Fundamentación en Ciencias",
+        "Nombre Asignatura",
         "",
         "El nombre completo del curso debe coincidir con el que esta en el sistema Mares",
         "Introducción a la Informática"
@@ -118,8 +118,8 @@ Database={
         [
         "varchar(20)",
         "Tipo de Curso",
-        "Básico",
-        "Básico,Profesional,Profundización",
+        "--",
+        "--,Básico,Profesional,Profundización",
         "Tipo de curso deacuerdo a su ubicación en el pensum.",
         "Básico"
         ],
@@ -127,8 +127,8 @@ Database={
         [
         "varchar(50)",
         "Tipo de Asistencia",
-        "Obligatoria",
-        "Obligatoria,No obligatoria",
+        "--",
+        "--,Obligatoria,No obligatoria",
         "Indique el tipo de asistencia. El Comité de Curriculo define normalmente qué tipo de cursos son de asistencia obligatoria.",
         "Obligatoria"
         ],
@@ -136,8 +136,8 @@ Database={
         [
         "varchar(3)",
         "Numero de Creditos",
-        "4",
-        "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+        "--",
+        "--,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
         "Indique el número de créditos.  De acuerdo al 1295 cada crédito corresponde a 3 horas de trabajo en el curso.",
         "4"
         ],
@@ -145,8 +145,8 @@ Database={
         [
         "varchar(3)",
         "Horas de Docencia Directa (HDD)",
-        "64",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de docencia directa por semestre. Equivalen al número de horas por semana multiplicado por 16. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "64"
         ],
@@ -154,8 +154,8 @@ Database={
         [
         "varchar(3)",
         "Horas de Docencia Asistida",
-        "0",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de docencia directa por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "32"
         ],
@@ -163,8 +163,8 @@ Database={
         [
         "varchar(3)",
         "Horas de Trabajo Independiente",
-        "64",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de trabajo independiente por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "32"
         ],
@@ -172,8 +172,8 @@ Database={
         [
         "varchar(3)",
         "Horas teóricas semanales",
-        "4",
-        "0,1,2,3,4,5,6,7,8,9,10,11,12",
+        "--",
+        "--,0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas teóricas por semana.",
         "4"
         ],
@@ -181,8 +181,8 @@ Database={
         [
         "varchar(3)",
         "Horas Prácticas Semanales",
-        "0",
-        "0,1,2,3,4,5,6,7,8,9,10,11,12",
+        "--",
+        "--,0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas prácticas por semana.",
         "2"
         ],
@@ -190,8 +190,8 @@ Database={
         [
         "varchar(3)",
         "Horas Teórico-Prácticas Semanales",
-        "0",
-        "0,1,2,3,4,5,6,7,8,9,10,11,12",
+        "--",
+        "--,0,1,2,3,4,5,6,7,8,9,10,11,12",
         "Indique el número de horas teórico-prácticas por semana.",
         "0"
         ],
@@ -199,8 +199,8 @@ Database={
         [
         "varchar(3)",
         "Horas teóricas semestrales",
-        "64",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas teóricas por semestre.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "64"
         ],
@@ -208,8 +208,8 @@ Database={
         [
         "varchar(3)",
         "Horas prácticas semestrales",
-        "0",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas prácticas por semestre. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "0"
         ],
@@ -217,8 +217,8 @@ Database={
         [
         "varchar(3)",
         "Horas teórico-prácticas semestrales",
-        "64",
-        "0,16,32,48,64,80,96,112,128,144,160,176",
+        "--",
+        "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas teórico-prácticas por semestre. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "0"
         ],
@@ -226,8 +226,8 @@ Database={
         [
         "varchar(3)",
         "Número de semanas",
-        "16",
-        "16,17,18",
+        "--",
+        "--,16",
         "Número de semanas por semestre.",
         "16"
         ],
@@ -235,8 +235,8 @@ Database={
         [
         "varchar(2)",
         "Curso teórico",
-        "Si",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso teórico.",
         "Si"
         ],
@@ -244,8 +244,8 @@ Database={
         [
         "varchar(2)",
         "Curso práctico",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso práctico.",
         "No"
         ],
@@ -253,8 +253,8 @@ Database={
         [
         "varchar(2)",
         "Curso teórico-práctico",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso teórico-práctico.",
         "No"
         ],
@@ -262,8 +262,8 @@ Database={
         [
         "varchar(2)",
         "Curso habilitable",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso habilitable. No aplica normalmente para cursos prácticos.",
         "No"
         ],
@@ -271,8 +271,8 @@ Database={
         [
         "varchar(2)",
         "Curso validable",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso validable.",
         "No"
         ],
@@ -280,8 +280,8 @@ Database={
         [
         "varchar(2)",
         "Curso clasificable",
-        "No",
-        "Si,No",
+        "--",
+        "--,Si,No",
         "Indique si es un curso clasificable.  Aplica normalmente para cursos de primer semestre.",
         "No"
         ],
@@ -300,8 +300,8 @@ Database={
         [
         "varchar(50)",
         "Instituto",
-        "Instituto de Física",
-        "Instituto de Física,Instituto de Química,Instituto de Biología,Instituto de Matemáticas,Facultad",
+        "--",
+        "--,Instituto de Física,Instituto de Química,Instituto de Biología,Instituto de Matemáticas,Facultad",
         "Instituto o Dependencia al que pertenece",
         "Instituto de Física"        
         ],
@@ -336,8 +336,8 @@ Database={
         [
         "varchar(30)",
         "Ciclo",
-        "Fundamentación",
-        "Fundamentación,Profesionalización,Profundización",
+        "--",
+        "--,Fundamentación,Profesionalización,Profundización",
         "Ciclo de formación de acuerdo al Documento Rector de la Transformación Curricular.",
         "Fundamentación"
         ],
@@ -345,7 +345,7 @@ Database={
         [
         "varchar(10)",
         "Semestre actual",
-        "2014-1",
+        "",
         "",
         "Indique el último semestre en el que se ofrece el programa.",
         "2014-1"
@@ -354,8 +354,8 @@ Database={
         [
         "varchar(3)",
         "Semestre en el Plan de Formación",
-        "1",
-        "1,2,3,4,5,6,7,8,9,10,11,12",
+        "--",
+        "--,1,2,3,4,5,6,7,8,9,10",
         "Indique el semestre en el plan de formación.",
         "1"
         ],
@@ -363,7 +363,7 @@ Database={
         [
         "varchar(20)",
         "Horario de clase",
-        "MJ8-10",
+        "",
         "",
         "Horario u horarios en los que se ofrece el curso en el último semestre.  Para múltiples horarios use ',', e.g. MJ12-14, L16-18",
         "L14-16, MJ8-10"
@@ -372,28 +372,28 @@ Database={
         [
         "varchar(100)",
         "Prerrequisitos",
-        "(Ninguno)",
         "",
-        "Prerrequisitos del curso.  Indique el código de los prerrequisito de acuerdo a la última versión del pensum aprobada.",
+        "",
+        "Prerrequisitos del curso.  Indique el código de los prerrequisito de acuerdo a la última versión del pensum aprobada. Si no tiene prerrequisito use *(Ninguno)*",
         "0311101, 0311305"
         ],
     "F360_Correquisitos":
         [
         "varchar(100)",
         "Correquisitos",
-        "(Ninguno)",
         "",
-        "Correquisitos del curso.  Indique el código de los correquisito de acuerdo a la última versión del pensum aprobada.",
+        "",
+        "Correquisitos del curso.  Indique el código de los correquisito de acuerdo a la última versión del pensum aprobada. Si no tiene correquisito use *(Ninguno)*",
         "0311101, 0311305"
         ],
     "F370_Sede":
         [
         "varchar(100)",
         "Sede en el que se ofrece",
-        "Ciudad Universitaria Medellín",
+        "",
         "",
         "Indique las sedes de la Universidad en las que se ofrece el curso.",
-        "Ciudad Universitaria Medellín y regiones"
+        "Ciudad Universitaria Medellín y regiones donde se ofrece el programa"
         ],
 
     #RESPONSABILIDAD
@@ -418,19 +418,19 @@ Database={
     "F400_Horario_atencion":
         [
         "varchar(50)",
-        "Horario de los profesores",
+        "Horario de atención de los profesores",
         "",
         "",
-        "Indique el horario de atención de los profesores que ofrecieron el curso en el último semestre.",
+        "Indique el horario de atención de los profesores que ofrecieron el curso en el presente semestre.",
         "Jorge Zuluaga: MJ16-18, Nelsón Vanegas: MJ8-10"
         ],
     "F410_Profesores_Elaboran":
         [
         "varchar(100)",
-        "Profesores que elaboran",
+        "Profesores que elaboran este plan de asignatura",
         "",
         "",
-        "Indique el nombre de los profesores que elaboran esta versión del programa.",
+        "Indique el nombre de los profesores que contribuyeron con la elaboración de esta versión del plan de asignatura.",
         "Pablo Cuartas, Ignacio Ferrín"
         ],
     "F420_Correos_Electronicos":
@@ -458,7 +458,7 @@ Database={
         "text",
         "Propósito del curso es:",
         "",
-        "",
+        "DEPRECATED",
         "Normalmente se puede usar para este campo el mismo que la Descripción.  También se puede dejar en blanco.",
         """Este curso presenta algunas temáticas básicas de la informática requeridas específicamente para el trabajo científico o técnico.  El curso comienza con la descripción del funcionamiento del computador, las redes de computadores y el uso de la Internet con propósitos académicos y científicos (Internet Científica).  Se presenta una introducción general a por lo menos 2 lenguajes de programación (Python y C o C++) partiendo inicialmente desde el desarrollo de competencias algorítmicas y finalizando con la exploración de la sintaxis específica de cada lenguaje.  El curso también aborda la temática de la representación gráfica de los datos introduciendo para ello algunas herramientas de acceso libre (Matplotlib y Gnuplot).  Finalmente se introduce al estudiante en el uso del LaTeX como herramienta para la presentación de resultados científicos en la forma de reportes y artículos técnicos.  En síntesis, el curso hace un recorrido por los problemas y las herramientas utilizadas para la gestión completa de los datos científicos, incluyendo, su generación, procesamiento (programación), representación gráfica y presentación final en la forma, por ejemplos, de reportes y artículos."""
         ],
@@ -609,7 +609,7 @@ Evaluación de Competencia Final, 30%, Semana de evaluaciones finales"""
         "text",
         "Contenido Resumido",
         "",
-        "",
+        "DEPRECATED",
         "Indique el contenido resumido.  Si deja en blanco el título de las unidades indicadas abajo será usado para construir este campo en el formato de salida.",
         ""
         ],
@@ -695,7 +695,7 @@ Artículos de Wikipedia sobre los dispositivos de Hardware del Computador.
         [
         "varchar(3)",
         "Semanas para la Unidad X",
-        "3",
+        "",
         "",
         "Semanas requeridas para el desarrollo de la unidad incluyendo todas las posibles actividades evaluativas.",
         "3"
