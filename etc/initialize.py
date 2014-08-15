@@ -42,8 +42,8 @@ Database={
         [
         "varchar(30)",
         "Autorización Vicedecano",
-        "--",
-        "--,Si,No",
+        "No",
+        "Si,No",
         "Una vez el vicedecano autoriza el curso no puede ser editado por ningún otro usuario autorizado.  El curso solo puede volverse a editar cuando el vicedecano cambie este campo a No.",
         "Si"
         ],
