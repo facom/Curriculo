@@ -737,6 +737,7 @@ BUTTONS;
 $page.=<<<FORM
 $header
   <h2>Edición de Plan de Asignatura</h2>
+  <h3>$F110_Nombre_Asignatura $F100_Codigo</h3>
   $verprograma
 <div>
 $result
