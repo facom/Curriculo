@@ -559,7 +559,10 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
-    $porcentaje=porcentajeCompletado($codigo);
+    $ps=porcentajeCompletado($codigo);
+    $p=$ps[0];
+    $n=$ps[1];
+    $porcentaje=round($p,0)."% $n";
     $result="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
   }
   if($accion=="Reciclar"){
