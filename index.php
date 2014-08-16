@@ -188,7 +188,7 @@ function porcentajeCompletado($codigo)
   }
   //echo "$vfields,$nfields<br/>";
   $p=(1.0*$vfields)/$nfields*100;
-  return round($p,0)."% $nocontent";
+  return array($p,$nocontent);
 }
 
 ////////////////////////////////////////////////////
@@ -341,7 +341,22 @@ if(isset($_GET["planes_asignatura"])){
       $modifica=$row[6];
       $autorizacion=$row[7];
       //echo "Codigo: $codigo<br/>";
-      $porcentaje=porcentajeCompletado($codigo);
+      $ps=porcentajeCompletado($codigo);
+      $p=$ps[0];
+      $n=$ps[1];
+      $porcentaje_text=round($p,0)."% $n";
+      $width=100;
+      $wbar=$width*($p/100);
+      echo "wbar: $p,$wbar<br/>";
+      if($p<10){$barcolor="pink";}
+      else if($p<50){$barcolor="yellow";}
+      else if($p<80){$barcolor="lightblue";}
+      else{$barcolor="lightgreen";}
+$procentaje_bar=<<<PORCENTAJE
+  <div style="width:${width}px;border:solid black 1px;position:relative;display:inline-block">
+  <div style="width:${wbar}px;color:white;background-color:$barcolor;border-right:solid black 1px;">-</div>
+  </div>
+PORCENTAJE;
       //echo "Porcentaje: $porcentaje<br/>";
       //return;
       $lockfile="data/$codigo/.lock";
@@ -361,22 +376,23 @@ LISTA;
 	}
 	$listapub.="</li>";
       }
+      $enlace="";$editar="";
+      if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
+	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
+	$editar=" - <a href='$link' ttarget='_blank'>Editar</a>";
+	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'>$link</i>";
+      }
 $listapriv.=<<<LISTA
 <li>
   <b>$nombre - $codigo</b><br/>
-  Última actualización: $actualizacion - $usuario - $modifica <br/>
-  Revisado y Aprobado: $autorizacion<br/>
-  Porcentaje completado: $porcentaje <br/>
+  <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>$editar<br/>
+  <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
+  <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
+  <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
+  $enlace
   $lock
-<a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
 LISTA;
-	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	  $link="$SITE?carga_curso=$codigo&edita_curso&profesor";
-	  $listapriv.=" - <a href='$link' ttarget='_blank'>Editar</a>";
-	  $listapriv.="<br/>Enlace para enviar al profesor: <i style='background-color:lightgray;padding:5px'>$link</i>";
-	}
-	$listapriv.="</li><br/>";
-
+ $listapriv.="</li><br/>";
     }
     //LISTA PUBLICOS
     if(!preg_match("/\w+/",$listapub)){$listapub="<i>(No se encontraron cursos)</i>";}
