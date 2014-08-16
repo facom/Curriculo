@@ -374,8 +374,8 @@ Database={
         "Prerrequisitos",
         "",
         "",
-        "Prerrequisitos del curso.  Indique el código de los prerrequisito de acuerdo a la última versión del pensum aprobada. Si no tiene prerrequisito use *(Ninguno)*",
-        "0311101, 0311305"
+        "Prerrequisitos del curso.  Indique el código de los prerrequisito de acuerdo a la última versión del pensum aprobada. Si no tiene prerrequisito use *(Ninguno)*. Si el curso tiene prerrequisitos específicos en otro programa ponga el nombre del programa entre paréntesis antes del prerrequisito (vea el ejemplo)",
+        "0311101, 0311305, (Física) 0302133"
         ],
     "F360_Correquisitos":
         [
@@ -390,7 +390,7 @@ Database={
         [
         "varchar(100)",
         "Sede en el que se ofrece",
-        "",
+        "Ciudad Universitaria Medellín",
         "",
         "Indique las sedes de la Universidad en las que se ofrece el curso.",
         "Ciudad Universitaria Medellín y regiones donde se ofrece el programa"

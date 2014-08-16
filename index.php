@@ -594,7 +594,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   fwrite($fc,"?>\n");
   fclose($fc);
   if($accion=="Reciclar"){
-    echo "$header$result";
+    echo "$header$menu$result";
     goto footer;
   }
  end_archive:
