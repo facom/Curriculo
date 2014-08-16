@@ -321,6 +321,14 @@ MAIN;
 //LISTA DE CURSOS
 ////////////////////////////////////////////////////
 if(isset($_GET["planes_asignatura"])){
+
+  //OPERACIONES GLOBALES
+  if(isset($unlock_all)){
+    $resultado="<p style='color:blue;font-style:italic'>Todos los cursos desbloqueados</i></p>";
+    shell_exec("find data -name '.lock' -exec rm {} \\;");
+  }
+
+  //LISTA DE PLANES
   $page="$header";
   $publicos="";
   $privados="";
@@ -384,7 +392,7 @@ LISTA;
       $enlace="";$editar="";
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
-	$editar=" - <a href='$link' ttarget='_blank'>Editar</a>";
+	$editar=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
 	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'>$link</i>";
       }
 $listapriv.=<<<LISTA
@@ -413,9 +421,13 @@ LISTA;
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //OEPRACIONES GLOBALES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-if($QADMIN>=3){
-  
-}
+    if($QADMIN>=4){
+$page.=<<<GLOBALES
+<h2>Operaciones Globales</h2>
+$resultado
+<a href=?planes_asignatura&unlock_all>Desbloquea todos</a><br/>
+GLOBALES;
+    }
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //NOT PUBLIC COURSES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
