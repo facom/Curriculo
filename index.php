@@ -60,6 +60,7 @@ if($_POST["accion"]=="Salir"){
   shell_exec("rm -rf $lockfile");
   $_GET=array();
   $_POST=array();
+  $_GET["planes_asignatura"]=1;
  }
 if($_POST["accion"]=="Desbloquea"){
   $curso=$_POST["F100_Codigo"];
