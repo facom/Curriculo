@@ -347,7 +347,7 @@ if(isset($_GET["planes_asignatura"])){
       $porcentaje_text=round($p,0)."% $n";
       $width=100;
       $wbar=$width*($p/100);
-      echo "wbar: $p,$wbar<br/>";
+      //echo "wbar: $p,$wbar<br/>";
       if($p<10){$barcolor="pink";}
       else if($p<50){$barcolor="yellow";}
       else if($p<80){$barcolor="lightblue";}
