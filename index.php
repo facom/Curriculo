@@ -96,6 +96,10 @@ if(isset($_COOKIE["verify"])){
   $INSTITUTO=$INSTITUTOS["$ADMIN"];
   if($INSTITUTO=="Facultad"){$QADMIN=3;}
   else if($INSTITUTO=="Profesor"){$QADMIN=1;}
+  else if($INSTITUTO=="Administrador"){
+    $INSTITUTO="Facultad";
+    $QADMIN=4;
+  }
   else{$QADMIN=2;}
 }
 $QAUTH=0;
@@ -322,7 +326,8 @@ if(isset($_GET["planes_asignatura"])){
   $privados="";
   foreach(array_keys($INSTITUTOS) as $key){
     $instituto=$INSTITUTOS["$key"];
-    if($instituto=="Profesor"){continue;}
+    if($instituto=="Profesor" or
+       $instituto=="Administrador"){continue;}
     $listapub="";
     $listapriv="";
     $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan;";
@@ -405,6 +410,12 @@ LISTA;
     $privados.="<h4>$instituto</h4><ul>$listapriv</ul>";
   }
   if($QADMIN>=2){
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    //OEPRACIONES GLOBALES
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+if($QADMIN>=3){
+  
+}
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //NOT PUBLIC COURSES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

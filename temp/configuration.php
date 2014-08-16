@@ -1,7 +1,8 @@
 <?
 $LOGIN_INFORMATION=array
     (
-     'admin'=>'fcen2014',
+     'admin'=>'123',
+     'facultad'=>'fcen2014',
      'fisica'=>'fisica2014',
      'matematicas'=>'matematicas2014',
      'biologia'=>'biologia2014',
@@ -11,7 +12,8 @@ $LOGIN_INFORMATION=array
 
 $INSTITUTOS=array
   (
-   'admin'=>'Facultad',
+   'admin'=>'Administrador',
+   'facultad'=>'Facultad',
    'fisica'=>'Instituto de Física',
    'matematicas'=>'Instituto de Matemáticas',
    'biologia'=>'Instituto de Biología',
