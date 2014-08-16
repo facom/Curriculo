@@ -389,7 +389,7 @@ $listapriv.=<<<LISTA
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
-  $enlace
+  $enlace<br/>
   $lock
 LISTA;
  $listapriv.="</li><br/>";
