@@ -793,7 +793,6 @@ $result
 </div>
 <form id="form" action="index.php#principio" method="post">
 <input type='hidden' name='edita_curso' value=1>
-  <a href="JavaScript:null(0)" onclick="$('#form').attr('action','index.php');">Hola</a>
 FORM;
 
 //$page.=$buttons;
