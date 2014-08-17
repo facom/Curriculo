@@ -827,7 +827,7 @@ CONTENT;
   $form.="$content";
 
   foreach($FIELDS as $field){
-    $onfocus="onfocus=\"$('#field_$field').css('background-color','lightblue');$('#form').attr('action','index.php#$field');\"";
+    $onfocus="onfocus=\"$('#field_$field').css('background-color','lightgreen');$('#form').attr('action','index.php#$field');\"";
     $onblur="onblur=\"$('#field_$field').css('background-color','white')\"";
     $id="id='field_$field'";
     $value=$$field;
