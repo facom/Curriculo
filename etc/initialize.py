@@ -147,7 +147,7 @@ Database={
         "Horas de Docencia Directa (HDD)",
         "--",
         "--,0,16,32,48,64,80,96,112,128,144,160,176",
-        "Indique el número de horas de docencia directa por semestre. Equivalen al número de horas por semana multiplicado por 16. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
+        "Indique el número de horas de docencia directa por semestre. Las horas de docencia directa son aquellas que realiza el profesor en actividades magistrales o presentación de contenidos. Normalmente equivalen al número de horas teóricas por semana multiplicado por 16. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "64"
         ],
     "F160_Intensidad_HDA":
@@ -156,7 +156,7 @@ Database={
         "Horas de Docencia Asistida (HDA)",
         "--",
         "--,0,16,32,48,64,80,96,112,128,144,160,176",
-        "Indique el número de horas de docencia directa por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
+        "Indique el número de horas de docencia asistida por semana. Las horas de docencias asistida son aquellas que se relacionan con actividades realizadas directamente por el estudiante pero con el acompañamiento presencial del profesor.  Este tipo de modalidad se utiliza especialmente en cursos prácticos o teórico prácticos.  Normalmente equivalen al número de horas prácticas o teórico-prácticas por semana (en los que las prácticas se hacen asistidas por el profesor) multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "32"
         ],
     "F170_Intensidad_TI":
@@ -165,7 +165,7 @@ Database={
         "Horas de Trabajo Independiente (TI)",
         "--",
         "--,0,16,32,48,64,80,96,112,128,144,160,176",
-        "Indique el número de horas de trabajo independiente por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
+        "Indique el número de horas de trabajo independiente por semana. Las horas de trabajo independientes son las que realiza el estudiante por fuera de clase.  El valor por semana se calcula multiplicando por 3 el número de crédios y restando al resultado el número de horas en las que el estudiante esta acompañado por el profesor (teóricas, prácticas o teórico prácticas.  Ejemplo: si un curso tiene 4 créditos (12 horas por semana totales) y 4 horas son en actividades en clase (acompañadas por el docente) entonces habrán 8 horas de trabajo independiente.  El número a reportar aquí debe ser el número de horas por semestre que es igual a lo que se obtuvo multiplicado por 16. 0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
         "32"
         ],
     "F180_Horas_Teoricas_Semanales":
