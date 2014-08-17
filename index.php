@@ -470,8 +470,8 @@ $resultado
   <input type="text" name="filtra_all" value="" size=8>
   <input type="submit" name="accion_global" value="Filtra"><br/>
   Use sintaxis de SQL.  <i>Ejemplo:</i>
-</ul>
 -->
+</ul>
 </form>
 GLOBALES;
     }
