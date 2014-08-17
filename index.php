@@ -5,6 +5,7 @@
 $SITE="http://fisica.udea.edu.co/Curriculo/index.php";
 session_start();
 $SESSID=session_id();
+$NAME=$_COOKIE["name"];
 //echo "SESSID: $SESSID<br/>";
 if(isset($_GET["profesor"])){
   $query=preg_replace("/&profesor/","",$_SERVER["QUERY_STRING"]);
@@ -208,7 +209,7 @@ if(!$QADMIN){
   $menu.=" - <a href=login.php>Conectarse</a>";
 }
 else{
-  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>ADMINISTRADOR: $ADMIN ($INSTITUTO) - Nivel: $QADMIN</div>";
+  $headbar="<div style='background-color:lightgray;text-align:center;font-size:10px'>Usuario: $NAME como $ADMIN ($INSTITUTO) - Nivel: $QADMIN</div>";
   $menu.=" - <a href=login.php?logout>Desconectarse</a>";
 }
 if($QADMIN>1){
@@ -850,6 +851,12 @@ CONTENT;
     
     //CAMPOS DEPRECATED
     if(preg_match("/DEPRECATED/",$values)){continue;}
+
+    //QUIEN ACTUALIZA
+    if(preg_match("/Nombre_Actualiza/",$field)){
+      $value=$NAME;
+      $block="disabled";
+    }
 
     //CAMPOS OCULTOS
     if(preg_match("/AUTH/",$field) and !$QAUTH){

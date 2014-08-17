@@ -72,7 +72,7 @@ function showLoginPasswordProtect($error_msg) {
   <form method="post">
     <h3>Por favor ingrese su nombre de usuario y contraseña</h3>
     <font color="red"><?php echo $error_msg; ?></font><br />
-<?php if (USE_USERNAME) echo 'Usuario: <input type="input" name="access_login" /><br />Contraseña:'; ?>
+<?php if (USE_USERNAME) echo 'Nombre: <input type="input" name="access_name" /><br /> Usuario: <input type="input" name="access_login" /><br />Contraseña:'; ?>
     <input type="password" name="access_password" /><p></p><input type="submit" name="Submit" value="Ingreso" />
   </form>
   <br />
@@ -92,6 +92,7 @@ if (isset($_POST['access_password'])) {
 
   $login = isset($_POST['access_login']) ? $_POST['access_login'] : '';
   $pass = $_POST['access_password'];
+  $name = $_POST['access_name'];
   if (!USE_USERNAME && !in_array($pass, $LOGIN_INFORMATION)
   || (USE_USERNAME && ( !array_key_exists($login, $LOGIN_INFORMATION) || $LOGIN_INFORMATION[$login] != $pass ) ) 
   ) {
@@ -100,11 +101,13 @@ if (isset($_POST['access_password'])) {
   else {
     // set cookie if password was validated
     setcookie("verify", md5($login.'%'.$pass), $timeout, '/');
+    setcookie("name", $name, $timeout, '/');
     
     // Some programs (like Form1 Bilder) check $_POST array to see if parameters passed
     // So need to clear password protector variables
     unset($_POST['access_login']);
     unset($_POST['access_password']);
+    unset($_POST['access_name']);
     unset($_POST['Submit']);
   }
 
