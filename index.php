@@ -159,6 +159,7 @@ function porcentajeCompletado($codigo)
     $values=$DBASE[$field]["values"];
     if(preg_match("/AUTO/",$field) or
        preg_match("/AUTH/",$field) or 
+       preg_match("/_Bibliografia/",$field) or
        preg_match("/DEPRECATED/",$values)){continue;}
     if($type!="text"){
       $value=$$field;
@@ -784,13 +785,15 @@ BUTTONS;
 $page.=<<<FORM
 $header
   <h2>Edición de Plan de Asignatura</h2>
+  <a name="principio"></a>
   <h3>$F110_Nombre_Asignatura $F100_Codigo</h3>
   $verprograma
 <div>
 $result
 </div>
-<form action="index.php" method="post">
+<form id="form" action="index.php#principio" method="post">
 <input type='hidden' name='edita_curso' value=1>
+  <a href="JavaScript:null(0)" onclick="$('#form').attr('action','index.php');">Hola</a>
 FORM;
 
 //$page.=$buttons;
@@ -824,7 +827,7 @@ CONTENT;
   $form.="$content";
 
   foreach($FIELDS as $field){
-    $onfocus="onfocus=\"$('#field_$field').css('background-color','lightblue')\"";
+    $onfocus="onfocus=\"$('#field_$field').css('background-color','lightblue');$('#form').attr('action','index.php#$field');\"";
     $onblur="onblur=\"$('#field_$field').css('background-color','white')\"";
     $id="id='field_$field'";
     $value=$$field;
