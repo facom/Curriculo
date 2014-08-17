@@ -342,6 +342,23 @@ if(isset($_GET["planes_asignatura"])){
   }
 
   //==================================================
+  //CONTENT TABLE
+  //==================================================
+  $content="";
+  $i=0;
+  foreach(array_keys($INSTITUTOS) as $key){
+    $indinst=$INSTITUTOS["$key"];
+    if($indinst=="Profesor" or
+       $indinst=="Administrador"){continue;}
+    if($i>0){$content.=" - ";}
+$content.=<<<CONTENT
+  <a href='#$indinst'>$indinst</a>
+CONTENT;
+    $i++;
+  }
+  $content.="<p></p>";
+
+  //==================================================
   //LISTA DE PLANES
   //==================================================
   $page="$header";
@@ -396,8 +413,7 @@ PORCENTAJE;
       if($publica=="Si"){
 $listapub=<<<LISTA
 <li>
-$nombre - $codigo<br/>
-<a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>
+<a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a>
 LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
@@ -407,13 +423,12 @@ LISTA;
       $enlace="";$editar="";
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
-	$editar=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
+	$editar=" <sup><a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a></sup>";
 	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'>$link</i>";
       }
 $listapriv.=<<<LISTA
 <li>
-  <b>$nombre - $codigo</b><br/>
-  <a href='?ver_curso=$codigo&mode=Todos'>Ver Curso</a>$editar<br/>
+  <a href='?ver_curso=$codigo&mode=Todos'><b>$nombre - $codigo</b></a>$editar<br/>
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
@@ -430,7 +445,7 @@ LISTA;
     else{$listapriv.="</ul>";}
     //MUESTRA LISTAS
     $publicos.="<h4>$instituto</h4><ul>$listapub</ul>";
-    $privados.="<h4>$instituto</h4><ul>$listapriv</ul>";
+    $privados.="<a name='$instituto'></a><h4>$instituto</h4><ul>$listapriv</ul>";
   }
   if($QADMIN>=2){
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -449,14 +464,21 @@ $resultado
     <input type="text" name="semestre_all" value="2014-2" size=8>
     <input type="submit" name="accion_global" value="Cambia">
   </li>
+<!--
+  <li>
+  Filtra cursos:
+  <input type="text" name="filtra_all" value="" size=8>
+  <input type="submit" name="accion_global" value="Filtra"><br/>
+  Use sintaxis de SQL.  <i>Ejemplo:</i>
 </ul>
+-->
 </form>
 GLOBALES;
     }
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //NOT PUBLIC COURSES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    $page.="<h2>Todos los Cursos</h2>$privados";
+    $page.="<h2>Todos los Cursos</h2>$content$privados";
 
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //RECYCLE BIN
@@ -774,8 +796,32 @@ FORM;
 //$page.=$buttons;
  $form="";
 $form=<<<FORM
-<a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);$('#mostrar').text('Ocultar ayudas');" style="font-size:12px">Mostrar ayudas</a><br/><br/>
+<a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);" style="font-size:12px">Mostrar/Ocultar todas las ayudas</a><br/><br/>
 FORM;
+
+  //CONTENT TABLE
+$content.=<<<CONTENT
+<a id="mostrar_enlaces" href="JavaScript:void(null)" onclick="$('#enlaces').toggle('fast',null);" style="font-size:12px">Mostrar/Ocultar Enlaces Rápidos</a>
+<div id="enlaces" style='display:none;font-size:12px;background-color:lightgray;padding:5px'>
+CONTENT;
+  $i=0;
+  foreach($FIELDS as $field){
+    if(preg_match("/AUTH/",$field) or
+       preg_match("/DEPRECATED/",$DBASE[$field]["values"])){
+      continue;
+    }
+    $fname=$field;
+    $fname=preg_replace("/F\d+_/","",$fname);
+    $fname=preg_replace("/AUTO_/","",$fname);
+    $fname=preg_replace("/_/"," ",$fname);
+    if($i>0){$content.=" - ";}
+$content.=<<<CONTENT
+  <a href='#$field'>$fname</a>
+CONTENT;
+    $i++;
+  }
+  $content.="</div><p></p>";
+  $form.="$content";
 
   foreach($FIELDS as $field){
     $onfocus="onfocus=\"$('#field_$field').css('background-color','lightblue')\"";
@@ -852,6 +898,7 @@ FORM;
 
 $form.=<<<QUERY
 <div style='display:$display'>
+<a name="$field"></a>
 <b>$query</b>
 <sup>
 <a href="JavaScript:void(null)" onclick="$('#help_$field').toggle('fast',null);" style="font-size:10px" tabIndex="-1">Ayuda</a>,
@@ -924,18 +971,24 @@ if(isset($ver_curso)){
   }
 
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  //TITULO
+  //INFORMACIÓN DEL CURSO
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   $border="border:1px solid;";
   $colorgray="background-color:lightgray";
   $heavygray="background-color:gray";
-
+  $style="style='font-weight:bold' width=30% valign=top";
 $page.=<<<TITULO
-<p>
-<b>Curso</b>
-<br/>
-<b style='font-size:20px'>$Nombre_Asignatura</b>
-</p>
+<h2>$Nombre_Asignatura</h2>
+<table border=1 style='border-collapse:collapse;width:600px'>
+  <tr><td $style>Código</td><td>$Codigo</td></tr>
+  <tr><td $style>Última Actualización</td><td>$AUTO_Fecha_Actualizacion</td></tr>
+  <tr><td $style>Número de Créditos</td><td>$Creditos</td></tr>
+  <tr><td $style>Programas</td><td>$Programas_Academicos</td></tr>
+  <tr><td $style>Prerrequisitos</td><td>$Requisitos</td></tr>
+  <tr><td $style>Correquisitos</td><td>$Correquisitos</td></tr>
+  <tr><td $style>Semestre en el plan</td><td>$Semestre_Plan</td></tr>
+  <tr><td $style>Descripción</td><td>$Descripcion</td></tr>
+  <tr><td $style>Formatos disponibles</td><td>
 TITULO;
 
   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1574,6 +1627,8 @@ $page.=<<<DESCARGA
 </a>$filepdf<br/>
 DESCARGA;
   }
+
+  $page.="</td></tr></table>";
   echo $page;
   return;
 }
