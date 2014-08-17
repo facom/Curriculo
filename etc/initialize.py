@@ -328,7 +328,7 @@ Database={
         "varchar(50)",
         "Campo de formación",
         "",
-        "",
+        "--Física--,Física Básica,Física Experimental,Física Teórica,Física Computacional,Física Matemática,Investigación,--Astronomía--,Astronomía Básica,Astronomía Práctica,Astrofísica y Comología,Didáctica",
         "Indique el área de formación dentro de la disciplina. Este campo va en el formato de la vicerrectoría de Docencia.",
         "Astronomía Práctica"
         ],
