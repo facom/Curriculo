@@ -322,13 +322,28 @@ MAIN;
 ////////////////////////////////////////////////////
 if(isset($_GET["planes_asignatura"])){
 
+  //==================================================
   //OPERACIONES GLOBALES
-  if(isset($unlock_all)){
-    $resultado="<p style='color:blue;font-style:italic'>Todos los cursos desbloqueados</i></p>";
-    shell_exec("find data -name '.lock' -exec rm {} \\;");
+  //==================================================
+  if($QADMIN>=4){
+    $resultado="<p style='color:blue;font-style:italic'>";
+    if(isset($unlock_all)){
+      $resultado.="Todos los cursos desbloqueados";
+      shell_exec("find data -name '.lock' -exec rm {} \\;");
+    }
+    if(isset($semestre_all)){
+      $sql="update MicroCurriculos set F330_Semestre='$semestre_all'";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo cambiar el semestre:".mysqli_error($db));
+      }
+      $resultado.="Semestre cambiado exitosamente.";
+    }
+    $resultado.="</p>";
   }
 
+  //==================================================
   //LISTA DE PLANES
+  //==================================================
   $page="$header";
   $publicos="";
   $privados="";
@@ -424,8 +439,18 @@ LISTA;
     if($QADMIN>=4){
 $page.=<<<GLOBALES
 <h2>Operaciones Globales</h2>
+<form>
+<input type="hidden" name="planes_asignatura" value="">
 $resultado
-<a href=?planes_asignatura&unlock_all>Desbloquea todos</a><br/>
+<ul>
+  <li><a href=?planes_asignatura&unlock_all>Desbloquea todos</a></li>
+  <li>
+    Cambia todos a semestre: 
+    <input type="text" name="semestre_all" value="2014-2" size=8>
+    <input type="submit" name="accion_global" value="Cambia">
+  </li>
+</ul>
+</form>
 GLOBALES;
     }
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

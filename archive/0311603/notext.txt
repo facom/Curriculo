@@ -1,5 +1,5 @@
 <?
-$F010_AUTO_Fecha_Actualizacion="Mon, 11 Aug 2014 11:54:06 -0500";
+$F010_AUTO_Fecha_Actualizacion="Sun, 17 Aug 2014 06:17:27 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";
@@ -35,7 +35,7 @@ $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Fundamentación en Ciencias";
 $F320_Ciclo="Fundamentación";
 $F330_Semestre="2014-1";
-$F330_Semestre_Plan="6";
+$F330_Semestre_Plan="1 (Astronomía)";
 $F340_Horario_clase="MJ8-10";
 $F350_Requisitos="(Ninguno)";
 $F360_Correquisitos="(Ninguno)";

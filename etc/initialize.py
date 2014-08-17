@@ -352,12 +352,13 @@ Database={
         ],
     "F330_Semestre_Plan":
         [
-        "varchar(3)",
+        "varchar(50)",
         "Semestre en el Plan de Formación",
-        "--",
-        "--,1,2,3,4,5,6,7,8,9,10",
-        "Indique el semestre en el plan de formación.",
-        "1"
+        "",
+        "",
+        #"--,1,2,3,4,5,6,7,8,9,10",
+        "Indique el semestre en el plan de formación.  Si el curso se ofrece en varios programas y el semestre en cada uno de ellos es distinto use el nombre del programa en paréntesis para distinguirlo (ver ejemplo).",
+        "1 (Física), 2 (Astronomía)"
         ],
     "F340_Horario_clase":
         [
