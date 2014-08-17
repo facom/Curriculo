@@ -153,7 +153,7 @@ Database={
     "F160_Intensidad_HDA":
         [
         "varchar(3)",
-        "Horas de Docencia Asistida",
+        "Horas de Docencia Asistida (HDA)",
         "--",
         "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de docencia directa por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
@@ -162,7 +162,7 @@ Database={
     "F170_Intensidad_TI":
         [
         "varchar(3)",
-        "Horas de Trabajo Independiente",
+        "Horas de Trabajo Independiente (TI)",
         "--",
         "--,0,16,32,48,64,80,96,112,128,144,160,176",
         "Indique el número de horas de trabajo independiente por semana. Equivalen al número de horas por semana multiplicado por 16.  0, 1:16, 2:32, 3:48, 4:64, 5:80, 6:96, 7:112, 8:128, 9:144, 10:160,11:176",
