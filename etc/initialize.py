@@ -484,7 +484,8 @@ Muchas de las asignaturas del plan de estudios en los programas en los que se of
         "Objetivo General",
         "",
         "",
-        "Se refiere a la concreción de las intenciones educativas en la asignatura según el ciclo de formación (fundamentación, profesionalización o profundización); se expresa en términos de las competencias que los estudiantes  deben desarrollar, lo cual implica proyectar los avances de aprendizaje esperados en los ámbitos conceptual, procedimental y actitudinal.",
+        """Se refiere a la concreción de las intenciones educativas en la asignatura según el ciclo de formación (fundamentación, profesionalización o profundización); se expresa en términos de las competencias que los estudiantes  deben desarrollar, lo cual implica proyectar los avances de aprendizaje esperados en los ámbitos conceptual, procedimental y actitudinal.
+""",
         """Adquirir competencias básicas en informática y programación de computadores, incluyendo el manejo de herramientas computacionales para la manipulación, procesamiento y representación de datos científicos y para su presentación en la forma de reportes, artículos entre otros."""
         ],
     "F470_Objetivos_Especificos_Conceptuales":
@@ -499,7 +500,24 @@ Describir las funciones de las componente del hardware de un computador.
 Enumerar los más importantes sistemas operativos utilizados por computadores de escritorio.
 Definir lo que es un protocolo de comunicación y enumerar algunos protocolos de comunicación básicos (IP, http, etc.)
 Definir lo que es un lenguaje de programación interpretado y uno compilado.
-Enumerar las diferencias, pros y contras de los lenguajes de programación interpretados y compilados."""
+Enumerar las diferencias, pros y contras de los lenguajes de programación interpretados y compilados.
+
+Verbos generales: Analizar Formular Calcular Fundamentar Categorizar
+Generar Comparar Identificar Compilar Inferir Concretar Mostrar
+Contrastar Orientar Crear Oponer Definir Reconstruir Demostrar Relatar
+Desarrollar Replicar Describir Reproducir Diagnosticar Revelar
+Discriminar Planear Diseñar Presentar Efectuar Probar Enumerar
+Producir Establecer Proponer Evaluar Situar Explicar Tasar Examinar
+Trazar Exponer Valuar.
+
+Verbos específicos: Advertir Enunciar Analizar Enumerar Basar
+Especificar Calcular Estimar Calificar Examinar Categorizar Explicar
+Comparar Fraccionar Componer Identificar Conceptuar Indicar Considerar
+Interpretar Contrastar Justificar Deducir Mencionar Definir Mostrar
+Demostrar Operacionalizar Detallar Organizar Determinar Registrar
+Designar Relacionar Descomponer Resumir Descubrir Seleccionar
+Discriminar Separar Distinguir Sintetizar Establecer Sugerir
+"""
         ],
     "F480_Objetivos_Especificos_Procedimentales":
         [
