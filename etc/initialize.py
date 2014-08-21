@@ -494,13 +494,7 @@ Muchas de las asignaturas del plan de estudios en los programas en los que se of
         "Objetivos específicos conceptuales",
         "",
         "",
-        "Teorías, conceptos y leyes, representaciones de diversos tipos y  lenguaje científico entre otros.",
-        """Identificar y enumerar las componentes de hardware y software de un computador.
-Describir las funciones de las componente del hardware de un computador.
-Enumerar los más importantes sistemas operativos utilizados por computadores de escritorio.
-Definir lo que es un protocolo de comunicación y enumerar algunos protocolos de comunicación básicos (IP, http, etc.)
-Definir lo que es un lenguaje de programación interpretado y uno compilado.
-Enumerar las diferencias, pros y contras de los lenguajes de programación interpretados y compilados.
+        """Teorías, conceptos y leyes, representaciones de diversos tipos y  lenguaje científico entre otros.
 
 Verbos generales: Analizar Formular Calcular Fundamentar Categorizar
 Generar Comparar Identificar Compilar Inferir Concretar Mostrar
@@ -517,6 +511,13 @@ Interpretar Contrastar Justificar Deducir Mencionar Definir Mostrar
 Demostrar Operacionalizar Detallar Organizar Determinar Registrar
 Designar Relacionar Descomponer Resumir Descubrir Seleccionar
 Discriminar Separar Distinguir Sintetizar Establecer Sugerir
+""",
+        """Identificar y enumerar las componentes de hardware y software de un computador.
+Describir las funciones de las componente del hardware de un computador.
+Enumerar los más importantes sistemas operativos utilizados por computadores de escritorio.
+Definir lo que es un protocolo de comunicación y enumerar algunos protocolos de comunicación básicos (IP, http, etc.)
+Definir lo que es un lenguaje de programación interpretado y uno compilado.
+Enumerar las diferencias, pros y contras de los lenguajes de programación interpretados y compilados.
 """
         ],
     "F480_Objetivos_Especificos_Procedimentales":
@@ -525,7 +526,16 @@ Discriminar Separar Distinguir Sintetizar Establecer Sugerir
         "Objetivos específicos procedimentales",
         "",
         "",
-        "Metodologías experimentales, resolución de problemas, producción de textos referidos a informes, reseñas, resúmenes, comentarios, presentaciones y ensayos entre otras opciones.",
+        """Metodologías experimentales, resolución de problemas, producción de textos referidos a informes, reseñas, resúmenes, comentarios, presentaciones y ensayos entre otras opciones.
+
+Verbos específicos: Advertir Enunciar Analizar Enumerar Basar
+Especificar Calcular Estimar Calificar Examinar Categorizar Explicar
+Comparar Fraccionar Componer Identificar Conceptuar Indicar Considerar
+Interpretar Contrastar Justificar Deducir Mencionar Definir Mostrar
+Demostrar Operacionalizar Detallar Organizar Determinar Registrar
+Designar Relacionar Descomponer Resumir Descubrir Seleccionar
+Discriminar Separar Distinguir Sintetizar Establecer Sugerir
+""",
         """Reconocer la diferencia en prestaciones de distintas configuraciones de hardware y software en un computador.
 Utilizar buscadores de Internet usando opciones no triviales.
 Buscar literatura especializada usando herramientas de búsqueda propias de su disciplina (Google Scholar, ADS, inSpires, arXiv).
@@ -539,7 +549,16 @@ Editar archivos de texto plano utilizando editores simples en el sistema operati
         "Objetivos específicos actitudinales",
         "",
         "",
-        "Entusiasmo y pasión por el estudio y el conocimiento científico, cumplimiento de tareas y su reelaboración, responsabilidad por el aprendizaje, respeto por autores citados y los cánones de la publicación científica, entre otros.",
+        """Entusiasmo y pasión por el estudio y el conocimiento científico, cumplimiento de tareas y su reelaboración, responsabilidad por el aprendizaje, respeto por autores citados y los cánones de la publicación científica, entre otros.
+
+Verbos específicos: Advertir Enunciar Analizar Enumerar Basar
+Especificar Calcular Estimar Calificar Examinar Categorizar Explicar
+Comparar Fraccionar Componer Identificar Conceptuar Indicar Considerar
+Interpretar Contrastar Justificar Deducir Mencionar Definir Mostrar
+Demostrar Operacionalizar Detallar Organizar Determinar Registrar
+Designar Relacionar Descomponer Resumir Descubrir Seleccionar
+Discriminar Separar Distinguir Sintetizar Establecer Sugerir
+""",
         """Reconocer la computación como un área fundamental en la formación del científico y demostrar compromiso para conocer y asimilar nuevas herramientas.
 Describir la importancia de la representación gráfica de los datos para el trabajo científico.
 Valorar el trabajo realizado por desarrolladores de software e ingenieros en la creación de herramientas que facilitan el trabajo científico."""
