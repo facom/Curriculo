@@ -713,7 +713,9 @@ $verprograma=<<<VERPROGRAMA
   </a>
 </h3>
 VERPROGRAMA;
- shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo;$accion' >> data/$F100_Codigo/changes.log");
+ $Accion=$accion;
+ if(isBlank($Accion)){$Accion="Edita";}
+ shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo;$Accion' >> data/$F100_Codigo/changes.log");
   }else{$verprograma="";}
 
   $display="none";
