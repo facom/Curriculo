@@ -1,4 +1,0 @@
-Representación numérica de datos científicos
-Precisión y Exactitud
-Teoría de Errores
-Cantidades físicas y observacionales comunes en Astronomía

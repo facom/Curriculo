@@ -434,6 +434,7 @@ $listapriv.=<<<LISTA
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
+  <i style="text-decoration:underline">Historia de cambios</i>: <a href="data/$codigo/changes.log" target="_blank">changes.log</a> <br/>
   $enlace<br/>
   $lock
 LISTA;
@@ -509,7 +510,8 @@ RECYCLE;
     foreach($courses as $course){
       $course=trim($course);
       if(isBlank($course)){continue;}
-      $archive.="<li>$course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
+      $nombre=shell_exec("grep Nombre_Asignatura archive/$course/notext.txt | cut -f 2 -d '\"'");
+      $archive.="<li>$nombre - $course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
     }
     if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
     $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul><hr/>";
