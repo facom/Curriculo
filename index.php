@@ -711,6 +711,7 @@ $verprograma=<<<VERPROGRAMA
   </a>
 </h3>
 VERPROGRAMA;
+ shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo' >> data/$F100_Codigo/changes.log");
   }else{$verprograma="";}
 
   $display="none";

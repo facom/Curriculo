@@ -1,0 +1,2 @@
+Importancia de la estimación y tratamiento adecuado de los errores
+Representación correcta de números en el trabajo científico
