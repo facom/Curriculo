@@ -715,7 +715,7 @@ $verprograma=<<<VERPROGRAMA
 VERPROGRAMA;
  $operacion="Edita";
  if(isset($guarda_curso)){$operacion="Guarda";}
- shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo';$operacion >> data/$F100_Codigo/changes.log");
+ shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo;$operacion' >> data/$F100_Codigo/changes.log");
   }else{$verprograma="";}
 
   $display="none";
