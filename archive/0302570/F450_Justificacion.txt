@@ -1,0 +1,7 @@
+Dado que la Física de Medios Continuos estudia la evolución de aquella materia que no está sujeta a las leyes de la Mecánica Cuántica ni de la Nanociencia, y con la cual estamos en contacto en la mayoría de situaciones de la vida diaria, se convierte en una de las ramas de la Física con más aplicaciones directas. Adicionalmente, sus resultados son de vital importancia en muchas ramas de la Física y particularmente de la Astronomía. 
+
+En Física del Medio Continuo se aplicaran los conceptos y se usan las herramientas de áreas como la Física Matemática, Álgebra Tensorial, Física de Campos, Mecánica Clásica, Métodos Numéricos, Física Computacional, entre otras, lo que le permite al estudiante afianzar conceptos ya adquiridos y combinarlos para aplicarlos en situaciones concretas. Además la Física del Medio Continuo forma parte fundamental para el estudio de tópicos de profundización de Física y Astronomía en áreas como: Estudios Climáticos y Atmosféricos, Geociencias, Astrofísica Planetaria, Astrofísica Galáctica, Astrofísica Estelar, Cosmología, Dinámica de Fluidos, Teoría de Elasticidad, etc. 
+
+En este curso el estudiante se familiarizara con sistemas de referencia Lagrangianos y con nuevos operadores para la diferenciación que incluyen el movimiento propio de los medios continuos que se adicionan a los cambios temporales en las cantidades físicas, además del uso de métodos numéricos y programación para encontrar resultados a situaciones específicas.   
+
+   

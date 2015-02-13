@@ -1,0 +1,3 @@
+Definición de lo que es medio continuo.
+Familiarización con conceptos fundamentales y el lenguaje de los medios continuos de densidad, presión y flotabilidad.
+Repaso de las herramientas matemáticas más usadas en física medios continuos: sistemas de referencia, transformación de coordenadas, definición de tensores y álgebra tensorial básica.

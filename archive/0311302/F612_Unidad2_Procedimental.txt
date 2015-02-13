@@ -1,0 +1,4 @@
+Cifras significativas
+Propagación de Errores
+Intervalos de Confianza
+Ejemplos Específicos en Astronomía

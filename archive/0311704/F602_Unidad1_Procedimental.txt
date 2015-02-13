@@ -1,0 +1,3 @@
+- Espectro electromagnético. Radiación de cuerpo negro. Luminosidad. Temperatura efectiva. Masa. Radio. Flujo. Magnitud. Ecuación de Boltzman. Ecuación de Saha. Clasificación estelar. Espectros. Diagrama Hertzprung -Russell. Poblaciones estelares.
+
+- Formación estelar. Presión de un gas ideal. Equilibrio hidrostático. Gas monoatómico, gas no degenerado, gas degenerado, gas de fotones. Teorema del virial. Criterio de Jeans. Gas ionizado real. Ecuación politrópica.

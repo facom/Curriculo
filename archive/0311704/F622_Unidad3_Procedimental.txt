@@ -1,0 +1,3 @@
+- Ecuación de estructura. Conservación de la masa. Ecuación de transporte.
+
+- Transporte de energía. Flujo radiativo monocromático. Convección. Conducción.

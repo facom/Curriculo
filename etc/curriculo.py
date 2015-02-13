@@ -6,6 +6,7 @@ import copy
 import pickle
 from os import system
 import re
+from time import sleep
 from sys import argv
 
 ###################################################

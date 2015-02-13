@@ -1,0 +1,4 @@
+Describir las principales características de los planetas del Sistema Solar.
+Deducir los límites de Roche entre planetas y satélites de diferente composición.
+Organizar jerárquicamente los objetos que componen el Sistema Solar.
+Diferenciar los planetas del Sistema Solar de acuerdo a su composición.

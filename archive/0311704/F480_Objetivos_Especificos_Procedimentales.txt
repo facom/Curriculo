@@ -1,0 +1,4 @@
+•Enfrentar la solución a ejercicios y problemas con base a las teorías físicas.
+•Familiarizarse con el manejo básico de las bases de datos astronómicas con contenidos de astrofísica estelar.
+•Construir programas sencillos para analizar información gráficamente.
+•Ajustar espectros modelados con datos observacionales reales.

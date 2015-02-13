@@ -1,0 +1,8 @@
+Identificar y dominar las herramientas básicas en Física Matemática y Álgebra Tensorial necesarios para el desarrollo del curso.
+Dominar los conceptos fundamentales de la Mecánica de Fluidos y la Teoría de Elasticidad.
+Deducir y manipular las ecuaciones de continuidad, Cauchy y conservación de energía para medios continuos.
+Definir y comprender los conceptos de esfuerzo y deformación, así como sus interacciones.
+Reconocer la validez y el alcance de las aproximaciones tomadas sobre las ecuaciones de movimiento para medios continuos.
+
+  
+ 

@@ -1,88 +1,38 @@
-Dado el carácter del curso, y con el fin de dejar abiertas
-amplias posibilidades bibliográficas, se considera conveniente
-que los estudiantes no se limiten a un único texto y puedan
-disponer de una gran variedad de libros con la cual
-complementar las notas de clase.
+Dado el carácter del curso no es posible definir un único texto guía. Se dejan abiertas amplias posibilidades bibliográficas, se considera conveniente que los estudiantes no se limiten a un único texto y se dispone a continuación de un amplio listado de libros con la cual complementar las notas de clase.
+
 Bibliografía básica:
-* La Física, Aventura del Pensamiento. Einstein, A., Infeld, L. Ed. Losada, Buenos, 1965.
-* Evolución de los conceptos en Física. Arons, A. Ed. Triclas, México, 1970.
-* Los conceptos de la Física, Sepúlveda, Alonso, Editorial Universidad de Antioquia, Medellín, 2003
-* Física Conceptual, Pineda, Guillermo, Progama Ude@, Medellín, 2005.
-* Física Conceptual, Hewitt.
+* La Física, Aventura del Pensamiento. A. Einstein, L. Infeld, Ed. Losada, Buenos Aires, 1965.
+* Evolución de los conceptos en Física. A. Arons, Ed. Triclas, México, 1970.
+* Los conceptos de la Física, Alonso Sepúlveda , Editorial Universidad de Antioquia, Medellín, 2003.
+* Física Conceptual, Guillermo  Pineda, Progama Ude@, Medellín, 2005.
+* Física Conceptual, Paul Hewitt.
 * Historia de la ciencia. W.C. Dampier. Ed. Tecnos.
 * Introducción a los conceptos y las teorías de las ciencias físicas. G. Holton Ed. Reverté.
-* Física Básica. Ballif y Dibble. Ed. Limusa, México, 1977.
 * Física, Holliday-Resnick.
 * Física, Sears-Zemanzky.
 * Física I, Alonso-Finn.
-* Lecciones en Física, Richard Feynmann.(The Feynmann Lectures on Physics, R. Feynmann, R. Leighton and M. Sands. Addison-Wesley, 1963).
-* Física. Eisberg.
-* Física en Perspectiva. E. Hecht. Adison Wesley, 1987.
+* Lecciones en Física, Richard Feynmann. 
+   (The Feynmann Lectures on Physics, R. Feynmann, R. Leighton and M. Sands. Addison-Wesley, 1963).
+* Física. R. Eisberg.
+Física en Perspectiva.  E. Hecht.  Adison Wesley, 1987.
 * Historia de la Física. J. Jeans. Fondo de Cultura Económica, México, 1968.
-* Historia de la Física : desde los griegos hasta nuestros días (1.Ed.) (1995) Sepúlveda Soto, Alonso.
+
+* Historia de la Física : desde los griegos hasta nuestros días (1.Ed.) (1995) Alonso Sepúlveda Soto.
 * Matter and Interactions. 3er Ed. R. Chabay, B. Sherwood.
+* Física Básica. Ballif y Dibble. Ed. Limusa, México, 1977.
+
+Con la bibliografía sugerida en los dos ítems a continuación se le propone al es-tudiante que desarrolle el programa “Adopte un libro” (sugerido originalmente por los profesores de los cursos de Fundamentación en Ciencias.)
 
 Bibliografía complementaria:
-
-Con la bibliografía sugerida en los dos ítems a continuación se desarrolla el programa “Adopte un libro” (sugerido y ya utilizado por los profesores de los cursos de Fundamentación en Ciencias.)
-
 * Del Big Bang al Homo Sapiens, Antonio Vélez, Ed. UdeA.
 * El desafío del universo, T. Fernández, B. Montesinos. Ed. Gran Austral.
 * Historia y cronología de la ciencia y los descubrimientos, Isaac Asimov Ed. Ariel.
 * Física de lo imposible, Michio Kaku, Ed. Debate.
 * Física Moderna, R. Eisberg.
 * COSMOS, Carl Sagan. Ed. Planeta.
-* Historia de la Física, desde la antigüedad hasta los um-brales del siglo XX. Desiderio Papp.  Espasa Calpe, 1961.
+* Historia de la Física, desde la antigüedad hasta los umbrales del siglo XX. De-siderio Papp.  Espasa Calpe, 1961.
 * Biografía de la Física. G. Gamow. Ed. Alianza.
 * The Quantum Physicists: And an Introduction to Their Physics by William H. Cropper.
-* The Great Physicists from Galileo to Einstein by George  Gamow.
-* Great Physicists: The Life and Times of Leading Physicists from Galileo to Hawking. by William H. Cropper.
-* Los Sonámbulos. Arthur Koestler.
-
-Bibliografía recomendada:
-
-Weinberg, S.: “Los tres primeros minutos del universo”; Alianza Universidad, Madrid.
-Morrison, P.: “Potencias de diez!”; Editorial Labor, Barcelona.
-Davies, P.: “Dios y la nueva física”; Editorial Salvat, Madrid.
-Wittgenstein, L.: “Observaciones”; Siglo XXI editores, Madrid.
-Schrödinger, E.: “Mi concepción del mundo”; Tusquets editores, Barcelona.
-Fraseen, V.: “Introducción a la filosofía del tiempo y del espacio”; Labor edit., Barcelona.
-Davies, P.: “Proyecto cósmico”; Pirámide editorial, Madrid.
-Gribbin, J.: “El punto omega”; Alianza editorial, Madrid.
-Davies, P / Gribbin, J.: “Los mitos de la materia”; McGrawHill edit., Madrid.
-Gribbin, J.: “En busca del Big Bang”; Pirámide edit., Madrid.
-Weinberg, S: “El sueño de una teoría final”; Crítica edit., Barcelona.
-Gribbin, J.: “En el principio. El nacimiento del universo vi-viente”; Alianza edit., Madrid.
-Mandelbrot, B.: “Los objetos fractales”; Tusquets editorial, Barcelona.
-Ronan, C.: “Historia natural del universo”; Ediciones del Prado, Madrid.
-Davies, P.: “La mente de Dios”; McGraw-Hill, Madrid.
-Capek, M.: “El impacto filosófico de la física contemporánea”; Tecnos editorial, Madrid.
-Ferris, T.: “El firmamento de la mente”; Acento editorial, Madrid.
-Hawking, S.: “Breve historia del tiempo”; Crítica editorial, Madrid.
-Stonier, T.: “La información y la estructura interna del universo”; Hacer edit., Barcelona.
-Barow J.D.: “Teorías del Todo”; Crítica edit., Barcelona.
-Matthieu, R. / Trinh Xuan, T. “El infinito en la palma de la mano”; Urano ed., Barcelona.
-Hawking, S.: “El universo en una cáscara de nuez”; Crítica edit., Barcelona.
-Guth, A.H.: “El universo inflacionario”; Debate edit., Madrid.
-
-Sitios web recomendados:
-
-Algunos sitios web para apoyar el trabajo independiente del estudiante.
-
-http://www.udea.edu.co/portal/page/portal/SedesDependencias/CienciasExactasNaturales/H.PublicacionesMedios/historiasCiencia/InformacionGeneral
-
-http://htwins.net/scale2/scale2.swf?bordercolor=white
-
-http://physics.bu.edu/~duffy/classroom.html
-
-http://www.youtube.com/walter lewin MIT
-
-http://www.quimicaweb.net/
-
-http://newton.cnice.mec.es/unidades_alfabetico.php
-
-http://www.quimicaweb.net/albert_einstein/index.htm
-
-http://www.nanoart.com.my/nano.html
-
-http://www.wdl.org/es/
+* The Great Physicists from Galileo to Einstein by George Gamow.
+* Great Physicists: The Life and Times of Leading Physicists from Galileo to Hawking.  by William H. Cropper.
+* Los Sonámbulos. Arthur Koestler

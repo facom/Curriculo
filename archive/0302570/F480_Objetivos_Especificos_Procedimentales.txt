@@ -1,0 +1,4 @@
+Usar el principio de Pascal y Arquímedes para fluidos en equilibrio hidrostático.
+Usar las ecuaciones de continuidad, Cauchy y Bernoulli para fludos en movimiento estables, con o sin vorticidad y con o sin viscosidad.
+Usar los tensores de esfuerzo y deformación, y la ley de Hooke para estudiar la dinámica de sólidos no ideales.
+Solucionar situaciones que impliquen el uso de desarrollos analíticos y el uso de Métodos y Numéricos y Programación.

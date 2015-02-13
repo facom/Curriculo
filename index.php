@@ -1,4 +1,4 @@
-<?
+<?php
 ////////////////////////////////////////////////////
 //OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
 ////////////////////////////////////////////////////
@@ -22,7 +22,7 @@ if(isset($_GET["phpinfo"])){
 }
 ?>
 
-<?
+<?php
 ////////////////////////////////////////////////////
 //HEADER
 ////////////////////////////////////////////////////
@@ -39,7 +39,7 @@ echo<<<START
 START;
 ?>
 
-<?
+<?php
 ////////////////////////////////////////////////////
 //CONFIGURATION
 ////////////////////////////////////////////////////
@@ -656,7 +656,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   system("mkdir -p \"$coursedir\"");
   $fc=fopen("$coursedir/notext.txt","w");
   //echo "COURSE DIR: $fc<br/>";
-  fwrite($fc,"<?\n");
+  fwrite($fc,"<?php\n");
   foreach($FIELDS as $field){
     $value=$$field;
     $type=$DBASE[$field]["type"];
@@ -1652,7 +1652,7 @@ if($lista){
 }
 ?>
 
-<?
+<?php
 ////////////////////////////////////////////////////
 //FOOTER
 ////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-<?
+<?php
 $LOGIN_INFORMATION=array
     (
      'admin'=>'123',
@@ -26,7 +26,7 @@ $PASSWORD="123";
 $DATABASE="Curriculo";
 if(!isset($_SERVER['SERVER_NAME'])){
 $pass=<<<PASS
-<?
+<?php
 \$PASS_INFORMATION=array(
 PASS;
   foreach(array_keys($LOGIN_INFORMATION) as $key){

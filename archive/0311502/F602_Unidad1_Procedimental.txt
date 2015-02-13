@@ -1,0 +1,10 @@
+Deducir la masa de Jeans de nubes en colapso.
+Describir las principales características de la dinámica de los discos protoplanetarios
+Deducir el valor de las masas finales en procesos de acreción
+Utilizar modelos numéricos para inferir los perfiles del interior planetario (Presión, gravedad, temperatura)
+Deducir la forma y el tamaño durante la formación de cráteres de impacto (Energía involucrada, forma y tamaño)
+Deducir los tamaños de las magnetósferas.
+Describir estructuralmente las magnetósferas planetarias.
+Describir estructuralmente las atmósferas planetarias.
+ 
+

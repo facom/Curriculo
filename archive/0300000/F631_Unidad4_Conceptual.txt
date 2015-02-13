@@ -1,0 +1,1 @@
+Dinámica de un sistema de partículas; conservación del momentum lineal; impulso; momentum y flujo de masa.

@@ -1,0 +1,1 @@
+Dado el tipo de evaluación, la asistencia sera solamente obligatoria el día del examen.

@@ -1,0 +1,7 @@
+Describir e interpretar gráficas de velocidad radial.
+Deducir la masa de exoplanetas a partir de datos observacionales (Velocidad Radial)
+Describir e interpretar gráficas de curvas de luz de tránsitos planetarios.
+Deducir el radio de exoplanetas a partir de datos observacionales (Tránsito)
+Deducir la temperatura de equilibrio de planetas.
+Deducir, describir e interpretar gráficas de los límites de la zona de habitabilidad para estrellas de baja masa de secuencia principal. 
+
