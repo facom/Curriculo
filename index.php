@@ -1,14 +1,18 @@
 <?php
 ////////////////////////////////////////////////////
-//OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
+//VARIABLES GLOBALES
 ////////////////////////////////////////////////////
+if(isset($_GET["pass"])){echo "Key:".md5($_GET["user"]."%".$_GET["pass"]);}
 $SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
 $DATADIR="../sites/default/files";
 $LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
 session_start();
 $SESSID=session_id();
 $NAME=$_COOKIE["name"];
-//echo "SESSID: $SESSID<br/>";
+
+////////////////////////////////////////////////////
+//OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
+////////////////////////////////////////////////////
 if(isset($_GET["profesor"])){
   $query=preg_replace("/&profesor/","",$_SERVER["QUERY_STRING"]);
 echo<<<LOGIN
@@ -47,11 +51,9 @@ START;
 ////////////////////////////////////////////////////
 $SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
-//$H2PDF="wkhtmltopdf";
 $H2PDF="../../temp/wkhtmltopdf-i386";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
-//require("$ROOTDIR/etc/mpdf/mpdf.php");
 
 ////////////////////////////////////////////////////
 //DESBLOQUEO SALIR
@@ -228,7 +230,7 @@ $headbar
 <tr>
 <td width=10%><image src="$LOGOUDEA/udea_fcen.jpg"/ height=120px></td>
 <td valign=bottom>
-  <b style='font-size:32'><$a href=index.php>Plataforma de Información Curricular</a></b><br/>
+  <b style='font-size:32'><$a href=index.php>Microcurriculos</a></b><br/>
   <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
   <b style='font-size:24'>Universidad de Antioquia</b><br/>
 </td>
@@ -242,7 +244,7 @@ $header
 ERR;
 
 ////////////////////////////////////////////////////
-//PÁGINA PRINCIPAL
+//PAGINA PRINCIPAL
 ////////////////////////////////////////////////////
 if(count(array_keys($_GET))<1 and count(array_keys($_POST))<1){
 /*
@@ -274,32 +276,13 @@ echo<<<MAIN
 $header
 <p style='font-size:16'>
 
-Bienvenido al sistema de información curricular de la Facultad de
+Bienvenido al sistema de Microcurriculos de la Facultad de
 Ciencias Exactas y Naturales.<br/><br/>
 
-En este sitio encontrará información sobre diversos aspectos del
-currículo de los programas de la Facultad incluyendo acceso a los
-documentos rectores de la Transformación Curricular de cada
-dependencia, planes de estudio, entre otros.<br/><br/>
+En este sitio encontrará información sobre los microcurriculos (planes de asignatura) de los cursos de los distintos programas de estudio de la Facultad.<br/><br/>
 
 De acuerdo a sus necesidades escoja una de las siguientes opciones:
 <ul>
-
-  <li>
-    <b>
-      <aa href='?descargas'>Sección de Descargas</a>.
-    </b>
-    Aquí podrá descargar distintos documentos relacionados con la
-    Transformación Curricular de la Facultad.
-  </li>
-
-  <li>
-    <b>
-      <aa href='?planes_estudio'>Planes de Estudio</a>.
-    </b>
-    Aquí podrá ver los planes de estudio de todos los programas de la
-    Facultad.
-  </li>
 
   <li>
     <b>
@@ -322,6 +305,7 @@ aquí.</i>
 </p>
 MAIN;
 }
+
 ////////////////////////////////////////////////////
 //LISTA DE CURSOS
 ////////////////////////////////////////////////////
@@ -376,7 +360,6 @@ CONTENT;
     $listapub="";
     $listapriv="";
     $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
-    //echo "$sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
     }
@@ -390,14 +373,12 @@ CONTENT;
       $usuario=$row[5];
       $modifica=$row[6];
       $autorizacion=$row[7];
-      //echo "Codigo: $codigo<br/>";
       $ps=porcentajeCompletado($codigo);
       $p=$ps[0];
       $n=$ps[1];
       $porcentaje_text=round($p,0)."% $n";
       $width=100;
       $wbar=$width*($p/100);
-      //echo "wbar: $p,$wbar<br/>";
       if($p<10){$barcolor="pink";}
       else if($p<50){$barcolor="yellow";}
       else if($p<80){$barcolor="lightblue";}
