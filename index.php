@@ -5,13 +5,14 @@
 if(isset($_GET["pass"])){echo "Key:".md5($_GET["user"]."%".$_GET["pass"]);}
 $TEMPLATECODE="0300000";
 $QARCHIVO=0;//1 si quiere mostrar los cursos archivados
-$QRECYCLE=0;//1 si quiere mostrar los cursos reciclados
+$QRECYCLE=1;//1 si quiere mostrar los cursos reciclados
 $SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
 $DATADIR=".";
 $LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
 session_start();
 $SESSID=session_id();
 $NAME=$_COOKIE["name"];
+$TMPDIR="tmp";
 
 ////////////////////////////////////////////////////
 //OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
@@ -326,6 +327,14 @@ if(isset($_GET["planes_asignatura"])){
       $resultado.="Todos los cursos desbloqueados";
       shell_exec("find $DATADIR/data/ -name '.lock' -exec rm {} \\; &> /tmp/a.log");
     }
+    if(isset($clean_recycle)){
+      $sql="truncate table MicroCurriculos_Recycle;";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo limpiar la papelera:".mysqli_error($db));
+      }
+      shell_exec("rm -r $DATADIR/recycle/* &> $TMPDIR/recycle.log");
+      $resultado.="Papelera vaciada.";
+    }    
     if(isset($semestre_all)){
       $sql="update MicroCurriculos set F330_Semestre='$semestre_all'";
       if(!mysqli_query($db,$sql)){
@@ -458,6 +467,7 @@ $page.=<<<GLOBALES
 $resultado
 <ul>
   <li><a href=?planes_asignatura&unlock_all>Desbloquea todos</a></li>
+  <li><a href=?planes_asignatura&clean_recycle>Limpia la papelera de reciclaje</a></li>
   <li>
     Cambia todos a semestre: 
     <input type="text" name="semestre_all" value="2014-2" size=8>
