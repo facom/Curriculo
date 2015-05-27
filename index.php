@@ -2,7 +2,9 @@
 ////////////////////////////////////////////////////
 //OBLIGA LOGIN EN CASO DE OPERACION DE PROFESOR
 ////////////////////////////////////////////////////
-$SITE="http://fisica.udea.edu.co/Curriculo/index.php";
+$SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
+$DATADIR="../sites/default/files";
+$LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
 session_start();
 $SESSID=session_id();
 $NAME=$_COOKIE["name"];
@@ -56,7 +58,7 @@ require("$ROOTDIR/etc/database.php");
 ////////////////////////////////////////////////////
 if($_POST["accion"]=="Salir"){
   $curso=$_POST["F100_Codigo"];
-  $coursedir="data/$curso";
+  $coursedir="$DATADIR/data/$curso";
   $lockfile="$coursedir/.lock";
   shell_exec("rm -rf $lockfile");
   $_GET=array();
@@ -65,7 +67,7 @@ if($_POST["accion"]=="Salir"){
  }
 if($_POST["accion"]=="Desbloquea"){
   $curso=$_POST["F100_Codigo"];
-  $coursedir="data/$curso";
+  $coursedir="$DATADIR/data/$curso";
   $lockfile="$coursedir/.lock";
   shell_exec("rm -rf $lockfile");
   $_POST["carga_curso"]=$curso;
@@ -148,8 +150,8 @@ $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
 
 function porcentajeCompletado($codigo)
 {
-  global $FIELDS,$DBASE;
-  $coursedir="data/$codigo";
+  global $FIELDS,$DBASE,$DATADIR;
+  $coursedir="$DATADIR/data/$codigo";
   include("$coursedir/notext.txt");
   $nfields=0;
   $vfields=0;
@@ -191,6 +193,7 @@ function porcentajeCompletado($codigo)
       //echo "Value: $value<br/>";
     }
     $nfields+=$equivalent;
+    //echo "$nfields,$field,$value<br/>";
   }
   //echo "$vfields,$nfields<br/>";
   $p=(1.0*$vfields)/$nfields*100;
@@ -223,7 +226,7 @@ $header=<<<HEADER
 $headbar
 <table width=100% border=0>
 <tr>
-<td width=10%><image src="images/udea_fcen.jpg"/ height=120px></td>
+<td width=10%><image src="$LOGOUDEA/udea_fcen.jpg"/ height=120px></td>
 <td valign=bottom>
   <b style='font-size:32'><$a href=index.php>Plataforma de Información Curricular</a></b><br/>
   <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
@@ -406,7 +409,7 @@ $procentaje_bar=<<<PORCENTAJE
 PORCENTAJE;
       //echo "Porcentaje: $porcentaje<br/>";
       //return;
-      $lockfile="data/$codigo/.lock";
+      $lockfile="$DATADIR/data/$codigo/.lock";
       $lock="";
       if(file_exists($lockfile)){
 	$props=file($lockfile);
@@ -434,7 +437,7 @@ $listapriv.=<<<LISTA
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
-  <i style="text-decoration:underline">Historia de cambios</i>: <a href="data/$codigo/changes.log" target="_blank">changes.log</a> <br/>
+  <i style="text-decoration:underline">Historia de cambios</i>: <a href="$DATADIR/data/$codigo/changes.log" target="_blank">changes.log</a> <br/>
   $enlace<br/>
   $lock
 LISTA;
@@ -560,7 +563,7 @@ if(isset($carga_curso) and $QADMIN){
   }
 
   //CARGANDO TEXT INFORMATION
-  $coursedir="data/$carga_curso";
+  $coursedir="$DATADIR/data/$carga_curso";
   if(isset($recover)){$coursedir="recycle/$carga_curso";}
   if(isset($archive)){$coursedir="archive/$carga_curso";}
   foreach($FIELDS as $field){
@@ -585,7 +588,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     if(file_exists("archive/$codigo")){
       shell_exec("rm -rf archive/$codigo");
     }
-    shell_exec("cp -rf data/$codigo archive/");
+    shell_exec("cp -rf $DATADIR/data/$codigo archive/");
     if($accion=="Archivar"){
       $result="<i style='color:green'>Curso archivado exitosamente.</i>";
       goto end_archive;
@@ -648,7 +651,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     }
   }
   //SAVE TEXT FIELDS
-  $coursedir="data/$codigo";
+  $coursedir="$DATADIR/data/$codigo";
   if($accion=="Reciclar"){
     shell_exec("rm -rf $coursedir");
     $coursedir="recycle/$codigo";
@@ -715,7 +718,7 @@ $verprograma=<<<VERPROGRAMA
 VERPROGRAMA;
  $Accion=$accion;
  if(isBlank($Accion)){$Accion="Edita";}
- shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo;$Accion' >> data/$F100_Codigo/changes.log");
+ shell_exec("echo '$DATE;$SESSID;$ADMIN;$NAME;$F100_Codigo;$Accion' >> $DATADIR/data/$F100_Codigo/changes.log");
   }else{$verprograma="";}
 
   $display="none";
@@ -751,7 +754,7 @@ BUTTONS;
    $curso_lock="0300000";
  }
  //if(isset($F100_Codigo)){$curso_lock=$F100_Codigo;}
- $coursedir="data/$curso_lock";
+ $coursedir="$DATADIR/data/$curso_lock";
  $lockfile="$coursedir/.lock";
  //echo "$lockfile<br/>";
  if(file_exists($lockfile)){
@@ -966,7 +969,7 @@ if(isset($ver_curso)){
   }
 
   //RECUPERA INFORMACIÓN DEL CURSO DE ARCHIVOS
-  $coursedir="data/$ver_curso";
+  $coursedir="$DATADIR/data/$ver_curso";
   foreach($FIELDS as $field){
     $value=$$field;
     $fname=preg_replace("/^F\d+_/","",$field);
@@ -1046,7 +1049,7 @@ TABLE;
       }
     }
     $table.="</table></body></html>";
-    $coursedir="data/$ver_curso";
+    $coursedir="$DATADIR/data/$ver_curso";
     $fl=fopen("$coursedir/$ver_curso-plano.html","w");
     fwrite($fl,$table);
     fclose($fl);
@@ -1129,7 +1132,7 @@ $table.=<<<TABLE
 <body>
   <table border=0 width=650>
     <tr>
-      <td><img src="../../images/udea.jpg" width=100px/></td>
+      <td><img src="$LOGOUDEA/udea.jpg" width=100px/></td>
       <td style='text-align:center'>FACULTAD DE CIENCIAS EXACTAS Y NATURALES<br/>$Instituto</td>
     </tr>
   </table>
@@ -1292,7 +1295,7 @@ $table.=<<<TABLE
 </body>
 </html>
 TABLE;
-    $coursedir="data/$ver_curso";
+    $coursedir="$DATADIR/data/$ver_curso";
     /*
     $mpdf=new mPDF();
     $mpdf->WriteHTML($table);

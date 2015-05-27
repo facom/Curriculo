@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Fri, 29 Aug 2014 10:27:32 -050";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Fri, 29 Aug 2014 10:28:36 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Bernardo Arenas";
+$F050_Nombre_Actualiza="bernardo arenas";
 $F060_AUTH_Publica_Curso="--";
 $F100_Codigo="0300000";
 $F110_Nombre_Asignatura="Fisica basica I (Mecanica)";

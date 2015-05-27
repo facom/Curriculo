@@ -1,7 +1,7 @@
-<?
+<?php
 include("etc/protect.php");
 ?>
-<?
+<?php
 $query=preg_replace("/logout/","",$_SERVER["QUERY_STRING"]);
 echo<<<CONTENT
 <html>

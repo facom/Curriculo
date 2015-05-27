@@ -765,7 +765,7 @@ Fields.sort()
 #CREATING PHP CONFIGURATION FILE
 ###################################################
 content="""
-<?
+<?php
 """
 fields_content="$FIELDS=array("
 dbase_content="$DBASE=array("
