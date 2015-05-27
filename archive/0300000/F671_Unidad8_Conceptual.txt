@@ -1,1 +1,0 @@
-movimiento armónico simple, condiciones iniciales, sistema masa resorte, péndulo simple, péndulo físico, oscilaciones amortiguadas, oscilaciones amortiguadas forzadas, energía disipada, resonancia; osciladores acoplados, modos normales de oscilación.

@@ -3,8 +3,11 @@
 //VARIABLES GLOBALES
 ////////////////////////////////////////////////////
 if(isset($_GET["pass"])){echo "Key:".md5($_GET["user"]."%".$_GET["pass"]);}
+$TEMPLATECODE="0300000";
+$QARCHIVO=0;//1 si quiere mostrar los cursos archivados
+$QRECYCLE=0;//1 si quiere mostrar los cursos reciclados
 $SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
-$DATADIR="../sites/default/files";
+$DATADIR=".";
 $LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
 session_start();
 $SESSID=session_id();
@@ -95,12 +98,15 @@ $DATE=date(DATE_RFC2822);
 ////////////////////////////////////////////////////
 $ADMIN=0;
 $QADMIN=0;
+$QPROF=0;
 if(isset($_COOKIE["verify"])){
   $verify=$_COOKIE["verify"];
   $ADMIN=$PASS_INFORMATION["$verify"];
   $INSTITUTO=$INSTITUTOS["$ADMIN"];
   if($INSTITUTO=="Facultad"){$QADMIN=3;}
-  else if($INSTITUTO=="Profesor"){$QADMIN=1;}
+  else if($INSTITUTO=="Profesor"){
+    $QADMIN=1;$QPROF=1;
+  }
   else if($INSTITUTO=="Administrador"){
     $INSTITUTO="Facultad";
     $QADMIN=4;
@@ -218,7 +224,7 @@ else{
   $menu.=" - <a href=login.php?logout>Desconectarse</a>";
 }
 if($QADMIN>1){
-  $menu.=" - <a href=index.php?edita_curso>Nuevo curso</a>";
+  $menu.=" - <a href=index.php?carga_curso=$TEMPLATECODE&edita_curso>Nuevo curso</a>";
 }
 $menu.="<hr/>";
  $a="a";
@@ -318,7 +324,7 @@ if(isset($_GET["planes_asignatura"])){
     $resultado="<p style='color:blue;font-style:italic'>";
     if(isset($unlock_all)){
       $resultado.="Todos los cursos desbloqueados";
-      shell_exec("find data -name '.lock' -exec rm {} \\;");
+      shell_exec("find $DATADIR/data/ -name '.lock' -exec rm {} \\; &> /tmp/a.log");
     }
     if(isset($semestre_all)){
       $sql="update MicroCurriculos set F330_Semestre='$semestre_all'";
@@ -359,7 +365,7 @@ CONTENT;
        $instituto=="Administrador"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
     }
@@ -373,6 +379,8 @@ CONTENT;
       $usuario=$row[5];
       $modifica=$row[6];
       $autorizacion=$row[7];
+      $semestre=$row[8];
+      $semestreactual=$row[9];
       $ps=porcentajeCompletado($codigo);
       $p=$ps[0];
       $n=$ps[1];
@@ -388,8 +396,6 @@ $procentaje_bar=<<<PORCENTAJE
   <div style="width:${wbar}px;color:white;background-color:$barcolor;border-right:solid black 1px;">-</div>
   </div>
 PORCENTAJE;
-      //echo "Porcentaje: $porcentaje<br/>";
-      //return;
       $lockfile="$DATADIR/data/$codigo/.lock";
       $lock="";
       if(file_exists($lockfile)){
@@ -410,7 +416,7 @@ LISTA;
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
 	$editar=" <sup><a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a></sup>";
-	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'>$link</i>";
+	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'><a href='$link'>$link</a></i>";
       }
 $listapriv.=<<<LISTA
 <li>
@@ -418,6 +424,8 @@ $listapriv.=<<<LISTA
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
+  <i style="text-decoration:underline">Semestre en el Plan</i>: $semestre <br/>
+  <i style="text-decoration:underline">Semestre Actual</i>: $semestreactual <br/>
   <i style="text-decoration:underline">Historia de cambios</i>: <a href="$DATADIR/data/$codigo/changes.log" target="_blank">changes.log</a> <br/>
   $enlace<br/>
   $lock
@@ -434,12 +442,16 @@ LISTA;
     $publicos.="<h4>$instituto</h4><ul>$listapub</ul>";
     $privados.="<a name='$instituto'></a><h4>$instituto</h4><ul>$listapriv</ul>";
   }
+
+  $page.="<h2>Lista de Cursos Públicos</h2>$publicos";
+
   if($QADMIN>=2){
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //OEPRACIONES GLOBALES
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     if($QADMIN>=4){
 $page.=<<<GLOBALES
+<hr/>
 <h2>Operaciones Globales</h2>
 <form>
 <input type="hidden" name="planes_asignatura" value="">
@@ -470,37 +482,40 @@ GLOBALES;
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //RECYCLE BIN
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto from MicroCurriculos_Recycle;";
-    $out=mysqli_query($db,$sql);
-    $recycle="";
-    while($row=mysqli_fetch_array($out)){
-      $codigo=$row[0];
-      $nombre=$row[1];
-      $instituto=$row[2];
+    if($QRECYCLE){
+      $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto from MicroCurriculos_Recycle;";
+      $out=mysqli_query($db,$sql);
+      $recycle="";
+      while($row=mysqli_fetch_array($out)){
+	$codigo=$row[0];
+	$nombre=$row[1];
+	$instituto=$row[2];
 $recycle=<<<RECYCLE
-<li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&edita_curso&recover'>Recuperar</a>)</li>
+  <li>$instituto - $nombre - $codigo (<a href='?carga_curso=$codigo&edita_curso&recover'>Recuperar</a>)</li>
 RECYCLE;
-    }	
-    if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
-    else{$recycle.="</ul>";}
-    $page.="<hr/><h2>Papelera de reciclaje</h2><ul>$recycle</ul></hr>";
+      }
+      if(!preg_match("/\w+/",$recycle)){$recycle="<i>(No se encontraron cursos)</i>";}
+      else{$recycle.="</ul>";}
+      $page.="<hr/><h2>Papelera de reciclaje</h2><ul>$recycle</ul>";
+    }
 
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     //FILE BIN
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-    $out=shell_exec("cd archive/;ls -md *");
-    $courses=preg_split("/\s*,\s*/",$out);
-    $archive="";
-    foreach($courses as $course){
-      $course=trim($course);
-      if(isBlank($course)){continue;}
-      $nombre=shell_exec("grep Nombre_Asignatura archive/$course/notext.txt | cut -f 2 -d '\"'");
-      $archive.="<li>$nombre - $course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
+    if($QARCHIVO){
+      $out=shell_exec("cd archive/;ls -md *");
+      $courses=preg_split("/\s*,\s*/",$out);
+      $archive="";
+      foreach($courses as $course){
+	$course=trim($course);
+	if(isBlank($course)){continue;}
+	$nombre=shell_exec("grep Nombre_Asignatura archive/$course/notext.txt | cut -f 2 -d '\"'");
+	$archive.="<li>$nombre - $course (<a href='?carga_curso=$course&edita_curso&archive'>Desarchiva</a>)</li>";
+      }
+      if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
+      $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul>";
     }
-    if(!preg_match("/\w+/",$archive)){$archive="<i>(No se encontraron cursos)</i>";}
-    $page.="<hr/><h2>Archivo en disco</h2><ul>$archive</ul><hr/>";
   }
-  $page.="<h2>Lista de Cursos Públicos</h2>$publicos";
 	
   echo $page;
 }
@@ -564,6 +579,47 @@ if(isset($carga_curso) and $QADMIN){
 if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADMIN){
   $name="F100_Codigo";
   $codigo=$$name;
+  $name="F280_Instituto";
+  $inst=$$name;
+  $name="F330_Semestre_Plan";
+  $semplan=$$name;
+  $result="";
+
+  ////////////////////////////////////////////////////
+  //NEW COURSE VERIFICATIONS
+  ////////////////////////////////////////////////////
+
+  //ATTEMPTING TO SAVE TEMPLATE COURSE
+  //echo "QNEW=$qnew<br>";
+  if($semplan>10 and $QADMIN<4){
+    $mensaje="<i style='color:red'>El semestre en el plan debe ser menor o igual que 10.</i>";
+    $result.=$mensaje;
+    $msg=$mensaje;
+    goto end_archive;
+  }
+  if($codigo==$TEMPLATECODE and $QADMIN<4){
+    $result.="<i style='color:red'>No se puede guardar el curso con el código $codigo.</i>";
+    $msg="<br/><i style='color:red'>No se puede guardar el curso con el código $codigo.</i>";
+    goto end_archive;
+  }
+  if($inst=="--" and $QADMIN<4){
+    $result.="<i style='color:red'>Debe escoger un Instituto o Dependencia.</i>";
+    $msg="<br/><i style='color:red'>Debe escoger un Instituto o Dependencia.</i>";
+    goto end_archive;
+  }
+  
+  //CHECKING IF COURSE IS NEW
+  if($qnew=="1"){
+    $result.="<i style='color:red'>El curso $codigo es nuevo.</i><br/>";
+    $coursedir="$DATADIR/data/$codigo";
+    if(file_exists("$coursedir") and $QADMIN<4){
+      $result.="<i style='color:red'>El curso con codigo $codigo ya existe.</i>";
+      $msg="<br/><i style='color:red'>El curso con codigo $codigo ya existe.</i>";
+      goto end_archive;
+    }
+  }else{
+    $result.="<i style='color:green'>El curso $codigo existe.</i><br/>";
+  }
 
   if($accion=="Archivar" or 1){
     if(file_exists("archive/$codigo")){
@@ -571,13 +627,16 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     }
     shell_exec("cp -rf $DATADIR/data/$codigo archive/");
     if($accion=="Archivar"){
-      $result="<i style='color:green'>Curso archivado exitosamente.</i>";
+      $result.="<i style='color:green'>Curso archivado exitosamente.</i>";
       goto end_archive;
     }
   }
   $table="MicroCurriculos";
   if($accion=="Reciclar"){
     $table="MicroCurriculos_Recycle";
+  }
+  if($accion=="Publicar"){
+    
   }
   ////////////////////////////////////////////////////
   //GUARDANDO REGISTRO
@@ -586,7 +645,6 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   $name="F100_Codigo";
   $codigo=$$name;
   $sql="insert into $table (F100_Codigo) values (\"$codigo\") on duplicate key update F100_Codigo=\"$codigo\"";
-  //echo "SQL:<pre>$sql</pre>";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }
@@ -613,7 +671,6 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   $name="F100_Codigo";
   $codigo=$$name;
   $sql.=" where F100_Codigo='$codigo';";
-  //echo "SQL:<p>$sql</p>";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
@@ -621,14 +678,15 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     $p=$ps[0];
     $n=$ps[1];
     $porcentaje=round($p,0)."% $n";
-    $result="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
+    $result.="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
+    $qnew=0;
   }
   if($accion=="Reciclar"){
     $sql="delete from MicroCurriculos where F100_Codigo=\"$codigo\";";
     if(!mysqli_query($db,$sql)){
       die("Error:".mysqli_error($db));
     }else{
-      $result="<i style='color:red'>Registro reciclado exitosamente.</i>";
+      $result.="<i style='color:red'>Registro reciclado exitosamente.</i>";
     }
   }
   //SAVE TEXT FIELDS
@@ -675,7 +733,7 @@ if(isset($edita_curso) and $QADMIN){
   if(isBlank($auto)){
     $auto=$DBASE["F020_AUTH_Autorizacion_Vicedecano"]["default"];
   }
-  if(isBlank($F280_Instituto)){
+  if(isBlank($F280_Instituto) and $QADMIN<4){
     $F280_Instituto="$INSTITUTO";
   }
   //echo "AUTO:$auto<br/>";
@@ -689,6 +747,7 @@ $header
 NOAUTH;
  return;
   }
+
   if(isset($F100_Codigo)){
 $verprograma=<<<VERPROGRAMA
 <h3>
@@ -708,16 +767,16 @@ VERPROGRAMA;
 $buttons=<<<BUTTONS
 <div style='position:fixed;right:0px;'>
 <div id='recuerdo' style='background-color:pink;display:$display;padding:10px;width:200px;font-style:italic'>
-  Señor profesor/administrador: no olvide darle salir después de terminar.
+  Señor profesor/administrador: no olvide darle salir después de terminar.$msg
 </div>
 <input type='submit' name='accion' value='Guardar'>
 <input id='salir' type='submit' name='accion' value='Salir' style='background-color:$bcolor;'>
 BUTTONS;
 
- if($QADMIN>=3){
+ if($QADMIN>=2){
 $buttons.=<<<BUTTONS
 <input type='submit' name='accion' value='Reciclar'>
-<input type='submit' name='accion' value='Archivar'>
+<!--<input type='submit' name='accion' value='Archivar'>-->
 BUTTONS;
  }
 
@@ -727,14 +786,16 @@ $buttons.=<<<BUTTONS
 BUTTONS;
 
   //ARCHIVO DE BLOQUEO
+ if(!isset($qnew)){$qnew=0;}
  if(isset($carga_curso)){
    $curso_lock=$carga_curso;
  }else if(isset($F100_Codigo)){
    $curso_lock=$F100_Codigo;
  }else{
-   $curso_lock="0300000";
+   $curso_lock=$TEMPLATECODE;
  }
- //if(isset($F100_Codigo)){$curso_lock=$F100_Codigo;}
+ if($curso_lock==$TEMPLATECODE){$qnew=1;}
+
  $coursedir="$DATADIR/data/$curso_lock";
  $lockfile="$coursedir/.lock";
  //echo "$lockfile<br/>";
@@ -783,6 +844,7 @@ $result
 </div>
 <form id="form" action="index.php#principio" method="post">
 <input type='hidden' name='edita_curso' value=1>
+<input type='hidden' name='qnew' value=$qnew>
 FORM;
 
 //$page.=$buttons;
@@ -832,7 +894,7 @@ CONTENT;
     $ejemplo=$DBASE[$field]["ejemplo"];
     $help=preg_replace("/\n/","<br/>",$help);
     $ejemplo=preg_replace("/\n/","<br/>",$ejemplo);
-    //echo "FIELD:-$field-<br/>";
+    //echo "FIELD:-$field-$value-<br/>";
     //BLOCK
     $block="";
     $qauth=0;
@@ -857,8 +919,8 @@ CONTENT;
     if(preg_match("/AUTO/",$field) or
        (preg_match("/Codigo/",$field) and
 	isset($F100_Codigo) and
-	!isset($archive) and
-	!$QAUTH)
+	!isset($archive) and 
+	$QPROF)
        ){
       $block="disabled";
       //echo "AUTO<br/>";
@@ -878,7 +940,7 @@ CONTENT;
     if(!preg_match("/\w/",$values) and !$qauth){
       if(preg_match("/varchar\((\d+)\)/",$type,$matches)){
 	$size=$matches[1];
-	$input="<input $id $onfocus $onblur type='text' name='$field' value='$value' size=$size $block>";
+	$input="<input $id $onfocus $onblur type='text' name='$field' value='$value' maxlength=$size size=$size $block>";
 	if($block=="disabled"){
 	  $input.="<input type='hidden' name='$field' value='$value'>";
 	}
