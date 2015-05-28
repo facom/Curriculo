@@ -18,6 +18,7 @@ db=connection.cursor()
 print curriculo["MicroCurriculos"]["rows"]["0302100"]["F025_AUTH_Version"]
 exit(0)
 
+
 for year in years:
     print "Year: ",year
     for sem in sems:
