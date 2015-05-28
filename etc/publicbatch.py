@@ -25,6 +25,7 @@ codigoid="%s-v%d-%s"%(codigo,version,semid)
 try:
     curriculo["MicroCurriculos_Publicos"]["rows"][codigo]["F000_AUTO_Codigoid"]
     print "El curso es público."
+
 except:
     print "El curso no es público."
     curriculo["MicroCurriculos_Publicos"]["rows"][codigo]=dict()
