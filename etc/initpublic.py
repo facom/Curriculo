@@ -7,10 +7,11 @@ from initialize import *
 curriculo,connection=loadDatabase()
 db=connection.cursor()
 
-#drop table if exists MicroCurriculos_Publicos;
 sql="""
 use Curriculo;
-create table MicroCurriculos_Publicos ("""
+drop table if exists MicroCurriculos_Publicos;
+create table MicroCurriculos_Publicos (
+\tF000_AUTO_Codigoid varchar(100) not null default '',"""
 for field in Fields:
     fname=re.search("\d+_(.+)",field).group(1)
     tipo=Database[field][0]
@@ -20,8 +21,10 @@ for field in Fields:
     sql+="\n\t%s %s %s,"%(field,tipo,default)
 
 sql+="""
-primary key (F100_Codigo)
+primary key (F000_AUTO_Codigoid)
 );
 """
+#primary key (F100_Codigo)
+
 print sql
 db.execute(sql)

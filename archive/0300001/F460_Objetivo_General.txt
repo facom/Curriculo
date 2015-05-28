@@ -1,10 +1,3 @@
 El objetivo del curso “Fundamentos de Acústica Física” es familiarizar a los estudiantes con los conceptos básicos de la acústica como el movimiento sinusoidal de un sistema de masa y resorte, y las ecuaciones matemáticas que describen las ondas estacionarias y de propagación.
 
-El curso es de dos semestres, y está dirigido a estudiantes de primer año de postgrado, pero también es adecuado para estudiantes universitarios avanzados. Énfasis en las ondas planas en la primera parte del libro mantiene la simple matemática pero se adapta a una amplia gama de temas: propagación, reflexión y transmisión, modos normales y guías de onda simples para geometrías rectilíneas, cuernos acústicos, los medios no homogéneos, y la absorción del sonido y la dispersión.
-
-El segundo está dedicado a un desarrollo más riguroso de la ecuación de ondas, ondas esféricas y cilíndricas (incluidas las matemáticas más avanzadas que se requieren), guías de onda mas avanzadas, la radiación de un pistón con pantalla, difracción (tratados en el dominio del tiempo) y las matrices. Aplicaciones y ejemplos son extraídos de:
-     • Acústica de la atmósfera
-     • El control del ruido
-     • Acústica submarina
-     • Ingeniería acústica
-     • Mediciones acústicas
+El curso es de un semestre, y está dirigido a estudiantes universitarios avanzados. Énfasis en las ondas planas en la primera parte del libro mantiene la matemática simple pero se adapta a una amplia gama de temas: propagación, reflexión y transmisión, modos normales y guías de onda simples para geometrías rectilíneas, cuernos acústicos, y la absorción del sonido y la dispersión.

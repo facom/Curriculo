@@ -1,3 +1,6 @@
-• Fundamentar los conceptos de la acústica física como el movimiento sinusoidal, y la interacción entre ondas y la materia.
-
+• Fundamentar los conceptos de la acústica física como:
+1. El movimiento sinusoidal de un sistema de resorte y masa 
+2. La diferencia entre ondas longitudinales y transversales
+3. La impedancia acústica característica de los materiales
+4. 
 

@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Thu, 11 Sep 2014 16:53:03 -050";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Wed, 22 Oct 2014 16:32:28 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
-$F020_AUTH_Autorizacion_Vicedecano="No";
-$F025_AUTH_Version="";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
+$F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="fisica";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0302133";
 $F110_Nombre_Asignatura="Fundamentación en Física";
@@ -34,9 +34,9 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="--Física--";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2014-2";
+$F330_Semestre="2015-1";
 $F330_Semestre_Plan="1";
-$F340_Horario_clase="http://www.genesis-o";
+$F340_Horario_clase="MJ 10-12";
 $F350_Requisitos="Ninguno";
 $F360_Correquisitos="Ninguno";
 $F370_Sede="Ciudad Universitaria - Medellín";

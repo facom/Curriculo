@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 27 May 2015 18:42:35 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 28 May 2015 09:54:45 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
-$F025_AUTH_Version="1";
+$F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="418";
 $F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="Si";
+$F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0302100";
 $F110_Nombre_Asignatura="Introducción a la Física";
 $F120_Tipo_Curso="Básico";

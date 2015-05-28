@@ -9,6 +9,7 @@ $QRECYCLE=1;//1 si quiere mostrar los cursos reciclados
 $SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
 $DATADIR=".";
 $LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
+$SIGNATURE="http://astronomia-udea.co/principal/Curriculo/images/zul0807sgtr-1.jpg";
 session_start();
 $SESSID=session_id();
 $NAME=$_COOKIE["name"];
@@ -55,7 +56,8 @@ START;
 ////////////////////////////////////////////////////
 $SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
-$H2PDF="../../temp/wkhtmltopdf-i386";
+//$H2PDF="../../temp/wkhtmltopdf-i386";
+$H2PDF="../../temp/wkhtmltopdf-amd64";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
 
@@ -340,6 +342,12 @@ if(isset($_GET["planes_asignatura"])){
       if(!mysqli_query($db,$sql)){
 	die("No se pudo cambiar el semestre:".mysqli_error($db));
       }
+      /* Use esto si quiere cambiar algo globalmente de todos los cursos
+      $sql="update MicroCurriculos set F025_AUTH_Version='1'";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo cambiar el semestre:".mysqli_error($db));
+      }
+      */
       $resultado.="Semestre cambiado exitosamente.";
     }
     $resultado.="</p>";
@@ -363,18 +371,17 @@ CONTENT;
   $content.="<p></p>";
 
   //==================================================
-  //LISTA DE PLANES
+  //LISTA DE PLANES APROBADOS
   //==================================================
   $page="$header";
-  $publicos="";
-  $privados="";
+  $aprobados="";
   foreach(array_keys($INSTITUTOS) as $key){
     $instituto=$INSTITUTOS["$key"];
     if($instituto=="Profesor" or
        $instituto=="Administrador"){continue;}
-    $listapub="";
+    $listaaprob="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid from MicroCurriculos_Publicos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
     }
@@ -390,6 +397,53 @@ CONTENT;
       $autorizacion=$row[7];
       $semestre=$row[8];
       $semestreactual=$row[9];
+      $codigoid=$row[10];
+$listaaprob=<<<LISTA
+<li>
+<a href='?ver_curso=$codigoid&source=public&mode=Todos' target="_blank">$nombre - $codigo</a>
+LISTA;
+      if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
+	$listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
+      }
+      $listaaprob.="</li>";
+    }
+    //LISTA PUBLICOS
+    if(!preg_match("/\w+/",$listaaprob)){$listaaprob="<i>(No se encontraron cursos)</i>";}
+    else{$listaaprob.="</ul>";}
+    //MUESTRA LISTAS
+    $aprobados.="<h4>$instituto</h4><ul>$listaaprob</ul>";
+  }
+  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
+
+  //==================================================
+  //LISTA DE PLANES
+  //==================================================
+  $publicos="";
+  $privados="";
+  foreach(array_keys($INSTITUTOS) as $key){
+    $instituto=$INSTITUTOS["$key"];
+    if($instituto=="Profesor" or
+       $instituto=="Administrador"){continue;}
+    $listapub="";
+    $listapriv="";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version from MicroCurriculos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    if(!($out=mysqli_query($db,$sql))){
+      die("Error:".mysqli_error($db));
+    }
+    $lista="";
+    while($row=mysqli_fetch_array($out)){
+      $codigo=$row[0];
+      $nombre=$row[1];
+      $instituto=$row[2];
+      $publica=$row[3];
+      $actualizacion=$row[4];
+      $usuario=$row[5];
+      $modifica=$row[6];
+      $autorizacion=$row[7];
+      $semestre=$row[8];
+      $semestreactual=$row[9];
+      $version=$row[10];
+
       $ps=porcentajeCompletado($codigo);
       $p=$ps[0];
       $n=$ps[1];
@@ -414,7 +468,7 @@ PORCENTAJE;
       if($publica=="Si"){
 $listapub=<<<LISTA
 <li>
-<a href='?ver_curso=$codigo&mode=Todos'>$nombre - $codigo</a>
+<a href='?ver_curso=$codigo&mode=Todos' target="_blank">$nombre - $codigo</a>
 LISTA;
 	if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	  $listapub.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
@@ -429,8 +483,9 @@ LISTA;
       }
 $listapriv.=<<<LISTA
 <li>
-  <a href='?ver_curso=$codigo&mode=Todos'><b>$nombre - $codigo</b></a>$editar<br/>
+  <a href='?ver_curso=$codigo&mode=Todos' target="_blank"><b>$nombre - $codigo</b></a>$editar<br/>
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
+  <i style="text-decoration:underline">Versión</i>: $version <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
   <i style="text-decoration:underline">Semestre en el Plan</i>: $semestre <br/>
@@ -452,7 +507,7 @@ LISTA;
     $privados.="<a name='$instituto'></a><h4>$instituto</h4><ul>$listapriv</ul>";
   }
 
-  $page.="<h2>Lista de Cursos Públicos</h2>$publicos";
+  //$page.="<h2>Lista de Cursos Públicos</h2>$publicos";
 
   if($QADMIN>=2){
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -586,7 +641,7 @@ if(isset($carga_curso) and $QADMIN){
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //CARGA UN CURSO GUARDADO
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADMIN){
+if(($accion=="Guardar" or $accion=="Reciclar" or $accion=="Archivar" or $accion=="Publicar") and $QADMIN){
   $name="F100_Codigo";
   $codigo=$$name;
   $name="F280_Instituto";
@@ -641,20 +696,32 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
       goto end_archive;
     }
   }
+
+  $name="F100_Codigo";
+  $codigo=$$name;
+
+  $tableid="F100_Codigo";
+  $codigoid=$codigo;
+
   $table="MicroCurriculos";
   if($accion=="Reciclar"){
     $table="MicroCurriculos_Recycle";
   }
   if($accion=="Publicar"){
     $table="MicroCurriculos_Publicos";
+    $tableid="F000_AUTO_Codigoid";
+    $F000_AUTO_Codigoid="$codigo-v$F025_AUTH_Version-$F330_Semestre";
+    $F060_AUTH_Publica_Curso="No";
+    $F020_AUTH_Autorizacion_Vicedecano="No";
+    $F025_AUTH_Version+=1;
+    $codigoid=$F000_AUTO_Codigoid;
   }
+
   ////////////////////////////////////////////////////
   //GUARDANDO REGISTRO
   ////////////////////////////////////////////////////
   //INSERT IF NOT EXISTS
-  $name="F100_Codigo";
-  $codigo=$$name;
-  $sql="insert into $table (F100_Codigo) values (\"$codigo\") on duplicate key update F100_Codigo=\"$codigo\"";
+  $sql="insert into $table ($tableid) values (\"$codigoid\") on duplicate key update $tableid=\"$codigoid\"";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }
@@ -662,7 +729,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   $sql="update $table set ";
   foreach($FIELDS as $field){
     $type=$DBASE[$field]["type"];
-    if($field=="F100_Codigo" or $type=="text"){continue;}
+    if($field=="$tableid" or $type=="text"){continue;}
     $value=$$field;
     if(preg_match("/AUTO/",$field)){
       if(preg_match("/_Fecha/",$field)){
@@ -671,24 +738,29 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
       if(preg_match("/_Usuario/",$field)){
 	$value=$INSTITUTO;
       }
-      if(preg_match("/_Version/",$field)){
+      if(preg_match("/_Version/",$field) and $accion!="Publicar"){
 	$value=$value+1;
       }
     }
     $sql.="$field='$value',";
   }
   $sql=trim($sql,",");
-  $name="F100_Codigo";
-  $codigo=$$name;
-  $sql.=" where F100_Codigo='$codigo';";
+  $name="$tableid";
+  $codigoid=$$name;
+  $sql.=" where $tableid='$codigoid';";
   if(!mysqli_query($db,$sql)){
     die("Error:".mysqli_error($db));
   }else if($accion!="Reciclar"){
-    $ps=porcentajeCompletado($codigo);
-    $p=$ps[0];
-    $n=$ps[1];
-    $porcentaje=round($p,0)."% $n";
-    $result.="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
+    if($accion!="Publicar"){
+      $ps=porcentajeCompletado($codigo);
+      $p=$ps[0];
+      $n=$ps[1];
+      $porcentaje=round($p,0)."% $n";
+      $result.="<i style='color:blue'>Registro guardado exitosamente ($porcentaje completado).</i>";
+    }else{
+      $result.="<i style='color:blue'>El cuso ha sido publicado. A partir de este
+momento todas las versiones de este curso serán nuevas.</i>";
+    }
     $qnew=0;
   }
   if($accion=="Reciclar"){
@@ -706,6 +778,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     $coursedir="recycle/$codigo";
   }
   system("mkdir -p \"$coursedir\"");
+
   $fc=fopen("$coursedir/notext.txt","w");
   //echo "COURSE DIR: $fc<br/>";
   fwrite($fc,"<?php\n");
@@ -722,6 +795,27 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
   }
   fwrite($fc,"?>\n");
   fclose($fc);
+
+  if($accion=="Publicar"){
+    $pubcourse="$DATADIR/public/$codigoid";
+    system("mkdir -p \"$pubcourse\"");
+    $fc=fopen("$pubcourse/notext.txt","w");
+    fwrite($fc,"<?php\n");
+    foreach($FIELDS as $field){
+      $value=$$field;
+      $type=$DBASE[$field]["type"];
+      if($type!="text"){
+	fwrite($fc,"\$$field=\"$value\";\n");
+      }else{
+	$fl=fopen("$pubcourse/$field.txt","w");
+	fwrite($fl,$value);
+	fclose($fl);
+      }
+    }
+    fwrite($fc,"?>\n");
+    fclose($fc);
+  }
+
   if($accion=="Reciclar"){
     echo "$header$menu$result";
     goto footer;
@@ -787,6 +881,12 @@ BUTTONS;
 $buttons.=<<<BUTTONS
 <input type='submit' name='accion' value='Reciclar'>
 <!--<input type='submit' name='accion' value='Archivar'>-->
+BUTTONS;
+ }
+
+ if($QADMIN>=3 and $F020_AUTH_Autorizacion_Vicedecano=="Si"){
+$buttons.=<<<BUTTONS
+<input type='submit' name='accion' value='Publicar'>
 BUTTONS;
  }
 
@@ -1010,7 +1110,16 @@ if(isset($ver_curso)){
   $page.="$header";
   //RECUPERA INFORMACION DEL CURSO DE LA BASE DE DATOS
   $table="MicroCurriculos";
-  $sql="select * from $table where F100_Codigo='$ver_curso';";
+  $tableid="F100_Codigo";
+  $coursedir="$DATADIR/data/$ver_curso";
+  $signature="(No autorizado. Este documento es solo un borrador.)";
+  if($source=="public"){
+    $table="MicroCurriculos_Publicos";
+    $tableid="F000_AUTO_Codigoid";
+    $coursedir="$DATADIR/public/$ver_curso";
+    $signature="<img src='$SIGNATURE' width=100 align='top'>";
+  }
+  $sql="select * from $table where $tableid='$ver_curso';";
   $out=mysqli_query($db,$sql);
   if(!($row=mysqli_fetch_array($out))){die("Error:".mysqli_error($db));}
 
@@ -1022,11 +1131,9 @@ if(isset($ver_curso)){
   }
 
   //RECUPERA INFORMACIÓN DEL CURSO DE ARCHIVOS
-  $coursedir="$DATADIR/data/$ver_curso";
   foreach($FIELDS as $field){
     $value=$$field;
     $fname=preg_replace("/^F\d+_/","",$field);
-    //echo "$fname = $value<br/>";
     $$fname=$value;
     $type=$DBASE[$field]["type"];
     if($type!="text"){continue;}
@@ -1036,7 +1143,6 @@ if(isset($ver_curso)){
     $value=$$field;
     $value=preg_replace("/\n/","<br/>",$value);
     $$fname=$value;
-    //echo "$fname<br/>";
     fclose($fl);
   }
 
@@ -1102,7 +1208,7 @@ TABLE;
       }
     }
     $table.="</table></body></html>";
-    $coursedir="$DATADIR/data/$ver_curso";
+    //$coursedir="$DATADIR/data/$ver_curso";
     $fl=fopen("$coursedir/$ver_curso-plano.html","w");
     fwrite($fl,$table);
     fclose($fl);
@@ -1112,8 +1218,11 @@ TABLE;
     }else{$out="NEW";}
     if(!isBlank($out)){
       sleep(2);
-      shell_exec("cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf");
+      echo "Converting to pdf...";
+      shell_exec("cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf &> pdf.log");
       shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > .$ver_curso-plano.pdf.md5sum");
+    }else{
+      echo "No Converting to pdf...";
     }
 
     if(file_exists("$coursedir/$ver_curso-plano.pdf")){
@@ -1123,7 +1232,7 @@ TABLE;
     }
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-plano.html target=_blank>Formato plano</a>
-$filepdf
+  $filepdf
 <br/>
 DESCARGA;
   }
@@ -1345,10 +1454,14 @@ $table.=<<<TABLE
     <tr><td style='$border;$heavygray;' colspan=4><b>10. BIBLIOGRAFÍA</b></td></tr>
     <tr><td style='$border;' colspan=4>$Bibliografia_General<br/>$BibliografiaCompleta</td>
   </table>
+  <p style="font-size:10px">
+  <b>Última actualización</b>: $DATE<br/>
+  <b>Firma Autorizada Facultad</b>: $signature
+  </p>
 </body>
 </html>
 TABLE;
-    $coursedir="$DATADIR/data/$ver_curso";
+    //$coursedir="$DATADIR/data/$ver_curso";
     /*
     $mpdf=new mPDF();
     $mpdf->WriteHTML($table);
