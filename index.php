@@ -217,7 +217,10 @@ function porcentajeCompletado($codigo)
 if(!isset($edita_curso)){
 $menu="";
 $menu.="<a href=index.php>Principal</a>";
-$menu.=" - <a href=index.php?planes_asignatura>Planes de Asignatura</a>";
+$menu.=" - <a href=index.php?planes_aprobados>Planes Aprobados</a>";
+if($QADMIN>1){
+  $menu.=" - <a href=index.php?planes_asignatura>Planes en Edición</a>";
+}
 if(!$QADMIN){
   $headbar="";
   $menu.=" - <a href=login.php>Conectarse</a>";
@@ -295,10 +298,18 @@ De acuerdo a sus necesidades escoja una de las siguientes opciones:
 
   <li>
     <b>
-      <a href='?planes_asignatura'>Planes de Asignatura</a>.
+      <a href='?planes_asignatura'>Planes en Edición</a>.
     </b>
     Aquí podrá ver (o editar en caso de ser administrador) los planes
     de asignatura de todos los cursos de la Facultad.
+  </li>
+
+  <li>
+    <b>
+      <a href='?planes_aprobados'>Planes Aprobados</a>.
+    </b>
+    Aquí podrá ver los planes
+    de asignatura aprobados de todos los cursos de la Facultad.
   </li>
 
   $admin
@@ -313,6 +324,92 @@ aquí.</i>
 
 </p>
 MAIN;
+}
+
+////////////////////////////////////////////////////
+//LISTA TOTAL DE CURSOS
+////////////////////////////////////////////////////
+if(isset($_GET["planes_aprobados"])){
+
+  //==================================================
+  //OPERACIONES GLOBALES
+  //==================================================
+  if($QADMIN>=4){
+    $resultado="<p style='color:blue;font-style:italic'>";
+    if(isset($unlock_all)){
+      $resultado.="Todos los cursos desbloqueados";
+      shell_exec("find $DATADIR/data/ -name '.lock' -exec rm {} \\; &> /tmp/a.log");
+    }
+    if(isset($clean_recycle)){
+      $sql="truncate table MicroCurriculos_Recycle;";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo limpiar la papelera:".mysqli_error($db));
+      }
+      shell_exec("rm -r $DATADIR/recycle/* &> $TMPDIR/recycle.log");
+      $resultado.="Papelera vaciada.";
+    }    
+    if(isset($semestre_all)){
+      $sql="update MicroCurriculos set F330_Semestre='$semestre_all'";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo cambiar el semestre:".mysqli_error($db));
+      }
+      /* Use esto si quiere cambiar algo globalmente de todos los cursos
+      $sql="update MicroCurriculos set F025_AUTH_Version='1'";
+      if(!mysqli_query($db,$sql)){
+	die("No se pudo cambiar el semestre:".mysqli_error($db));
+      }
+      */
+      $resultado.="Semestre cambiado exitosamente.";
+    }
+    $resultado.="</p>";
+  }
+
+  //==================================================
+  //LISTA DE PLANES APROBADOS
+  //==================================================
+  $page="$header";
+  $aprobados="";
+  foreach(array_keys($INSTITUTOS) as $key){
+    $instituto=$INSTITUTOS["$key"];
+    if($instituto=="Profesor" or
+       $instituto=="Administrador"){continue;}
+    $listaaprob="";
+    $listapriv="";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid from MicroCurriculos_Publicos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    if(!($out=mysqli_query($db,$sql))){
+      die("Error:".mysqli_error($db));
+    }
+    $lista="";
+    while($row=mysqli_fetch_array($out)){
+      $codigo=$row[0];
+      $nombre=$row[1];
+      $instituto=$row[2];
+      $publica=$row[3];
+      $actualizacion=$row[4];
+      $usuario=$row[5];
+      $modifica=$row[6];
+      $autorizacion=$row[7];
+      $semestre=$row[8];
+      $semestreactual=$row[9];
+      $codigoid=$row[10];
+
+$listaaprob.=<<<LISTA
+<li>
+<a href='?ver_curso=$codigoid&source=public&mode=Todos' target="_blank">$nombre - $codigo - $semestreactual</a>
+LISTA;
+      if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 0){
+	$listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
+      }
+      $listaaprob.="</li>";
+    }
+    //LISTA PUBLICOS
+    if(!preg_match("/\w+/",$listaaprob)){$listaaprob="<i>(No se encontraron cursos)</i>";}
+    else{$listaaprob.="</ul>";}
+    //MUESTRA LISTAS
+    $aprobados.="<h4>$instituto</h4><ul>$listaaprob</ul>";
+  }
+  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
+  echo $page;
 }
 
 ////////////////////////////////////////////////////
@@ -369,51 +466,7 @@ CONTENT;
     $i++;
   }
   $content.="<p></p>";
-
-  //==================================================
-  //LISTA DE PLANES APROBADOS
-  //==================================================
   $page="$header";
-  $aprobados="";
-  foreach(array_keys($INSTITUTOS) as $key){
-    $instituto=$INSTITUTOS["$key"];
-    if($instituto=="Profesor" or
-       $instituto=="Administrador"){continue;}
-    $listaaprob="";
-    $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid from MicroCurriculos_Publicos where F280_Instituto='$instituto' order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
-    if(!($out=mysqli_query($db,$sql))){
-      die("Error:".mysqli_error($db));
-    }
-    $lista="";
-    while($row=mysqli_fetch_array($out)){
-      $codigo=$row[0];
-      $nombre=$row[1];
-      $instituto=$row[2];
-      $publica=$row[3];
-      $actualizacion=$row[4];
-      $usuario=$row[5];
-      $modifica=$row[6];
-      $autorizacion=$row[7];
-      $semestre=$row[8];
-      $semestreactual=$row[9];
-      $codigoid=$row[10];
-$listaaprob=<<<LISTA
-<li>
-<a href='?ver_curso=$codigoid&source=public&mode=Todos' target="_blank">$nombre - $codigo</a>
-LISTA;
-      if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	$listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
-      }
-      $listaaprob.="</li>";
-    }
-    //LISTA PUBLICOS
-    if(!preg_match("/\w+/",$listaaprob)){$listaaprob="<i>(No se encontraron cursos)</i>";}
-    else{$listaaprob.="</ul>";}
-    //MUESTRA LISTAS
-    $aprobados.="<h4>$instituto</h4><ul>$listaaprob</ul>";
-  }
-  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
 
   //==================================================
   //LISTA DE PLANES
@@ -515,7 +568,6 @@ LISTA;
     //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     if($QADMIN>=4){
 $page.=<<<GLOBALES
-<hr/>
 <h2>Operaciones Globales</h2>
 <form>
 <input type="hidden" name="planes_asignatura" value="">

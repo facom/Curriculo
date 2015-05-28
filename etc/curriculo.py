@@ -61,7 +61,7 @@ def loadDatabase(server='localhost',
                 for field in dbdict[table]['fields']:
                     rowdict[field]=row[i]
                     if field==dbdict[table]['primary']:
-                        primary=row[i]
+                        primary=row[i].strip()
                     i+=1
                 dbdict[table]['rows'][primary]=rowdict
 
@@ -71,6 +71,7 @@ def updateDatabase(dbdict,con):
     with con:
         db=con.cursor()
         for table in dbdict.keys():
+            print "Actualizando tabla ",table
             for row in dbdict[table]['rows'].keys():
                 sql="update %s set "%table;
                 for field in dbdict[table]['fields']:
@@ -80,3 +81,4 @@ def updateDatabase(dbdict,con):
                     sql+="%s = '%s',"%(field,dbdict[table]['rows'][row][field])
                 sql=sql.strip(",")+" %s;"%suffix
                 db.execute(sql);
+    con.commit()
