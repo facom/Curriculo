@@ -1,0 +1,5 @@
+1.1  Ondas sinusoidales
+1.2 Propagación del sonido
+1.3  Longitud de onda y frecuencia
+1.4 Ondas complejas
+1.5 Armónicos, fase, octavas, espectros

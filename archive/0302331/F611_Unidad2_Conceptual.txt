@@ -1,0 +1,1 @@
+Frecuencia., amplitud, fase, valor eficaz. Inductancia y Capacitancia. Representación con complejos. Circuitos RC,  RL y RLC. Transformadores. Problemas

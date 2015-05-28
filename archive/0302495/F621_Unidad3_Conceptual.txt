@@ -1,0 +1,10 @@
+	Dispersión elástica electrón-electrón y electrón-positrón.
+	Correcciones de segundo orden.
+	Cuantificación del campo mesónico escalar.
+	Absorbción  y emisión para mesones y fotones.
+	El efecto Compton.
+	Fórmula de Klein-Nishina.
+	Invaraianza gauge y efecto Compton.
+	Aniquilación de pares.
+	Bremsstrahlung.
+	Diagramas de cuarto orden.

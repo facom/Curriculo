@@ -1,0 +1,7 @@
+• Transformaciones generales de coordenadas.
+• El tensor métrico.
+• Los símbolos de Chistoffel y la derivación covariante., Geodésicas.
+• Cantidades conservadas en caída libre.
+• El tensor de Riemann y curvatura. 
+• Derivada a lo largo de una curva.
+Coordenadas  geodésicas. Las identidades de Bianchi.

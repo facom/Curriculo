@@ -1,0 +1,1 @@
+Leyes de Newton, marcos de referencia inercial y no-inercial; diagramas de cuerpo libre, aplicaciones elementales; tipos de fuerza: de “contacto”, tensión, normal, de viscosidad, electrostática, gravitacional de Newton.

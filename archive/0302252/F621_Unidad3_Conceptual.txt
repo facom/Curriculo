@@ -1,0 +1,2 @@
+Uso de la fuente de corriente directa (DC), el generador de ondas, y el multímetro. 
+Medición de propiedades eléctricas en circuitos eléctricos (resistencias, voltajes, corrientes y frecuencias).

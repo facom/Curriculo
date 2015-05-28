@@ -1,0 +1,5 @@
+5.1 Auto-energía del vació y ordenamiento normal
+5.2 Definición de la matriz S
+5.3 La formula de reducción
+5.4 Teorema de Wick
+5.5 Reglas de Feyman

@@ -1,0 +1,1 @@
+Una vez concluido el curso, el alumno debe ser capaz de proponer métodos de grabación y edición de señales sonoras según requerimientos planteados. En particular, estará en capacidad de resolver  problemas de procesamiento y generación de archivos digitalizados de señales de audio, usando la plataforma de programación Matlab. 

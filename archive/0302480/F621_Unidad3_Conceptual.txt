@@ -1,0 +1,18 @@
+16. EFECTOS DE SPIN EN LA ESTRUCTURA DE ÁTOMOS DE DOS ELECTRONES.
+La ecuación de Schroedinger para átomos de dos electrones. Estados orto y para. Funciones de onda de spin principio de exclusión de Pauli. Niveles de energí de atomos de dos electrones. Modelos de partícula independiente y de campo central.
+17. EFECTOS DE CORRELACIONES EN LA ESTRUCTURA DE ÁTOMOS DE DOS ELECTRONES.
+Métodos perturbativos y variacionales para el estado base de atomos de dos electrones. Correlaciones angulares y radiales, problema de Hylleraas. Estados doblemente excitados en atomos de  dos electrones. Efecto Auger. Resonancias.
+18. ESTADOS EXCITADOS DE ÁTOMOS DE DOS ELECTRONES.
+Electrones equivalentes: casos (1s)^2 y (2p)^2. Electrones no equivalentes: casos 1s 2s, 1s 2p y np np'. Efectos de las interacciones electrón-electrón.
+19. LA TABLA PERIÓDICA DE LOS ELEMENTOS.
+Defecto cuántico en el He y en los atomos alcalinos. Los números cuánticos. Átomos de muchos electrones en el modelo de campo central: conﬁguración electrónica, términos espectrales. Principio de Pauli y reglas de Hund. Aproximación de campo central. Tabla periódica: grupos principales, grupos de transición, tierras raras.
+20. MODELO ATÓMICO DE THOMAS-FERMI.
+El gas de electrones de Fermi. Método del campo autoconsistente en el modelo atómico de Thomas-Fermi.
+21. ÁTOMOS DE MUCHOS ELECTRONES: CONFIGURACIONES ELECTRÓNICAS.
+El problema secular de la teoría de multipletes: correcciones a la aproximación de campo central. El principio de Pauli y los determinantes de Slater. Buenos números cuánticos aproximados. Operador de paridad, operadores de permutación. Interacciones directa y de intercambio. Energía de los términos espectrales.
+22. ÁTOMOS DE MUCHOS ELECTRONES: TÉRMINOS ESPECTRALES Y FUNCIONES DE ONDA.
+Funciones de onda completas para un atomo de varios electrones. Tres electrones no equivalentes. Dos electrones equivalentes y uno no equivalente. Tres electrones no equivalentes. Espectro del boro. Espectro del litio. Espectro del carbono. Espectro del oxígeno.
+23. ÁTOMOS DE MUCHOS ELECTRONES: ENERGÍA EN FUNCIÓN DE INTEGRALES RADIALES.
+Interacción spin orbita para átomos de muchos electrones. Acoplamiento LS y acoplamiento jj. Teoría de Hartree-Fock. El estado base del atomo de He usando el método de Hartree. Potencial analíıtico local autoconsistente usando funciones radiales tipo Slater.
+24. INTERACCIÓN DE ÁTOMOS MULTIELECTRÓNICOS CON CAMPOS ELECTROMAGNÉTICOS.
+Reglas de selección. Espectro de los alcalinos. Espectro de los alcalino-térreos. Átomos con varios electrones activos. Efectos Zeeman y Stark.

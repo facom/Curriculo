@@ -1,0 +1,4 @@
+1.	David Griffiths. Introduction to electrodynamics 3rd Edition. Prentice Hall. 1999
+2.	W. Greiner. Classical electrodynamics. Springer. 1998
+3.	J. D. Jackson. Classical electrodynamics 3rd Edition. John Wiley & Sons. 1999
+4.	Alonso Sepúlveda. Notas de electrodinámica clásica. Universidad de Antioquia. 1986

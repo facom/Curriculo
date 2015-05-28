@@ -1,0 +1,5 @@
+A. Varias demostraciones visuales (internet, videos, mecánicos) serán presentadas para desarrollar la intuición física de las ondas acústicas de los estudiantes.
+
+B. Derivar la ecuación de onda usando varias sistemas de coordenadas y visualizar estas ondas
+
+C. Desarrollar conceptos como la impedancia acústica de un material.

@@ -1,0 +1,2 @@
+Definiciones básicas de la termodinámica.
+Ley cero y Termometría.

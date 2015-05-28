@@ -1,0 +1,3 @@
+Reflexión y transmisión de las ondas planas incidentes perpendicularmente:    Ondas de forma arbitraria
+	A-B: Reflexión y transmisión a través de una interfase plana (se inicia con ángulo, y luego el ángulo se hace cero) rígida y de liberación de presión
+	C-D: Ejemplos de reflexión / transmisión

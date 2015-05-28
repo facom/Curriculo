@@ -1,0 +1,4 @@
+3.1 Fuerzas magnéticas, definición de campo magnético,  ley de Biot-Savart y ley de Gauss para el campo magnético.
+3.2 Potencial vectorial, fuerzas y campos cerca de un conductor de corriente, Ley de Ampere.
+3.3 Conducción eléctrica en un campo magnético y efecto Hall.
+3.4 Magnetización, materiales ferromagnéticos,   paramagnéticos y diamagnéticos.

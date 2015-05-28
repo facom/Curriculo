@@ -1,0 +1,3 @@
+7.1. Integral de difracción de Huygens-Fresnel, zonas de Fresnel, puntos de Poisson
+7.2. Integral de difracción de Kirchhoff-Fresnel
+7.3. Aproximación de Fraunhofer. Doble rendija de Young.

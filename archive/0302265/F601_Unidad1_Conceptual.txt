@@ -1,0 +1,3 @@
+Campo gravitacional. Concepto de masa. Leyes de Kepler. Ley de Gravitación Universal de Newton
+Energía potencial gravitacional. Concepto y cálculo de potenciales.
+Cálculo de campo gravitacional por distribuciones de masas puntuales y homogéneas. 

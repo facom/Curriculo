@@ -1,0 +1,8 @@
+4.1. Series de Taylor y MacLaurin.
+4.2. Series de Laurent.
+4.3. Propiedades de las series de potencias. Multiplicación y división de series, convergencia.
+4.4. Expansión de funciones en series de potencias.
+4.4. Singularidades y residuos. Teorema de residuos.
+4.5. Polos y singularidades esenciales. Métodos para determinar residuos.
+4.6. Resolución de integrales complejas y reales con el método de residuos.
+4.7. Integrales impropias con ceros reales. Integración de funciones multivaluadas

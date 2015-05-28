@@ -1,0 +1,3 @@
+ 2.1 Corrientes  estacionarias, densidad de corriente, ecuación de conservación de la carga.
+2.2 Conductividad, resistencia, ley de Ohm. Descripción general metales, semiconductores y superconductores.
+2.3 Leyes de Kirchhoff, asociaciones de resistencias, circuito RC.

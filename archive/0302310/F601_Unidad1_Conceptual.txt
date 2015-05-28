@@ -1,0 +1,8 @@
+Descripción matemática de la propagación ondulatoria. Periodicidad espacial y temporal del movimiento sinusoidal. Ecuación diferencial para movimiento ondulatorio. 
+Análisis de Fourier para movimientos periódicos y ondulatorios. Velocidades de fase y grupo. Dispersión. 
+Ondas elásticas longitudinales y transversales en una barra. Ondas de presión en una columna de gas.
+Ondas transversales en una cuerda. Descripción analítica de la polarización. Propagación de momentum y energía. Flujo energético o intensidad. 
+Reflexión y transmisión en el punto de unión de dos cuerdas.
+Ondas estacionarias en una y dos dimensiones, en cuerdas y columnas de aire. Ondas esféricas en fluidos isotrópicos. Efecto Doppler. Ondas Tridimensionales.
+Ondas estacionarias y ecuación de ondas. 
+Problemas.

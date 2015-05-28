@@ -1,0 +1,4 @@
+Lograr que el estudiante se familiarice con los conceptos y principios básicos de la teoría especial de la relatividad. 
+• Lograr que el estudiante comprenda las relaciones y diferencias entre los conceptos y las leyes relativistas, y los conceptos y leyes clásicas correspondientes. 
+• Lograr que el estudiante pueda trabajar problemas de cinemática y dinámica relativista usando el formalismo de los cuadrivectores. 
+• Introducir al estudiante en el estudio de la electrodinámica covariante.   

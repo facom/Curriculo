@@ -1,0 +1,1 @@
+Analizar cualitativamente la interferencia constructiva y destructiva entre ondas estacionarias en una cuerda.

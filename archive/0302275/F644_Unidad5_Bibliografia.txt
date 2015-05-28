@@ -1,0 +1,9 @@
+- S. G. Krantz. Complex Variables. A Physical approach with applications and MATLAB. Chapman & Hall/CRC. New York, 2008
+- R V Churchill, J Ward Brown. Variables complejas y sus aplicaciones.  4 y  7. Ed.  McGraw-Hill Interamericana, España, 1986, 2004
+- J.H Mathews, R W Howell. Complex analysis for mathematics and engineering. - 3. ed. Jones and Bartlett,  Boston, 1997
+- J. Hauser, A. Arthur. Variable Compleja. Fondo Educativo Interamericano S. A., Bogotá, 1973.
+- J. E. Mejía. Notas para un primer curso de variable compleja.  U. de A.
+- G. Arfken. Métodos Matemáticos para Físicos. Ed. Diana, México, 1983.
+- G. Arfken, H. Weber. Mathematical methods for physicists. Academic   Press, Estados Unidos  1970, 2001
+- D. Hilbert, R Courant. Methods of mathematical physics. John Wiley, Estados Unidos, 1989
+- S.Hassani.  Mathematical physics: a modern introduction to its foundations.  Springer, New York, 1999

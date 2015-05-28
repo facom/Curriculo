@@ -1,0 +1,5 @@
+A. Que es una onda? Ecuación de onda, Soluciones generales;
+B: Soluciones generales, ondas de propagación, características, ondas planas de propagación; condición inicial y soluciones forzadas a los métodos de solución;
+C: Derivación de la ecuación de onda (eléctricas y para cuerdas) ; impedancia característica (específica)
+	D. La ecuación de Euler vectorial (1D), introducir y derivar la ecuación de onda para el potencial de velocidad, coordenadas esféricas y cilíndricas (radial solamente); propagación esférica; Ejemplo de esfera oscilante, forma compleja de p, u, Z
+	E. Señales, niveles, impedancia, intensidad y poder

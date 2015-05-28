@@ -1,0 +1,2 @@
+Leyes de conservación de la energía y de la carga eléctrica en un circuito.
+Resistencia equivalente de circuitos con resistencias en serie y en paralelo.

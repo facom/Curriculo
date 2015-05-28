@@ -1,0 +1,4 @@
+Ley de Ampere en forma diferencial. Flujo magnético.
+Magnetización de la materia. 
+Campo magnetizante. Susceptibilidad magnética.
+Ciclo de histéresis. Concepto sobre ferro y paramagnetismo. 

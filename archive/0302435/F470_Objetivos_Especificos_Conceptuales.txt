@@ -1,0 +1,1 @@
+Calcular la radiación de dipolo, la radiación por cargas aceleradas  la reflexión  y transmisión de ondas electromagnéticas.

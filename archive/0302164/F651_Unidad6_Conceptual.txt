@@ -1,0 +1,1 @@
+Arreglos: declaración, uso y aplicaciones. Punteros: declaración, uso y aplicaciones. Arreglos de caracteres. Estructuras: declaración, uso y aplicaciones. Uso de objetos especiales como argumentos de una función. Salida y entrada de datos hacia y desde el disco duro. Llamada a comandos del sistema operativo desde programa.

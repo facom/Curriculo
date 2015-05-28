@@ -1,0 +1,1 @@
+Serie perturbativa. Corrección al primer orden de la energía no degenerada. Corrección de primer orden a un estado. Correcciones de segundo orden. Aplicaciones al oscilador armónico. Perturbación de niveles degenerados. Efecto Zeeman. Efecto Stark.

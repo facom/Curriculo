@@ -1,0 +1,1 @@
+El Gnuplot. Uso básico. Llamada desde un programa. Gráficas desde un programa en C. Resolución de pantalla. Coordenadas C. Resolución de pantalla. Areas de graficación. Comandos básicos de graficación: punto, línea, círculo, texto.

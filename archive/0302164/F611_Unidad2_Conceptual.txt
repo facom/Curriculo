@@ -1,0 +1,1 @@
+Lenguajes de programación. Estructura básica de un programa en C. Escritura y compilación de programas en C. Tipos de datos en C. Operadores en C. Entrada y salida estándar (printf, scanf). Elementos de construcción de algoritmos.

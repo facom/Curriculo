@@ -1,0 +1,3 @@
+Calcular las escalas de tiempo para la formación de galaxias, estrellas y planetas.
+
+Calcular 

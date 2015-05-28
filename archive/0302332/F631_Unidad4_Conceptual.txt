@@ -1,0 +1,3 @@
+Rectificador de media onda y de onda completa.
+Rectificación y filtrado.
+Fuente regulada.

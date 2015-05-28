@@ -1,0 +1,1 @@
+Coordenadas generales y tensores. El símbolo de Christoffel y la derivada covariante. Coordenadas geodésicas. Transporte paralelo. El tensor de curvatura.

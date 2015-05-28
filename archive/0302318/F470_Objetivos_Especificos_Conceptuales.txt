@@ -1,0 +1,7 @@
+1. Construir las ecuaciones de movimiento de sistemas mecánicos y electromagnéticos que oscilan y las ecuaciones de onda para sistremas que soportan la propagación de ondas mecánicas.
+2. Encontrar soluciones de las ecuaciones de movimiento de osciladores y ecuaciones de onda.
+3. Identificar los modos normales de un sistema discreto o continuo
+4. Utilizar el análisis de Fourier como herramienta de análisis de fenómenos de oscilaciones y ondulatorios
+5. Aplicar las relaciones de dispersión para describir la propagación de ondas mecánicas en medios lineales.
+6. Identificar los comportamientos característicos de un fenómeno ondulatorio como reflexión, refracción, interferencia y difracción.
+7. Reconocer y diferenciar fenómenos de oscilaciones y ondulatorios para sistemas lineales y sistemas no lineales.

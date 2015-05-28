@@ -1,0 +1,1 @@
+Notaciones y convenciones. Definiciones y propiedades de las formas lineales. El espacio dual. Corchete de dualidad de Dirac. Construcción de formas. Bases duales. Números complejos. Matriz de un vector y un covector. Transpuesta de una aplicación lineal y de una matriz. Bidual. Ortogonalidad.

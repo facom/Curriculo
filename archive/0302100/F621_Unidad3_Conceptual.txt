@@ -1,0 +1,5 @@
+3.1.  Los Modelos Atómicos: La espectroscopía. Los rayos catódicos. Radiactividad. Partículas elementales. Cuantización y modelo de Bohr.
+3.2. Mecánica Cuántica: Ecuación de Schrödinger. La función de onda. El Principio de Incertidumbre. La dualidad onda-partícula.
+3.3. Teoría de la Relatividad: Relatividad especial. Transformaciones de Lorentz. Consecuencias. Equivalencia de masa y energía. Creación y aniquilación de partículas.
+3.4. Cosmología: La evolución del universo. La gran explosión y la radiación cósmica.
+3.5. Perspectivas de la Física: Proyección de la investigación actual en la física. La física en el panorama nacional.

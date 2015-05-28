@@ -1,0 +1,4 @@
+4.1 Ley de Lenz, ley de Faraday y Neumann.
+4.2 Inducción mutua y autoinducción, energía almacenada en un campo magnético.
+4.3 Ley de Ampere-Maxwell y corriente de desplazamiento.
+4.4 Ecuaciones de Maxwell. Predicción de ondas electromagnéticas en el vacío y espectro electromagnético.

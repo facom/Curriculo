@@ -1,0 +1,8 @@
+Al terminar el curso el estudiante estará en capacidad de:
+Describir y definir matemáticamente una onda general, una onda mecánica y una onda electromagnética.
+Calcular las velocidades de propagación y las energías medias en el caso de ondas en cuerdas, barras  y gases.
+Describir y calcular algunos resultados en el dominio de las ondas electromagnéticas.
+Analizar los fenómenos de reflexión, refracción, polarización, interferencia y difracción.
+Calcular y dibujar posiciones y aumentos producidos por lentes o espejos de objetos reales o virtuales  puestos frente a estos elementos ópticos.
+Analizar algunos instrumentos ópticos básicos como son el  microscopio y telescopio.
+Explicar las variaciones de intensidad y de posición de máximos en los fenómenos de interferencia y difracción.

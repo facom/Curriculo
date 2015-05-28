@@ -1,0 +1,3 @@
+2.1. Modos normales de oscilación para dos osciladores acoplados, pulsaciones, problema de valores y vectores propios.
+2.2 . Sistema de dos osciladores acoplados forzados y amortiguados. Resonancias.
+2.3  Caso general para N osciladores acoplados: Diagonalización de las ecuaciones de movimiento (valores y vectores propios).

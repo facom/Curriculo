@@ -1,0 +1,1 @@
+Obtener la frecuencia de resonancia de un resorte. Observar osciladores en fase y en contra fase.

@@ -1,0 +1,1 @@
+Introducción. El problema fundamental del cálculo variacional. Ecuación de Euler. Problema de la Braquistócrona. Segunda forma de la ecuación de Euler. Funciones con varias variables dependientes. Ecuación de Euler con condiciones auxiliares impuestas (Multiplicadores indeterminados de Lagrange ). Notación S.

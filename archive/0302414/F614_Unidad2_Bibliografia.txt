@@ -1,0 +1,7 @@
+•	Landau, Páez (1997) “Computational Physics”, Wiley, New York.
+
+•	Koonin (1986) “Computational Physics”, Benjamin Menlo Park, Ca.
+•	Press, Flannery, Teukolsky, Vetterlling. (1994) “Numerical Recipes”, Cambridge.
+•	University Press. Cambridge. UK.
+•	Gould y Tobochnik (1996) “An introduction to computer simulation methods”.
+Addison - Wesley, Reading. MA. 

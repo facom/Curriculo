@@ -1,0 +1,4 @@
+1. Zonas de Fresnel.
+2. Difracción de campos periódicos: efectos Talbot y Lau. 
+3. Interferometría.
+4. Formación de imágenes y filtrado espacial usando la óptica de Fourier.

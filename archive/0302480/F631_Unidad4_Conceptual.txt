@@ -1,0 +1,12 @@
+25. INTRODUCCIÓN A LA FÍSICA MOLECULAR.
+La molécula diatómica, propiedades generales del espectro molecular: visible, infrarojo cercano e infrarojo lejano. La aproximación de Born-Oppenheimer. Simetría molecular. Regla de no cruce de von Neumann-Wigner.
+26. LAS MOLÉCULAS DE H2^+ Y H2.
+Teoría elemental de la estructura electrónica de una molécula diatómica. Evaluación de integrales de dos centros. Formación de las moléculas H2^+ y H2. Ejemplo computacional.
+27. VIBRACIONES Y ROTACIONES DE LAS MOLÉCULAS DIATóMICAS.
+Curvas de Morse. Molécula diatómica: espectro de vibración y rotación, reglas de selección. Ejemplo computacional.
+28. MOLÉCULAS DIATóMICAS DE MUCHOS ELECTRONES.
+Conﬁguración electrónica molecular. Términos moleculares. Diagramas de correlación.
+29. INTRODUCCIÓN A LAS MOLÉCULAS POLIATÓMICAS.
+Teoría para moléculas diatómicas: aproximación de LCAO, orbitales moleculares, teoría de Heitler-London, teoría de Slater-Pauling. Teoría de la valencia. Estructura de moléculas poliatómicas. Orbitales híbridos. Moléculas H2 O, C H4 y N H3 . Enlaces π y enlaces σ.
+30. ESPECTRO MOLECULAR.
+Espectro rotacional de moléculas diatómicas. Espectro vibro-rotacional de moléculas diatómicas. Molécula diatómica: clasiﬁcación de los estados de la molécula H2^+. Radiación: probabilidades de transición radiativas, reglas de selección, principio de Franck-Condon, efectos del espín nuclear.

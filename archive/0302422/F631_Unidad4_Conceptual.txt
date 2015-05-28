@@ -1,0 +1,5 @@
+4.1  Aproximación armónica: cuántico vs. clásico: Fonones vs. Modos normales de vibración de la red cristalina. Modos ópticos y acústicos
+4.2  Espectro de Fonones. Densidad de estados. Singularidades de Van Hove.
+4.3  Aproximación armónica, Debye y Einstein.
+4.4  Anharmonicidad y expansión térmica.
+4.5  Conductividad térmica de fonones.

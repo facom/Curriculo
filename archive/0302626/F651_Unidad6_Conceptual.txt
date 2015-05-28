@@ -1,0 +1,4 @@
+6.1 Formulación de la mecánica cuántica a través de integrales de camino.
+6.2 Funcional generatriz para campos escalares.
+6.3 Funcional generatriz para campos de espín.
+6.4 Matriz S y formula de reducción.

@@ -1,0 +1,4 @@
+Ecuaciones de Maxwell. Solución como onda plana. Energías eléctrica y magnética. Polarización. 
+Flujo energético. Vector de Poynting. Presión de radiación. 
+Producción de ondas electromagnéticas. El espectro electromagnético.
+ Problemas.

@@ -1,0 +1,7 @@
+2.1. Electricidad: La carga eléctrica. Atracción y repulsión eléctrica. Ley de   Coulomb. Corriente eléctrica. Campo eléctrico.
+
+2.2. Magnetismo: Magnetostática. El campo magnético. Ley de Ampere.
+
+2.3. Inducción electromagnética. Ley de Faraday
+
+2.4. Leyes de Maxwell: El campo electromagnético. Teoría electromagnética de la luz. Optica geométrica y óptica física.

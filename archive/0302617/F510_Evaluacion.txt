@@ -1,0 +1,6 @@
+La nota se obtendrá de tres proyectos implementados en Matlab, todos del mismo valor. físicos involucrados y las causas de las limitaciones de las metodologías utilizadas (50%).
+1. Finalizado el capítulo 3: Detector de frecuencias (con la finalidad de construir un afinador digital). 	33%
+2. Finalizado el capítulo 4: Construcción de filtros sonoros (para eliminar ruidos, evitar y corregir distorsiones) 	33%.
+3. Finalizado el capítulo 6: Generación de sonidos binaurales y holofónicos. 	33%
+Se evaluará funcionalidad del código desarrollado  y la exposición de los principios	50%
+

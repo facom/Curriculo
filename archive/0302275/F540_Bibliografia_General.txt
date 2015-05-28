@@ -1,0 +1,8 @@
+- G. Arfken. Métodos Matemáticos para Físicos. Ed. Diana, México, 1983.
+- G. Arfken, H. Weber. Mathematical methods for physicists. Academic   Press, Estados Unidos  1970, 2001
+- C. Fox, An introduction to the calculus of variations.  Estados Unidos, Dover Publications, 1987
+- G. M. Ewing. Calculus of variations with applications. Estados Unidos : Dover Publications, 1985
+- A. P. Kartashov,  B. L. Rozdentvenski. Ecuaciones diferenciales ordinarias y fundamentos del calculo variacional. España : Reverte, 1980
+- D. Hilbert, R Courant. Methods of mathematical physics. John Wiley, Estados Unidos, 1989
+- S. Hassani Mathematical physics: a modern introduction to its foundations.  Springer, New York, 1999
+- J. B. Marion, S. T. Thorton. Classical dynamics of particles and systems. Saunders College Publishing, Estados Unidos, 1988 

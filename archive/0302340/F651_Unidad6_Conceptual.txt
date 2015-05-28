@@ -1,0 +1,3 @@
+Visibilidad. Función de coherencia mutua y grado de coherencia. Interferometría estelar y coherencia. Patrones de Speckles. Radiación de cuerpo negro. Probabilidad y óptica de ondas.
+Coherencia espacial y temporal. Teorema de Van Cilbert-Yamike.
+Interterometría de corelación..

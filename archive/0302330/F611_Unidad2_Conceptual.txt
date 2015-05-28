@@ -1,0 +1,1 @@
+Coordenadas generalizadas. Ligaduras. Desplazamientos virtuales y trabajo virtual. Principio de D´Alambert. Ecuaciones de Lagrange deducidas a partir del principio de D´Alambert. Potenciales dependientes de la velocidad y función de disipación. Aplicaciones sencillas de la formulación de Lagrange.

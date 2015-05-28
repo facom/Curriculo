@@ -1,0 +1,5 @@
+-Gordon  KANE Modern Elementary Particles Physics. Addison-Wesley Publishing Company.1987.
+-Cheng, T. y Li. Gauge. Theory of Elementary Particicle Physics. Oxford University Press. 1984.
+-Halzen, F. y Martín, A. Quarks and Leptons: an Introductory Course. John Wiley, 1984.
+-Griffiths, D. Introduction to Elementary Particles. John Wiley, 1987.
+-Ryder, L. Quantum Field Theory. Cambridge University, Cambridge, 1985

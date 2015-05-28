@@ -1,0 +1,8 @@
+Al terminar el curso el estudiante estará en capacidad de :
+•	Comprender los experimentos y los desarrollos de la física en los finales del Siglo XIX que originaron las teorías cuántica y relativista.
+•	Comprender los fundamentos de la Teoría Especial de la Relatividad.
+•	Utilizar la doble naturaleza de las ondas y las partículas.
+•	Comprender los fundamentos de la Teoría Cuántica.
+•	Plantear y resolver problemas utilizando la ecuación de Schrödinger para  problemas sencillos.
+•	Comprender algunos conceptos de la Física del Estado Sólido con base en la teoría Cuántica.
+•	Comprender algunos conceptos fundamentales en la Física Nuclear y de partículas con base en las teorías cuántica y relativista.

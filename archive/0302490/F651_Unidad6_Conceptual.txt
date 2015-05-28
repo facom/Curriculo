@@ -1,0 +1,1 @@
+Estudio de la tarjeta de adquisición de datos, toma de datos con Labview, Labwindows. Montaje de experimentos con esta tarjeta.

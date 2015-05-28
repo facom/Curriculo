@@ -1,0 +1,8 @@
+• Solución general.
+• La 4-geometría. 
+• La 3-geometría.
+• Parámetros afines y geodésicas. 
+• Eliminación del parámetro afín.
+• Eliminación del tiempo universal.
+• Deflexión gravitacional de un pulso de luz.
+La precesión del precesión del perihelio de Mercurio.  

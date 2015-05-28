@@ -1,0 +1,1 @@
+Fórmula para la sección eficaz de dos cuerpos.  Invarianza de Lorentz de la sección eficaz total.  Variables cinemáticas invariantes. Simetría  de cruce de términos de variables de Mandelstam.

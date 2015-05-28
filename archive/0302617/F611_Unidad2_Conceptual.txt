@@ -1,0 +1,3 @@
+2.1 Introducción, lenguajes de programación
+2.2 Programación en Matlab
+2.3 Sonido en rotación,  escalas musicales y escalas de Shepard

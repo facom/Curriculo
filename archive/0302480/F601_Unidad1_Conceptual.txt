@@ -1,0 +1,14 @@
+1. RESUMEN DE LA TEORÍA CUÁNTICA DEL ÁTOMOS DE UN ELECTRÓN.
+Coordenadas relativa y de centro de masa en el problema de dos cuerpos. Funciones de onda de atomos de un electrón en la aproximación no relativística. Los números cuánticos. Valor medio de r^k en estados hidrogenoides. Momento angular orbital y de spín y su suma. Armónicos esféricos spinoriales.
+2. EL ÁTOMO DE HIDRÓGENO RELATIVÍSTICO.
+Interacción spín-orbita y otros efectos relativísticos en el espectro del átomo de hidrógeno. Uso de la teoría de perturbaciones degenerada en el cálculo de la estructura ﬁna del espectro.
+3. EL ÁTOMO DE HIDRÓGENO REAL.
+El corrimiento Lamb. El spin nuclear y el magnetón nuclear. Interacciones debidas al momento de dipolo magnético del núcleo. Contribución del momento de dipolo magnético del núcleo a la estructura hiperﬁna del espectro. Contribución del momento de cuadrupolo eléctrico del núcleo a la estructura hiperﬁna del espectro. Efectos isotópicos y efectos debidos al tamaño del núcleo atómico. El espectro del atomo de hidrógeno.
+4. INTERACCIÓN DEL ÁTOMO DE H CON EL CAMPO ELECTROMAGNÉTICO.
+Resumen sobre el efecto Zeeman y el efecto Stark de primero y segundo orden. Interacciones del átomo de hidrógeno con la radiación electromagnética (dipolo eléctrico, dipolo magnético, cuadrupolo eléctrico): teoría semiclásica.
+5. PROBABILIDADES DE TRANSICIÓN INDUCIDAS POR EL CAMPO DE RADIACIÓN.
+Uso de la teoría de perturbaciones dependiente del tiempo para calcular probabilidades de transiición. La regla de oro de Fermi. Probabilidades de transición radiativas: transiciones dipolar y cuadrupolar eléctricas, transiciones dipolares magnéticas. 
+6. LAS LÍINEAS ESPECTRALES.
+Coeﬁcientes de Einstein. Reglas de selección. Intensidad de las líneas. Fortaleza de osciladores. Reglas de suma. Ancho natural de las líneas espectrales. Ensanchamiento Doppler. Ensanchamiento por colisiones.
+7. LA POLARIZACIÓN DE LA LUZ.
+El spin del fotón. El experimento de Beth. Relación del spin del fotón con las reglas de selección. Los tripletes de Lorentz en el efecto Zeeman. Líneas π y  σ.

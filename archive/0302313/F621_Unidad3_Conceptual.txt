@@ -1,0 +1,1 @@
+Obtener la Ley de Stefan-Boltzmann. Radiación de cuerpo negro.

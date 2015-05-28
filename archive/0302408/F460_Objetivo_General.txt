@@ -1,0 +1,2 @@
+Ilustrar la Teoría de la Relatividad de una manera intuitiva, con ejemplos, casos particulares y  fenomenología.
+Desarrollar el formalismo riguroso de la teoría, para apreciar mejor su elegancia, concisión y generalidad.

@@ -1,0 +1,2 @@
+* Debnath L. Nonlinear partial differential equations,Editorial Birkhäuser, Boston, 2005.
+* Sadiku M. Numerical methods in electromagnetic, Editorial CRC Press, Florida, 2001.

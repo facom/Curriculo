@@ -1,0 +1,34 @@
+El área experimental del currículo de los pregrados de Física y Astronomía está
+conformada por varios cursos que cubren todos los ciclos de formación (básico,
+profesionalización y profundización). Dichos cursos de acuerdo a su alcance y
+metodología se dividen en dos: Cursos básicos y Avanzados. En particular en los
+Cursos Básicos de Física Experimental se pretende dar las herramientas
+imprescindibles de (1) metrología, (2) instrumentación, (3) estadística y (4)
+adquisición, análisis y presentación de resultados experimentales.
+
+En el curso de Física Experimental I, que hace parte de los cursos básicos, se
+desarrollan los fundamentos de estos 4 aspectos de la experimentación
+concibiendo y realizando prácticas que involucren los instrumentos básicos de
+medida de ángulos, longitud, tiempo, masa, corriente y voltaje, además de las
+metodologías convencionales de toma, presentación gráfica y análisis de datos.
+
+Se manejan una serie de manuales, guías y protocolos que se utilizan en diversos
+experimentos ilustrativos, con los cuales se espera que el estudiante empiece a
+adquirir cuatro competencias: (1) Extraer conceptos físicos de situaciones
+observacionales, (2) Manejar los protocolos de los instrumentos de medida
+básicos, (3) Realizar discusiones sustentadas y análisis de los resultados
+experimentales que finalmente lo conduzcan a (4) proponer y/o seleccionar
+modelos teóricos que representen sus resultados.
+
+Para lograr esto se hace una introducción teórica a los conceptos y herramientas
+fundamentales del método experimental, y al mismo tiempo se desarrollan
+prácticas y proyectos que permitan ilustrar dichos conceptos.
+
+Mas que verificar experimentalmente resultados de una teoría, lo que se pretende
+con este curso es empezar a desarrollar la capacidad del estudiante de extraer los aspectos fundamentales de un experimento que le permitan formular modelos que finalmente den cuenta de los resultados y le permitan hacer predicciones. Esta es la cualidad esencial que constituye el quehacer diario de un profesional formado en un área experimental.
+
+Para esto el estudiante hará uso de las herramientas y pensamiento lógico
+adquiridos en los cursos de análisis matemático y geometría analítica.
+Finalmente, con el logro de los objetivos del curso se espera que el estudiante
+forme las bases para un pensamiento metódico, lógico, tanto deductivo como
+inductivo, que le permita afrontar los cursos futuros.

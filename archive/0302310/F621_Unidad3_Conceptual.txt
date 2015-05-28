@@ -1,0 +1,9 @@
+Principios de Huygens y Fermat. Teorema de Malus. 
+Reflexión y refracción de ondas planas. Ley de Snell. 
+Coeficientes de Fresnel: Descripción analítica de amplitudes y fases relativas. 
+Reflexión y refracción de superficies esféricas. 
+Lentes delgadas. 
+Instrumentos ópticos: Ojo, microscopio, telescopio.
+Prismas y dispersión. Arco iris. 
+Dicroismo, Birrefringencia, Ley de Malus, Actividad óptica,
+Problemas.

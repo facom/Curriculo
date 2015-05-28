@@ -1,0 +1,5 @@
+Al terminar el curso el estudiante estará en capacidad de:
+a.  Entender los principios físicos que permitieron la construcción del láser.
+b.  Identificar y comprender los distintos elementos constitutivos de un láser pulsado.
+c.  Realizar cálculos simples involucrados en la construcción de láseres pulsados.
+d.  Identificar y conocer los rangos de operación de distintas aplicaciones reales de láseres pulsados.

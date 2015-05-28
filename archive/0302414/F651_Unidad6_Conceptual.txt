@@ -1,0 +1,1 @@
+Partícula en una caja. Solución de la ecuación de Schrödinger para hallar los valores de la energía y las funciones de onda de la partícula.

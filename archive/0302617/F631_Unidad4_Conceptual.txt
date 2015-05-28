@@ -1,0 +1,6 @@
+4.1 Digitalización
+4.2 Cuantización
+4.3 Filtros análogos vs digitales
+4.4 Filtros Digitales
+4.5 Filtros básicos 
+4.6 Reducción de ruido

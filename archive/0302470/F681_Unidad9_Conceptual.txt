@@ -1,0 +1,3 @@
+9: Calores específicos de sólidos. Cuerpos sólidos a bajas y altas temperaturas. Fórmula de Debye. Gas no ideal. Ferromagnetismo. Magnetismo a bajas temperaturas. Superconductividad.
+
+10: Tiempo de colisión. Viscosidad. Conductividad térmica. Autodifusión. Conductividad eléctrica. Ecuación de Boltzmann. Formulación de la integral de camino.

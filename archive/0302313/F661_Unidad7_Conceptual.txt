@@ -1,0 +1,1 @@
+Demostrar la Ley del cuadrado del inverso de la distancia y calcular el coeficiente de absorción de rayos gamma de varios materiales.

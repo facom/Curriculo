@@ -1,0 +1,1 @@
+Paramagnetismo clásico y cuántico. Funciones de Brillouin y Langevin. Leyes de escalamiento. Modelo de Heisenberg. Simulación Monte Carlo y dinámica Metropolis aplicada al estudio de un paramagneto ideal con espín S=1/2.

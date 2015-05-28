@@ -1,0 +1,1 @@
+Analizar la frecuencia fundamental de oscilación de una cuerda y algunos sobretonos.

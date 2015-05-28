@@ -1,0 +1,1 @@
+Leds, display de 7 segmientos, pantalla LCD, teclado, motor paso a paso, toma de datos con A/D, Timer, etc..

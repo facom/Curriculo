@@ -1,0 +1,23 @@
+Deducir a partir de las propiedades geométricas básicas de las curvas cónicas, las ecuaciones algebraicas que describen las  y aplicarlas para describir otras propiedades geométricas derivadas.
+Usando el formalismo vectorial de la mecánica deducir las 10 constantes de movimiento en el problema de los N-cuerpos.
+Demostrar la equivalencia del problema de los 2 cuerpos a la de un sistema reducido de un cuerpo atraído por un potencial central.
+Usando el formalismo vectorial de la mecánica deducir las constantes de movimiento del problema.
+Resolver el problema de los cuerpos sometidos a su mutua interacción gravitacional, demostrando que la trayectoria descrita por cada uno de ellos es una trayectoria cónica.
+Deducir las ecuaciones de Lagrange a partir del principio de D'Lambert.
+Deducir las ecuaciones de Euler-Lagrange a partir del principio de Hamilton y el cálculo de variaciones.
+Mostrar a través de un ejemplo básico las ventajas del formalismo lagrangiano en contraposición con el formalismo vectorial tradicional de la mecánica newtoniana.
+Deducir la función de energía y enumerar las condiciones necesarias para que se conserve en un sistema físico.
+Escribir el Lagrangiano de un sistema de dos cuerpos sometidos a una fuerza central.
+Demostrar que el Lagrangiano del sistema de dos cuerpos sometidos a una fuerza central es equivalente al sistema reducido de un cuerpo.
+Deducir las integrales de movimiento del sistema de dos cuerpos usando el formalismo lagrangiano y compararlos con las mismas calculadas con el formalismo vectorial tradicional.
+Deducir las ecuaciones de movimiento del problema de los dos cuerpos usando las ecuaciones de Euler-Lagrange para el sistema.
+Resolver en el tiempo el problema gravitacional de los dos cuerpos usando las ecuaciones de movimiento obtenidas a partir de las Ecuaciones de Euler Lagrange y con ello deducir la ecuación de Kepler.
+Deducir la tercera de ley de Kepler del movimiento planetario.
+Deducir las ecuaciones de transformación entre el vector de estado de una partícula en el problema de los dos cuerpos reducido y los elementos orbitales clásicos y viceversa.
+Aplicar los resultados derivados para el problema de los dos cuerpos para calcular la posición de un cuerpo en el Sistema Solar dados sus elementos orbitales completos.
+Escribir el Lagrangiano del sistema restringido circular de los tres cuerpos.
+Deducir la posición de los puntos de equilibrio Lagrange.
+Deducir las ecuaciones de movimiento de Hamilton y la forma explícita del Hamiltoniano a partir del Lagrangiano.
+Escribir las ecuaciones de Hamilton en forma simpléctica.
+Escribir la condición para que una transformación sea canónica en forma simpléctica.
+Escribir explícitamente algunos métodos numéricos de integración de las ecuaciones de Hamilton y  demostrar cuáles son simplécticos y cuáles no lo son

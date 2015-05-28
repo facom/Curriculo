@@ -1,0 +1,5 @@
+Al terminar el curso el estudiante estará en capacidad de:
+a. Aplicar los principios y métodos cuánticos a modelos sencillos.
+b. Realizar cálculos en el átomo de hidrógeno.
+c. Explicar los fundamentos de las colisiones.
+d. Manejar con rigor las técnicas de aproximaciones. 

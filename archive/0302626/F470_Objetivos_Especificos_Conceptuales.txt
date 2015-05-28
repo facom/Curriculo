@@ -1,0 +1,4 @@
+• Abordar la cuatización canónica de los campos escalares, de Dirac y Gauge
+• Abordar la cuantización por integrales de camino de los campos escalares, de Dirac y Gauge
+• Calcular secciones eficaces y anchos de decaimiento incluyendo correcciones radiativas
+• Calcular la evolución con la energía de acoplamientos de términos de interacción

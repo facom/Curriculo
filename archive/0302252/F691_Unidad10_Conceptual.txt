@@ -1,0 +1,4 @@
+Medir la frecuencia libre de oscilación de un sistema masa- resortes.
+Forzar dos modos de oscilación en este sistema  y medir las frecuencias de resonancia.
+
+Comprobar la dependencia con la corriente y la distancia del campo magnético cerca de una corriente recta.

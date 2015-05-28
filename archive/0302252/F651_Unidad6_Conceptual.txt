@@ -1,0 +1,2 @@
+Superficies equipotenciales y líneas de campo eléctrico.
+Cambios de potencial dentro de un aislante y de un conductor.

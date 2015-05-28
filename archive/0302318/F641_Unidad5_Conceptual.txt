@@ -1,0 +1,2 @@
+5.1. Principio de Huygens. Interfaz plana entre dos medios. Leyes de reflexión (Snell) y refracción. Principio de Fermat.
+5.2. Ejemplos de aplicación: Frentes de ondas en lentes y espejos (ideales). Introducción a la óptica geométrica

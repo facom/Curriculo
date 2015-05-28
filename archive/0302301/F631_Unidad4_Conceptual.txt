@@ -1,0 +1,1 @@
+Obtener varias frecuencias de resonancia de una espira y una lengüeta, y comprobar que son medios dispersos.

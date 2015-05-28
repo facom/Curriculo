@@ -1,0 +1,1 @@
+Circuitos de rectificación, filtros, reguladores, circuitos varios con rectificadores. Amplificadores de voltaje y corriente, ancho de banda, realimentación. Amplificador operacional y sus aplicaciones. Problemas.

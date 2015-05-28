@@ -1,0 +1,4 @@
+*Desarrollar una revisión de problemas físicos fundamentales y su abordaje desde herramientas matemáticas como las ecuaciones diferenciales parciales lineales y no lineales. 
+*Estudiar funciones de Green para la solución de problemas de contorno no homogéneos que requieren la teoría de las ecuaciones diferenciales parciales.
+*Reconocer y manipular las funciones especiales en la solución de problemas con diferentes simetrías.
+*Estudiar y aplicar algunos métodos numéricos en la solución de ecuaciones diferenciales parciales no lineales.

@@ -1,0 +1,1 @@
+Recursos comunes y especiales. Herramientas del sistema de desarrollo. Lenguaje de programación. Repertorio de instrucciones y modos de direccionamiento. Manejo de temporizadores, puertas E/S, reset y estado de reposo.

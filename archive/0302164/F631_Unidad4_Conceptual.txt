@@ -1,0 +1,1 @@
+El uso de rutinas en la programación. Creación de una rutina en C. Argumentos de una rutina. Tipo de dato devuelto por una rutina. Variables locales a una rutina. Llamado a una rutina. Aplicaciones.

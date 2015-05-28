@@ -1,0 +1,2 @@
+Elementos de circuitos. Técnicas para la solución de problemas de circuitos. Circuitos equivalentes. Transferencia máxima de potencia. Problemas.
+Fuentes controlados, Simulación de Circuitos D C con PSpice.

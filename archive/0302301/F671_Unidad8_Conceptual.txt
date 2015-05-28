@@ -1,0 +1,1 @@
+Medir la longitud de onda de varias líneas del espectro de emisión del mercurio.

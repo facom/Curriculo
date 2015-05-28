@@ -1,0 +1,4 @@
+*Resolver problemas con valor en la frontera usando el método de autofunciones y en particular el Método de Fourier.
+*Predecir el comportamiento de un sistema físico con fuentes a través de su función de Green asociada.
+*Reconocer la familia de soluciones que involucre las funciones especiales en un problema que conlleva a una ecuación diferencial parcial con condiciones de contorno.
+*Resolver problemas particulares de ecuaciones diferenciales parciales no lineales.

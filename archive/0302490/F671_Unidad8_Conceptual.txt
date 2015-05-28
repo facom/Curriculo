@@ -1,0 +1,1 @@
+Estructura de una interfase generalizada-Programas de interfase-Interfase¨Hardware más Software¨-Protocolos-Tipos de transmisión (Serie, paralelo, sincrónico y asincrónico). Descripción de las interfases IEEE-488 (GPIB)-Características del bus IEEE-488-Standar RS 232.

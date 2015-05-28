@@ -1,0 +1,1 @@
+Hacer los cálculos para las Interacciones electrón-fotón, electrón-electrón, electrón- positrón, etc., partiendo de primeros principios.

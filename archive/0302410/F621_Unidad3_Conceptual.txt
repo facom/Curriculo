@@ -1,0 +1,7 @@
+• Los símbolos del Christofield en coordenadas cartesianas y cilíndricas. 
+• Las geodésicas.
+• La trigeometría del observador rotante.
+• El tiempo es ortogonal al triespacio. 
+• Campo constante.
+• Tiempo Universal.
+  Campo estático.

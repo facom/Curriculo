@@ -1,0 +1,1 @@
+Ecuación de Schrödinger. Estado inicial estacionario. Serie perturbativa. Correcciones de primer orden para el estado. Probabilidad de transición. Perturbaciones periódicas y constantes. Rfecto continuo. Densidad de estados finales. Regla de Oro de Fermi. Aplicaciones a la interacción de la radiación con la materia. Efecto fotoeléctrico.

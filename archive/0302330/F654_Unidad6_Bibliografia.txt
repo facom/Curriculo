@@ -1,0 +1,3 @@
+* Churchill R. V.Fourier series and boundary value problems, Mc. Graw-Hill, New York, 1941.
+* J.R. Hanna. Fourier Series and Integrals of Boundary Value Problems, John Wiley and Sons. New York, 1982.
+ * Morse P. M., and H. Feshbach, Methods of theoretical physics, Mc. Graw-Hill Book Co., New York, 1953.

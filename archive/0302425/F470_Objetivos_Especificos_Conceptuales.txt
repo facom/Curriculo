@@ -1,0 +1,4 @@
+a.Proveer a los estudiantes de los conocimientos básicos en el área de Física de Altas Energías.
+b.Enseñar en una forma metódica las herramientas teóricas de la Fenomenología de Partículas Elementales (Teorías gauge).
+c.Mostrar la evidencia experimental que da soporte al Modelo Estándar.
+d.Que los estudiantes puedan realizar al final del curso cálculos sencillos de dispersión de partículas dentro del Modelo Estandar.

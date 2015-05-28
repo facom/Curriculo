@@ -1,0 +1,5 @@
+a.  Utilizar los conceptos esenciales de la relatividad general para entender un gran número de fenómenos.
+b.  Entender los conceptos esenciales de la relatividad general de una manera matemática: con ecuaciones diferenciales y con geometría riemanniana.
+c.  Entender los dos objetivos de la relatividad general: formulación generalmente covariante de leyes físicas y  obtención de la ecuación del campo gravitacional.
+d.  Expresar las ecuaciones de Maxwell en presencia de un campo gravitacional.
+e.  Manejar con soltura el problema general de la trayectoria de una partícula en un campo gravitacional. En particular la solución de Scwarzschild.

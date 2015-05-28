@@ -1,0 +1,1 @@
+Determinar el valor de la constante de Planck por medio del efecto fotoeléctrico.

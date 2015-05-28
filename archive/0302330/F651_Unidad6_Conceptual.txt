@@ -1,0 +1,9 @@
+6.1. Método de Frobenius. Funciones de Bessel.
+6.2. Propiedades de las Funciones de Bessel: Raíces, recurrencias, forma asintótica, ortogonalidad y normalización.
+6.3. Ecuación de Bessel modificada. Problemas.
+6.4. Funciones de Legendre: recurrencias, ortogonalidad y normalización.
+6.5. Solución a la Ecuación de Laplace. Ejercicios. Polinomios asociados de Legendre.
+6.6. Polinomios de Hermite: recurrencias, ortogonalidad y normalización.
+6.7. Oscilador Armónico en Mecánica Cuántica.
+6.8. Polinomios de Laguerre. Ecuación asociada de Laguerre.
+6.9. Atomo de Hidrógeno.

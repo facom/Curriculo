@@ -1,0 +1,3 @@
+Reglas y aplicaciones.
+Transiciones de fase de 1o orden, 2o orden y orden superior. 
+Ecuaciones de Clapeyron y Ehrenfest.

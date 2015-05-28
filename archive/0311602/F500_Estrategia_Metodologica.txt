@@ -1,0 +1,3 @@
+Este curso es de naturaleza enteramente teórica.  Sin embargo algunos conceptos y desarrollos en el curso requieren una implementación práctica en la forma de por ejemplo programas de computo, desarrollo detallado de ejemplos resueltos o solución de problemas abiertos en tiempo de clase.
+
+La presentación de los contenidos teóricos puede hacerse a través de la exposición magistral del profesor.  Se recomienda sin embargo involucrar al estudiante incluso durante la presentación y desarrollo de la teoría con actividades como salidas al tablero o realización de pequeños cálculos parciales en tiempo de clase.

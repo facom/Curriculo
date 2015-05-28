@@ -1,0 +1,2 @@
+Programas de cálculo simbólico: Mathematica. Derive.
+Programas para análisis numérico: Octave, MATLAB

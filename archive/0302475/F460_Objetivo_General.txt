@@ -1,0 +1,3 @@
+Describir los instrumentos propios de la física teórica.
+Analizar las bases que permiten el estudio de la Física Relativista.
+Formular la teoría y los métodos para el estudio de la Física Cuántica.

@@ -1,0 +1,2 @@
+Unicidad. Solución a la ecuación de Laplace en coordenadas cartesianas, polares y esféricas. Condiciones de Dirichlet y Newman. Método de Imágenes.
+Ecuación de continuidad, corrientes eléctricas. Solución del problema Electrostático usando funciones de Green en dos dimensiones y ejemplos.

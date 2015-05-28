@@ -1,0 +1,1 @@
+Introducir los formalismos vectorial, lagrangiano y hamiltoniano de la mecánica clásica para aplicarlos en la descripción y solución de problemas que involucren la interacción gravitacional de uno o muchos cuerpos en Astronomía

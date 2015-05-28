@@ -1,0 +1,1 @@
+Solución de la ecuación de Schrödinger dependiente del tiempo para un paquete de ondas en varios potenciales.

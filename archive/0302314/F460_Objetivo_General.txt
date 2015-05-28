@@ -1,0 +1,3 @@
+-Servir de transición entre la  Física Clásica y la Cuántica.
+-Explica una serie de fenómenos experimentales y teóricos que se descubrieron al final del Siglo XIX, los cuales eran desconocidos por la física clásica.
+-Introducir la Teoría Cuántica y la Teoría de la Relatividad, para luego ser ampliadas en cursos posteriores para lograr la comprensión de los fenómenos de la física actual.

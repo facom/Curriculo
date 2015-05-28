@@ -1,0 +1,3 @@
+- Comprender los principios físicos básicos involucrados en el funcionamiento de un láser.
+- Diferenciar y comprender los diferentes elementos constitutivos de un láser pulsado.
+- Conocer las distintas aplicaciones de los láseres pulsados.

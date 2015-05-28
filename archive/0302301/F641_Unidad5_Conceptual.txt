@@ -1,0 +1,1 @@
+Medir la velocidad del sonido en el aire. Verificar la ecuación que da las frecuencias de resonancia de una columna de aire.

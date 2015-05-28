@@ -1,0 +1,4 @@
+4.1. Métodos energéticos.
+4.2. Métodos de potencia.
+4.3. Medición del pulso temporal.
+4.4. Medición del espectro del pulso.

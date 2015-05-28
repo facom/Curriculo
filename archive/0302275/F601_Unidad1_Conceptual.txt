@@ -1,0 +1,2 @@
+1.1. Definición. Propiedades. Leyes del algebra. Representación geométrica y polar.
+1.2. Complejo conjugado. Valor absoluto. Extracción de raíces. 

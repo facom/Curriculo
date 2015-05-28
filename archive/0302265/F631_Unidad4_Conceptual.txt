@@ -1,0 +1,2 @@
+Conductividad eléctrica. Ley de Ohm. Asociación de resistencias en serie y paralelo.
+Circuitos. Fuerza electromotriz. Leyes de Kirchhoff.

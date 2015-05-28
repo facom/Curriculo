@@ -1,0 +1,4 @@
+Al terminar el curso el estudiante estará en capacidad de
+Resolver las ecuaciones básicas del electromagnetismo (Ecuación de Laplace ) haciendo énfasis en las condiciones de frontera.
+
+Aplicar las leyes diferenciales de campo (ecuaciones de Maxwell) y las condiciones de frontera en la solución de problemas de campos electromagnéticos.

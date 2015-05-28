@@ -1,0 +1,1 @@
+A partir del estudio de las herramientas matemáticas necesarias para describir las ondas longitudinales, dar a conocer los procedimientos sobre procesamiento de señales de audio digitalizadas.

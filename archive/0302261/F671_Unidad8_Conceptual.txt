@@ -1,0 +1,1 @@
+Definición de cuerpo rígido. Rotación de un cuerpo rígido con eje fijo: momento de inercia. Análisis cualitativo del movimiento giroscópico.

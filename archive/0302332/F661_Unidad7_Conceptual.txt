@@ -1,0 +1,2 @@
+El amplificador operacional ideal. Amplificadores no ideales.
+Corrientes de Polarización, Modo Común.

@@ -1,0 +1,4 @@
+3.1 Ecuación de onda para N osciladores, límite continuo, Condiciones de Frontera, soluciones de Dirichlet (modos normales) y de D Álembert (pulsos).
+3.2 Ondas viajeras, impedancias, reflexión y transmisión, transporte de energía y momento.Respuesta de redes lineales amortiguadas y forzadas.
+3.3 Ejemplos 2D: Membranas y modos normales.
+3.4  Ejemplos 3D: Ondas electromagnéticas en el vacío

@@ -1,0 +1,10 @@
+Soluciones a la ecuación de Dirac.
+Más soluciones a la ecuación de Dirac.
+Conjugación de la carga. Propiedades de la base completa.
+El propagador de Feynman.
+Unitaridad de la matriz S.
+Propagador de Feynman para el electrón.
+La amplitud de transición relativista
+Transformada de fourier del propagador de Feynman.
+Dispersión de Rutherford.
+Dispersión electrón-protón.

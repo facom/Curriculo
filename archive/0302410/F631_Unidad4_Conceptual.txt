@@ -1,0 +1,7 @@
+• La nube de polvo.
+• Hidrodinámica.
+• El tensor energía-momentum.
+• La nube de partículas no libres.
+• El electromagnetismo; el tensor electromagnético; la corriente; las ecuaciones de Maxwell y la ley de fuerza de Lorentz. 
+• El principio de covariancia general.
+El campo electromagnético para el observador rotante.

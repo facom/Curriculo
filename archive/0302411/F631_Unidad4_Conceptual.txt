@@ -1,0 +1,1 @@
+El espacio vectorial de las funciones de onda. El de los Kets. El de los bras. Bases vectoriales; cambios de base; operadores unitarios. Operadores hermíticos y observables

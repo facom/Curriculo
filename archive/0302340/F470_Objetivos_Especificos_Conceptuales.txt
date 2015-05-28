@@ -1,0 +1,5 @@
+Al terminar el curso el estudiante estará  En capacidad de:
+a. Describir el carácter ondulatorio de la luz.
+b. Estudiar la formación de imágenes por lentes, espejos y prismas.
+c. Analizar el efecto de los diafragmas sobre las imágenes.
+d. Formular los principios y aplicaciones de los efectos de difracción e interferencia en campos ópticos coherentes. 

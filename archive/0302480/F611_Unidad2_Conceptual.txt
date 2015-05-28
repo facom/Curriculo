@@ -1,0 +1,16 @@
+8. EL LASER.
+Radiación coherente e incoherente. Modos del campo de radiación. Maseres y laseres: condición de umbral. Inversión de población. Interferómetro de Fabri-Perot. Resonadores ópticos. 
+9. ALGUNOS TIPOS DE LASERES.
+Maser de NH3 . Laseres de He-Ne y de CO2 . Espectroscopía laser.
+10. LA MATRIZ DENSIDAD EN MECÁNICA CUÁNTICA.
+Medidas en mecánica cuántica. La matriz densidad.
+11. ELECTRONES EN CAMPOS MAGNÉTICOS.
+Sistemas cuánticos de dos estados. Experimento de Stern-Gerlach. Resonancia magnética nuclear. Qubits con spines nucleares.
+12. INTERACCIÓN DEL ÁTOMO DE H CON EL CAMPO DE RADIACIÓN CUANTIZADO.
+Cuantización del campo electromagnético libre. Interacciones del atomo de hidrógeno con la radiación electromagnética (dipolo eléctrico, dipolo magnético, cuadrupolo eléctrico): teoría cuántica.
+13. EFECTOS DE ORDEN SUPERIOR.
+Procesos multifotónicos.
+14. DISPERSIÓN DE LA LUZ.
+Polarizabilidad eléctrica. Susceptibilidad no lineal. Dispersión Rayleigh. Dispersión Raman. Dispersión de Thompson.
+15. ECUACIÓN DE MAXWELL-BLOCH.
+Deducción de las ecuaciones del sistema atómico de dos niveles: modelo de Dicke. Ecuación de Maxwell-Bloch. Enfriamiento laser. Atrapamiento de atomos neutros.

@@ -1,0 +1,1 @@
+Condicionales  (if, switch). Operadores de relación. Estructuras de repetición (for, do..while). Comandos de acción (break, continue, goto, exit). Funciones matemáticas en C.

@@ -1,0 +1,1 @@
+Solución numérica. Método de Runge-Kutta. Problemas de oscilaciones. Método de Numerov.

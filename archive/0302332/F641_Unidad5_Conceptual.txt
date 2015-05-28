@@ -1,0 +1,3 @@
+Recortadores y fijadores.
+Doblador de voltaje.
+Triplicador de voltaje.

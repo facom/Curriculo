@@ -1,0 +1,3 @@
+Adquirir los conocimientos básicos sobre el funcionamiento básico  de un computador.
+Conocer el lenguaje de programación C y usarlo en la solución de problemas específicos de interés para la Física.
+Distinguir las distintas herramientas computacionales disponibles que facilitan el trabajo del físico.

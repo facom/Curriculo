@@ -1,0 +1,1 @@
+Gases reales. Funciones de correlación. Integrales de intercambio y ferromagnetismo. Simulación Monte Carlo de un ferromagneto tipo Ising. Teorema de fluctuación-disipación. Magnetización, calor específico y susceptibilidad magnética. Transiciones de fase y fenómenos críticos

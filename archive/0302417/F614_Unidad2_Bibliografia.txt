@@ -1,0 +1,5 @@
+TEXTO GUIA
+H.P. Myers., Introductory Solid State, Physic, 
+* C. Kittel, Introduction to Solid State Physics, John Wiley, New Yor, 1996. Séptima edición
+ * H. Ibach y H. Lüth, Solid State Physics, Springer-Verlag, Berlín, 1990.
+                      * F. C. Brown, Física de los sólidos, Revertè, Barcelona, 1974

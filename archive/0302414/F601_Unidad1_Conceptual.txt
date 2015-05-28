@@ -1,0 +1,1 @@
+Precisión de la máquina.. Overflow, underflow. Números complejos. Tipos de errores. Sustracción cancelativa. Errores en la multiplicación. Errores en algoritmos. Funciones esféricas de Bessel y errores.

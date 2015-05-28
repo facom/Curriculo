@@ -1,0 +1,1 @@
+Funcionamiento básico del computador. Dispositivos de almacenamiento. Dispositivos de entradas y salida. El sistema operativo Linux. Editores texto: el editor gnu emacs. Introducción a Internet, Telnet, ftp,w.w.w. El correo electrónico.

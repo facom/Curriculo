@@ -1,0 +1,1 @@
+Ecuaciones lógicas. Algebra Booleana. Implementación de la lógica combinatoria. Lógica secuencial. Circuitos especializados. Aplicaciones

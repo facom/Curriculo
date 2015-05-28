@@ -1,0 +1,2 @@
+Ley de Hooke, constante elástica de los resortes.
+Período de un sistema oscilador masa – resorte (dependencia con la amplitud). 

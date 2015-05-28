@@ -1,0 +1,4 @@
+Al terminar el curso el estudiante estará en capacidad de:
+a. Explicar cuál fue la crisis de la física en la que nació la relatividad.
+b. Ilustrar la teoría con ejemplos, aplicaciones, fenómenos y paradojas de la relatividad.
+c. Utilizar con soltura la escritura tensorial covariante, ya que esta es concisa, precisa, y se presta a extensiones y  aplicaciones en Física Teórica.

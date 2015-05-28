@@ -1,0 +1,8 @@
+(2 horas) Introducción al error: (1) importancia de determinar el error, (2) Errorsistemático y error aleatorio, (3) tipos de error sistemático (4) exactitud y precisión (5) reporte del error (cifras significativas, redondeo, etc).
+ (2 horas) Tratamiento estadístico para una variable: (1) conjunto de medidas y
+distribución de las medidas, (2) error en la medida y error en el promedio de las medidas, (3) distribución gaussiana, (4) error en el error, (5) tratamiento de funciones y (6) ponderación de los resultados.
+ (2 horas) Tratamiento del error: (1) cálculo práctico del error, (2) manejo de
+funciones de alta complejidad, (3) procedimientos experimentales y de determinación del error.
+ (2 horas) Lógica experimental y sentido común: (1) secuencia de medidas, (2)
+variaciones sistemáticas, (3) medidas relativas, (4) medidas nulas, (5) Sentido
+común en la experimentación.

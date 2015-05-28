@@ -1,0 +1,4 @@
+Utilizar los conceptos esenciales de la mecánica cuántica para entender un gran número de fenómenos.
+Entender los conceptos esenciales de la mecánica cuántica de una manera matemática: con ecuaciones diferenciales, espacios vectoriales, representaciones matriciales, kets, operadores.
+Entender la solución de cuatro problemas básicos (partícula libre, oscilador armónico, átomo de hidrógeno, spin) con un rigor matemático mediano, es decir, ajustado al nivel de pregrado.
+Entender que la mecánica cuántica está sujeta a interpretaciones, y entender las cualidades y defectos de la interpretación de Copenhague.

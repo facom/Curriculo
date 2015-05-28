@@ -1,0 +1,5 @@
+4.1bsorción: Coeficiente de absorción. Ejemplos en óptica y en acústica.
+4.2 Análisis de Fourier: Serie y transformada de Fourier, pulsos y paquetes de onda.
+4.3 Dispersión: Relaciones de dispersión, velocidades de fase y de grupo, dispersión de un paquete gaussiano, relaciones de incertidumbre
+4.4 Efecto Doppler:Definición y ejemplos: velocidad de un carro, velocidad de rotación de Mercurio o similares.
+4.5 Solitones: No linealidad, olas rompientes, dispersión y no linealidad, ecuación KdV o Sine-Gordon, Solitones KdV en ondas de superficie.

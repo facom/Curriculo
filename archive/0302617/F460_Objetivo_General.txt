@@ -1,0 +1,1 @@
+Una vez aprobado este curso, el estudiante debe estar en capacidad de evaluar las posibilidades y limitaciones de analizar, editar o generar una señal de audio de acuerdo con el transductor de salida y de tener una visión acerca de los principales métodos que se usan actualmente para procesar y generar las señales de audio.

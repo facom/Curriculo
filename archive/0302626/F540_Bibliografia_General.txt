@@ -1,0 +1,4 @@
+*L.H. Ryder, Quantum Field Theory, Cambridge University Press, 1985. P. Ramon, Field Theory a Moderm Primer, Addison-Wesley Publishing Company, Inc 1989.
+*W Greiner and J. Reinhardt, Field Quantization, Springer-Verlag, Berlin Heildelberg, 1996.
+
+*F. Mandl and G. Shaw, Quantum Fiel Theory John Wiley & Sons, 1984

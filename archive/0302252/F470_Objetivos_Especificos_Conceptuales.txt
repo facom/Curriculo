@@ -1,0 +1,7 @@
+Al terminar el curso el estudiante estará en capacidad de:
+A. Medir la constante elástica de un resorte.
+B. Emplear adecuadamente un multímetro y realizar medidas eléctricas y magnéticas (corrientes, voltajes, resistencias, frecuencias  etc.).
+C. Calcular resistencias equivalentes en circuitos eléctricos en serie y paralelo, y comprobar las leyes de conservación de la carga y la energía.
+D. Analizar experimentalmente aspectos relacionados con oscilaciones. 
+E. Realizar y comprender algunas experiencias fundamentales sobre electrostática, magnetostática, inducción electromagnética y resonancia.
+F. Comprender los conceptos de superficie equipotencial y línea de campo.

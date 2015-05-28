@@ -1,0 +1,3 @@
+Verificar el comportamiento lineal de una resistencia de carbono.
+Verificar el comportamiento no lineal de un filamento de tungsteno.
+A partir de medidas eléctricas, calcu-lar la temperatura de un filamento de tungsteno.

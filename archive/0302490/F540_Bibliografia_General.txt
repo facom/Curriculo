@@ -1,0 +1,3 @@
+*Manual de Quick C++ de Microsoft
+* Manual de laboratorio de Windows de National Instruments.
+* Manuales de funcionamiento de los diversos equipos del  laboratorio (HP 3456A, voltímetro digital, fuente de voltaje y corriente Keithlly, nanovoltímetro Keithlly, monocromador Acton Research Corporation, control de la temperatura, etc).

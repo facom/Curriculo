@@ -1,0 +1,6 @@
+5.1 Sensibilidad y anatomía del oído
+5.2 Intensidad vs. Frecuencia
+5.3 Intensidad vs. Nivel de presión
+5.4 Timbre vs. Frecuencia
+5.5 Timbre vs. Espectro
+5.6 Localización binaural

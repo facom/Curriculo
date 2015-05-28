@@ -1,0 +1,2 @@
+Ofrecer a los estudiantes una introducción a la mecánica cuántica relativista.
+Una vez aprobado este curso, el estudiante debe estar en capacidad de:   Resolver problemas elementales de la electrodinámica cuántica. (A primer orden en teoría de perturbaciones).
