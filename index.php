@@ -646,7 +646,7 @@ if(($accion=="Guardar" or $accion=="Reciclar"  or $accion=="Archivar") and $QADM
     $table="MicroCurriculos_Recycle";
   }
   if($accion=="Publicar"){
-    
+    $table="MicroCurriculos_Publicos";
   }
   ////////////////////////////////////////////////////
   //GUARDANDO REGISTRO

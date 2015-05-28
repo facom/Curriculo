@@ -1,11 +1,6 @@
 #-*-coding:utf-8-*-
 from curriculo import *
 
-try:
-    option=argv[1]
-except:
-    option=""
-
 ###################################################
 #DATABASE
 ###################################################
@@ -96,7 +91,7 @@ Database={
     #IDENTIFICACION
     "F100_Codigo":
         [
-        "varchar(10)",
+            "varchar(7)",
         "Codigo Curso",
         "0300000",
         "",
@@ -357,7 +352,7 @@ Database={
         "",
         "",
         #"--,1,2,3,4,5,6,7,8,9,10",
-        "Indique el semestre en el plan de formación.  Si el curso se ofrece en varios programas y el semestre en cada uno de ellos es distinto use el nombre del programa en paréntesis para distinguirlo (ver ejemplo).",
+        "Indique el semestre en el plan de formación.  Si el curso se ofrece en varios programas y el semestre en cada uno de ellos es distinto use el nombre del programa en paréntesis para distinguirlo (ver ejemplo).  Si se trata de una electiva use 10",
         "1 (Física), 2 (Astronomía)"
         ],
     "F340_Horario_clase":
@@ -761,90 +756,96 @@ for field in Database.keys():
 Fields=Database.keys()
 Fields.sort()
 
-###################################################
-#CREATING PHP CONFIGURATION FILE
-###################################################
-content="""
-<?php
-"""
-fields_content="$FIELDS=array("
-dbase_content="$DBASE=array("
+if __name__=="__main__":
+    try:
+        option=argv[1]
+    except:
+        option=""
 
-for field in Fields:
-    print field
-    fname=re.search("F\d+_(.+)",field).group(1)
-    fields_content+="\"%s\","%field
-    tipo=Database[field][0]
-    query=Database[field][1]
-    default=Database[field][2]
-    values=Database[field][3]
-    ayuda=Database[field][4]
-    ejemplo=Database[field][5]
-    dbase_content+="""
-'%s'=>array('query'=>'%s','type'=>'%s','default'=>'%s','values'=>'%s','help'=>'%s','ejemplo'=>'%s'),
-"""%(field,query,tipo,default,values,ayuda,ejemplo)
+    ###################################################
+    #CREATING PHP CONFIGURATION FILE
+    ###################################################
+    content="""
+    <?php
+    """
+    fields_content="$FIELDS=array("
+    dbase_content="$DBASE=array("
 
-fields_content+=");"
-fields_content=fields_content.strip(",")
-dbase_content+=");"
-dbase_content=dbase_content.strip(",")
+    for field in Fields:
+        print field
+        fname=re.search("F\d+_(.+)",field).group(1)
+        fields_content+="\"%s\","%field
+        tipo=Database[field][0]
+        query=Database[field][1]
+        default=Database[field][2]
+        values=Database[field][3]
+        ayuda=Database[field][4]
+        ejemplo=Database[field][5]
+        dbase_content+="""
+    '%s'=>array('query'=>'%s','type'=>'%s','default'=>'%s','values'=>'%s','help'=>'%s','ejemplo'=>'%s'),
+    """%(field,query,tipo,default,values,ayuda,ejemplo)
 
-content+="""
-%s
-%s
-?>
-"""%(fields_content,dbase_content)
+    fields_content+=");"
+    fields_content=fields_content.strip(",")
+    dbase_content+=");"
+    dbase_content=dbase_content.strip(",")
 
-fl=open("database.php","w")
-fl.write(content)
-fl.close()
+    content+="""
+    %s
+    %s
+    ?>
+    """%(fields_content,dbase_content)
 
-if option=="nodb":
-    print "No database"
-    exit(0)
+    fl=open("database.php","w")
+    fl.write(content)
+    fl.close()
 
-ans=raw_input("De verdad quiere limpiar la base de datos? (s/n)...")
-if ans=="n":exit(0)
+    if option=="nodb":
+        print "No database"
+        exit(0)
 
-###################################################
-#SQL COMMAND
-###################################################
-curriculo,connection=loadDatabase()
-db=connection.cursor()
+    ans=raw_input("De verdad quiere limpiar la base de datos? (s/n)...")
+    if ans=="n":exit(0)
 
-sql="""
-use Curriculo;
-drop table if exists MicroCurriculos,MicroCurriculos_Recycle;
-create table MicroCurriculos ("""
-for field in Fields:
-    fname=re.search("\d+_(.+)",field).group(1)
-    tipo=Database[field][0]
-    default=""
-    if "varchar" in tipo:
-        default="not null default ''"
-    sql+="\n\t%s %s %s,"%(field,tipo,default)
+    ###################################################
+    #SQL COMMAND
+    ###################################################
+    curriculo,connection=loadDatabase()
+    db=connection.cursor()
 
-sql+="""
-primary key (F100_Codigo)
-);
-"""
-#print sql
-#db.execute(sql)
+    sql="""
+    use Curriculo;
+    drop table if exists MicroCurriculos,MicroCurriculos_Recycle;
+    create table MicroCurriculos ("""
+    for field in Fields:
+        fname=re.search("\d+_(.+)",field).group(1)
+        tipo=Database[field][0]
+        default=""
+        if "varchar" in tipo:
+            default="not null default ''"
+        sql+="\n\t%s %s %s,"%(field,tipo,default)
 
-sql+="""
-create table MicroCurriculos_Recycle ("""
-for field in Fields:
-    fname=re.search("\d+_(.+)",field).group(1)
-    tipo=Database[field][0]
-    default=""
-    if "varchar" in tipo:
-        default="not null default ''"
-    sql+="\n\t%s %s %s,"%(field,tipo,default)
+    sql+="""
+    primary key (F100_Codigo)
+    );
+    """
+    #print sql
+    #db.execute(sql)
 
-sql+="""
-primary key (F100_Codigo)
-);
-"""
-print sql
-db.execute(sql)
+    sql+="""
+    create table MicroCurriculos_Recycle ("""
+    for field in Fields:
+        fname=re.search("\d+_(.+)",field).group(1)
+        tipo=Database[field][0]
+        default=""
+        if "varchar" in tipo:
+            default="not null default ''"
+        sql+="\n\t%s %s %s,"%(field,tipo,default)
+
+    sql+="""
+    primary key (F100_Codigo)
+    );
+    """
+    print sql
+    db.execute(sql)
 
