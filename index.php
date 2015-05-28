@@ -395,7 +395,7 @@ if(isset($_GET["planes_aprobados"])){
 
 $listaaprob.=<<<LISTA
 <li>
-<a href='?ver_curso=$codigoid&source=public&mode=Todos' target="_blank">$nombre - $codigo - $semestreactual</a>
+<a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual</a>
 LISTA;
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 0){
 	$listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' ttarget='_blank'>Editar</a>";
@@ -1226,7 +1226,7 @@ TITULO;
  //==================================================
  //FORMATO PLANO
  //==================================================
- if($mode=="Plano" or $mode=="Todos"){
+ if(($mode=="Plano" or $mode=="Todos") and !isset($nogen)){
     $table="";
 $table.=<<<TABLE
 <html>
@@ -1288,8 +1288,17 @@ $page.=<<<DESCARGA
 <br/>
 DESCARGA;
   }
+
+ if(isset($nogen)){
+$filepdf="(<a href=$coursedir/$ver_curso-plano.pdf target=_blank>PDF</a>)";
+$page.=<<<DESCARGA
+<a href=$coursedir/$ver_curso-plano.html target=_blank>Formato plano</a>
+  $filepdf
+<br/>
+DESCARGA;
+ }
   
-  if($mode=="FCEN" or $mode=="Todos"){
+ if(($mode=="FCEN" or $mode=="Todos") and !isset($nogen)){
     //UNIDADES
     $unidades="";
     $offset=600;
@@ -1545,7 +1554,16 @@ $page.=<<<DESCARGA
 DESCARGA;
   }
 
-  if($mode=="Vicedocencia" or $mode=="Todos"){
+ if(isset($nogen)){
+$filepdf="(<a href=$coursedir/$ver_curso-FCEN.pdf target=_blank>PDF</a>)";
+$page.=<<<DESCARGA
+<a href=$coursedir/$ver_curso-FCEN.html target=_blank>
+  Formato FCEN
+</a>$filepdf<br/>
+DESCARGA;
+ }
+
+ if(($mode=="Vicedocencia" or $mode=="Todos") and !isset($nogen)){
     $table="";
     $INST=upAccents($Instituto);
     $CURSO=upAccents($Nombre_Asignatura);
@@ -1862,6 +1880,15 @@ $page.=<<<DESCARGA
 </a>$filepdf<br/>
 DESCARGA;
   }
+
+ if(isset($nogen)){
+$filepdf="(<a href=$coursedir/$ver_curso-vicedocencia.pdf target=_blank>PDF</a>)";
+$page.=<<<DESCARGA
+<a href=$coursedir/$ver_curso-vicedocencia.html target=_blank>
+  Formato Vicedocencia
+</a>$filepdf<br/>
+DESCARGA;
+ }
 
   $page.="</td></tr></table>";
   echo $page;

@@ -20,6 +20,11 @@ curriculo,connection=loadDatabase()
 db=connection.cursor()
 fields=curriculo["MicroCurriculos"]["fields"]
 
+sql="truncate table MicroCurriculos_Publicos;"
+db.execute(sql);
+system("rm -r ../public/*")
+connection.commit()
+
 for year in years:
     print "Year: ",year
     for sem in sems:
@@ -50,3 +55,13 @@ for year in years:
 
 system("chown -R www-data.www-data ../public")
 updateDatabase(curriculo,connection)
+
+for year in years:
+    print "Year: ",year
+    for sem in sems:
+        semid=str(year)+"-"+str(sem)
+        print "\tSemester: ",sem,semid
+        for codigo in courses:
+            print "\t\tCourse: ",codigo
+            codigoid="%s-v%d-%s"%(codigo,version,semid)
+            system("cd ..;php export.php ver_curso=%s source=public mode=Todos > /dev/null"%(codigoid))
