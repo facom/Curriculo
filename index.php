@@ -369,7 +369,7 @@ FORMULARIO;
      $ap_instituto=="Administrador"){goto end_aprobados;}
   $listaaprob="";
   $listapriv="";
-  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid from MicroCurriculos_Publicos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre,F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre,F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
   if(!($out=mysqli_query($db,$sql))){
     die("Error:".mysqli_error($db));
   }
@@ -387,10 +387,11 @@ FORMULARIO;
     $semestre=$row[8];
     $semestreactual=$row[9];
     $codigoid=$row[10];
+    $version=$row[11];
     
 $listaaprob.=<<<LISTA
 <li>
-<a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual</a>
+<a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
 LISTA;
   if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 0){
     $listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
@@ -444,8 +445,8 @@ if(isset($_GET["planes_asignatura"])){
       if(!mysqli_query($db,$sql)){
 	die("No se pudo cambiar el semestre:".mysqli_error($db));
       }
-      //*/
       $resultado.="Semestre cambiado exitosamente.";
+      //*/
     }
     $resultado.="</p>";
 
@@ -621,10 +622,10 @@ $resultado
   Filtra cursos:
   <input type="text" name="filtra_all" value="$filtra_all" size=50>
   <input type="submit" name="accion_global" value="Filtra"><br/>
-  Use sintaxis de SQL.  <i>Ejemplo: Semestre="10"</i>
+  Use sintaxis de SQL.  <i>Ejemplo: F330_Semestre='10'</i>
   <div>
     <a href="JavaScript:void(null)" onclick="$('#tabla_contenido').toggle('fast',null);" style="font-size:10px" tabIndex="-1">
-      Vaya rápido a un campo
+      Vea la lista de campos
     </a>
   </div>
   <div class="hidden" style="display:none;background:lightblue;padding:10px;margin:10px 0px 0px 0px;font-size:10px" id="tabla_contenido">
