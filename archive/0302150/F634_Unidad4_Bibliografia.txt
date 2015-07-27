@@ -1,4 +1,0 @@
-Diseño de Algoritmos y su Programación en C. A. Méndez. Alfaomega. 2013.
-Algoritmos. F. Huertas y otros.  Mileto Ediciones C.B.  2004.
-Lógica de Programación y Algoritmos. S.Caro. U. de Boyacá. 2003.
-De Euclides a Java.  R. Peña. Elibros. 2006.

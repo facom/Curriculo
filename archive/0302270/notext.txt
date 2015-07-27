@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Tue, 09 Sep 2014 08:48:48 -050";
-$F015_AUTO_Usuario_Actualizacion="Instituto de Física";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Thu, 11 Sep 2014 07:24:42 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge I. Zuluaga";
+$F050_Nombre_Actualiza="Bernardo Arenas";
 $F060_AUTH_Publica_Curso="--";
 $F100_Codigo="0302270";
 $F110_Nombre_Asignatura="Fisica basica I (Mecanica)";

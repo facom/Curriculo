@@ -1,1 +1,5 @@
-• Presentar las ecuaciones y procedimientos matemáticos para analizar y entender el comportamiento de las ondas acústicas y su interacción con la materia.
+• Presentar las ecuaciones y procedimientos matemáticos para analizar y entender el comportamiento de las ondas acústicas y su interacción con la materia. 
+• Visualizar las ondas estacionarias y progresivas usando animación por ordenador.
+• Presentar el proceso matemático para deducir la leyes que rigen la reflección y transmisión de ondas acústicas a través de diferentes capas de materiales.
+• Derivar matemáticamente y visualizar las vibraciones de objetos prácticos como un tambor (membrana), el aire en una botella al soplar (resonador de Helmholtz), una guitarra (cuerda), y fuentes puntuales de sonido.
+• Presentar el proceso dinámico y termodinámico por el cual el sonido es atenuado por el medio en que se propaga, ya sea en gases, líquidos, o sólidos

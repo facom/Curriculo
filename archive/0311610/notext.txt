@@ -1,4 +1,4 @@
-<?
+<?php
 $F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 08:07:52 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
@@ -45,12 +45,12 @@ $F390_Profesores_Oficinas="6-233";
 $F400_Horario_atencion="MWJV 13-14pm";
 $F410_Profesores_Elaboran="Juan Carlos Muñoz Cuartas";
 $F420_Correos_Electronicos="juan.munozc@udea.edu.co";
-$F600_Unidad1_Titulo="";
+$F600_Unidad1_Titulo="Uso avanzado del telescopio";
 $F605_Unidad1_Semanas="3";
-$F610_Unidad2_Titulo="";
+$F610_Unidad2_Titulo="Bases de datos astronómicos";
 $F615_Unidad2_Semanas="3";
-$F620_Unidad3_Titulo="";
-$F625_Unidad3_Semanas="3";
+$F620_Unidad3_Titulo="Fotometría digital";
+$F625_Unidad3_Semanas="10";
 $F630_Unidad4_Titulo="";
 $F635_Unidad4_Semanas="3";
 $F640_Unidad5_Titulo="";

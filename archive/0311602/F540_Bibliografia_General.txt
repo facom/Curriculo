@@ -4,3 +4,5 @@ Danby, Fundamentals of Celestial Mechanics, Second Edition, 1992.
 Murray, Dermott, Solar System Dynamics, 2001.
 Morbidelli, A., Modern Celestial Mechanics, 2011.
 Arnold, V.I. Mathematical Methods of Classical Mechanics, 1989.
+Anghelo, Boris.  Mecánica Clásica: Teoría y Problemas Resueltos, 2012.
+Zuluaga, J. Notas del Curso Fundamentos de Mecánica Orbital, 2006.

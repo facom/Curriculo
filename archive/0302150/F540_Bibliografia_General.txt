@@ -1,1 +1,7 @@
-Manuales de las herramientas computacionales disponibles en Internet.
+• Learning Python, Mark Lutz.
+• Cómo programar en C/C++, Deitel 2 ed.
+• C y C++ de afán, Manuel Páez 2 ed.
+• Introducción a la programación con Python, Andrés Marzal.
+• Manuales y documentación gnuplot: http://www.gnuplot.info/
+• http://code-reference.com
+• Manuales y documentación de referencia librerías python online.

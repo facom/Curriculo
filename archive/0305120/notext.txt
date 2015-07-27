@@ -1,5 +1,5 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 06:56:50 -050";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Fri, 22 Aug 2014 05:42:42 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
@@ -32,10 +32,10 @@ $F270_Facultad="Facultad de Ciencias Exactas y Naturales";
 $F280_Instituto="Facultad";
 $F290_Programas_Academicos="Astronomía, Física, Química, Biología, Matemáticas, Estadística";
 $F300_Area_Academica="Sociohumanística";
-$F310_Campo_Formacion="";
+$F310_Campo_Formacion="--Física--";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2014-1";
-$F330_Semestre_Plan="--";
+$F330_Semestre="2014-2";
+$F330_Semestre_Plan="";
 $F340_Horario_clase="";
 $F350_Requisitos="";
 $F360_Correquisitos="";

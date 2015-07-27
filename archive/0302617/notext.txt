@@ -1,6 +1,6 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="";
-$F015_AUTO_Usuario_Actualizacion="";
+$F010_AUTO_Fecha_Actualizacion="Wed, 13 May 2015 11:25:21 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="418";
@@ -34,9 +34,9 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="--Física--";
 $F320_Ciclo="--";
-$F330_Semestre="";
-$F330_Semestre_Plan="";
-$F340_Horario_clase="De acuerdo al semestre académico";
+$F330_Semestre="2015-1";
+$F330_Semestre_Plan="10";
+$F340_Horario_clase="De acuerdo al semest";
 $F350_Requisitos="Óptica";
 $F360_Correquisitos="";
 $F370_Sede="Ciudad Universitaria Medellín";

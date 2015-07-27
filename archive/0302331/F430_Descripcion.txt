@@ -1,0 +1,1 @@
+Dotar al estudiante de elementos teóricos que le permitan conocer el funcionamiento de diversos dispositivos electrónicos útiles en el diseño de equipo científico. Además, la parte de circuitos lógicos provee conocimientos básicos que permiten el diseño de equipo sencillo útil en la experimentación.

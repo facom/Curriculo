@@ -1,0 +1,6 @@
+1. Cuerda vibratoria
+2. Membrana vibratoria
+3. Habitación rectangular y guía de onda
+4. Cuernos acústicos
+5. Aproximación de WKB
+6. Propagación atmosférica y en el océano

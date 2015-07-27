@@ -1,0 +1,10 @@
+Reconocer la estructura del universo local: la galaxia, el vecindario local a la galaxia y la estructura a gran escala del universo cercano.
+Diferenciar los diferentes tipos de galaxias de acuerdo a sus propiedades observacionales
+Construir modelos de galaxias a partir de los resultados fotométricos
+Reconocer diferentes modelos que describen la dinámica de una galaxia
+Inferir modelos para la distribución de masa en las galaxias.
+Resolver problemas básicos asociados con la dinámica de las galaxias: Estructura, equilibrio, orbitas estelares, etc.
+Identificar las propiedades del universo a gran escala
+conocer las propiedades dinámicas del universo en expansión
+distinguir entre diferentes escenarios y modelos cosmológicos
+Reconocer los procesos físicos principales en el proceso de formación de estructuras y galaxias.

@@ -1,0 +1,6 @@
+• Introducción a Python.
+• Scripting básico y uso de librerías numéricas.
+• Graficación y uso de Notebooks de iPython.
+• Aritmética computacional.
+• Errores de redondeo.
+• Algoritmos y convergencia.

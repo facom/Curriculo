@@ -1,4 +1,0 @@
-Instalación de un sistema operativo en una máquina virtual.
-Instalación del sistema operativo Linux.
-Navegación en el sistema de archivos de Linux.
-Manipulación de archivos usando la línea de comandos de Linux.

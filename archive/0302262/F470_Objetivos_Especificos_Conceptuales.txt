@@ -1,0 +1,4 @@
+El objetivo fundamental  es comenzar en el régimen electrostático y magnetostático y luego llegar las ecuaciones de Maxwell en el vacío. 
+Presentar los principios básicos y leyes fundamentales de la electricidad y el magnetismo desde un punto de vista clásico. 
+Incentivar en el estudiante la habilidad de aplicar estos principios y leyes a problemas de electrostática, magnetostática y electromagnetismo. 
+Dar al estudiante, a través de problemas y lecturas complementarias, una visión completa sobre el enorme campo de aplicaciones de los conceptos y leyes expuestas.

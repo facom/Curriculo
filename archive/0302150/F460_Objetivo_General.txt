@@ -1,1 +1,2 @@
-Adquirir competencias básicas en informática y programación de computadores, incluyendo el manejo de herramientas computacionales para la manipulación, procesamiento y representación de datos científicos y para su presentación en la forma de reportes, artículos entre otros..
+Dotar al estudiante de las herramientas computacionales básicas necesarias para la manipulación, procesamiento, representación de datos y presentación de la información, a través del desarrollo de un pensamiento algorítmico y la codificación de instrucciones usando lenguajes de programación, graficación y entornos de desarrollo integrados, para facilitar el desarrollo de sus  tareas académicas y científicas futuras. 
+

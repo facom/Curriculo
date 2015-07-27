@@ -1,10 +1,10 @@
-1.1. Qué es la ciencia? El surgimiento de la física y la astronomía. Cantida-des físicas, dimensiones y unidades, notación científica, factores de con-versión. Nociones de vectores. El movimiento planetario y la caída de los cuerpos. Galileo: El concepto de estado de movimiento. El principio de Inercia. El movimiento inercial. Ecuaciones cinemáticas. El movimiento de los proyectiles. La Relatividad Galileana. (6 horas).
+1.1. Qué es la ciencia? El surgimiento de la física y la astronomía. Cantida-des físicas, dimensiones y unidades, notación científica, factores de con-versión. Nociones de vectores. El movimiento planetario y la caída de los cuerpos. Galileo: El concepto de estado de movimiento. El Principio de Inercia. El movimiento inercial. Ecuaciones cinemáticas. El movimiento de los proyectiles. La Relatividad Galileana. (6 horas).
 
-1.2. Las Leyes de Newton: La Ley de la Inercia. El concepto de Cantidad de Movimiento. El concepto de Fuerza. Reconocimiento de fuerzas. Ecuacio-nes de Movimiento. Conservación de la cantidad de Movimiento. La Ley de Acción y Reacción. Relatividad y Transformaciones de Galileo. (4 horas).
+1.2. Las Leyes de Newton: La Ley de la Inercia. El concepto de Cantidad de Movimiento. El concepto de Fuerza. Reconocimiento de fuerzas. Ecuacio-nes de Movimiento. Conservación de la Cantidad de Movimiento. La Ley de Acción y Reacción. Relatividad y Transformaciones de Galileo. (4 horas).
 
 1.3. Teoría Newtoniana de la Gravitación. Ecuaciones de movimiento plane-tario. Las Leyes de Kepler desde la visión Newtoniana. (2 horas)
 
-1.4. El concepto de Energía: Energía mecánica. Concepto de trabajo. Sis-temas conservativos. Conservación de la energía. (6 horas)
+1.4. El concepto de Energía: Energía mecánica. Concepto de Trabajo. Sis-temas conservativos. Conservación de la energía. (6 horas)
 
-1.5. Teoría Cinética Corpuscular: Modelo Cinético Corpuscular. Conceptos de Calor y Temperatura, Equivalente mecánico del calor. Leyes de la Termodinámica. Leyes de los gases ideales. Concepto de presión y temperatu-ra. Mecanismos de transferencia de energía. Estados de la materia. Cambios de fase. (6 horas).
+1.5. Teoría Cinética Corpuscular: Modelo Cinético Corpuscular. Conceptos de Calor y Temperatura, Equivalente mecánico del calor. Leyes de la Ter-modinámica. Leyes de los gases ideales. Concepto de presión y temperatu-ra. Mecanismos de transferencia de energía. Estados de la materia. Cam-bios de fase. (6 horas).
 

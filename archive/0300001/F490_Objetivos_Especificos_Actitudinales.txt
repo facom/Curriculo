@@ -1,3 +1,6 @@
 • Reconocer los principios de la acústica física como componente importante de la formación académica en las Ciencias Exactas
-• Reconocer los métodos de medición de variables físicas que estén relacionadas con las ondas acústicas.
-•
+• Reconocer algunos métodos de medición de variables físicas que estén relacionadas con las ondas acústicas. 
+• Desarrollar el conocimiento sobre la aplicación de la acústica a problemas prácticos en una variedad de disciplinas que enfatizan las aplicaciones industriales (ingeniería mecánica y civil), pero también incluyendo la medicina y la ingeniería biológica.
+• Adquirir experiencia en la realización de experimentos de laboratorio de acústica como parte de un equipo y la interpretación de los resultados.
+• Adquirir experiencia en la redacción de informes técnicos sobre los proyectos individuales de laboratorio.
+• Adquirir experiencia en la generación de soluciones informáticas simples a problemas de acústica.

@@ -1,5 +1,3 @@
-Funcionamiento general del Sistema Operativo
-Sistemas Operativos populares: comparativo
-El Sistema Operativo Linux: una introducción
-El sistema de archivos de Linux
-La línea de comandos de Linux
+4. Graficadores: scripts de graficación en gnuplot, matplotlib y hojas de cálculo. 
+5. Latex: Editores, tipos de documentos, artículos, libros, presentaciones (beamer) y pósters.
+6. Gestión de bibliografía: bibtex y Mendeley 

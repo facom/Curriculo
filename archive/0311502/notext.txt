@@ -1,4 +1,4 @@
-<?
+<?php
 $F010_AUTO_Fecha_Actualizacion="Fri, 29 Aug 2014 10:40:29 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";

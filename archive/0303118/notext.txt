@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="";
-$F015_AUTO_Usuario_Actualizacion="";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 06:54:05 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="";
+$F050_Nombre_Actualiza="Jorge I. Zuluaga";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0303118";
 $F110_Nombre_Asignatura="Matemáticas Básicas";

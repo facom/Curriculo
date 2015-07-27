@@ -1,16 +1,4 @@
-Reconocer la diferencia en prestaciones de distintas configuraciones de hardware y software en un computador.
-Utilizar buscadores de Internet usando opciones no triviales.
-Buscar literatura especializada usando herramientas de búsqueda propias de su disciplina (Google Scholar, ADS, inSpires, arXiv).
-Instalar el sistema operativo Linux en un computador de escritorio.
-Manipular archivos y directorios utilizando la línea de comandos de Linux.
-Editar archivos de texto plano utilizando editores simples en el sistema operativo Linux.
-Describir algoritmos para tareas computacionales básicas usando operaciones numéricas simples.
-Descomponer problemas numéricos simples de forma algorítmica.
-Escribir algoritmos en al menos un lenguaje de pseudocódigo y utilizando diagramas de flujo.
-Realizar una prueba de escritorio de un algoritmo.
-Escribir un programa básico en un lenguaje de programación interpretado (python, bash, perl, etc.) que use entrada y salida desde el teclado o el disco duro hacia la pantalla o el disco duro.
-Escribir un programa básico en un lenguaje de programación compilado (python, bash, perl, etc.) que use entrada y sálida desde el teclado o el disco duro hacia la pantalla o el disco duro.
-Traducir un algoritmo en pseudocódigo en un programa de computadora.
-Manipular listas de datos (arreglos) en lenguajes de programación compilados e interpretados.
-Realizar gráficos básicos en 2 dimensiones, tanto de datos como de funciones.
-Escribir un documento que use formato de texto, fórmulas matemáticas e incluya tablas y figuras, usando para ello el sistema de procesamiento de texto LaTeX.
+• Familiarizarse con la elaboración de algoritmos, diagramas de flujo y peudocódigos como herramientas para la solución de problemas computacionales.
+• Emplear diferentes lenguajes de programación para codificar instrucciones que le permitan solucionar diferentes problemas de tipo numérico.
+• Usar herramientas de graficación de gran calidad para la representación datos.
+• Presentar informes usando altos estándares tipográficos con herramientas computacionales libres.

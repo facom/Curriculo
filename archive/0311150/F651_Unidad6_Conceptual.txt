@@ -1,7 +1,3 @@
-Emisión de luz por los átomos, espectro continuo y de líneas. 
-Leyes de Planck y Wien. 
-Diagrama de Hertzsprung-Russell. 
-Tipos espectrales. 
 Tipos de estrellas: secuencia principal, gigantes y supergigantes rojas y azules. 
 Enanas blancas, variables, enanas oscuras, pulsares, novas y supernovas, agujeros negros.  
 Evolución estelar. 

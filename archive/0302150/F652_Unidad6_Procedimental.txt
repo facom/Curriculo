@@ -1,4 +1,0 @@
-Gráficos de funciones en 2-D en Gnuplot.
-Gráficos de datos en 2-D en Gnuplot
-Gráficos de funciones en 2-D en Matplotlib.
-Gráficos de datos en 2-D en Matplotlib.

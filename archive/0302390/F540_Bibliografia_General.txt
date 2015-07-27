@@ -1,0 +1,11 @@
+Bibliografía básica:
+• Numerical Analysis, Richard L. Burden & Douglas Faires, Ninth Edition, 2011.
+• Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The Cambridge University Press, 2007.
+
+Bibliografía complementaria:
+• Introduction to Computational and Programming Using Python, J. V. Guttag, The MIT Press, 2013
+
+Sitios web del curso: el curso cuenta con su propia página web:
+https://github.com/sbustamante/ComputationalMethods
+
+Sitios web recomendados: En Wikipedia el estudiante puede rastrear información sobre temas específicos relacionados a los métodos numéricos.

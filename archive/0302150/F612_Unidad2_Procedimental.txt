@@ -1,8 +1,0 @@
-Identificación de la dirección IP de un computador
-Búsquedas básicas en Google
-Búsquedas avanzadas en Google
-Manejo avanzado de Wikipedia
-Búsqueda de las fuentes originales de una noticia científica
-Búsqueda de literatura científica con Google Scholar
-Búsqueda de literatura científica en NASA ADS
-Búsqueda de literatura científica en inSPIRE

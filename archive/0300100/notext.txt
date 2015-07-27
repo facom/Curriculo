@@ -1,6 +1,6 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 27 May 2015 16:39:01 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
+$F010_AUTO_Fecha_Actualizacion="Wed, 27 May 2015 16:59:33 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
@@ -35,7 +35,7 @@ $F300_Area_Academica="--";
 $F310_Campo_Formacion="--Física--";
 $F320_Ciclo="--";
 $F330_Semestre="";
-$F330_Semestre_Plan="";
+$F330_Semestre_Plan="10";
 $F340_Horario_clase="";
 $F350_Requisitos="";
 $F360_Correquisitos="";

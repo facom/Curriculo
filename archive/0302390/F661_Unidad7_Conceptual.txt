@@ -1,0 +1,4 @@
+• Ajuste de datos.
+• Generación de números aleatorios.
+• Técnicas de montecarlo.
+• Estadística descriptiva.

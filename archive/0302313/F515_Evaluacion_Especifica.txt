@@ -1,0 +1,2 @@
+- Informes de prácticas de laboratorio.	75%
+- Pruebas escritas cortas.	        25%

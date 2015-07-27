@@ -1,0 +1,4 @@
+Bases de datos astronómicos: Bases de datos y catálogos, bases de imágenes de archivo.
+Uso de telescopios a distancia y telescopios robóticos.
+El observatorio astronómico virtual
+Introducción al uso de IRAF

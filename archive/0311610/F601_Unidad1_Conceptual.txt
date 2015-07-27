@@ -1,0 +1,4 @@
+Monturas ecuatoriales, altazimutales, sistemas de seguimiento.
+Sistemas de enfoque: foco primario, foco coudé, foco nashmyth, foco cassegrain.
+Características básicas de las imágenes astronómicas: resolución, tamaño de imagen en placa, tiempos de exposición, resolución espacial del pixel, etc.
+Características básicas de espectros astronómicos: Resolución, forma de línea, relación “tamaño pixel-ancho de línea”, tiempos de exposición, etc.

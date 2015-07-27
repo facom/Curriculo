@@ -1,0 +1,1 @@
+Presentar, desde un punto de vista teórico-computacional, los métodos numéricos que sirven como base para la solución de problemas en astronomía y física

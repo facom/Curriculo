@@ -1,3 +1,4 @@
 Calcular las escalas de tiempo para la formación de galaxias, estrellas y planetas.
-
-Calcular 
+Describir el proceso de formación estelar y planetaria y su profunda interrelación.
+Describir el proceso de formación galáctica.
+Explicar el origen astronómico de los elementos químicos claves para el surgimiento de la vida y el entorno en el que surge y se desarrolla.

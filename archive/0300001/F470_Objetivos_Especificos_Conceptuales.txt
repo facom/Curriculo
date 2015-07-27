@@ -1,6 +1,10 @@
 • Fundamentar los conceptos de la acústica física como:
 1. El movimiento sinusoidal de un sistema de resorte y masa 
-2. La diferencia entre ondas longitudinales y transversales
-3. La impedancia acústica característica de los materiales
-4. 
-
+2. Como se mide y reporta (unidades) la intensidad y el nivel del sonido
+3. La diferencia entre ondas longitudinales y transversales
+4. La impedancia acústica característica de los materiales
+5. Los principios que rigen la transmisión del sonido a través de una o múltiples capas (pared)
+6. La distribución espacial de las vibraciones de una cuerda y una membrana (tambor), y una habitación
+7. Los modos de vibración de elementos agrupados (resonador de Helmholtz = botella)
+8. Propiedades de la propagación del sonido en la atmósfera y los océanos
+9. Atenuación del sonido a través de la dispersión, viscosidad, y conducción del calor

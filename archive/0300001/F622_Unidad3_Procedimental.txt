@@ -1,0 +1,3 @@
+• Derivar matemáticamente y visualizar las vibraciones de objetos prácticos como un tambor (membrana), el aire en una botella al soplar (resonador de Helmholtz), una guitarra (cuerda), y una habitación rectangular.
+• Derivar las ecuaciones que describen la fuentes puntuales de sonido y usarlas para describir fuentes más complejas.
+• Aplicar las ecuaciones que describen la propagación del sonido en la atmósfera y el océano. Describir las características particulares del sonido en estos medios.

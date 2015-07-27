@@ -1,4 +1,4 @@
-•	Aplicar las bases de las teorías físicas en la solución de situaciones problema.
-•	Aplicar el método de conversión de unidades de un sis-tema a otro.
-•	Expresar los números usando la notación científica.
-•	Utilizar el análisis dimensional para analizar ecuaciones cualitativamente e identificar posibles errores en ellas.
+• Aplicar las bases de las teorías físicas en la solución de situaciones problema.
+• Aplicar el método de conversión de unidades de un sis-tema a otro.
+• Expresar los números usando la notación científica.
+• Utilizar el análisis dimensional para analizar ecuaciones cualitativamente e identificar posibles errores en ellas.

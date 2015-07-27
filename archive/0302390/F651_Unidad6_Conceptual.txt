@@ -1,0 +1,6 @@
+• Problemas de condición inicial.
+• Métodos de primer orden: método de Euler.
+• Métodos de alto orden: métodos de Runge-Kutta, Leap-Frog.
+• Sistemas de ecuaciones diferenciales.
+• Problemas de frontera.
+

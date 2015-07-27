@@ -1,3 +1,7 @@
 Reflexión y transmisión de las ondas planas incidentes perpendicularmente:    Ondas de forma arbitraria
-	A-B: Reflexión y transmisión a través de una interfase plana (se inicia con ángulo, y luego el ángulo se hace cero) rígida y de liberación de presión
-	C-D: Ejemplos de reflexión / transmisión
+1. Reflexión y transmisión a través de una interfase plana (se inicia con ángulo, y luego el ángulo se hace cero) rígida y de liberación de presión
+2. Ejemplos de reflexión / transmisión
+3. Terminación, elementos agrupados
+4. Ejemplos, problema de tres medios, absorción de paredes 
+5. Transmisión oblicua en los fluidos
+6. Ejemplos, transmisión por paneles, paredes compuestas

@@ -1,4 +1,4 @@
-<?
+<?php
 $F010_AUTO_Fecha_Actualizacion="Sat, 04 Oct 2014 14:50:52 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
 $F020_AUTH_Autorizacion_Vicedecano="No";
@@ -47,13 +47,13 @@ $F410_Profesores_Elaboran="Jorge I. Zuluaga, Juan C. Muñoz";
 $F420_Correos_Electronicos="jorge.zuluaga@fisica.udea.edu.co";
 $F600_Unidad1_Titulo="Introducción matemática y física";
 $F605_Unidad1_Semanas="";
-$F610_Unidad2_Titulo="El formalismo vectorial y el problema de los dos c";
+$F610_Unidad2_Titulo="El problema de los dos cuerpos";
 $F615_Unidad2_Semanas="";
-$F620_Unidad3_Titulo="El Formalismo lagrangiano y el problema general de";
+$F620_Unidad3_Titulo="El Formalismo lagrangiano";
 $F625_Unidad3_Semanas="";
 $F630_Unidad4_Titulo="El problema de los 3 cuerpos";
 $F635_Unidad4_Semanas="";
-$F640_Unidad5_Titulo="El formalismo Hamiltoniano y el problema de los n-";
+$F640_Unidad5_Titulo="El formalismo Hamiltoniano";
 $F645_Unidad5_Semanas="";
 $F650_Unidad6_Titulo="";
 $F655_Unidad6_Semanas="";

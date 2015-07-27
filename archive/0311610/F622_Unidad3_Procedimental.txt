@@ -1,0 +1,6 @@
+Funcionamiento de la cámara CCD
+Estadística del conteo de fotones
+Procedimientos de reducción
+Procedimientos de fotometría de apertura
+Fotometría de PSF
+Reducción de espectros

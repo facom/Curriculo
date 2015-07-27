@@ -1,13 +1,3 @@
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <style type="text/css">
-  BODY{
-  font-family:Arial,Helvetica;
-  }
-  </style>
-</head>
-<body>
 <?php
 
 ////////////////////////////////////////////////////
@@ -20,7 +10,6 @@ if(!isset($_GET["ver_curso"])){
 ////////////////////////////////////////////////////
 //VARIABLES GLOBALES
 ////////////////////////////////////////////////////
-if(isset($_GET["pass"])){echo "Key:".md5($_GET["user"]."%".$_GET["pass"]);}
 $TEMPLATECODE="0300000";
 $QARCHIVO=0;//1 si quiere mostrar los cursos archivados
 $QRECYCLE=1;//1 si quiere mostrar los cursos reciclados
@@ -135,12 +124,10 @@ TABLE;
  foreach($FIELDS as $field){
    $fname=preg_replace("/^F\d+_/","",$field);
    $value=$$fname;
-   //echo "FIELD: $fname<br/>VALUE: $value<br/>";
    $query=$DBASE[$field]["query"];
    $type=$DBASE[$field]["type"];
    if(preg_match("/Unidad\d+_Titulo/",$field) and 
       !preg_match("/\w/",$value)){
-     //echo "Last field: $field,$fname,$value<br/>";
      break;
    }
    if($type!="text"){
@@ -163,11 +150,8 @@ TABLE;
  }else{$out="NEW";}
  if(!isBlank($out)){
    sleep(2);
-   echo "Converting to pdf...";
    shell_exec("cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf &> pdf.log");
    shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > .$ver_curso-plano.pdf.md5sum");
- }else{
-   echo "No Converting to pdf...";
  }
  
  if(file_exists("$coursedir/$ver_curso-plano.pdf")){
@@ -185,9 +169,7 @@ if($mode=="FCEN" or $mode=="Todos"){
   for($i=1;$i<=10;$i++){
     $n=$offset+10*($i-1);
     $var="Unidad${i}_Titulo";
-    //echo "$var<br/>";
     $titulo=$$var;
-      //echo "Unidad $i:$titulo<br/>";
     if(isBlank($titulo)){break;}
     $var="Unidad${i}_Conceptual";
     $conceptual=$$var;
@@ -213,8 +195,10 @@ if($mode=="FCEN" or $mode=="Todos"){
     if(!isBlank($actitudinal)){
       $txtactitud="<p><i>Contenidos actitudinales:</i></p><blockquote>$actitudinal</blockquote>";
     }else{$txtactitud="";}
-    
-    $BibliografiaCompleta.="$bibliografia";
+
+    if(strpos($BibliogafiaCompleta,bibliografia)==FALSE){
+      $BibliografiaCompleta.="$bibliografia";
+    }
 $unidades.=<<<UNIDADES
   <b>Unidad $i. $titulo</b> $semtxt<br/>
   $txtconcep
@@ -431,12 +415,18 @@ if($mode=="Vicedocencia" or $mode=="Todos"){
   $ContenidoResumido="";
   $BibliografiaCompleta="$Bibliografia_General";
   $unidades="";
+  if(!isBlank($Notas)){
+    $innota="<i style='color:red'>$Notas</i>";
+    $notas="<p><b>Nota 1</b>: $innota</p>";
+    $Semestre=$innota;
+  }else{
+    $innotas="";
+    $notas="";
+  }
   for($i=1;$i<=10;$i++){
     $n=$offset+10*($i-1);
     $var="Unidad${i}_Titulo";
-    //echo "$var<br/>";
     $titulo=$$var;
-    //echo "Unidad $i:$titulo<br/>";
     if(isBlank($titulo)){break;}
     $var="Unidad${i}_Conceptual";
     $conceptual=$$var;
@@ -452,7 +442,9 @@ if($mode=="Vicedocencia" or $mode=="Todos"){
     if($semanas>0){
       $semtxt="$semanas";
     }
-    $BibliografiaCompleta.="$bibliografia";
+    if(FALSE){
+      $BibliografiaCompleta.="$bibliografia";
+    }
     if(isblank($bibliografia)){
       $bibliografia=$Bibliografia_General;
     }
@@ -554,6 +546,7 @@ $table.=<<<TABLE
   </tr>
 </table>
 <p></p>
+$notas
 <p><b>INFORMACIÓN GENERAL</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
@@ -565,7 +558,7 @@ $table.=<<<TABLE
   </tr>
   <tr>
     <td width=$col1% style='$border;'><b>Semestre</b></td>
-    <td width=$col2% style='$border;'>$Semestre_Plan</td>
+    <td width=$col2% style='$border;'>$Semestre</td>
   </tr>
   <tr>
     <td width=$col1% style='$border;'><b>Área</b></td>
@@ -627,7 +620,7 @@ $table.=<<<TABLE
   </thead>
   <tr>
     <td width=$col1% style='$border;' valign=top><b>Propósito del Curso:</b></td>
-    <td width=$col2% style='$border;'>$Proposito</td>
+    <td width=$col2% style='$border;'>$Objetivo_General</td>
   </tr>
   <tr>
     <td width=$col1% style='$border;' valign=top><b>Justificación:</b></td>
@@ -710,6 +703,10 @@ $unidades
     </td>
   </tr>
 </table>
+<p style="font-size:10px">
+<b>Última actualización</b>: $DATE<br/>
+<b>Firma Autorizada Facultad</b>: $signature
+</p>
 
 TABLE;
     
@@ -726,4 +723,19 @@ TABLE;
    shell_exec("cd $coursedir;md5sum $ver_curso-vicedocencia.html > .$ver_curso-vicedocencia.pdf.md5sum");
  }
 }
+?>
+
+<?php
+$referer=$_SERVER["HTTP_REFERER"];
+echo<<<CONTENT
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="refresh" content="1;URL=$referer">
+</head>
+<body>
+Programas generados para el curso $ver_curso...
+</body>
+</html>
+CONTENT;
 ?>

@@ -1,0 +1,5 @@
+1. Teoría de rayos geométricos
+2. Absorción y dispersión, viscosidad y la conducción del calor 
+3. Relajación
+4. Capas límite
+5. Resumen y ejemplos de absorción

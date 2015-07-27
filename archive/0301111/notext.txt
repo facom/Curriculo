@@ -1,10 +1,10 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="";
-$F015_AUTO_Usuario_Actualizacion="";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Tue, 12 Aug 2014 11:06:43 -050";
+$F015_AUTO_Usuario_Actualizacion="Instituto de Biología";
 $F020_AUTH_Autorizacion_Vicedecano="No";
-$F025_AUTH_Version="1";
-$F030_AUTH_Acta_Numero="00";
-$F040_AUTH_Acta_Fecha="MM/DD/CCYY";
+$F025_AUTH_Version="";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
 $F050_Nombre_Actualiza="Sandra Pérez";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0301111";
@@ -39,12 +39,12 @@ $F330_Semestre_Plan="1";
 $F340_Horario_clase="WV10-12,L14-16";
 $F350_Requisitos="(Ninguno)";
 $F360_Correquisitos="(Ninguno)";
-$F370_Sede="Ciudad Universitaria Medellín y regiones";
+$F370_Sede="Ciudad Universitaria Medellín y regiones donde se ofrece el programa";
 $F380_Profesores_Responsables="";
 $F390_Profesores_Oficinas="";
-$F400_Horario_atencion="MJ16-18";
-$F410_Profesores_Elaboran="Jorge Zuluaga";
-$F420_Correos_Electronicos="jorge.zuluaga@udea.edu.co";
+$F400_Horario_atencion="";
+$F410_Profesores_Elaboran="";
+$F420_Correos_Electronicos="";
 $F600_Unidad1_Titulo="";
 $F605_Unidad1_Semanas="3";
 $F610_Unidad2_Titulo="";

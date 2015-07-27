@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 27 Aug 2014 17:40:54 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 28 Aug 2014 10:51:47 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Física";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="bernardo arenas";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0302271";
 $F110_Nombre_Asignatura="Física Experimental I";
@@ -34,8 +34,8 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="--Física--";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2014-2";
-$F330_Semestre_Plan="II";
+$F330_Semestre="2015-1";
+$F330_Semestre_Plan="2";
 $F340_Horario_clase="";
 $F350_Requisitos="0302133";
 $F360_Correquisitos="0302270";

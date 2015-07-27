@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Thu, 23 Oct 2014 10:24:19 -050";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Thu, 23 Oct 2014 13:26:47 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Carlos Molina";
+$F050_Nombre_Actualiza="Esteban Silva Villa";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0311704";
 $F110_Nombre_Asignatura="Astrofísica Estelar";
@@ -42,7 +42,7 @@ $F360_Correquisitos="";
 $F370_Sede="Ciudad Universitaria Medellín";
 $F380_Profesores_Responsables="Jorge Zuluaga, Carlos Molina, Esteban Silva Villa";
 $F390_Profesores_Oficinas="6-414, 6-233";
-$F400_Horario_atencion="Jorge Zuluaga: MJ16-18, Esteban Silva Villa: L14-1";
+$F400_Horario_atencion="Jorge Zuluaga: MJ16-18, Esteban Silva Villa: L14-16";
 $F410_Profesores_Elaboran="Jorge Zuluaga, Carlos Molina, Esteban Silva Villa";
 $F420_Correos_Electronicos="jorge.zuluaga@udea.edu.co, esteban.silvav@udea.edu.co, carlos.molina@parqueexplora.org";
 $F600_Unidad1_Titulo="Introducción ";

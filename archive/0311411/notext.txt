@@ -1,11 +1,11 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="";
-$F015_AUTO_Usuario_Actualizacion="";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 07:18:29 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge I. Zuluaga";
+$F050_Nombre_Actualiza="Pablo Cuartas Restrepo";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0311411";
 $F110_Nombre_Asignatura="Astronomía de Posición";
@@ -15,8 +15,8 @@ $F140_Creditos="3";
 $F150_Intensidad_HDD="--";
 $F160_Intensidad_HDA="--";
 $F170_Intensidad_TI="--";
-$F180_Horas_Teoricas_Semanales="0";
-$F183_Horas_Practicas_Semanales="4";
+$F180_Horas_Teoricas_Semanales="4";
+$F183_Horas_Practicas_Semanales="0";
 $F186_Horas_Teorico_Practicas_Semanales="0";
 $F190_Horas_Teoricas_Semestrales="0";
 $F193_Horas_Practicas_Semestrales="64";
@@ -32,7 +32,7 @@ $F270_Facultad="Facultad de Ciencias Exactas y Naturales";
 $F280_Instituto="Instituto de Física";
 $F290_Programas_Academicos="Astronomía";
 $F300_Area_Academica="Astronomía";
-$F310_Campo_Formacion="";
+$F310_Campo_Formacion="Astronomía Básica";
 $F320_Ciclo="Fundamentación";
 $F330_Semestre="2014-2";
 $F330_Semestre_Plan="3";

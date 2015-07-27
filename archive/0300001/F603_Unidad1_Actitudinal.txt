@@ -1,5 +1,5 @@
-A. Poder visualizar una onda acústica, y como la longitud de onda depende de la frecuencia y la velocidad del sonido.
+1. Poder visualizar una onda acústica, y como la longitud de onda depende de la frecuencia y la velocidad del sonido.
 
-B. Poder visualizar la diferencia entre ondas estacionarias y progresivas
+2. Poder visualizar la diferencia entre ondas estacionarias y progresivas
 
-C. Tener claros los conceptos de impedancia acústica.
+3. Tener claros los conceptos de la impedancia acústica.

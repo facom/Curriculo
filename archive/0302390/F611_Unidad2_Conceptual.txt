@@ -1,0 +1,4 @@
+• Método de bisección.
+• Método de punto fijo.
+• Métodos de Newton.
+• Análisis de errores.

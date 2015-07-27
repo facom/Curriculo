@@ -1,0 +1,7 @@
+INFORMES 	55%
+PROYECTO	25%
+EXAMEN ORAL	20%
+El sistema de evaluación contiene  las siguientes tres componentes:
+a)	Informes: se formarán grupos de trabajo de máximo tres estudiantes los cuales deben entregar un informe de cada práctica.
+b)	Proyecto experimental: cada grupo debe realizar un proyecto experimental y entregar un informe en extenso y un informe tipo artículo. El informe tipo artículo debe hacerse en el formato de la Revista Colombiana de Física.  
+c)	Un examen oral: se hará un examen oral individual sobre las prácticas y el proyecto experimental. 

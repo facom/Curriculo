@@ -1,6 +1,0 @@
-Elaboración de scripts de bash en Linux.
-Elaboración de programas elementales en python (entrada, operaciones básicas y salida).
-Traducción de algoritmos al lenguaje python.
-Utilización de paquetes externos en python.
-Elaboración de programas elementales en C/C++.
-Compilación y enlazado de programas en C/C++ que utilicen bibliotecas externas.

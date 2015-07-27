@@ -1,5 +1,5 @@
-<?
-$F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 09:42:45 -050";
+<?php
+$F010_AUTO_Fecha_Actualizacion="Sat, 16 Aug 2014 09:43:26 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
@@ -35,7 +35,7 @@ $F300_Area_Academica="Sociohumanística";
 $F310_Campo_Formacion="";
 $F320_Ciclo="Profesionalización";
 $F330_Semestre="2014-1";
-$F330_Semestre_Plan="7";
+$F330_Semestre_Plan="--";
 $F340_Horario_clase="";
 $F350_Requisitos="0305125";
 $F360_Correquisitos="(Ninguno)";

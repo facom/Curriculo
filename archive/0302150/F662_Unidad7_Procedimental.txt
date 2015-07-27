@@ -1,4 +1,0 @@
-Elaboración de documentos simples en LaTeX.
-Elaboración de documentos incluyendo ecuaciones en LaTeX.
-Elaboración de documentos completos con tablas y figuras en LaTeX.
-Bibliografía y referencias cruzadas en un documento en LaTeX.

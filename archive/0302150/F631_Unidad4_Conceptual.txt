@@ -1,3 +1,0 @@
-Introducción histórica y definiciones
-El pseudolenguaje y el pseudocódigo
-Diagrama de Flujo

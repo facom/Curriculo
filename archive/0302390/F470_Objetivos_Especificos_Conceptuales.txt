@@ -1,0 +1,5 @@
+• Reconocer la motivación matemática de los métodos numéricos vistos.
+• Reconocer la motivación física de los métodos numéricos vistos.
+• Entender el concepto de solución aproximada, junto con sus capacidades y limitaciones.
+• Establecer la diferencia conceptual entre una solución analítica exacta y una solución numérica aproximada.
+• Reconocer la computación como un apoyo fundamental para la solución de problemas de interés actual.

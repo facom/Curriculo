@@ -1,0 +1,6 @@
+El curso se sigue a través de 5 evaluaciones del 20% cada una.
+Cuatro de ellas representan exámenes, el 20% restante se evalúa en la forma de tareas y seguimientos.
+
+Los exámenes pretended evaluar la comprensión de los contenidos así como la capacidad para usarlos en la solución de problemas. Al menos 50% de cada examen consiste en la solución de problemas que impliquen el uso de los contenidos a evaluar. El 50% restante corresponderá a desarrollos, demostraciones o problemas de análisis que evalúan la comprensión de la teoría. Cada examen corresponde a cada una de las unidades del curso.
+
+El 20% asociado al seguimiento corresponde a la realización de tareas. Semanalmente se  entrega una asignación, que corresponde a una lectura complementaria, solución de problemas teóricos, computacionales o interpretación de observaciones en el marco de los contenidos que se están estudiando.

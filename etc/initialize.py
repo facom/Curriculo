@@ -355,6 +355,17 @@ Database={
         "Indique el semestre en el plan de formación.  Si el curso se ofrece en varios programas y el semestre en cada uno de ellos es distinto use el nombre del programa en paréntesis para distinguirlo (ver ejemplo).  Si se trata de una electiva use 10",
         "1 (Física), 2 (Astronomía)"
         ],
+
+    "F335_Notas":
+        [
+        "text",
+        "Notas",
+        "",
+        "",
+        "Notas para el curso",
+        "Este curso es valido entre el semestre 2002-1 y 2014-1."
+        ],
+
     "F340_Horario_clase":
         [
         "varchar(20)",

@@ -1,0 +1,5 @@
+• Interpolación lineal.
+• Polinomios interpolantes de Lagrange.
+• Diferencias divididas.
+• Interpolación de Hermite.
+• Interpolación con splines cúbicos.

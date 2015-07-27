@@ -1,0 +1,10 @@
+Teoría del potencial, Pares densidad-Potencial. Masa puntual, Esfera homogénea, Perfil isotérmico, Hernquist.
+Sistemas discoidales: Plummer-kuzmin, Disco exponencial. Sigma(r) desde v_c(r). Escalas de tiempo.
+Observaciones: Cinemática galáctica. Curva de rotación de la Vía Láctea. Mapas Galácticos. El potencial de la Vía Láctea..
+Equilibrio de sistemas no-colisionales: Función de distribución, Ecuación de Boltzmann no colisional. CBE en varios sistemas coordenados.
+Momentos de la CBE. Ecuaciones de Jeans en coordenadas cilíndricas. Ecuaciones de Jeans en coordenadas Esféricas.
+Aplicaciones: Dispersión de velocidades en la línea de la visual. Distribución de masa de un sistema esférico. Achatamiento de galaxias elípticas.
+Estructura de orbitas: Orbitas en un potencial esférico estático. Constantes de integrales de movimiento. Orbitas en potenciales de simetría axial. Orbitas semi-circulares: aproximación de epiciclo.
+Estructura de orbitas en la Vía Láctea. Cinemática galáctica. Constantes de Oort.
+Dinámica de sistemas de partículas: Fricción dinámica. Torques gravitacionales. Stripping.  
+Evolución galáctica. Evolución espectrofotométrica. Evolución química. Evolución de cúmulos estelares.

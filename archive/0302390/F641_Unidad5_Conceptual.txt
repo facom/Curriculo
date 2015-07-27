@@ -1,0 +1,6 @@
+• Sistemas de ecuaciones.
+• Eliminación Gaussiana.
+• Estrategias de pivotes.
+• Inversas y determinantes.
+• Factorización LU.
+• Factorización de Cholesky.
