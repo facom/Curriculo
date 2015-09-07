@@ -1,3 +1,4 @@
-Al terminar el curso el estudiante estará en capacidad de:
-Identificar y manejar instrumentos de medidas eléctricas y electrónicas.
-Identificar y manejar apropiadamente los diferentes elementos activos y pasivos utilizados para el montaje de las prácticas de laboratorio.
+Identificar y manejar instrumentos de mediciones eléctricas y electrónicas.
+Identificar y manejar apropiadamente los diferentes elementos activos y pasivos utilizados en el montaje de circuitos electrónicos básicos.
+Comparar resultados experimentales con los teóricos y simulados.
+Proponer circuitos para la solución de problemas específicos.

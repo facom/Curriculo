@@ -1,3 +1,3 @@
-Rectificador de media onda y de onda completa.
-Rectificación y filtrado.
-Fuente regulada.
+Determinación experimental del punto de trabajo de un transistor bajo la configuración de emisor común.
+Aplicación del transistor como amplificador de pequeña señal.
+Aplicación del foto-transistor como interruptor y foto-compuerta.

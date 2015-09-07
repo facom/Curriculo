@@ -1,8 +1,5 @@
-Manual de Prácticas de Laboratorio de Electrónica.
-* Brophy, James. Basic Electronics for Scientists.
-* Diefender, James. Instrumentación Electrónica.
-* Boylestad y Nashelsky. Electrónica. Teoría de Circuitos.
-* Bobrow, L. S. Análisis de Circuitos Electrónicos.
-* Tocci, Ronald. Sistemas Digitales: Principios y Aplicaciones.
-* Tokheim, Roger. Principios Digitales.
-* Problemas propuestos y resueltos elaborados por el profesor.
+Basic Electronics for scientists and engineers. D. L. Eggleston. Cambridge. 2011.
+Prácticas de Electrónica, 7ma Ed. Paul B. Zbar, Albert Paul Malvino, Michael A. Miller. Alfaomega. 2001.
+Electrónica. Teoría de Circuitos, 8va Ed. Boylestad, Nashelsky. Prentice Hall. 2003.
+Sistemas Digitales: Principios y Aplicaciones, 8va Ed. Tocci, Widmer. Prentice Hall, 2003.
+Ejercicios de laboratorio propuestos por el profesor.

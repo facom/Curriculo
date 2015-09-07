@@ -113,6 +113,21 @@ $table.=<<<TABLE
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
+  </style>
 </head>
 <body>
 <h1>
@@ -214,6 +229,21 @@ $table.=<<<TABLE
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
+  </style>
 </head>
 <body>
   <table border=0 width=650>
@@ -490,6 +520,19 @@ $table.=<<<TABLE
   BODY{
   font-family:Arial,Helvetica;
   }
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
   </style>
 </head>
 <body>

@@ -1,2 +1,1 @@
-El amplificador operacional ideal. Amplificadores no ideales.
-Corrientes de Polarización, Modo Común.
+Al final del curso se asigna a cada grupo de trabajo un problema práctico de circuitos para ser resuelto durante cuatro clases.

@@ -1,1 +1,0 @@
-Circuito amplificador inversor y no inversor. Circuito integrador. Filtro activo paso bajo. Circuito derivador. Filtro activo paso alto. Filtro pasa banda.  

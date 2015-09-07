@@ -1,1 +1,4 @@
-Polarización, consideraciones para el diseño de polarización básica. Configuraciones. Régimen de pequeña señal.
+Ejercicios prácticos de circuitos con compuertas lógicas.
+Implementación de un circuito sumador.
+Manejo de la pantalla de siete segmentos.
+Introducción a la plataforma Arduino.

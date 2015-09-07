@@ -2,6 +2,7 @@ Bibliografía Básica (obligatoria)
 
 (K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). 
 
+
 Bibliografía de Referencia (complementaria)
 
 (F): Física Volumen I Marcelo Alonso and Edward J. Finn.
@@ -10,4 +11,5 @@ Bibliografía de Referencia (complementaria)
 (B): Introduction to the Relativity Principle, Gabriel Barton. (1999)
 (R): Introduction to Special Relativity, Robert Resnick. (1968)
 (S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)
+
 

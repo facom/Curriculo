@@ -1,0 +1,5 @@
+Construir circuitos partiendo de un diseño esquemático.
+Realizar mediciones sobre los circuitos construidos para deducir su comportamiento.
+Analizar los resultados experimentales y realizar comparaciones con los resultados teóricos y simulados.
+Proponer modificaciones a los circuitos propuestos con el objetivo de resolver un problema particular.
+Presentar los resultados en forma de artículo científico.

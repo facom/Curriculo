@@ -1,0 +1,2 @@
+La importancia de reconocer los rangos de operación y protocolos de funcionamiento de una herramienta o equipo antes de utilizarlos.
+Reconocer la importancia de las incertidumbres en los valores nominales de los componentes electrónicos.

@@ -1,15 +1,22 @@
-Tipos de estrellas: secuencia principal, gigantes y supergigantes rojas y azules. 
-Enanas blancas, variables, enanas oscuras, pulsares, novas y supernovas, agujeros negros.  
-Evolución estelar. 
-Estructura de la materia: quarks, leptones, protones, neutrones, àtomos. 
-Interacciones fundamentales. 
-Síntesis del Helio. 
-Reacciones nucleares. Fisión y fusión. 
-La síntesis de los elementos. 
-La expansión del universo. 
-Modelos cosmológicos. 
-El Big-Bang.  
-La relatividad general y la expansión del espacio.  
-Gravitación de Einstein. Deflexión gravitacional de la luz, precesión del perihelio de Mercurio. 
-Doppler gravitacional,  agujeros negros, radiación de Hawking,  ondas gravitacionales. 
-Expansión acelerada del universo.
+• Emisión de luz por los átomos, espectro continuo y de líneas. 
+• Espectros de emisión y absorción.
+• Leyes de Planck y Wien. 
+• Diagrama de Hertzsprung-Russell. 
+• Tipos espectrales. 
+• Tipos de estrellas: secuencia principal, gigantes y supergigantes rojas y azules. 
+• Enanas blancas, variables, enanas oscuras, novas y supernovas.
+• Pulsares y agujeros negros.  
+• Evolución estelar. Dependencia de la evolución con la masa.
+• Estructura de la materia: moléculas, átomos, protones, neutrones, quarks, leptones. 
+• Interacciones fundamentales.  
+• Reacciones nucleares. Fisión y fusión.
+• Las cadenas protón-protón. 
+• La síntesis de los elementos. 
+• Recesión de las galaxias. La expansión del universo. 
+• Modelos cosmológicos. 
+• El Big-Bang.  
+• La relatividad general y la expansión del espacio.  
+• Gravitación de Einstein. Deflexión gravitacional de la luz, precesión del perihelio de Mercurio. 
+• Efecto Doppler gravitacional,  agujeros negros, radiación de Hawking,  ondas gravi tacionales. 
+• Una historia concisa del universo.
+• La expansión acelerada.

@@ -1,1 +1,3 @@
-Bombillo, resistencia y diodo.
+Ejercicios prácticos de: Circuito RC y RLC.
+Filtros pasivos paso bajo, paso alto y paso banda.
+Circuito integrador y derivador.

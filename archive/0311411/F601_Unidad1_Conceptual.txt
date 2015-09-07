@@ -1,0 +1,7 @@
+- Elementos de geometría y trigonometría Esférica
+- Posición del observador sobre la Tierra
+- Movimientos de la Tierra, la Luna y los planetas
+- La esfera celeste 
+- Equinoccios y Solsticios
+- Las Constelaciones
+- Movimientos aparentes, diurno, anual solar, precesión, retrogradación     

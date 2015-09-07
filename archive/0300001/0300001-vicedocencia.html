@@ -5,6 +5,19 @@
   BODY{
   font-family:Arial,Helvetica;
   }
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
   </style>
 </head>
 <body>
@@ -32,7 +45,7 @@
 <p></p>
 <p></p>
 <p style="text-align:center;font-size:18px;width:650px">
-  <b>PROGRAMA DE ACÚSTICA FÍSICA</b>
+  <b>PROGRAMA DE FUNDAMENTOS DE LA ACÚSTICA FÍSICA</b>
 </p>
 <p></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -41,11 +54,11 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>NOMBRE DE LA MATERIA</b></td>
-    <td width=60% style='border:1px solid;;'>Acústica Física</td>
+    <td width=60% style='border:1px solid;;'>Fundamentos de la Acústica Física</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>PROFESOR</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>Felipe Gaitan</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>OFICINA</b></td>
@@ -61,6 +74,7 @@
   </tr>
 </table>
 <p></p>
+<p><b>Nota 1</b>: <i style='color:red'>Este plan de asignatura es válido entre los semestres 2002-1 y 2014-2.</i></p>
 <p><b>INFORMACIÓN GENERAL</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
@@ -72,7 +86,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Semestre</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'><i style='color:red'>Este plan de asignatura es válido entre los semestres 2002-1 y 2014-2.</i></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Área</b></td>
@@ -80,43 +94,43 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semanales</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>3</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semestrales</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>48</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>No. de créditos</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>4</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas de clase por semestre</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>64</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Campo de Formación</b></td>
-    <td width=60% style='border:1px solid;;'>Física Básica</td>
+    <td width=60% style='border:1px solid;;'>Física Experimental</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Validable</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>No</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Habilitable</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>Si</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Clasificable</b></td>
-    <td width=60% style='border:1px solid;;'>--</td>
+    <td width=60% style='border:1px solid;;'>No</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Requisitos</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>Física Básica III, Oscilaciones y Ondas</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Corequisitos</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>Laboratorio de Electrónica</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Programas a los que se ofrece la materia</b></td>
@@ -134,33 +148,168 @@
   </thead>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Propósito del Curso:</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>El objetivo del curso “Fundamentos de Acústica Física” es familiarizar a los estudiantes con los conceptos básicos de la acústica como el movimiento sinusoidal de un sistema de masa y resorte, y las ecuaciones matemáticas que describen las ondas estacionarias y de propagación.<br/><br/>El curso es de un semestre, y está dirigido a estudiantes universitarios avanzados. Énfasis en las ondas planas en la primera parte del libro mantiene la matemática simple pero se adapta a una amplia gama de temas: propagación, reflexión y transmisión, modos normales y guías de onda simples para geometrías rectilíneas, cuernos acústicos, y la absorción del sonido y la dispersión.<br/></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Justificación:</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>El conocimiento de los conceptos y la formulación de la ciencia de la acústica puede tener muchas aplicaciones en el mundo moderno: estas aplicaciones incluyen la música, las salas de concierto, el ruido ambiental, la medicina de ultrasonido (terapéutica y de visualización), y las aplicaciones industriales la cual incluyen los baños de ultrasonido, la soldadura de metales y plásticos, y el tratamiento de aguas negras y contaminadas. Por lo tanto, este curso contribuirá a la educación de los estudiantes de Física de tal manera que estarán mas preparados para afrontar el mundo moderno con todos sus avances tecnológicos. </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivo General:</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>El objetivo del curso “Fundamentos de Acústica Física” es familiarizar a los estudiantes con los conceptos básicos de la acústica como el movimiento sinusoidal de un sistema de masa y resorte, y las ecuaciones matemáticas que describen las ondas estacionarias y de propagación.<br/><br/>El curso es de un semestre, y está dirigido a estudiantes universitarios avanzados. Énfasis en las ondas planas en la primera parte del libro mantiene la matemática simple pero se adapta a una amplia gama de temas: propagación, reflexión y transmisión, modos normales y guías de onda simples para geometrías rectilíneas, cuernos acústicos, y la absorción del sonido y la dispersión.<br/></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivos Específicos:</b></td>
     <td width=60% style='border:1px solid;;'>
-      <br/>
-      <br/>
-      <br/>
+      • Fundamentar los conceptos de la acústica física como:<br/>1. El movimiento sinusoidal de un sistema de resorte y masa <br/>2. Como se mide y reporta (unidades) la intensidad y el nivel del sonido<br/>3. La diferencia entre ondas longitudinales y transversales<br/>4. La impedancia acústica característica de los materiales<br/>5. Los principios que rigen la transmisión del sonido a través de una o múltiples capas (pared)<br/>6. La distribución espacial de las vibraciones de una cuerda y una membrana (tambor), y una habitación<br/>7. Los modos de vibración de elementos agrupados (resonador de Helmholtz = botella)<br/>8. Propiedades de la propagación del sonido en la atmósfera y los océanos<br/>9. Atenuación del sonido a través de la dispersión, viscosidad, y conducción del calor<br/><br/>
+      • Presentar las ecuaciones y procedimientos matemáticos para analizar y entender el comportamiento de las ondas acústicas y su interacción con la materia. <br/>• Visualizar las ondas estacionarias y progresivas usando animación por ordenador.<br/>• Presentar el proceso matemático para deducir la leyes que rigen la reflección y transmisión de ondas acústicas a través de diferentes capas de materiales.<br/>• Derivar matemáticamente y visualizar las vibraciones de objetos prácticos como un tambor (membrana), el aire en una botella al soplar (resonador de Helmholtz), una guitarra (cuerda), y fuentes puntuales de sonido.<br/>• Presentar el proceso dinámico y termodinámico por el cual el sonido es atenuado por el medio en que se propaga, ya sea en gases, líquidos, o sólidos<br/><br/>
+      • Reconocer los principios de la acústica física como componente importante de la formación académica en las Ciencias Exactas<br/>• Reconocer algunos métodos de medición de variables físicas que estén relacionadas con las ondas acústicas. <br/>• Desarrollar el conocimiento sobre la aplicación de la acústica a problemas prácticos en una variedad de disciplinas que enfatizan las aplicaciones industriales (ingeniería mecánica y civil), pero también incluyendo la medicina y la ingeniería biológica.<br/>• Adquirir experiencia en la realización de experimentos de laboratorio de acústica como parte de un equipo y la interpretación de los resultados.<br/>• Adquirir experiencia en la redacción de informes técnicos sobre los proyectos individuales de laboratorio.<br/>• Adquirir experiencia en la generación de soluciones informáticas simples a problemas de acústica.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Contenido Resumido:</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>1-El desarrollo detallado de la ecuación de una ond<br/>2-Reflexión y transmisión de ondas acústicas<br/>3-Cuerda y membrana vibratoria, y propagación<br/>4-Propagación en medios estratificados y en fluidos<br/>5-Temas Especiales (opcional)<br/></td>
   </tr>
 </table>
 
 <p></p>
 <p><b>UNIDADES DETALLADAS</b></p>
-
+<p><b>Unidad No. 1.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>El desarrollo detallado de la ecuación de una ond</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      1. Que es una onda? Ecuación de onda, Soluciones generales;<br/>2: Soluciones generales, ondas de propagación, características, ondas planas de propagación; condición inicial y soluciones forzadas a los métodos de solución;<br/>3: Derivación de la ecuación de onda (eléctricas y para cuerdas) ; impedancia característica (específica)<br/>4. La ecuación de Euler vectorial (1D), introducir y derivar la ecuación de onda para el potencial de velocidad, coordenadas esféricas y cilíndricas (radial solamente); propagación esférica; Ejemplo de esfera oscilante, forma compleja de p, u, Z<br/>5. Señales, niveles, impedancia, intensidad y poder<br/><br/>
+      1. Varias demostraciones visuales (internet, videos, mecánicos) serán presentadas para desarrollar la intuición física de las ondas acústicas de los estudiantes.<br/><br/>2. Derivar la ecuación de onda usando varias sistemas de coordenadas y visualizar estas ondas<br/><br/>3. Desarrollar conceptos como la impedancia acústica de un material. <br/><br/>
+      1. Poder visualizar una onda acústica, y como la longitud de onda depende de la frecuencia y la velocidad del sonido.<br/><br/>2. Poder visualizar la diferencia entre ondas estacionarias y progresivas<br/><br/>3. Tener claros los conceptos de la impedancia acústica.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>3</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>Texto Principal: <br/>Fundamentals of Physical Acoustics, Blackstock, 1st edición, Wiley, 2000, ISBN 9780471319795<br/><br/>Textos opcionales:<br/>•Fundamentals of Acoustics, Lawrence E. Kinsler, Austin R. Frey, Alan B Coppens, James V. Sanders, 4a edición, Wiley, 2000<br/>• Acoustics: An Introduction to Its Physical Principles and Applications, Allan D. Pierce, 1st edición, Wiley, 2000<br/></td>
+  </tr>
+</table><p><b>Unidad No. 2.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>Reflexión y transmisión de ondas acústicas</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Reflexión y transmisión de las ondas planas incidentes perpendicularmente:    Ondas de forma arbitraria<br/>1. Reflexión y transmisión a través de una interfase plana (se inicia con ángulo, y luego el ángulo se hace cero) rígida y de liberación de presión<br/>2. Ejemplos de reflexión / transmisión<br/>3. Terminación, elementos agrupados<br/>4. Ejemplos, problema de tres medios, absorción de paredes <br/>5. Transmisión oblicua en los fluidos<br/>6. Ejemplos, transmisión por paneles, paredes compuestas<br/><br/>
+      • Presentar el proceso matemático para deducir la leyes que rigen la reflección y transmisión de ondas acústicas a través de diferentes capas de materiales.<br/>• Presentar demostraciones para visualizar y desarrollar la intuición física de la transmisión del sonido a través de materiales de uso común<br/><br/>
+      • Los estudiantes tendrán la capacidad para derivar matemáticamente las ecuaciones que describen la transmisión y reflección del sonido a través de paneles de diferentes materiales y geometrías.<br/>• Los estudiantes habrán desarrollado la intuición física para poder resolver problemas relacionados con el sonido y el ruido en situaciones prácticas como la música (salas de concierto) y el ruido ambiental (ingeniería civil y construcción)<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>3.5</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>Texto Principal: <br/>Fundamentals of Physical Acoustics, Blackstock, 1st edición, Wiley, 2000, ISBN 9780471319795<br/><br/>Textos opcionales:<br/>•Fundamentals of Acoustics, Lawrence E. Kinsler, Austin R. Frey, Alan B Coppens, James V. Sanders, 4a edición, Wiley, 2000<br/>• Acoustics: An Introduction to Its Physical Principles and Applications, Allan D. Pierce, 1st edición, Wiley, 2000<br/></td>
+  </tr>
+</table><p><b>Unidad No. 3.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>Cuerda y membrana vibratoria, y propagación</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      1. Cuerda vibratoria<br/>2. Membrana vibratoria<br/>3. Habitación rectangular y guía de onda<br/>4. Cuernos acústicos<br/>5. Aproximación de WKB<br/>6. Propagación atmosférica y en el océano<br/><br/>
+      • Derivar matemáticamente y visualizar las vibraciones de objetos prácticos como un tambor (membrana), el aire en una botella al soplar (resonador de Helmholtz), una guitarra (cuerda), y una habitación rectangular.<br/>• Derivar las ecuaciones que describen la fuentes puntuales de sonido y usarlas para describir fuentes más complejas.<br/>• Aplicar las ecuaciones que describen la propagación del sonido en la atmósfera y el océano. Describir las características particulares del sonido en estos medios.<br/>
+      • Los estudiantes tendrán la capacidad para derivar matemáticamente las ecuaciones que describen las vibraciones de varios objetos e instrumentos prácticos (guitarra, tambor, botella con aire, una habitación).<br/>• Los estudiantes habrían desarrollado la intuición física para poder resolver problemas relacionados con el sonido generado por la vibración de varios objetos e instrumentos.<br/>• Los estudiantes tendrán el conocimiento para resolver problemas relacionados con la propagación del sonido en la atmósfera y en el océano y aplicarlo a problemas relacionados con el ruido ambiental y la comunicación submarina.<br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>3.0</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>Texto Principal: <br/>Fundamentals of Physical Acoustics, Blackstock, 1st edición, Wiley, 2000, ISBN 9780471319795<br/><br/>Textos opcionales:<br/>•Fundamentals of Acoustics, Lawrence E. Kinsler, Austin R. Frey, Alan B Coppens, James V. Sanders, 4a edición, Wiley, 2000<br/>• Acoustics: An Introduction to Its Physical Principles and Applications, Allan D. Pierce, 1st edición, Wiley, 2000<br/></td>
+  </tr>
+</table><p><b>Unidad No. 4.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>Propagación en medios estratificados y en fluidos</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      1. Teoría de rayos geométricos<br/>2. Absorción y dispersión, viscosidad y la conducción del calor <br/>3. Relajación<br/>4. Capas límite<br/>5. Resumen y ejemplos de absorción<br/><br/>
+      • Derivar en clase las ecuaciones que describen las leyes por las cuales las ondas de sonido son reflejadas por diferentes superficies.<br/>• Presentar las ecuaciones y describir el proceso dinámico y termodinámico por el cual el sonido es atenuado por el medio en que se propaga, ya sea en gases, líquidos, o sólidos<br/><br/>
+      • Los estudiantes sabrán derivar las ecuaciones que describen las leyes por las cuales las ondas de sonido son reflejadas por diferentes superficies.<br/>• Los estudiantes desarrollarán el conocimiento de los mecanismos por los cuales el sonido es atenuado por diferentes materiales y objetos.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>3.5</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>Texto Principal: <br/>Fundamentals of Physical Acoustics, Blackstock, 1st edición, Wiley, 2000, ISBN 9780471319795<br/><br/>Textos opcionales:<br/>•Fundamentals of Acoustics, Lawrence E. Kinsler, Austin R. Frey, Alan B Coppens, James V. Sanders, 4a edición, Wiley, 2000<br/>• Acoustics: An Introduction to Its Physical Principles and Applications, Allan D. Pierce, 1st edición, Wiley, 2000<br/></td>
+  </tr>
+</table><p><b>Unidad No. 5.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>Temas Especiales (opcional)</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Dependiendo del tema especial<br/><br/>
+      Dependiendo del tema especial<br/>
+      Dependiendo del tema especial<br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>1.5</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>Dependiendo del tema especial</td>
+  </tr>
+</table>
 
 <p></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -168,7 +317,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>METODOLOGÍA a seguir en el desarrollo del curso:</b>
       <p>
-	
+	• Exposición magistral del profesor de los temas del curso, en un ambiente de discusión y crítica.<br/>• Problemas de practica por parte de los estudiantes.<br/>• Discusión en clase de los problemas asignados<br/>• Demostraciones prácticas en la clase <br/>• Ejecución de experimentos en el laboratorio para poner en práctica los conceptos expuestos durante la clase teórica.<br/>
       </p>
     </td>
   </tr>
@@ -191,7 +340,7 @@
   </tr>
   <tr>
     <td style='border:1px solid;;' valign=top colspan=3>
-      
+      Evaluación cada dos semanas, 30%<br/>Reportes de Laboratorio 10%<br/>Tareas 30%<br/>Evaluación de Competencia Final, 30%, Semana de evaluaciones finales <br/>
     </td>
   </tr>
 </table>
@@ -202,7 +351,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>Actividades de Asistencia Obligatoria:</b>
       <p>
-	
+	Dada la naturaleza permanente de la evaluación formativa y sumativa en este curso además de su carácter práctico, todas las actividades del curso son de asistencia obligatoria. 
       </p>
     </td>
   </tr>
@@ -213,7 +362,11 @@
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
     <td style='border:1px solid;;' valign=top>
-      
+      Texto Principal: <br/>Fundamentals of Physical Acoustics, Blackstock, 1st edición, Wiley, 2000, ISBN 9780471319795<br/><br/>Textos opcionales:<br/>•Fundamentals of Acoustics, Lawrence E. Kinsler, Austin R. Frey, Alan B Coppens, James V. Sanders, 4a edición, Wiley, 2000<br/>• Acoustics: An Introduction to Its Physical Principles and Applications, Allan D. Pierce, 1st edición, Wiley, 2000<br/>
     </td>
   </tr>
 </table>
+<p style="font-size:10px">
+<b>Última actualización</b>: Fri, 14 Aug 2015 09:29:43 -0500<br/>
+<b>Firma Autorizada Facultad</b>: (No autorizado. Este documento es solo un borrador.)
+</p>

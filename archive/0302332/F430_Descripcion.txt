@@ -1,1 +1,1 @@
-Iniciar al estudiante en el montaje de circuitos básicos que le permitan entender los conceptos fundamentales de la electrónica.
+En el Laboratorio de Electrónica se desarrolla un conjunto de prácticas de electrónica básica como parte complementaria al curso teórico.

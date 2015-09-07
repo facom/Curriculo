@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 27 Jul 2015 05:25:32 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 27 Jul 2015 15:26:54 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
-$F025_AUTH_Version="3";
+$F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="11";
 $F040_AUTH_Acta_Fecha="18 de Marzo de 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302133";
 $F110_Nombre_Asignatura="Fundamentación en Física";
 $F120_Tipo_Curso="Básico";
@@ -41,8 +41,8 @@ $F350_Requisitos="Ninguno";
 $F360_Correquisitos="Ninguno";
 $F370_Sede="Ciudad Universitaria - Medellín";
 $F380_Profesores_Responsables="Johan Mazo Z.";
-$F390_Profesores_Oficinas="";
-$F400_Horario_atencion="";
+$F390_Profesores_Oficinas="De acuerdo al semestre";
+$F400_Horario_atencion="Programación";
 $F410_Profesores_Elaboran="Johan Mazo";
 $F420_Correos_Electronicos="johanmazo@gmail.com";
 $F600_Unidad1_Titulo="Mecánica";

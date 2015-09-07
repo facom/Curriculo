@@ -1,11 +1,16 @@
-El ojo.  
-Refractor galileano, telescopio de Cassegrain. 
-Poder de aumento. 
-Aberración esférica. 
-El microscopio.  
-El prisma, el espectro solar. El espectrómetro. 
-El espectro electromagnético. 
-El efecto Doppler, El movimiento radial de las estrellas, medida de la rotación de las estrellas, la expansión del universo. 
-La fotografía. 
-Radio Astronomía, astronomía de infrarrojos, rayos X y gamma. 
-La futura astronomía gravitacional.
+• Propagación de la luz. El vacío, los medios homogéneos.
+• Leyes de reflexión y refracción. Índices de refracción. 
+• Espejos planos. 
+• Espejos cóncavos y convexos. Espejo parabólico, el telescopio newtoniano. 
+• Tipos de lentes, telescopios refractores. 
+• Imágenes virtuales y reales. 
+• El ojo. Miopía e hipermetropía.  
+• Refractor galileano, telescopio de Cassegrain. 
+• Poder de aumento. 
+• Aberración esférica. 
+• El prisma, el espectro solar. El espectrómetro. 
+• El espectro electromagnético. 
+• El efecto Doppler, El movimiento radial de las estrellas, medida de la rotación de las estrellas, la expansión del universo. 
+• La fotografía. 
+• Radioastronomía, astronomía de infrarrojos, rayos X y gamma. 
+• La futura astronomía gravitacional.

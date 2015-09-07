@@ -1,0 +1,3 @@
+Implementación de circuitos basados en compuertas lógicas y elaboración experimental de su tabla de verdad y del circuito simplificado equivalente.
+Contrucción de un sumador de números de 1 bit y observación del resultado en una pantalla de siente segmentos.
+Desarrollo de ejemplos básicos utilizando la tarjeta Arduino DUE: generación y detección de señales análogas y digitales, comunicación con el computador.

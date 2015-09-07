@@ -82,3 +82,18 @@ def updateDatabase(dbdict,con):
                 sql=sql.strip(",")+" %s;"%suffix
                 db.execute(sql);
     con.commit()
+
+def updateTable(dbdict,table,con):
+    with con:
+        db=con.cursor()
+        print "Actualizando tabla ",table
+        for row in dbdict[table]['rows'].keys():
+            sql="update %s set "%table;
+            for field in dbdict[table]['fields']:
+                if field==dbdict[table]['primary']:
+                    suffix="where %s='%s'"%(field,dbdict[table]['rows'][row][field])
+                    continue
+                sql+="%s = '%s',"%(field,dbdict[table]['rows'][row][field])
+            sql=sql.strip(",")+" %s;"%suffix
+            db.execute(sql);
+    con.commit()

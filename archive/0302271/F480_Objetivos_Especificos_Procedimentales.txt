@@ -1,19 +1,10 @@
- Interpretar, llevar a cabo y, en caso de ser necesario, adaptar las
-instrucciones de protocolos, guías y manuales.
- Calcular el error en una medida a partir de las reglas correctas y
-siguiendo los principios de la lógica experimental.
- Escribir los resultados de un experimento con las cifras significativas
-correctas.
- Realizar gráficas utilizando el papel apropiado y mediante software
-desarrollado para éste fin.
- Analizar gráficas infiriendo información y haciendo predicciones a partir
-de ellas.
- Realizar interpolaciones y extrapolaciones de datos experimentales
-reportando los rangos y grados de confiabilidad.
- Llevar correctamente un cuaderno de laboratorio y presentar los
-resultados en un formato tipo artículo científico.
- Elegir y utilizar apropiadamente los diferentes instrumentos que se
-tienen para realizar medidas de masa, longitud,ángulo, temperatura,tiempo, corriente y voltaje.
- Hacer búsqueda bibliográfica y extraer la información relevante.
- Realizar el histograma de un grupo de datos y determinar parámetros
-como la media, la desviación estándar, la correlación
+• Interpretar, llevar a cabo y, en caso de ser necesario, adaptar las instrucciones de protocolos, guías y manuales.
+• Calcular el error en una medida a partir de las reglas correctas y siguiendo los principios de la lógica experimental.
+• Escribir los resultados de un experimento con las cifras significativas correctas.
+• Realizar gráficas utilizando el papel apropiado y mediante software desarrollado para éste fin.
+• Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
+• Realizar interpolaciones y extrapolaciones de datos experimentales reportando  los rangos y grados de confiabilidad.
+• Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
+• Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud,ángulo, temperatura, tiempo.
+• Hacer búsqueda bibliográfica y extraer la información relevante.
+• Realizar el histograma de un grupo de datos y determinar parámetros como la media, la desviación estándar, la correlación.

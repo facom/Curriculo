@@ -1,1 +1,3 @@
-Osciloscopios, fuentes de voltaje, generadores y medidores
+Características de los componentes electrónicos básicos.
+Fuentes de voltaje y medidores.
+Implementación de circuitos en la tableta de prácticas (protoboard).

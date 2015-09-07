@@ -1,0 +1,5 @@
+- La medición del tiempo, tiempo solar, tiempo sideral, patrones de tiempo.
+- Calendarios, solar, tipos de años.
+- Correcciones a los calendarios
+- Fecha Juliana
+- Épocas para referencia de tiempo

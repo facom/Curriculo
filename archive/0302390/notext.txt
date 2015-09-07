@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 18 Feb 2015 21:32:58 +000";
-$F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F010_AUTO_Fecha_Actualizacion="Fri, 10 Jul 2015 17:47:43 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="1";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="";
+$F030_AUTH_Acta_Numero="11";
+$F040_AUTH_Acta_Fecha="18 de Marzo de 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302390";
 $F110_Nombre_Asignatura="Métodos Computacionales";
 $F120_Tipo_Curso="Básico";
@@ -36,7 +36,7 @@ $F310_Campo_Formacion="Física Computacional";
 $F320_Ciclo="Fundamentación";
 $F330_Semestre="2015-1";
 $F330_Semestre_Plan="3";
-$F340_Horario_clase="";
+$F340_Horario_clase="Programación";
 $F350_Requisitos="Algebra Lineal (0303208), Fundamentación en Computación (0302150)";
 $F360_Correquisitos="(Ninguno)";
 $F370_Sede="Ciudad Universitaria Medellín";

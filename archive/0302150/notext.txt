@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Fri, 13 Feb 2015 17:35:35 +000";
-$F015_AUTO_Usuario_Actualizacion="Instituto de Física";
-$F020_AUTH_Autorizacion_Vicedecano="No";
-$F025_AUTH_Version="2";
+$F010_AUTO_Fecha_Actualizacion="Fri, 17 Jul 2015 12:04:36 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
+$F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="11";
 $F040_AUTH_Acta_Fecha="18 de Marzo de 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302150";
 $F110_Nombre_Asignatura="Fundamentación en Computación";
 $F120_Tipo_Curso="Básico";
@@ -36,7 +36,7 @@ $F310_Campo_Formacion="Física Computacional";
 $F320_Ciclo="Fundamentación";
 $F330_Semestre="2015-1";
 $F330_Semestre_Plan="1";
-$F340_Horario_clase="MJ 16-18, WV 16-18,";
+$F340_Horario_clase="MJ 16-18, WV 16-18";
 $F350_Requisitos="(Ninguno)";
 $F360_Correquisitos="(Ninguno)";
 $F370_Sede="Ciudad Universitaria Medellín";

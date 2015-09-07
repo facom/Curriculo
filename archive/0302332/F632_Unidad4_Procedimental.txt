@@ -1,0 +1,2 @@
+Implementación y caracterización un circuito amplificador basado en un transistor de pequeña señal como el 2N2222. Identificar la ganancia de voltaje y corriente y el ancho de banda del circuito realizado.
+Aplicación de un foto-transistor y un diodo infrarrojo para la construcción de una foto-compuerta.

@@ -1,0 +1,2 @@
+Presentación de un proyecto que involucra los contenidos trabajados en las prácticas.
+Implementación y puesta en funcionamiento del proyecto propuesto.

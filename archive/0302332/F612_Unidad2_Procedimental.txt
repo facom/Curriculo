@@ -1,0 +1,3 @@
+Implementación de un circuito RC y RLC con una señal externa de frecuencia controlada para encontrar parámetros como la frecuencia de corte y resonancia.
+Aplicación del circuito RC en la integración y derivación de señales.
+Estimación del ancho de banda de cada circuito implementado.

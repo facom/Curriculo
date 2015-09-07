@@ -1,0 +1,6 @@
+- Coordenadas horizontales,
+- Coordenadas ecuatoriales horarias, 
+- Coordenadas ecuatoriales absolutas, 
+- Coordenadas eclípticas 
+- Coordenadas galácticas.
+- Corrección de las coordenadas

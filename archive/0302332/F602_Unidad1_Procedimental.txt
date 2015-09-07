@@ -1,0 +1,3 @@
+Identificación de las características de los componentes electrónicos como: valor nominal, tolerancia, potencia máxima disipada, rangos de operación.
+Identificación y puesta en funcionamiento de los equipos y herramientas de medición como: multímetro, osciloscopio, generador de señales, fuente DC, software FlukeView.
+Implementación de algunos circuitos sencillos con resistencias y leds en la tableta de prácticas (protoboard).

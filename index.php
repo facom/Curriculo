@@ -44,7 +44,17 @@ echo<<<START
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <script src="etc/jquery.js"></script>
   <script>
-  
+    function enviarPlan(codigo){
+	emailname="#email_"+codigo;
+	urlname="#url_"+codigo;
+	nombrename="#nombresend_"+codigo;
+	emails=$(emailname).val();
+	url=$(urlname).attr('urlbase');
+	nombre=$(nombrename).attr('nombresend');
+	urlsend="index.php?planes_asignatura&accion=Enviar&emails="+emails+"&urlbase="+url+"&nombresend="+nombre+"#"+codigo;
+	//alert(urlsend);
+        window.location.href=urlsend;
+    }
   </script>
 </head>
 <body>
@@ -61,6 +71,8 @@ $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
 $H2PDF="../../temp/wkhtmltopdf-amd64";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
+require("$ROOTDIR/etc/database.php");
+require("$ROOTDIR/etc/PHPMailer/PHPMailerAutoload.php");
 
 ////////////////////////////////////////////////////
 //DESBLOQUEO SALIR
@@ -130,7 +142,33 @@ if($INSTITUTO=="Facultad"){
 ////////////////////////////////////////////////////
 //ROUTINES
 ////////////////////////////////////////////////////
-function generateSelection($values,$name,$value)
+function sendMail($email,$subject,$message,$headers="")
+{
+  date_default_timezone_set('Etc/UTC');
+  $mail = new PHPMailer;
+  $mail->isSMTP();
+  $mail->SMTPDebug = 0;
+  $mail->Debugoutput = 'html';
+  $mail->Host = 'smtp.gmail.com';
+  $mail->Port = 587;
+  $mail->SMTPSecure = 'tls';
+  $mail->SMTPAuth = true;
+  $mail->Username = $GLOBALS["EMAIL_USERNAME"];
+  $mail->Password = $GLOBALS["EMAIL_PASSWORD"];
+  $mail->setFrom($mail->Username, 'Sistema de Solicitud de Comisiones FCEN/UdeA');
+  $mail->addReplyTo($mail->Username, 'Sistema de Solicitud de Comisiones FCEN/UdeA');
+  $mail->addAddress($email,"Destinatario");
+  $mail->Subject=$subject;
+  $mail->CharSet="UTF-8";
+  $mail->Body=$message;
+  $mail->IsHTML(true);
+  if(!($status=$mail->send())) {
+    $status="Mailer Error:".$mail->ErrorInfo;
+  }
+  return $status;
+}
+
+function generateSelection($values,$name,$value,$options="",$style="")
 {
   if(preg_match("/,/",$values)){
     $parts=preg_split("/,/",$values);
@@ -138,7 +176,7 @@ function generateSelection($values,$name,$value)
     $parts=$values;
   }
   $selection="";
-  $selection.="<select name='$name' style=''>";
+  $selection.="<select name='$name' style='$style' $options>";
   foreach($parts as $part){
     $selected="";
     if($part==$value){$selected="selected";}
@@ -369,7 +407,7 @@ FORMULARIO;
      $ap_instituto=="Administrador"){goto end_aprobados;}
   $listaaprob="";
   $listapriv="";
-  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre,F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
   if(!($out=mysqli_query($db,$sql))){
     die("Error:".mysqli_error($db));
   }
@@ -391,7 +429,7 @@ FORMULARIO;
     
 $listaaprob.=<<<LISTA
 <li>
-<a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
+  Semestre $semestre : <a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
 LISTA;
   if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 0){
     $listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
@@ -504,7 +542,7 @@ CONTENT;
        $instituto=="Administrador"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version from MicroCurriculos where (F280_Instituto='$instituto' $filtra) order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version,F060_AUTH_Publica_Curso from MicroCurriculos where (F280_Instituto='$instituto' $filtra) order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
     //echo "SQL: $sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -522,6 +560,9 @@ CONTENT;
       $semestre=$row[8];
       $semestreactual=$row[9];
       $version=$row[10];
+      $publicado=$row[11];
+      if($publicado=="Si"){$publicado="<i style='color:red'>Si</i>";}
+      if($publicado=="No"){$publicado="<i style='color:blue'>No</i>";}
 
       $ps=porcentajeCompletado($codigo);
       $p=$ps[0];
@@ -554,7 +595,7 @@ LISTA;
 	}
 	$listapub.="</li>";
       }
-      $enlace="";$editar="";
+      $enlace="";$editar="";$correo="";
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
 	$codemd5=md5($codigo);
 	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
@@ -569,20 +610,26 @@ LISTA;
 ");  
 	fclose($fl);
 	$showlink="$SITEURL/links/$codemd5.html";
+	$urlcode="$codemd5";
 	$editar=" <sup><a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a></sup>";
 	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'><a href='$showlink'>$showlink</a></i>";
+	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'><a id='url_$codigo' urlbase='$urlcode' href='$showlink'>$showlink</a></i>";
+	$correo="Correo(s) para el envío: <input id='email_$codigo' type='text' size=50><input type='submit' value='Enviar' onclick='enviarPlan(\"$codigo\")'>";
       }
 $listapriv.=<<<LISTA
 <li>
-  <a href='?ver_curso=$codigo&mode=Todos' target="_blank"><b>$nombre - $codigo</b></a>$editar<br/>
+  <a name='$codigo'></a>
+  <a id="nombresend_$codigo" href='?ver_curso=$codigo&mode=Todos' target="_blank" nombresend="$nombre"><b>$nombre - $codigo</b></a>$editar<br/>
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
   <i style="text-decoration:underline">Versión</i>: $version <br/>
   <i style="text-decoration:underline">Revisado y Aprobado</i>: $autorizacion<br/>
+  <i style="text-decoration:underline">Curso publicado</i>: $publicado<br/>
   <i style="text-decoration:underline">Porcentaje completado</i>: $procentaje_bar $porcentaje_text <br/>
   <i style="text-decoration:underline">Semestre en el Plan</i>: $semestre <br/>
   <i style="text-decoration:underline">Semestre Actual</i>: $semestreactual <br/>
   <i style="text-decoration:underline">Historia de cambios</i>: <a href="$DATADIR/data/$codigo/changes.log" target="_blank">changes.log</a> <br/>
   $enlace<br/>
+  $correo<br/>
   $lock
 LISTA;
  $listapriv.="</li><br/>";
@@ -690,7 +737,66 @@ RECYCLE;
 ////////////////////////////////////////////////////
 //ACCIONES
 ////////////////////////////////////////////////////
-$result="";
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//ENVIA UN CORREO
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+if($accion=="Enviar"){
+  echo "<hr/><h2>Resultados de operación</h2>";
+  $editlink="$SITEURL/links/$urlbase.html";
+  $parts=preg_split("/\s*,\s*/",$emails);
+  echo "Enviando enlace de curso '$nombresend'...<br/>";
+  echo "Url '$editlink'...<br/>";
+  foreach($parts as $email){
+    if(isBlank($email)){continue;}
+    if(!preg_match("/@/",$email)){continue;}
+$message=<<<M
+Se&ntilde;or(a) Profesor(a),
+<p>
+Le solicitamos amablemente revisar y si es del caso corregir el Plan
+de Asignatura del curso <i>$nombresend</i>.  Para ello use el link
+provisto aquí:
+</p>
+<center><a href='$editlink'>$editlink</a></center>
+<p>
+En la ventana inicial ingrese como 'Nombre' su nombre completo; como
+'Usuario' use la palabra <i><b>profesor</b></i> (en minúscula sostenida) y como
+'Contraseña' use <i><b>profesor2014</b></i> (en minúscula sostenida, sin
+espacios).
+</p>
+<p>
+Un videotutorial sobre como usar el sistema de edición de planes de
+asignatura esta disponible
+en <a href='http://youtu.be/p-uquMmBs_Q'>este
+enlace</a>.  Le recomendamos verlo completamente (son unos pocos
+minutos) antes de revisar el plan, especialmente si es la primera vez.
+</p>
+<p>
+Otros profesores pueden estar revisando este plan de asignatura.  Este
+mensaje en particular fue enviado a todos los siguientes
+destinatarios: <b>$emails</b>. En el video tutorial se explica como evitar
+que dos o mas profesores editen simultáneamente el mismo programa.
+</p>
+Atentamente,<br/><br/>
+<b>Coordinación de Pregrado</b>
+M;
+    $headers="";
+    $headers.="From: pregradofisica@udea.edu.co\r\n";
+    $headers.="Reply-to: pregradofisica@udea.edu.co\r\n";
+    $headers.="MIME-Version: 1.0\r\n";
+    $headers.="MIME-Version: 1.0\r\n";
+    $headers.="Content-type: text/html\r\n";
+
+    echo "Enviando mensaje a $email...<br/>";
+    $subject="Revisión del plan de asignatura del curso $nombresend";
+    sendMail($email,$subject,$message,$headers);
+
+    $emailcc="pregradofisica@udea.edu.co";
+    echo "Enviando copia de mensaje a $emailcc...<br/>";
+    $subject="[Copia] Revisión del plan de asignatura del curso $nombresend";
+    sendMail($emailcc,$subject,$message,$headers);
+  }
+}
+
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //CARGA UN CURSO GUARDADO
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -813,9 +919,7 @@ if(($accion=="Guardar" or $accion=="Reciclar" or $accion=="Archivar" or $accion=
     $table="MicroCurriculos_Publicos";
     $tableid="F000_AUTO_Codigoid";
     $F000_AUTO_Codigoid="$codigo-v$F025_AUTH_Version-$F330_Semestre";
-    $F060_AUTH_Publica_Curso="No";
-    $F020_AUTH_Autorizacion_Vicedecano="No";
-    $F025_AUTH_Version+=1;
+    $F060_AUTH_Publica_Curso="Si";
     $codigoid=$F000_AUTO_Codigoid;
   }
 
@@ -936,6 +1040,15 @@ momento todas las versiones de este curso serán nuevas.</i>";
     echo "$header$menu$result";
     goto footer;
   }
+
+  if($accion=="Publicar"){
+    $F060_AUTH_Publica_Curso="Si";
+    $F020_AUTH_Autorizacion_Vicedecano="No";
+    $F025_AUTH_Version+=1;
+    $F030_AUTH_Acta_Numero="";
+    $F040_AUTH_Acta_Fecha="";
+  }
+
  end_archive:
   $qarchive=1;
  }else if(!$QADMIN and ($accion=="Guardar" or $accion=="Reciclar")){echo $accion.$errmsg;return;}
@@ -1167,7 +1280,10 @@ CONTENT;
     //QUIEN ACTUALIZA
     if(preg_match("/Nombre_Actualiza/",$field)){
       $value=$NAME;
-      $block="disabled";
+      $block="readonly";
+    }
+    if(preg_match("/Publica_Curso/",$field)){
+      $block="readonly";
     }
 
     //CAMPOS OCULTOS
@@ -1183,7 +1299,7 @@ CONTENT;
 	!isset($archive) and 
 	$QPROF)
        ){
-      $block="disabled";
+      $block="readonly";
       //echo "AUTO<br/>";
       /*
       if(preg_match("/_Fecha/",$field)){
@@ -1202,7 +1318,7 @@ CONTENT;
       if(preg_match("/varchar\((\d+)\)/",$type,$matches)){
 	$size=$matches[1];
 	$input="<input $id $onfocus $onblur type='text' name='$field' value='$value' maxlength=$size size=$size $block>";
-	if($block=="disabled"){
+	if($block=="readonly"){
 	  $input.="<input type='hidden' name='$field' value='$value'>";
 	}
       }else if(!preg_match("/text/",$type)){
@@ -1213,7 +1329,7 @@ CONTENT;
     }
     //CAMPOS DE TEXTO
     else if(!$qauth){
-      $input=generateSelection($values,$field,$value);
+      $input=generateSelection($values,$field,$value,$options=$block);
       $input=preg_replace("/style=''/","style='' $id $onfocus $onblur",$input);
     }
 

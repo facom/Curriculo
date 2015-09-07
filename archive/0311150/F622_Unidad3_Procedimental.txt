@@ -1,1 +1,0 @@
-Cálculo de las propiedades del telescopio de Galileo.

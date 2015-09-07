@@ -1,3 +1,2 @@
-Recortadores y fijadores.
-Doblador de voltaje.
-Triplicador de voltaje.
+Ejercicios prácticos de amplificador inversor, no inversor, integrador y derivador.
+Determinación experimental del ancho de banda de circuitos con amplificadores. Circuitos osciladores utilizando amplificadores operacionales.

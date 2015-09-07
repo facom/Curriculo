@@ -1,0 +1,11 @@
+Comprender los fundamentos del modelo cosmológico estándar, sus éxitos y limites.
+Definir conceptualmente y modelar matemáticamente los siguientes fenómenos:
+-Big Bang
+-Inflación cósmica
+-Energía Oscura
+-Materia Oscura
+-Radiación cósmica de fondo
+-Oscilaciones acústicas de los bariones
+-Formación de estructura
+
+ 

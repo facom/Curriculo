@@ -1,3 +1,2 @@
-Circuitos RC.
-Filtros paso alto y paso bajo.
-Circuitos RLC.
+Medición experimental de la curva de corriente-voltaje de un diodo.
+Aplicación del diodo en la rectificación de corriente alterna.

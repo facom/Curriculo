@@ -1,0 +1,3 @@
+Implementación de un circuito amplificador inversor y no inversor usando el circuito integrado LM741 e identificación la ganancia de voltaje y el ancho de banda del circuito realizado.
+Implementación de un circuito integrador y derivador de señales e identificación del ancho de banda.
+Construcción de un generador de señal triangular, cuadrada y sinusoidal empleando el circuito integrado LM741, LM358 o LM324.

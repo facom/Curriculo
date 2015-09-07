@@ -1,2 +1,9 @@
--Presentación de los diferentes temas por parte del profesor en la modalidad presencial.
--Realización de las prácticas por parte de los estudiantes con la asesoría del profesor.
+Este curso es de naturaleza práctica. Por esta razón se requiere que los estudiantes traigan preparadas y definidas las actividades de clase.
+
+Para conseguir este objetivo se sugieren las siguientes estrategias metodológicas:
+
+Creación de una carpeta web donde los estudiantes pueden ver las guías introductorias de cada práctica de laboratorio e información complementaria.
+
+Incluir problemas abiertos en las prácticas de laboratorio para que los estudiantes puedan proponer e implementar su propia su solución.
+
+Propiciar espacios de asesoría fuera de clase.

@@ -1,0 +1,2 @@
+Implementación de un circuito fuente-diodo-resistencia para evaluar el comportamiento de corriente-voltaje en un diodo de silicio.
+Construcción y caracterización de una fuente de voltaje DC utilizando un puente de diodos y partiendo del voltaje suministrado por la red eléctrica.

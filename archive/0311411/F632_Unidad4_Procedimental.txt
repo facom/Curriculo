@@ -1,0 +1,7 @@
+- Describir los conceptos de tiempo sideral y tiempo solar medio.
+- Diferenciar entre el tiempo astronómico y el tiempo comercial (TU).
+- Diferenciar los distintos sistemas de tiempo. 
+- Deducir la Fecha Juliana para cualquier instante de tiempo.
+- Deducir el Tiempo Sideral Local para el cálculo de efemérides.
+- Producir códigos numéricos para el cálculo del Tiempo Sideral Local.
+

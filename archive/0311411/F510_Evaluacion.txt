@@ -1,0 +1,5 @@
+El curso será evaluado a través de diferentes modelos de evaluación. Dichos modelos incluyen exámenes parciales presenciales, adjudicación de problemas de aplicación con fechas límite para su entrega, desarrollo y utilización de scripts de computo para el cálculo de tiempos y efemérides astronómicas. 
+
+El seguimiento incluye la solución de talleres prácticos, la investigación de temas específicos y el desarrollo de problemas.
+
+Las evaluaciones suman un 60% de la nota. El seguimiento suma un 40%.

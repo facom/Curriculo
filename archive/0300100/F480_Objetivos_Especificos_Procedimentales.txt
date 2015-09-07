@@ -1,0 +1,8 @@
+Comprender la teoría de las perturbaciones cosmologicas
+Calcular el espectro de potencial de las perturbaciones de curvatura primordial
+Calcular el espectro de potencia de la materia en la aproximación lineal
+Calcular el espectro de la radiación cósmica de fondo
+Calcular la distancia de luminosidad y fitear los datos de la supernovas
+
+
+

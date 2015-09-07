@@ -1,1 +1,9 @@
+Dada la naturaleza e intensidad del curso, se sugieren los siguientes mecanismos evaluativos:
 
+Evaluación formativa permanente durante las prácticas de laboratorio. Esta evaluación se puede realizar con preguntas cortas que indaguen sobre la compresión de los fenómenos involucrados en la práctica.
+
+Una evaluación sumativa por cada práctica realizada. Es necesario realizar una evaluación corta que evidencie la apropiación del contenido de la práctica mediante la solución de un problema experimental científico.
+
+Un artículo científico por cada práctica realizada. Cada grupo de trabajo escoge un formato de revista científica para presentar los resultados de la práctica respectiva.
+
+Adicionalmente, al final del curso cada grupo de trabajo realiza un proyecto que involucra los contenidos del Laboratorio de Electrónica. Se realiza una evaluación sumativa que contiene la presentación de la propuesta (pre-proyecto), un artículo científico donde se presenten los resultados obtenidos y una evaluación de seguimiento.

@@ -1,0 +1,3 @@
+El curso de Astronomía de Posición busca que los estudiantes se familiaricen con los conceptos básicos de la Astronomía, con los principios geométricos y matemáticos aplicados a la observación del cielo y las técnicas modernas utilizadas en Astronomía. 
+
+Los principales tópicos son la ubicación en la esfera celeste, la medición geométrica sobre la esfera y el uso de coordenadas usando técnicas computacionales, así como el cálculo astronómico del tiempo, de las efemérides y de los elementos orbitales.

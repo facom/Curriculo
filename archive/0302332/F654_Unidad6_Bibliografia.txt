@@ -1,7 +1,2 @@
-*Manual de Prácticas de Laboratorio de Electrónica.
-* Brophy, James. Basic Electronics for Scientists.
-* Diefender, James. Instrumentación Electrónica.
-* Boylestad y Nashelsky. Electrónica. Teoría de Circuitos.
-* Bobrow, L. S. Análisis de Circuitos Electrónicos.
-* Tocci, Ronald. Sistemas Digitales: Principios y Aplicaciones.
-* Tokheim, Roger. Principios Digitales.
+Beginning Sensor Networks with Arduino and Raspberry Pi. Charles Bell. Apress. 2013.
+C Programming for Arduino. Julien Bayle. Packt Publishing. 2013.

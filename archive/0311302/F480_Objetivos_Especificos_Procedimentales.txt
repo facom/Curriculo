@@ -1,9 +1,6 @@
-Estimar el error en una medida experimental o en una observación.
-Calcular el error en una cantidad teórica obtenida a partir de cantidades medidas u observadas.
-Diseñar y planear experimentos y observaciones sencillas para comprobar conceptos elementales en Astronomía.
-Efectuar una observación astronómica sencilla usando instrumentos manuales (sextántes, ballestas, etc.)
-Orientarse correctamente en el cielo usando una carta celeste.
-Elaborar correctamente gráficos que muestren relaciones entre cantidades observables y cantidades teóricas.
-Interpretar correctamente un gráfico representando la relación entre variables observadas o teóricas.
-Buscar información en Internet sobre objetos astronómicos de interés.
-Realizar análisis básicos de datos astronómicos o medidas relacionadas.
+• Identificar la orientación geográfica y astronómica
+• Utilizar apropiadamente un telescopio básico – no profesional
+• Representar gráficamente datos e interpretar
+• Asignar errores a una medida
+• Conocer la propagación de errores y ajustes básicos
+• Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.

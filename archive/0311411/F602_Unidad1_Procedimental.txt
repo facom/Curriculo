@@ -1,0 +1,9 @@
+- Describir las propiedades de los triángulos esféricos y calcular distancias  sobre la esfera
+- Manejo de software de astronomía Stellarium
+- Utilizar modelos del cielo como el software Stellarium para hacer cálculos de posición de objetos sobre la esfera celeste
+- Manejo de la carta celeste
+- Describir las constelaciones como regiones en el cielo
+- Organizar jerárquicamente las estrellas más brillantes de las constelaciones
+- Deducir los periodos siderales de los planetas
+- Deducir los periodos sinódicos de los planetas
+
