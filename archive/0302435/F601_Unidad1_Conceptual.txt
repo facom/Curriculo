@@ -1,1 +1,12 @@
-Repaso sobre leyes de conservación y ecuaciones de Maxweel.
+- Fuerza y torque sobre un átomo.
+- Fuerza y torque sobre un cuerpo macroscópico (ecuaciones de
+Maxwell macroscópicas).
+- Relaciones constitutivas en metales (modelo de Drude, conductividad,
+efecto Hall, superconductividad, ecuación de London).
+- Relaciones constitutivas en aislantes (modelos de polarizibilidad,
+permitividad eléctrica, teoría del campo local, frecuencia del plasma).
+- Propiedades magnéticas de la materia (ecuaciones canónicas del
+movimiento, diamagnetismo, momento magnético intrínseco,
+susceptibilidad magnética, permealibilidad, teoría del campo local,
+paramagnetismo, ferromagnetismo, otros tipos de ordenamiento
+magnético).

@@ -597,7 +597,7 @@ LISTA;
       }
       $enlace="";$editar="";$correo="";
       if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	$codemd5=md5($codigo);
+	$codemd5=substr(md5($codigo),0,6);
 	$link="$SITE?carga_curso=$codigo&edita_curso&profesor";
 	$fl=fopen("$ROOTDIR/links/$codemd5.html","w");
 	fwrite($fl,"
@@ -1003,7 +1003,7 @@ momento todas las versiones de este curso serán nuevas.</i>";
   fclose($fc);
 
   //Create link to course edition
-  $codemd5=md5($codigo);
+  $codemd5=substr(md5($codigo),0,6);
   $link="$SITE?carga_curso=$codigo&edita_curso&profesor";
   $fl=fopen("$ROOTDIR/links/$codemd5.html","w");
   fwrite($fl,"
@@ -1075,7 +1075,7 @@ if(isset($edita_curso) and $QADMIN){
 echo<<<NOAUTH
 $header
 <p style='font-style:italic;color:red'>
-  El curso $codigo no esta autorizado para edición por el Vicedecano.
+  El curso $codigo no esta autorizado para edición por el Coordinador de Pregrado o el Vicedecano.  El contenido ha sido revisado y esta en proceso de aprobación por el comité de currículo.
 </p>
 NOAUTH;
  return;

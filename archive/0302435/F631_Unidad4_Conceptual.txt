@@ -1,1 +1,0 @@
-Campos producidos por cargas puntuales en movimiento rectilíneo y circular.

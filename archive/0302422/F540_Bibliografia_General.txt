@@ -1,44 +1,5 @@
-1. M. C, Rogalski y S. B. Palmer, Solid State Physics, Gordon and Breach Science Publishers, 2000
-2. N. W. Ashcroft, N. D. Mermin; Solid State Physics, 1976, W.B. Saunders Company
-3. C. Kittel. Introducción a la Física del Estado Sólido. J. Wiley & Sons.
-4. Ashcroft-Mermin. Solid State Physics. Saunder College Publishing.
-5. H.Ibach and H.Luth. Solid State Physics, An Introduction to principles of materials science, 
-6. H. E. Hall. Física del Estado Sólido. J. Wiley & Sons
-7. G. Burns. Solid State Physics. Academic Press
-Libros de nivel comparable
-1. 	F. C. Brown, Física de los Sólidos, Reverté, Barcelona, 1974
-2. 	G. Burn, Solid State Physics. Academia Press, inc, 1990
-3.	M. Sach, solid State Theory, Mac Graw- Hill Book Company, 1963.
-4. 	L. Mihaly, M. Martin, Solid State Physics (Problem and solution), John Wiley & sons, inc, 1996
-5. H. Ibach and H. Luth, Solid State Physics, (an introduction to theory and experimental), Springer Verlag, Berlin (1991)
-6. 	H. P. Myers Introductory Solid State Physics, Taylor & Francis, London 1997
-Nivel de nivel más avanzado 
-1. 	J. M. Ziman: Principles of the Theory of Solids.Cambridge University Press, 1974.
-2. 	P. M. Chaikin and T. C. Lubensky: Principles of Condensed Matter Physics. Cambridge University Press 1995 (Tratamiento de tópicos avanzados) 
-3. 	L. Azaroff Introduction to Solids Mc Graw Hill 1960Libros en la web
-1. 	P. S. Riseborough, Condensed Matter Physics, December 16, 2002
-2. 	Yuri M. Galperin, Introduction to Modern, Solid State Physics
-Libros de Mecánica cuántica
-1.	J. Sakurai, Advanced Quantum Mechanics, Addison- Wesley Publishing company, 1967
-2. J. Sakurai, Modern Quantum Mechanics, Addison- Wesley Publishing company, 1994
-Material de apoyo:
-The Cambridge handbook of Physics fórmulas
-Libros de Física atómica y molecular
-B. H. Brandsden, C. J. Joachain, Physics of atoms and molecules, Longman Group, segunda edición, 2004
-Libros específicos de temáticas de aplicaciones tecnológicas y propiedades de los sólidos. 
-1. 	M. Ohring, Materials science of thin films, Deposition & structures, Academic press, 2002.
-2. 	R. C. O’Handley, Modern Magnetic Materials, Principles and Applications, John Wiley & Sons Inc, 2000
-3. 	G. S. Nolas, J. Sharp, H.J. Goldsmid, Thermoelectric, Springer, 2001.
-4. 	M. Dressel, G. Gruner, Electrodynamics of solids, Optical properties of electrons in matter, Cambridge University Press, 2002.
-5. 	J. A. Venables, Introduction to Surface and thin films processes, Cambridge University Press, 2000.
-6. 	C. Poole, H. Farach, R. J. Creswich, Superconductivity Academic press, 1995.
-7.	C. F. Klingshirn, Semiconductor optics, Springer, 1997.
-8. 	J. L. Pankove, Optical processes in semiconductors, Dover, publications, 1971
-9. 	O. S. Heavens, Optical properties of thin film solids, Dover, publications, 1991
-10. 	J. P. Mckelvey, Física del Estado Sólido y de semiconductores, Limusa,  1996.
-11. 	M. Tinkhan, Introduction to Superconductivity, Mc. Grawn Hill, 1996.
-
-Páginas de la web, con applets, como ejemplos centrales,
-1, Semiconductor Applet Services, Educational applets in solid-state materials, semiconductors,devices, and simple circuits.http://jas.eng.buffalo.edu/
-2. Solid State Physics: Interactive Learning - buckminster.physics.sunysb.edu/intlearn
-3. Educational Java Applets in Solid State Materials. Interface (API) for Java programmers; solid-state JavaBeans tm for application, envelopers; and (3) solid-state applets for educators and trainerswww.ewh.ieee.org/soc/es/Nov1998/14/begin.htm
+1. N. W. Ashcroft, N. D. Mermin; Solid State Physics, 1976, W.B. Saunders Company.
+2. M. P. Marder, Condensed Matter Physics, 2000, John Wiley & sons.
+3. S. G. Louie, M. L. Cohen, Conceptual Foundations of Materials: A Standard Model For Ground- And Excited State Properties, 2006, Elsevier.
+4. E. Kaxiras, Atomic And Electronic Structure Of Solids, 2003, Cambridge University Press.
+5. J. Sólyom, Fundamentals Of The Physics Of Solids, Volumes I, II, III, 2010, Springer. 

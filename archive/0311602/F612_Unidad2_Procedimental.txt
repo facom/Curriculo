@@ -1,0 +1,13 @@
+Deducción de las 10 constantes de movimiento del problema de los N cuerpos. 
+Derivación de las ecuaciones de movimiento relativo en el problema de los dos cuerpos y su reducción su equivalente unidimensional.
+Deducción de las constantes de movimiento del problema de los dos cuerpos. 
+Derivación de la ecuación que relaciona la posición radial con la angular. Es decir, la solución geométrica al problema de los dos cuerpos. 
+Calculo del sistema de unidades apropiado para cálculos numéricos en astrodinámica. 
+Calculo de la posición en función del tiempo de diversos objetos astronómicos. 
+El problema de los tres cuerpos.
+Derivación de las ecuaciones de movimiento en sistemas inercia y rotantes. 
+Derivación de la constante de Jacobi.
+Calculo de los puntos de equilibrio de Lagrange y análisis de su estabilidad.
+Deducción de la ecuación de Tisserand para órbitas elípticas. 
+
+ 

@@ -1,0 +1,7 @@
+Se calculan las funciones de Green para la ecuación de Schrodinger.
+
+Se deriva la primera aproximación de Born.
+
+Se deriva la formula de dispersión de Rutherford.
+
+Se deriva el Teorema óptico de la mecánica cuántica.

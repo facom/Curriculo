@@ -1,0 +1,5 @@
+Se relacionan las simetrías con las leyes de conservación de la física.
+
+Se introducen los conceptos de grupo y se aplican a los grupos de Lorentz y de Poincare.
+
+Se derivan los tres cuadros de la mecánica cuántica: el de Schrodinger, el de Heisenberg y el de Interacción.

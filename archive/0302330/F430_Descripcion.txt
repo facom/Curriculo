@@ -1,1 +1,9 @@
-Preparar al estudiante en el campo de la Física Teórica suministrándole una base sólida para su formación analítica.
+La Mecánica clásica estudia el comportamiento de la materia a partir del movimiento de las partículas constituyentes. Esta trata de obtener la máxima información a partir de las posiciones y velocidades, en cada instante de tiempo, de cada una de las partículas que representan el sistema macroscópico en estudio con respecto a un sistema de referencia dado.
+
+A partir de la mecánica se puede obtener la información más completa del comportamiento de la mayoría de los fenómenos macroscópicos, por lo que se considera el instrumento teórico por excelencia en ramas como: arquitectura e ingeniería de construcciones, mecánica aeronáutica, geofísica, entre otros. Además, es parte esencial en el estudio de otras áreas como la mecánica de fluidos, medios continuos, sistemas climáticos, sistemas biológicos y sistemas no lineales.  
+
+Existen problemas fundamentales de la física que utilizan la mecánica clásica como una teoría básica en el rango de validez de la misma: metrología, física de los plasmas, estado sólido, astrofísica, sistemas atómicos, física nuclear.
+
+La base conceptual de la mecánica permite identificar y entender las raíces de la mecánica estadística y de la mecánica cuántica en la física clásica. Tales teorías utilizan los conceptos de la mecánica y los introducen en sus formalismos adaptándolos a su contenido.
+
+La teoría adquiere gran relevancia cuando se aplica a situaciones reales. Las teorías tratan de leyes generales pero el desarrollo de la física se halla impulsado por el estudio de problemas específicos. Por esto se hace necesario hacer énfasis en los ejemplos y en la presentación de cálculos detallados sobre el estado de movimiento reposo de los cuerpos, partiendo de consideraciones ideales y ajustando los procedimientos para aplicarlos a situaciones reales.

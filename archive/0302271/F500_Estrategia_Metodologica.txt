@@ -1,6 +1,6 @@
 A continuación se enumeran algunas de las estrategias metodológicas sugeridas para el logro de los objetivos del curso y su contenido.
 • Clase magistral por parte del profesor del curso acompañada de ejemplos prácticos y demostraciones.
-• Desarrollo de experimentos virtuales por parte de los estudiantes con la ayuda de programas de computación.
-• Prácticas de laboratorio guiadas por parte de los estudiantes.
+• Desarrollo de actividades experimentales por parte de los estudiantes con la ayuda de programas de computación.
+• Prácticas de laboratorio guiadas, realizadas por parte de los estudiantes.
 • Desarrollo de proyectos por parte de los estudiantes con asesoría del profesor del curso.
 • Revisión del cuaderno de protocolo por parte del profesor del curso.

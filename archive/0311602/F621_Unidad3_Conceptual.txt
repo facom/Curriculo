@@ -1,0 +1,7 @@
+Principio de D'Alembert y las ecuaciones de Euler-Lagrange.
+Coordenadas generalizadas y espacio de configuración. 
+Aplicaciones a problemas dinámicos simples.
+Variables cíclicas, simetrías y cantidades conservadas. 
+El lagrangiano del problema de los dos cuerpos y las ecuaciones de movimiento. 
+Movimiento bajo un potencial central general. 
+ 

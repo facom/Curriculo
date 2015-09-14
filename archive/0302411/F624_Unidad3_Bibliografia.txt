@@ -1,1 +1,5 @@
-- Cohen-Tannoudji, B. Diu, F. Lalöe, Quantum Mechanics, Wiley, New York (1977)
+Beck, Caps. 7 y 8.
+
+Sakurai, secciones 3.1, 3.2, 3.4, 3.5 y 3.10. 
+
+Lecturas complementarias: Townsend, Caps. 3 y 5. Gottfried,  secciones 3.1 a 3.3 y 12.3.

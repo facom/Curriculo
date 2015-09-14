@@ -1,3 +1,19 @@
-INFORME DE C/TRABAJO	80%
-SEGUIMIENTO	        10%
-EXPOSICIÓN	        10%
+Fase 1: Fabricación o montaje (30%) Semanas 1-6
+Planeación                     9%
+Seguimiento (bitácora)         6%
+Exposición                     6%
+Informe escrito                9%
+
+Fase 2: Caracterización       (30%) Semanas 7-10
+Planeación                     6%
+Seguimiento (bitácora)         9%
+Exposición                     6%
+Informe escrito                9%
+
+Fase 3: Aplicación           (40%) Semanas 10-16
+Planeación                     6%
+Seguimiento (bitácora)         9%
+Exposición                     6%
+Informe escrito                9%
+
+TOTAL                        100%

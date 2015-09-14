@@ -1,3 +1,0 @@
-6.1. Expresión analítica de frentes de onda planos, esféricos y cilindricos.
-6.2. Superposición de dos ondas
-6.3. Interferometro de doble rendija de Young

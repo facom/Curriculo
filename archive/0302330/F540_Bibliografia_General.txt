@@ -1,3 +1,30 @@
-* Herbert Goldstein. Mecánica Clásica. Aguilar.
-* Slater and Frank. Mechanics. McGraw-Hill.   
-* Symon. Mecánica. Aguilar.
+Bibliografía básica:
+
+1. Herbert Goldstein, Charles P. Poole, John L. Safko: “Classical Mechanics", 3era edición, Addison-Wesley (San Francisco, 2001).
+
+2. Landau, L. “Mecánica. Segunda edición revisada”. Reverte, 1988.
+
+3. Marion, Jerry. “Classical dynamics of particles and systems”. Academic Press.
+
+Bibliografía complementaria:
+
+Mahecha, Jorge. “Mecánica clásica avanzada”. 1era edición, Editorial Universidad de Antioquia (Medellín 2006).
+
+V. Jose, Eugene J. Saletan: “Classical Dynamics: a Contemporary Approach",
+Cambridge University Press (Cambridge, UK, 1998).
+
+Florian Scheck: “Mechanics: Form Newton's Laws to Deterministic Chaos", 2da edición, Springer-Verlag (Berlin, 1994).
+
+Edward Ott: “Chaos in Dynamical Systems", Cambridge University Press (Cambridge,UK, 1993).
+
+Spiegel, M.R. “Teoría y problemas de mecánica teórica con una introducción a las ecuaciones de Lagrange y a la teoría Hamiltoniana”. Serie Schaum
+
+Kotkin, G.L., “Problemas de mecánica clásica”. Editorial Mir, 1980.
+
+Hauser, W. “Introducción a los principios de mecánica”; Uteha, 1969.
+
+Kleppner, D. “An introduction to mechanics”.  Editorial Mc Graw Hill, 1973.
+
+Slater and Frank. “Mechanics”. Editorial McGraw-Hill.   
+
+Symon. “Mecánica”.  Editorial Aguilar.

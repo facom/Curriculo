@@ -1,7 +1,12 @@
 •	Diefender, James. Instrumentación Electrónica.
-•	Boylestad y Nashelsky. Introducción al análisis de Circuitos.
+•	Boylestad, Robert y Nashelsky, Louis. Introducción al análisis de 
+        circuitos
 •	Bobrow, L. S. Análisis de Circuitos Electrónicos.
-•	Tocci, Dennis L. Eggleston. Basic electronics for scientists and engineers
-•       Sistemas Digitales: Principios y Aplicaciones.
+•	Dennis L. Eggleston. Basic electronics for scientists and engineers
+•       Boylestad, Robert y Nashelsky, Louis. Electrónica: Teoría de circuitos
+        y dispositivos electrónicos.
+•       Coughlin, Robert y Driscoll, Federick. Amplificadores operacionales y
+        circuitos integrados lineales.
+•       Tocci, Ronald. Sistemas Digitales: Principios y Aplicaciones.
 •	Tokheim, Roger. Principios Digitales.
-•	Problemas propuestos y resueltos elaborados por el profesor.
+•    	Problemas propuestos y resueltos elaborados por el profesor.

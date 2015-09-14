@@ -1,2 +1,3 @@
-- Exposición magistral del profesor.
-- Asignación de tareas.
+El curso se  desarollará a lo largo de dos sesiones semanales de 2 horas. Durante estas sesiones además de las tradicionales exposiciones, se realizarán: desarrollo de problemas, lectura de textos y artículos originales, análisis de experimentos, debates y discusiones. Es muy importante realizar una lectura previa de los contenidos a tratar en cada clase. El texto guía elegido contiene una exposición clara y sencilla de los temas.
+
+Además de las sesiones semanales se programará una sesión semanal de taller (espacio reconocido dentro de la transformación curricular) cuyo horario se concertará con los estudiantes el primer día de clase. El profesor auxiliar es el estudiante de doctorado Jhonny A. Castrillón. En este espacio, además de resolver dudas y problemas se desarrollarán actividades complementarias para ayudar en la comprensi'on de los temas. La asistencia al curso es obligatoria.

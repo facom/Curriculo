@@ -1,7 +1,10 @@
-1. Construir las ecuaciones de movimiento de sistemas mecánicos y electromagnéticos que oscilan y las ecuaciones de onda para sistremas que soportan la propagación de ondas mecánicas.
-2. Encontrar soluciones de las ecuaciones de movimiento de osciladores y ecuaciones de onda.
-3. Identificar los modos normales de un sistema discreto o continuo
-4. Utilizar el análisis de Fourier como herramienta de análisis de fenómenos de oscilaciones y ondulatorios
-5. Aplicar las relaciones de dispersión para describir la propagación de ondas mecánicas en medios lineales.
-6. Identificar los comportamientos característicos de un fenómeno ondulatorio como reflexión, refracción, interferencia y difracción.
-7. Reconocer y diferenciar fenómenos de oscilaciones y ondulatorios para sistemas lineales y sistemas no lineales.
+Al terminar el curso el estudiante estará en capacidad de:
+
+• Describir y definir matemáticamente el movimiento oscilatorio y ondulatorio para sistemas físicos que soportan la propagación de oscilaciones y ondas.
+• Construir las ecuaciones de movimiento y encontrar las soluciones en los casos de movimientos oscilatorios y/o ondulatorios.
+• Identificar los modos normales de un sistema discreto o continuo.
+• Describir y calcular algunos resultados en el dominio de las ondas electromagnéticas.
+• Analizar e identificar los comportamientos característicos de un fenómeno ondulatorio: reflexión, refracción, polarización, interferencia y difracción.
+• Calcular y dibujar posiciones y aumentos producidos por lentes o espejos de objetos reales o virtuales puestos frente a estos elementos ópticos.
+• Analizar y describir algunos instrumentos ópticos básicos como son el  microscopio y telescopio.
+• Analizar los patrones de intensidad obtenidos por interferencia y difracción en la región de Fraunhofer.

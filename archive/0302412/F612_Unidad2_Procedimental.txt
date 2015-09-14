@@ -1,0 +1,3 @@
+Se deriva la segunda regla de oro de Fermi.
+
+Se calcula la rata de ionización de un electrón en el estado fundamental de un átomo de hidrógeno.

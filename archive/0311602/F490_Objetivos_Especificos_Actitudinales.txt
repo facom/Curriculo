@@ -1,0 +1,4 @@
+Reconocer la importancia de las diferentes formulaciones de la mecánica en la solución de problemas complejos y para la apertura de nuevas fronteras del conocimiento, como la teoría cuántica.
+Demostrar compromiso para conocer y asimilar las herramientas computacionales que le permitirán al estudiante abordar problemas complejos en mecánica celeste.  
+Describir la importancia de la representación gráfica de los datos para el trabajo científico.
+Valorar el trabajo realizado por desarrolladores de software e ingenieros en la creación de herramientas que facilitan el trabajo científico.

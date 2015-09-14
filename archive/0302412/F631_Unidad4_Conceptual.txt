@@ -1,1 +1,5 @@
-Serie perturbativa. Corrección al primer orden de la energía no degenerada. Corrección de primer orden a un estado. Correcciones de segundo orden. Aplicaciones al oscilador armónico. Perturbación de niveles degenerados. Efecto Zeeman. Efecto Stark.
+13: Ecuación integral de Schrodinger.
+14: Funciones de Green.
+15: Aproximación de Born.
+16: Ondas parciales.
+17: Desarrollos generales.

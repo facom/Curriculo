@@ -1,1 +1,3 @@
-Indistinguibilidad. Permutaciones. Simetría y antisimetría. Simetrizador y antisimetrizador. Postulados de simetrización. Función de onda de dos partículas. Funciones de Spin. Principio de Pauli. Estadísticas. Aplicaciones al átomo de Helio.
+21: Transformaciones canónicas cuánticas.
+22: Homogeneidad del espacio tiempo.
+23: Los cuadros de la mecánica cuantica.

@@ -1,11 +1,11 @@
-•	Las leyes de Newton del movimiento. 
-•	La gravitación como fuerza centrípeta. 
-• Satélites y proyectiles. 
-• Inverso cuadrado y ley de las àreas. 
-• Ley de gravitación universal. 
-• Las cónicas: planetas y cometas. 
-• La masa de la Tierra, la masa del Sol. 
-• La forma de la Tierra. Mareas. 
-• Precesión del eje polar. 
-• Perturbaciones, descubrimiento de Neptuno. 
-• Precesión del perihelio de Mercurio.
+Las leyes de Newton del movimiento. 
+Fuerzas centrípetas. 
+Satélites y proyectiles. 
+Inverso cuadrado y ley de las áreas. 
+Ley de gravitación universal. 
+Las cónicas: planetas y cometas. 
+La masa de la Tierra, la masa del Sol. 
+La forma de la Tierra. Mareas. 
+Precesión del eje polar. 
+Perturbaciones, descubrimiento de Neptuno. 
+Precesión del perihelio de Mercurio.

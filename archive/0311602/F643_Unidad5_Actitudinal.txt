@@ -1,0 +1,3 @@
+Que el estudiante comprenda la importancia del Hamiltoniano de Henon-Heiles, que en medio de su simplicidad, se constituye en una herramienta importante para la introducción de conceptos básicos de la teoría del caos.
+Valorar la importancia de los diagramas de Poincaré y los exponentes de Lyapunov a la hora de estudiar los regimenes caóticos y regulares de los sistemas físicos. 
+Que el estudiante comprenda y valore el poder del Teorema de Kolmogorov-Arnold-Moser y sepa restringir los escenarios para su aplicación.

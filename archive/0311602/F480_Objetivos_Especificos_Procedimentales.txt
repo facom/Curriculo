@@ -21,3 +21,5 @@ Deducir las ecuaciones de movimiento de Hamilton y la forma explícita del Hamil
 Escribir las ecuaciones de Hamilton en forma simpléctica.
 Escribir la condición para que una transformación sea canónica en forma simpléctica.
 Escribir explícitamente algunos métodos numéricos de integración de las ecuaciones de Hamilton y  demostrar cuáles son simplécticos y cuáles no lo son
+Demostrar numéricamente el cálculo de una sección de Poincaré. 
+Calcular numéricamente la evolución del exponente de Lyapunov para un par de órbitas hermanas de una partícula de prueba sometida a la interacción gravitacional de dos cuerpos masivos. 

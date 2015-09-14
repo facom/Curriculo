@@ -1,1 +1,5 @@
-Este es un curso formativo que le permite al estudiante tener una visión general de la física y establecer un puente para visualizar y penetrar otras áreas.
+La mecánica clásica es un curso de fundamentación del programa académico de Física, de carácter formativo, que permite al estudiante adquirir una visión general de la física y establecer desde esta perspectiva un enlace a otras áreas como la mecánica cuántica y estadística.
+
+Este curso es parte indispensable en la formación del físico, pues desempeña un doble papel en la preparación del estudiante para el estudio de áreas avanzadas de la física y al mismo tiempo, le ofrece al estudiante la oportunidad de dominar muchas técnicas matemáticas necesarias para la mecánica cuántica aun siendo válidas en función de los conceptos conocidos de la física clásica.
+
+Este curso busca fortalecer los conocimientos adquiridos en un primer curso de formación básica y potenciar las capacidades de operatividad, manejo de los conceptos físicos y sus aplicaciones en diferentes áreas de la física y de otras disciplinas, cuyo objeto principal de estudio es la dinámica y las propiedades de sistemas complejos y sistemas de muchas partículas, es decir, se busca que el estudiante tenga una visión general de la física y establecer un puente para visualizar y penetrar en otras áreas del conocimiento.

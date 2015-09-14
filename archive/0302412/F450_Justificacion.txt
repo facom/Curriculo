@@ -1,2 +1,3 @@
-Muchas áreas de la física exigen el conocimiento de aspectos cuánticos.
-La Física Cuántica es la base de mucha parte de la tecnología moderna.
+Hay en el mundo real muy pocos problemas que admiten una solución exacta a las ecuaciones de movimiento. Es por lo tanto necesario introducir métodos aproximados que permitan resolver problemas realistas. 
+
+En este curso se hace énfasis en esos métodos aproximados aplicados a la mécánica cuántica tanto para problemas discretos (teoría de perturbaciones para estados no degenerados y degenerados), para problemas contionuos (teoría de las colisiones), y para los campor cuánticos. Igualmente se hace énfasis en la aproximación semiclásica de la teoría y su aplicación a sistemas con números cuánticos muy grandes.

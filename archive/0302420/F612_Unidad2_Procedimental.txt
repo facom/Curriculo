@@ -1,0 +1,9 @@
+Conocimiento de principios físicos y manejo de equipos:
+- Monocromador.
+- Espectrofotómetros UV, VIS y NIR de Física Óptica (Avantes, Ocean Optics)
+- Impedanciómetro
+- Fuentes de alta corriente
+- Voltímetro de alta sensibilidad
+- Microscopio SEM
+- Molino planetario
+- Espectrómetro Mossbauer

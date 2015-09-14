@@ -1,1 +1,4 @@
-C.C.O.C. Armónicos esféricos. Ondas parciales. Ondas esféricas. Desfase. Estados estacionarios de una partícula libre. Desarrollo de una onda parcial en ondas esféricas libres. Estados estacionarios de dispersión en función de ondas parciales. Sección eficaz.
+9: Adición vectorial en cuántica.
+10: Coeficientes de Clebsh-Gordon.
+11: Momento angular total.
+12: Símbolos 3j, 6j y teorema de Wigner-Eckhart.

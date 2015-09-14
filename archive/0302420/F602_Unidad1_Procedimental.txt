@@ -1,0 +1,5 @@
+Conocimiento del manejo (uso de manuales) de:
+- Evaporadora o sputtering para fabricación de peliculas delgadas.
+- Fabricación de materiales y nanomateriales dopados
+- Montajes ópticos, por ej. interferómetros Michelson, Mach-Zender, etc
+- Montaje de circuitos electrónicos de control o sensores

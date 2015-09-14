@@ -1,4 +1,9 @@
-Utilizar los conceptos esenciales de la mecánica cuántica para entender un gran número de fenómenos.
-Entender los conceptos esenciales de la mecánica cuántica de una manera matemática: con ecuaciones diferenciales, espacios vectoriales, representaciones matriciales, kets, operadores.
-Entender la solución de cuatro problemas básicos (partícula libre, oscilador armónico, átomo de hidrógeno, spin) con un rigor matemático mediano, es decir, ajustado al nivel de pregrado.
-Entender que la mecánica cuántica está sujeta a interpretaciones, y entender las cualidades y defectos de la interpretación de Copenhague.
+Entender los conceptos fundamentales de la teoría cuántica (estado cuántico, observable, postulado de medición, superposición lineal, incompatibilidad), su conflicto con la racionalidad de la física clásica y su relación con los experimentos en sistemas cuánticos individuales (experimentos de polarización de fotones y de Stern-Gerlach). 
+Entender los conceptos esenciales de la mecánica cuántica en su representación matemática: espacios vectoriales (de Hilbert), estados cuánticos (kets) y observables (operadores).
+Entender la naturaleza matemática de las representaciones discretas (vectores y matrices) y funcionales (función de onda y ecuaciones diferenciales). Hacer la conexión con la teoría de Sturm-Liouville.  
+Comprender los elementos básicos de la teoría cuántica usando un espacio de estados de dos niveles, estableciendo las correspondencias entre polarización de fotones y el espín del electrón.
+Entender el carácter anti-intuitivo del entrelazamiento cuántico y su uso en los experimentos sobre la desigualdad de Bell. Comprender el carácter de la discusión EPR sobre la teoría cuántica.
+Determinar la evolución temporal de un sistema cuántico usando la ecuación de Schrödinger dependiente del tiempo y su solución en términos del operador evolución. Reconocer las diferencias entre estados estacionarios y no estacionarios.
+Reconocer la solución algebraica al oscilador armónico cuántico y su relación con la solución en términos de ecuaciones diferenciales. Usar los estados número y coherentes en problemas de dinámica cuántica y valores esperados.
+Usar los autoestados de momentum angular en problemas con simetría esférica. Reconocer su relación con los armónicos esféricos.
+Comprender la solución cuántica del átomo de hidrógeno y la aparición de las líneas espectrales.

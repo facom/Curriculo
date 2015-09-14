@@ -1,1 +1,1 @@
-Es un curso profesional para los programas de Física y Química.
+En el quehacer académico y científico la electrónica juegan un papel fundamental en la línea experimental, donde el diseño, construcción, implementación y simulacion de sistemas de adquisición de señales constituyen tareas muy comunes de la actividad científica. Para esta labor existen y se desarrollan constantemente equipos que facilitan estas operaciones y que el científico en formación debe conocer y manipular adecuadamente. 

@@ -1,10 +1,14 @@
-1.	Guerrero de Mesa, A. Oscilaciones y Ondas*.Facultad de Ciencias. 2005
-2.	French, A.P. Vibraciones y Ondas*.Reverté. 1974
-3.	. Rossing, Th. The Science of Sound*.Addison-Wesley. 1990
-4.	Elmore, W. C. y Heald, M. A. Physics of Waves*.McGraw-Hill. 1969
-5.	Hsu, Hwel P. Análisis de Fourier*.Addison-Wesley Iberoamericana. 1987
-6.	Feynmann, R.P., Leighton, R.B. y Sands, M. The Feynman Lectures on Physics (Vols I y II)*. Addison-Wesley. 1964
-7.	Reimoissenet, M. Waves Called Solitons. Springer. 1996
-8.	Lamb, H. The dynamical theory of sound*.Dover. 1948
-9.	Pain, H. J. The physics of Vibrations and Waves*.Wiley. 1984
-10.	Crawford Jr., F.S. Berkeley physics course*.Mc-Graw-Hill Inc. 1968
+Textos guía básicos:
+Héctor Álzate, Física de las Ondas, Universidad de Antioquia, 2007.
+Alicia Guerrero de Mesa, Oscilaciones y Ondas, Universidad Nacional de Colombia 2015 
+Textos complementarios:
+Oscilaciones y ondas,  José Antonio Gorri Ochoa, Alfons Albareda Tiana, Eliezer Toribio Millán, Universidad Politécnica de Cataluña, 1998.
+Frank S. Crawford, Ondas, Universidad de California, Berkeley, 1994.
+Anthony P. French, Vibraciones y Ondas, Reverté, 1974.
+Hecht-Zajac, Optica, Ed. Addison-Wesley, 2000, Madrid.
+M. Alonso y E. Finn, Física,  Vol. I y Vol. II. Fondo Educativo Interamericano, S.A.
+Sears et al., Física Universitaria, 11a  ed., Pearson Educación, 2005, México.
+R. Serway, R. Beichner, Física, Vol. 1 y Vol. 2; Ed. McGraw Hill, 2002, México.
+Halliday et al., Física Vol. I y Vol II, Ed. C.E.S.A., 2002, México.
+Tipler y Mosca, Física, Vol. 1 y Vol. 2, Ed. Reverté, 2003, Barcelona.
+Gettys et al., Física, Vol. 1 y Vol. 2, Ed. McGraw Hill, 2005, México.

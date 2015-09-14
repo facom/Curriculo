@@ -1,6 +1,6 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 28 Jul 2015 07:10:17 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
+$F010_AUTO_Fecha_Actualizacion="Wed, 02 Sep 2015 15:51:14 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="";
@@ -44,7 +44,7 @@ $F380_Profesores_Responsables="Ignacio Ferrin, Pablo Cuartas Restrepo, Juan Carl
 $F390_Profesores_Oficinas="6-414";
 $F400_Horario_atencion="WV14-16";
 $F410_Profesores_Elaboran="Ignacio Ferrin, Pablo Cuartas Restrepo, Juan Carlos Muñoz";
-$F420_Correos_Electronicos="Ignacio.ferrin@udea.edu.co, juan.munozc@udea.edu.co,";
+$F420_Correos_Electronicos="Ignacio.ferrin@udea.edu.co, juan.munozc@udea.edu.co, pablo.cuartas@udea.edu.co";
 $F600_Unidad1_Titulo="Las herramientas básicas";
 $F605_Unidad1_Semanas="4";
 $F610_Unidad2_Titulo="Observación Astronómica Básica";

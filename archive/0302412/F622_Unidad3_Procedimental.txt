@@ -1,0 +1,5 @@
+Se deriva la forma general de los coeficientes de Clebsh-Gordon para la adición de dos momentos angulares arbitrarios.
+
+Se introduce la ecuación de Pauli.
+
+Se explica el significado del teorema de Wigner-Eckhart.

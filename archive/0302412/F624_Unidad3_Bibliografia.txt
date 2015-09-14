@@ -1,1 +1,3 @@
-C. Cohen Tannoudji, B. Diu, F. Laloë.   Quantum Mechanics. Willey, New York, 1977.
+1- Edmonds, A. R., 1968, ``Angular Momentum in Quantum Mechanics'', segunda edicóon, Princeton, Princeton University Press.
+
+2- Rose, M. E., 1995, ``Elementary Theory of Angular Momentum'', Nueva York, Dover Publications.

@@ -1,4 +1,1 @@
-3.1 Ecuación de onda para N osciladores, límite continuo, Condiciones de Frontera, soluciones de Dirichlet (modos normales) y de D Álembert (pulsos).
-3.2 Ondas viajeras, impedancias, reflexión y transmisión, transporte de energía y momento.Respuesta de redes lineales amortiguadas y forzadas.
-3.3 Ejemplos 2D: Membranas y modos normales.
-3.4  Ejemplos 3D: Ondas electromagnéticas en el vacío
+Principio de Huygens, índice de refracción, y enunciado de las leyes de reflexión y refracción. Prueba de las leyes de reflexión y refracción, ángulo crítico y principio de Fermat. Reflexión y transmisión de ondas electromagnéticas, coeficientes de Fresnel, ángulo de polarización y ley de Brewster. Óptica geométrica, conceptos de objeto e imagen real y virtual. Formación de una imagen por reflexión, trazado de rayos principales y aumentos. Formación de una imagen por refracción, focos objeto e imagen y aumento. Lentes delgadas, aumento generado por una lente delgada y principio de reversibilidad óptica. El ojo humano, puntos cercano y lejano; el prisma, aberración cromática. Instrumentos ópticos: la lupa, el microscopio y  el telescopio.

@@ -1,4 +1,4 @@
-Revelar la relación entre la descripción micróscopica y macroscópica (termodinámica) de un sistema físico.
+Detallar la relación entre la descripción micróscopica y macroscópica (termodinámica) de un sistema físico.
 Permitir que tengan claridad y dominio sobre el uso e importancia de las funciones partición en las colectividades microcanónica, canónica y gran canónica.
 Familiarizar a los estudiantes con técnicas computacionales, principalmente basadas en el método Monte Carlo, que permitan la simulación numérica y el cálculo de propiedades termodinámicas de diferentes tipos de sistemas (e.g. gases, paramagneto, ferromagneto, etc).
 Lograr que los estudiantes tengan una descripción clara de las estadísticas de Maxwell-Boltzmann, Bose-Einstein y Fermi-Dirac, y puedan utilizarlas en el estudio de diferentes tipos de sistemas físicos. Poner de manifiesto la importancia de la mecnica cuántica.

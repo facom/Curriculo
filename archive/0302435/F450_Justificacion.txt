@@ -1,1 +1,4 @@
-Los temas son de importancia crucial en áreas como  Mecánica Cuántica, Estado Sólido y Óptica. Esto hace que la formación que pretende proveer este curso sea necesaria. 
+•	El curso, lleva a los estudiantes a tener un primer contacto con la modelación de fenómenos físicos que se presentan al nivel macroscópico.
+•	Esta asignatura pretende dotar al estudiante de las herramientas básicas que le permitan comprender, explicar y modelar fenómenos naturales a nivel macroscópico, utilizando el lenguaje científico. Se espera que en el estudiante se cultive la capacidad de admiración y se genere un espíritu de investigación, al conocer la forma indirecta como en la ciencia se conoce el comportamiento de los fenómenos atómicos. 
+•	En el curso se busca que el estudiante se acerque a las fuentes de información que le permitan conocer los desarrollos técnicos y tecnológicos del siglo XX y XXI.
+•	A nivel básico, este curso permite un primer acercamiento a otras áreas de la física tales como la física estadística, la física del estado sólido y la física de partículas, al igual que a otras áreas de la ciencia (química, biología, matemáticas, electrónica, ciencia de materiales).

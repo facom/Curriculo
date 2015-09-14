@@ -1,5 +1,7 @@
 Al terminar el curso el estudiante estará en capacidad de:
-a. Aplicar los principios y métodos cuánticos a modelos sencillos.
+a. Aplicar los principios y métodos cuánticos a modelos realistas sencillos.
 b. Realizar cálculos en el átomo de hidrógeno.
 c. Explicar los fundamentos de las colisiones.
 d. Manejar con rigor las técnicas de aproximaciones. 
+e. Tener un concepto claro de las integrales de trayectoria.
+f. Manejar tecnicas de la segunda cuantizacion.

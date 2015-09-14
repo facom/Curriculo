@@ -1,4 +1,2 @@
-•Revistas de Física aplicada presentes en la biblioteca, en el laboratorio de instrumentación y en el laboratorio de Mössbauer.
-•Base de datos Wilson (CD-ROM).
-•Base de datos Current-Contest.
-•Manuales de operación de los equipos utilizados en el trabajo experimental.   
+•Revistas y libros de Física y bases de datos de las bibliotecas disponibles
+•Manuales de operación de los equipos utilizados en el trabajo experimental de acuerdo al tema del proyecto.   

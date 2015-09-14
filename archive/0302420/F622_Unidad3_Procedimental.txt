@@ -1,0 +1,3 @@
+Evaluación de eficiencia (exactitud, precisión, estabilidad)
+Comparación con equipos ya disponibles en el mercado
+Verificación de cumplimiento de normas nacionales e internacionales

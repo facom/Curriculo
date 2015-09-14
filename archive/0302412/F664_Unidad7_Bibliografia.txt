@@ -1,0 +1,3 @@
+1- Un libro excelente y muy completo sobre la cuantización de la ecuación de Schrodinger es: Fetter, A. L. y Walecka, J. D., 2003, ``Quantum Theory of Many-Particle Systems'', Nueva York, Dover Publications.
+
+2- Un libro muy completo sobre la teoría de muchos cuerpos en mecánica cuántica y sus aplicaciones es: March, N. H., Young, W. H. y Sampanthar, S., 1967, ``The Many-Body Problem in Quantum Mechanics'', Cambridge, Cambridge University Press.

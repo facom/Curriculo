@@ -1,5 +1,1 @@
-4.1bsorción: Coeficiente de absorción. Ejemplos en óptica y en acústica.
-4.2 Análisis de Fourier: Serie y transformada de Fourier, pulsos y paquetes de onda.
-4.3 Dispersión: Relaciones de dispersión, velocidades de fase y de grupo, dispersión de un paquete gaussiano, relaciones de incertidumbre
-4.4 Efecto Doppler:Definición y ejemplos: velocidad de un carro, velocidad de rotación de Mercurio o similares.
-4.5 Solitones: No linealidad, olas rompientes, dispersión y no linealidad, ecuación KdV o Sine-Gordon, Solitones KdV en ondas de superficie.
+Definición de interferencia, interferencia y desfase, coherencia e incoherencia, interferencia por dos fuentes de dos campos, y el principio de superposición y la ecuación de onda. Interferencia de ondas de dos fuentes, patrón de interferencia, método de fasores, máximos y mínimos de intensidad, e intensidad debida a dos fuentes incoherentes. Interferencia de ondas por N fuentes y patrón de interferencia. Interferencia en películas delgadas y recubrimientos reflectivos y antirreflectivos. Difracción de Fraunhofer por una rendija delgada y poder de resolución. Difracción de Fraunhofer por una abertura circular y poder de resolución. Experimento de Young. Difracción por más de dos rendijas, la rejilla de difracción y poder de resolución de una rejilla de trasmisión. 

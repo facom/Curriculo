@@ -1,0 +1,5 @@
+Describir cuantitativamente el Hamiltoniano de Henon-Heiles.
+Describir los pasos para la construcción de un diagrama de Poincaré y motivar su estudio a la luz del caos que pueden presentar ciertos fenómenos astronómicos como las órbitas perturbadas. 
+Introducir el concepto de exponente de Lyapunov y su uso como herramienta para la cuantificación del caos. 
+Introducir el teorema de Kolmogorov-Arnold-Moser y su importancia para el estudio de los movimientos cuasiperiódicos de objetos celestes.    
+ 

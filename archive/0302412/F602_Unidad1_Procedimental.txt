@@ -1,0 +1,7 @@
+Se resulven los problemas de un átomo de hidrógeno en un campo eléctrico y en un campo magnético.
+
+Se halla la energía del estado fundamental del átomo de helio por el método perturbativo y por el método variacional.
+
+Se deriva la función de ondas de la aproximación semiclásica o WKB.
+
+Se deriva la formula de cuantización de Bohr Sommerfeld.

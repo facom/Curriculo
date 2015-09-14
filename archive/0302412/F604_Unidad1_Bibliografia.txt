@@ -1,1 +1,7 @@
-C. Cohen Tannoudji, B. Diu, F. Laloë.   Quantum Mechanics. Willey, New York, 1977.
+1- Fernández, F. M., 2000, ``Introduction to Perturbation Theory in Quantum Mechanics'', Florida, CRC Press. 
+
+2- Landau, L. y Lifchitz, E., 1966, ``Physique theorique''. III: Mécanique Quantique: théorie non relativiste'', Moscú, Mir, pp. 158-166. 
+
+3- Stewart, G. W. y Sun, J. G., 1990, ``Matrix Perturbation Theory'', Massachusetts, Academic Press.
+
+4- Cassel, K. W., 2013, ``Variational Methods with Applications in Science and Engineering'', Cambridge, Cambridge University Press. 

@@ -1,0 +1,6 @@
+24: Formulación Lagrangiana de la mecánica cuántica.
+25: Campos cuánticos.
+26: Representaci\'on número de partículas.
+27: Espacio de Fock.
+28: Segunda cuantización. Fermiones.
+29: Interacción entre las partículas.

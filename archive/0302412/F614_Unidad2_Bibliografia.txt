@@ -1,1 +1,7 @@
-C. Cohen Tannoudji, B. Diu, F. Laloë.   Quantum Mechanics. Willey, New York, 1977.
+1- Dirac, P. A. M., 1926, ``On the Theory of Quantum Mechanics'', Proceedings of the Royal Society of London, A112, pp. 661-677.
+
+2- Dirac, P. A. M., 1927, ``The Quantum Theory of Emission and Absorption of Radiation'', Proceedings of the Royal Society of London, A114, pp. 243-265. 
+
+3- Fermi, E., 1950, ``Nuclear Physics'', Chicago, University of Chicago Press, p. 142.
+
+4- Schiff, L. I., 1968, ``Quantum Mechanics'', tercera edici'on, Nueva York, McGraw-Hill, pp. 285-288.

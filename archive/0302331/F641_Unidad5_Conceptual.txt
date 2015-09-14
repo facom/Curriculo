@@ -1,1 +1,1 @@
-Teoría de bandas. Nivel de Fermi. Inyección de portadores minoritarios. Diodos. Problemas.
+Amplificadores de voltaje y corriente, ancho de banda, realimentación. Amplificador operacional y sus aplicaciones. Problemas.

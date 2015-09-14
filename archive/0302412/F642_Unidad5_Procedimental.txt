@@ -1,0 +1,5 @@
+Se conecta el concepto de partículas idénticas con el principio de exclusión de Pauli, el concepto de condensados de Bose y con las estadísticas de Bose-Einstein y Fermi-Dirac.
+
+Se derivan las ecuacuaciones de Klein-Gordon y de Dirac.
+
+Se halla el propagador libre por el método de integrales de trayectoria.

@@ -1,0 +1,1 @@
+Diseño y desarrollo de un programa para simulación numérica de un paramagneto ideal. Resolución de problemas.

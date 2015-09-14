@@ -1,3 +1,6 @@
-* Herbert Goldstein. Mecánica Clásica. Aguilar.
-* Slater and Frank. Mechanics. McGraw-Hill.   
-* Symon. Mecánica. Aguilar.
+1. Herbert Goldstein, Charles P. Poole, John L. Safko: “Classical Mechanics", 3era edición, Addison-Wesley (San Francisco, 2001).
+
+2. Landau, L. “Mecánica. Segunda edición revisada”. Reverte, 1988.
+
+3. Marion, Jerry. “Classical dynamics of particles and systems”. Academic Press.
+

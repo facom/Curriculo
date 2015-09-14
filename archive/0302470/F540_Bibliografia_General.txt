@@ -1,4 +1,6 @@
+•Donald A. McQuarrie. Statistical Mechanics, Harper & Row Publishers, 1976.
+•F. Reif, Fundamentos de Física Estadística y Térmica, Mc Graw-Hill, New York, 1968.
 •Kerson Huang. Statistical Mechanics, Second edition. John Wiley & Sons. New York, 1987.
 •C. Kittel, Thermal Physics, John Wiley    Sons, New York, 1969.
-•L. Landau y E, Lifshitz, Física Estadística, Pergamon Press, London
-•David. P. Landau and Kurt Binder. A Guide to Monte Carlo Simulations in Statistical Physics. Cambridge, University Press, 2000
+•L. Landau y E, Lifshitz, Física Estadística, Pergamon Press, London.
+•David. P. Landau and Kurt Binder. A Guide to Monte Carlo Simulations in Statistical Physics. Cambridge, University Press, Second Editions, 2000.

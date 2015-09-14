@@ -1,1 +1,1 @@
-Paramagnetismo clásico y cuántico. Funciones de Brillouin y Langevin. Leyes de escalamiento. Modelo de Heisenberg. Simulación Monte Carlo y dinámica Metropolis aplicada al estudio de un paramagneto ideal con espín S=1/2.
+Distribución de velocidades de Maxwell. Cálculo de promedios. Densidad de estados. Introducción a la dinámica molecular y simulaciones off-lattice de gases ideales. Estadística de Maxwell-Boltzman (MB). Partículas distinguibles. Paradoja de Gibbs. Teorema de equipartición de la energía. Comentarios sobre las funciones de onda en sistemas de dos partículas.

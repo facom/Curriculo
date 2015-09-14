@@ -1,1 +1,0 @@
-Partículas idénticas y requisitos de simetría. Comentarios sobre las funciones de onda en sistemas de N partículas. Estadísticas de Bose-Einstein (BE) y Fermi-Dirac (FD). Principio de exclusión de Pauli. Degeneración, números de ocupación y conteo de estados en las estadísticas MB, BE y FD. Estadística MB corregida.  

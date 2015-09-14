@@ -1,7 +1,0 @@
-Espectroscopia Mossbauer.
-- Peliculas delgadas.
-- Microscopía de tunelamiento
-- Caracterización óptica de materiales (monocromador).
-- Experimentos con el CHAMP II
-- Experimentos con el contador de centelleo.
-- Expectrómetro de Física Óptica.    

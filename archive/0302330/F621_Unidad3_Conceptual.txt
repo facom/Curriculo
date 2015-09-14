@@ -1,1 +1,31 @@
-Introducción. El problema fundamental del cálculo variacional. Ecuación de Euler. Problema de la Braquistócrona. Segunda forma de la ecuación de Euler. Funciones con varias variables dependientes. Ecuación de Euler con condiciones auxiliares impuestas (Multiplicadores indeterminados de Lagrange ). Notación S.
+Pequeñas oscilaciones:
+ 
+* Planteamiento del problema.
+* Modos normales de oscilación: caso degenerado y caso no-degenerado
+* Ejemplos.
+
+Dinámica del cuerpo rígido.
+
+* Momento angular y energía cinética alrededor de un punto.
+* Tensor y matriz de inercia. 
+* Diagonalización dela matriz de inercia.
+* Ángulos de Euler. 
+* Ecuaciones de Euler para un cuerpo rígido. 
+* Movimiento libre del Sólido rígido. Trompo simétrico con un punto fijo.  Trompo con el punto fijo en un campo gravitacional.
+
+Fuerzas centrales
+ 
+* Problema de dos cuerpos, masa reducida.
+* Integrales primeras de movimiento. Ecuaciones de movimiento.
+* Teorema del virial.
+* Orbitas en un campo central.
+* Energía centrifuga y potencial efectivo.
+* Ecuación de la órbita.
+* El problema de Kepler.
+* Sistemas de coordenadas rotantes. Fuerza de Coriolis, movimiento relativo a la tierra.
+
+Dispersión por un campo central.
+
+* Sección eficaz.
+* Colisiones elásticas.
+* Coordenadas de laboratorio y de centro de masa

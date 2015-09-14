@@ -1,4 +1,18 @@
-EXAMEN	25%
-EXAMEN	25%
-EXAMEN	25%
-EXAMEN	25%
+La evolución se discrimina de la siguiente manera:
+
+Parcial 1 (25%)
+Introducción.
+Mecánica Lagrangiana.
+
+Parcial 2 (25%)
+Aplicaciones de la mecánica lagrangiana: pequeñas oscilaciones y dinámica del cuerpo rígido.
+
+Parcial 3 (25%)
+Aplicaciones de la mecánica lagrangiana: fuerzas centrales y dispersión por un campo central. 
+Mecánica hamiltoniana: hasta teoremas de conservación.
+
+Parcial 4 (25%)
+Mecánica hamiltoniana: Transformaciones canónicas. 
+Teoría de Hamilton-Jacobi. 
+Integrabilidad y caos. 
+Mecánica de distribuciones continúas (opcional)

@@ -1,6 +1,6 @@
 Al terminar el curso el estudiante estará en capacidad de:
-a.	Aplicar las leyes y principios circuitales en el análisis de circuitos.
-b.	Analizar cualquier circuito pasivo en el dominio de la frecuencia, tanto teórica como gráficamente.
-c. 	Determinar teóricamente los diferentes parámetros híbridos para redes de dos puertos.
-d. 	Dar al estudiante bases de Algebra Booleana, necesarias para el análisis y diseño de circuitos digitales.
-e. 	Dar al estudiante fundamentación en circuitos que manejan el concepto de memoria (Se utilizarán  los diferentes tipos de flip-flop).
+Conocer y comprender las funciones de los componentes de un circuito. 
+Comprender y aplicar las leyes, principios y teoremas circuitales en el análisis de circuitos.
+Identificar, aplicar y analizar cualquier circuito pasivo en el dominio de la frecuencia, tanto teórica como gráficamente.
+Identificar, aplicar y analizar algunos circuitos activos en el dominio de la frecuencia, tanto teorica como gráficamente.
+Dar al estudiante bases de los circuitos lógicos, necesarias para el análisis y diseño de circuitos digitales.

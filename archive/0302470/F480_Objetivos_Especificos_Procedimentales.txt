@@ -1,0 +1,3 @@
+Diseñar y elaborar programas computacionales utilizando lenguajes de programación como Python, Fortran, C, C++, o matlab para llevar a cabo de simulaciones numéricas de problemas relacionados con los objetivos específicos conceptuales (e.g. números y paseos aleatorios aleatorios, sistemas magnéticos sencillos tipo Ising, etc.)  
+Buscar literatura especializada usando herramientas de búsqueda propias de su disciplina (Google Scholar, ADS, inSpires, arXiv).
+Organizar presentaciones para socialización de resultados ante compañeros de clase.

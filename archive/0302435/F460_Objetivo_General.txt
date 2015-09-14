@@ -1,1 +1,1 @@
-Formular y desarrollar las bases de la Teoría de la Radiación Electromagnética.
+En la asignatura Electromagnetismo II (Electrodinámica en la Materia), se busca que el estudiante conozca,  comprenda y describa los fenómenos de interacción del campo electromagnético con la materia, así como los modelos teórico matemáticos que le dieron explicación científica a los mismos, resolviendo de manera adecuada las situaciones problema correspondientes,

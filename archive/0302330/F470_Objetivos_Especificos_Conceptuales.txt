@@ -1,2 +1,11 @@
-Al terminar el curso el estudiante estará en capacidad de:
-- Emplear las herramientas y métodos matemáticos pertinentes tanto a este curso como a otros de la carrera.
+Plantear, desarrollar y resolver problemas y situaciones físicas, mediante el uso de herramientas matemáticas y conceptos adquiridos sobre la formulación de la mecánica Newtoniana, Lagrangiana y Hamiltoniana.
+
+Diferenciar los conceptos de punto material, cuerpo rígido y medio continuo.
+
+Diferenciar las magnitudes físicas fundamentales y derivadas y su respectiva unidad en el sistema internacional.
+
+Describirr el conjunto de leyes fisicas que proporcionan un método para la descripcion matemática de los movimientos de los cuerpos.
+
+Conocer y comprender las leyes de conservación cuando se trate de una partícula y de un sistema de partículas.
+
+Describir adecuadamente y con lenguaje científico elementos básicos de la mecánica, por ejemplo: ligaduras, grado de libertad, coordenadas y velocidades generalizadas, espacio de configuración, espacio de fase, entre otras. 

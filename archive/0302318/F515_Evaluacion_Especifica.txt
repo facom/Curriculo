@@ -1,4 +1,9 @@
-Parcial 1	25% 
-Parcial 2	25% 
-Parcial 3	25% 
-Parcial 4	25% 
+Parcial 1: 15% 
+Parcial 2: 20% 
+Parcial 3: 20% 
+Parcial 4: 15% 
+
+Prueba corta 1: 7%
+Prueba corta 2: 8%
+Prueba corta 3: 8%
+Prueba corta 4: 7%

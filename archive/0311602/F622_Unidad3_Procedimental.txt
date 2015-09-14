@@ -1,0 +1,8 @@
+Introducir el concepto de variables generalizadas y de espacio de configuración.
+Derivación de las ecuaciones de Euler-Lagrange por medio del principio de los trabajos virtuales. 
+Deducción de la función lagrangiana  para sistemas físicos elementales.
+Deducción de las ecuaciones de movimiento partiendo de la función lagrangiana y de las ecuaciones de Euler-Lagrange. 
+Deducción del Lagrangiano de los dos cuerpos y las ecuaciones de movimiento asociadas. 
+Derivación de las cantidades conservadas asociadas a distintas simetrías. 
+Soluciones geométricas a movimientos bajo potenciales centrales generales.  
+

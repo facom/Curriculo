@@ -1,1 +1,1 @@
-Polarización. Configuración circuital. Modelos de funcionamiento. Diseño de amplificadores análogos. Problemas.
+Sistemas numéricos. Algebra Booleana. Mapas de Karnaugh. Lógica combinatoria. Lógica secuencial. Circuitos especializados. Aplicaciones. 

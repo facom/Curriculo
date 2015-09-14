@@ -1,0 +1,11 @@
+Formular las ecuaciones de movimiento de Newton bajo la forma  general de las ecuaciones de lagrange, las cuales se pueden deducirse de un principio varicional llamado principio de Hamilton.
+
+Aprender a escoger un sistema de referencia en el cual las leyes de la mecánica tomen su forma más simple.
+ 
+Reconocer el principio de mínima acción o principio de Hamilton como la formulación más general de la ley de movimiento de los sistemas mecánicos.
+
+Reconocer y diferenciar los conceptos fundamentales de las diversas formulaciones sobre las que se basa el curso: mecánica Newtoniana, mecánica  Lagrangiana, mecánica Hamiltoniana y teoría de Hamilton-Jacobi.
+
+Enfrentar la solución de ejercicios y problemas con base a las teorías físicas empleadas.
+
+Hacer búsqueda bibliográfica y extraer la información relevante sobre los diversos tópicos que comprende el curso, desde elementos históricos hasta las nuevas aplicaciones.

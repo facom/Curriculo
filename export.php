@@ -13,6 +13,7 @@ if(!isset($_GET["ver_curso"])){
 $TEMPLATECODE="0300000";
 $QARCHIVO=0;//1 si quiere mostrar los cursos archivados
 $QRECYCLE=1;//1 si quiere mostrar los cursos reciclados
+$SITEURL="http://astronomia-udea.co/principal/Curriculo";
 $SITE="http://astronomia-udea.co/principal/Curriculo/index.php";
 $DATADIR=".";
 $LOGOUDEA="http://astronomia-udea.co/principal/sites/default/files";
@@ -25,7 +26,7 @@ $TMPDIR="tmp";
 $SCRIPTNAME=$_SERVER["SCRIPT_FILENAME"];
 $ROOTDIR=rtrim(shell_exec("dirname $SCRIPTNAME"));
 //$H2PDF="../../temp/wkhtmltopdf-i386";
-$H2PDF="../../temp/wkhtmltopdf-amd64";
+$H2PDF="$ROOTDIR/temp/wkhtmltopdf-amd64";
 require("$ROOTDIR/etc/configuration.php");
 require("$ROOTDIR/etc/database.php");
 $db=mysqli_connect("localhost",$USER,$PASSWORD,$DATABASE);
@@ -61,6 +62,10 @@ $DATE=date(DATE_RFC2822);
 //VER UN CURSO
 ////////////////////////////////////////////////////
 //RECUPERA INFORMACION DEL CURSO DE LA BASE DE DATOS
+$codemd5=substr(md5($ver_curso),0,6);
+$showlink="$SITEURL/links/$codemd5.html";
+$codelink="<p><div style='padding:20px;font-size:14px;background:lightgray'>Disponible para editar en: <a href='$showlink' target='_blank'>$showlink</a>.</div></p>";
+
 $table="MicroCurriculos";
 $tableid="F100_Codigo";
 $coursedir="$DATADIR/data/$ver_curso";
@@ -99,6 +104,14 @@ foreach($FIELDS as $field){
   $value=preg_replace("/\n/","<br/>",$value);
   $$fname=$value;
 }
+
+if($F020_AUTH_Autorizacion_Vicedecano=="Si"){
+  $codelink="";
+}
+
+$qaprob=1;
+$aprobado="";
+if(isBlank($F030_AUTH_Acta_Numero)){$qaprob=0;}
  
 //==================================================
 //FORMATO PLANO
@@ -134,6 +147,7 @@ $table.=<<<TABLE
   $Nombre_Asignatura<br/>
   $Codigo
 </h1>
+$codelink
 TABLE;
  $table.="<table border=0 width=650 style='border-collapse:collapse;'>";
  foreach($FIELDS as $field){
@@ -163,7 +177,10 @@ TABLE;
    shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > /tmp/md5");
    $out=shell_exec("cd $coursedir;diff /tmp/md5 .$ver_curso-plano.pdf.md5sum");
  }else{$out="NEW";}
+ $out=1;
  if(!isBlank($out)){
+   //echo "Paso. $coursedir. $H2PDF.";
+   //shell_exec("echo 'cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf' > /tmp/b.log");
    sleep(2);
    shell_exec("cd $coursedir;$H2PDF $ver_curso-plano.html $ver_curso-plano.pdf &> pdf.log");
    shell_exec("cd $coursedir;md5sum $ver_curso-plano.html > .$ver_curso-plano.pdf.md5sum");
@@ -177,6 +194,25 @@ TABLE;
 }
   
 if($mode=="FCEN" or $mode=="Todos"){
+  
+  if($qaprob){
+    $aprobado="<table border=0 width=650 style='border-collapse:collapse'>
+    <tr><td width=50%></td><td width=10%></td><td width=20%></td><td width=10%></td><td></td></tr>
+    <tr><td></td>
+      <td colspan=4 style='text-align:center;$border;$colorgray'>
+	APROBADO CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES
+      </td>
+    </tr>
+    <tr><td></td>
+      <td style='$border;$colorgray;'>ACTA</td>
+      <td style='$border;'>$AUTH_Acta_Numero</td>
+      <td style='$border;$colorgray;'>DEL</td>
+      <td style='$border;'>$AUTH_Acta_Fecha</td>
+    </tr>
+  </table>
+";
+  }
+
   $unidades="";
   $offset=600;
   $ContenidoResumido="";
@@ -252,20 +288,10 @@ $table.=<<<TABLE
       <td style='text-align:center'>FACULTAD DE CIENCIAS EXACTAS Y NATURALES<br/>$Instituto</td>
     </tr>
   </table>
-  <table border=0 width=650 style='border-collapse:collapse'>
-    <tr><td width=50%></td><td width=10%></td><td width=20%></td><td width=10%></td><td></td></tr>
-    <tr><td></td>
-      <td colspan=4 style='text-align:center;$border;$colorgray'>
-	APROBADO CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES
-      </td>
-    </tr>
-    <tr><td></td>
-      <td style='$border;$colorgray;'>ACTA</td>
-      <td style='$border;'>$AUTH_Acta_Numero</td>
-      <td style='$border;$colorgray;'>DEL</td>
-      <td style='$border;'>$AUTH_Acta_Fecha</td>
-    </tr>
-  </table>
+
+  $aprobado
+  $codelink
+
   <p style='width:650px;text-align:center;'>FORMATO DE MICROCURRICULO O PLAN DE ASIGNATURA</p>
   <table border=0 width=650 style='border-collapse:collapse'>
   <thead>
@@ -424,6 +450,7 @@ TABLE;
  }else{$out="NEW";}
  if(!isBlank($out)){
    sleep(2);
+   shell_exec("cd $coursedir;pwd &> a.log");
    shell_exec("cd $coursedir;$H2PDF $ver_curso-FCEN.html $ver_curso-FCEN.pdf");
    shell_exec("cd $coursedir;md5sum $ver_curso-FCEN.html > .$ver_curso-FCEN.pdf.md5sum");
  }
@@ -436,6 +463,23 @@ TABLE;
 }
 
 if($mode=="Vicedocencia" or $mode=="Todos"){
+
+  if($qaprob){
+    $aprobado="
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=50%></td><td width=50%></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style='text-align:center;$border;'>
+      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA $AUTH_Acta_Numero DEL $AUTH_Acta_Fecha.
+    </td>
+  </tr>
+</table>
+";
+  }
+
   $table="";
   $INST=upAccents($Instituto);
   $CURSO=upAccents($Nombre_Asignatura);
@@ -546,19 +590,10 @@ $table.=<<<TABLE
   </tr>
 </table>
 <p></p>
-<table border=0 width=650px style='border-collapse:collapse'>
-  <tr>
-    <td width=50%></td><td width=50%></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style='text-align:center;$border;'>
-      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA $AUTH_Acta_Numero DEL $AUTH_Acta_Fecha.
-    </td>
-  </tr>
-</table>
+$aprobado
 <p></p>
 <p></p>
+$codelink
 <p style="text-align:center;font-size:18px;width:650px">
   <b>PROGRAMA DE $CURSO</b>
 </p>

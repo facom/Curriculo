@@ -1,0 +1,1 @@
+Simulación numérica mediante el diseño y desarrollo de un programa para el problema del paseo aleatorio en una y dos dimensiones, cálculo de observables y manejo de errores. Resolución de problemas.

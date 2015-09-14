@@ -1,1 +1,3 @@
-Radiación del cuerpo negro. El átomo de Bohr. La función de onda ( r, t) y su interpretación. Las ecuación de Schroedinger. Estados estacionarios. Partícula libre ; paquetes de ondas ; paquete gaussiano y su anchamiento con el transcurso del tiempo.
+Presentación del curso. Breve historia de la teoría cuántica. El hecho cuántico fundamental. La descripción clásica de la polarización. Matrices y vectores de Jones.
+
+Taller: Taller de entrada. Repaso de algunos tópicos de probabilidad, estadística y álgebra lineal.

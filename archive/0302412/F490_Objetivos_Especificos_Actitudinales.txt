@@ -1,0 +1,1 @@
+A lo largo de todo el curso se emplean algoritmos matemáticos analíticos, los cuales se pretenden desarrollar de la manera más completa y rigurosa posible.

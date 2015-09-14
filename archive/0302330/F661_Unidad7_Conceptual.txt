@@ -1,0 +1,3 @@
+Medio continúo.
+Tensor de desplazamiento y tensor de tensión.
+Mecánica hamiltoniana de distribuciones continúas.

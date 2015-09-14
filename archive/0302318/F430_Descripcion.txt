@@ -1,2 +1,1 @@
-1. Se presentan los desarrollos conceptuales y matemáticos de los fenómenos físicos asociados a la oscilación de sistemas mecánicos y la propagación de ondas mecánicas.
-2. Se presentan ejemplos de osciladores y fenómenos ondulatorios como realizaciones concretas que ilustran la aplicabilidad y generalidad de los conceptos teóricos y las herramientas analíticas.
+El curso brinda los conceptos teóricos necesarios para entender los aspectos más importantes de la física de las oscilaciones y las ondas. Asimismo, proporcionar herramientas fundamentales para la solución de problemas relacionados con los fenómenos ondulatorios y oscilatorios.

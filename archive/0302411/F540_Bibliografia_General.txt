@@ -1,7 +1,55 @@
-1. *Schiff, Quantum Mechanics,McGraw-Hill,New York(1968)
-2. *Merzbacher, Quantum Mechanics, Wiley, New york (1970)
-3. Cohen – Tannoudji C. B., Diu, F. Laloe. Quantum Mechanics, vol. I. Wiley. 1977
-4. Liboff R. L. Introductory Quantum Mechanics. Introductory Quantum Mechanics. 1980
-5. Constantinescu F. Magyari E. Problems in Quantum Mechanics. Pergamon Press. 1971
-6. Campos D. Teoría de Sistemas Cuánticos. Universidad Nacional. 1989
-7. Sakurai J. J. Modern Quantum Mechanics. The Benjamin. 1985
+La literatura en Mecánica Cuántica es demasiado extensa, existen libros para todos los gustos y con diferentes énfasis, visiones y objetivos. Desde los clásicos como Landau, Dirac, Cohen-Tannoudji, Schiff, etc hasta libros como el Peres con su visión completamente instrumental de la teoría cuántica. A pesar de que el libro de Sakurai, recientemente retocado por Napolitano, se ha convertido desde los años 90 en el estándar curricular de la teoría cuántica a nivel de pregrado y posgrado, se ha seleccionado del texto de Beck. Por supuesto, que la elección de texto guía y del énfasis en los contenidos es también un asunto de debate entre los profesores de teoría cuántica (ver Dubson), pero el texto de Beck realiza una construcción de la teoría cuántica a partir de los experimentos de polarización de fotones individuales. El texto de Beck es fácil de leer, conceptual y matemáticamente claro y recoje lo mejor de la discusión histórica de los fundamentos de la mecánica cuántica. En el curso de Mecánica Cuántica I (Física Teórica V) se cubrirán aproximadamente los 13 primeros capítulos del libro. Además del texto de Beck se recomiendan leer simultáneamente el libro de Sakurai. Finalmente se recomienda el texto de Townsed que sirve como una especie de libro de transición entre el Beck y el Sakurai, y para quienes disfruten de los retos el texto de Gottfried.  Empero, el estudiante es libre de elegir el texto de su gusto.
+
+1. Quantum Mechanics: Theory and Experiment, Mark Beck, Oxford University Press, 2012. Uno de lo más modernos textos con el espíritu de los fundamentos y con propuesta de laboratorios.
+
+2. Modern Quantum Mechanics, Second Edition, J. J. Sakurai and Jim Napolitano, Addison-Wesley, 2011.
+
+3, A Modern Approach to Quantum Mechanics, Second Editions, Jhon S. Townsend, University Science Books, 2012.  Es una de las referencias usuales en los currículos de pregrado de las universidades norteamericanas. 
+
+Los texto clásicos:
+
+4. Quantum Mechanics: Fundamentals, Second Edition, Kurt Gottfried and Tung-Mow Yang, Springer--Verlag, 2003. Otro de los grandes textos. Ordenado y riguroso, muy completo.
+
+5. Quantum Mechanics, Third Edition: Non-Relativistic Theory (Volume 3), Third Edition,  L. D. Landau and L. M. Lifshitz, Butterworth-Heinemann, 1976. El gran libro clásico.
+
+6. Quantum Mechanics, Vol. 1 y 2, Claude Cohen-Tannoudji, Bernard Diu and Frank Laloë, Wiley, 1991. El otro gran texto de la tradición francesa. Junto con el Landau son los libros de teoría cuántica más citados en los artículos científicos.
+
+7. Quantum theory: Concepts and Methods, Asher Peres, Kluwer Academic, Publishers, 2002. El particular libro de uno de los pensadores más originales de la teoría cuántica, su fuerte inclinación instrumental (a pesar de ser un teórico) nos recuerda constantemente que el fenómeno cuántico es un asunto experimental, de relaciones entre sistemas de la naturaleza controlados en un laboratorio, y entre objetos matemáticos. Su famoso dictum ``Quantum phenomena do not occur in a Hilbert space. They occur in a laboratory'', lo expresa todo.
+
+8. Quantum Mechanics I y II, Alberto Galindo y Pedro Pascual, Springer--Verlag, 2012. Traducción al inglés del famoso libro en español de Galindo y Pascual. Uno de los poco textos en español traducido al inglés.
+
+9. Quantum Mechanics: A Modern Development, Leslie E. Ballentine, World Scientific, 1998. Un interesante texto de uno de los heterodoxos de la teoría cuántica. Hace enfásis en la noción de estado a través del operador de estado --i.e. operador densidad--.
+
+Libros sobre los fundamentos de la teoría cuántica a diferentes niveles, organizados en orden de complejidad:
+
+10. Dance of the Photons, From Einstein to Quantum Teleportation, Anton Zeilinger, Farrar, Straus and Giroux, 2010.
+
+11. Quantum Mechanics and Experience, David Z. Albert, Harvard University Press, 1994.
+
+12. The Quantum Challenge: Modern Research on the Foundations of Quantum Mechanics, Second Edition, George Greenstein and Arthur G. Zajonc, Jones and Bartlett Publishers, 2006.
+
+13. Lectures on Quantum Theory: Mathematical and Structural Foundations, Chris J. Isham, Imperial College Press, 1995.
+
+14. Exploring the Quantum: Atoms, Cavities, and Photons. Serge Haroche and Jean-Michel Raimond, Oxford Graduate Texts, 2006.
+
+15. Speakable and Unspeakable in Quantum Mechanics, J. S. Bell, Cambridge University Press, 1993.
+
+Bibliografía adicional, junto con manuales de problemas, ¡muy útiles!
+
+16. Practical Quantum Mechanics, Siegfried Flügge, Springer--Verlag, 1998. El viejo manual alemán que no pasa de moda.
+
+17. The Quantum Mechanics Solver: How to Apply Quantum Theory to Modern Physics, Springer--Verlag, 2010. La versión francesa. Resuelve muchos menos problemas pero todos son muy sustanciosos.
+
+18. Exploring Quantum Mechanics: A Collection of 700+ Solved Problems for Students, Lecturers, and Researchers, Victor Galitski, Boris Karnakov, Vladimir Kogan and Victor Galitski Jr.,  Oxford University Press, 2013. El monumental tratado ruso, prácticamente todos los problemas y detalles técnicos de la teoría cuántica usual son tratados en este tomo.
+
+19. Problemas y ejercicios de mecánica cuántica, Luis de la Peña y Mirna Villavicencio, Ediciones Científica Universitarias, Universidad Nacional Autónoma de México y Fondo de Cultura Económica, 2003. Con más de 500 problemas y ejercicios resueltos es sin duda una de las mejores referencias en español. Este volumen acompaña al texto del autor "Introducción a la Mecánica Cuántica". El libro de problemas puede descargarse gratuitamente de la página de la editorial {\it http://www.fondodeculturaeconomica.com/}.
+
+20. The Quantum Dissidents, Rebuilding the Foundations of Quantum Mechanics (1950--1990), Olival Freire Jr., Springer--Verlag, 2015. El fascinante libro del historiador de la ciencia brasileño Olival Freire, en el cual recoje sus trabajos sobre la teoría cuántica. En el libro, el prof. Olival reconstruye la historia de la teoría cuántica desde el punto de vista de los "perdedores", i.e. desde los trabajos de heterodoxos y disidentes, y muestra como la persistencia de estos personajes es la que ha moldeado el debate conceptual de la teoría. El capítulo 7 "La filosofía entra en el laboratorio de óptica", es uno de los relatos más fascinantes sobre el teorema de Bell, su recepción inicial y la lucha por llevarlo al experimento.
+
+21. Historia de la física cuántica: I. El período fundacional (1860-1926). José Manuel Sanchéz Ron, Crítica, 2001. La prehistoria de la teoría cuántica y el relato de los trabajos fundacionales de Heisenberg y Schrödinger en los años maravillosos de 1925 y 1926. EL autor prometió un segundo volumen que aún esperamos con impaciencia.
+
+22. Faculty Disagreement about the Teaching of Quantum Mechanics. Michael Dubson, Steve Goldhaber, Steven Pollock, and Katherine Perkins,  AIP Conf. Proc. 1179, 137 (2009).
+
+23. Artículos originales en revistas como Physical Review (A, Letters), Nature, American Journal of Physics, Foundations of Physics, etc.
+
+24. En la telaraña de la información (WWW) podrá encontrar gran diversidad de materiales: vídeos, diapositivas, artículos, notas de clase, simulaciones, etc, que pueden serle útiles. A lo largo del curso haremos uso de algunos de estos materiales.

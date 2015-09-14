@@ -1,0 +1,9 @@
+Se cuantiza la ecuación de Schrodinger para el caso de bosones.
+
+Se halla la base representación número de partículas del espacio de Hilbert de un campo cuántico de particulas.
+
+Se halla la base de Fock de ese mismo espacio de Hilbert.
+
+Se generaliza a Fermiones.
+
+Se introduce la teoría de perturbaciones aplicada a los campos cuánticos.

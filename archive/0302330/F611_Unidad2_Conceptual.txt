@@ -1,1 +1,8 @@
-Coordenadas generalizadas. Ligaduras. Desplazamientos virtuales y trabajo virtual. Principio de D´Alambert. Ecuaciones de Lagrange deducidas a partir del principio de D´Alambert. Potenciales dependientes de la velocidad y función de disipación. Aplicaciones sencillas de la formulación de Lagrange.
+Coordenadas generalizadas, ligaduras y espacio de configuración.
+Desplazamientos virtuales y trabajo virtual. Principio de D’Alambert.
+Ecuaciones de Lagrange.
+Potenciales dependientes de la velocidad y función de disipación.
+El principio variacional de Hamilton.
+Ecuaciones de Euler–Lagrange.
+Ligaduras no Holonomás y multiplicadores indeterminados de Lagrange.
+La función de energía y energía cinética en coordenadas generalizadas.

@@ -1,1 +1,5 @@
-- Cohen-Tannoudji, B. Diu, F. Lalöe, Quantum Mechanics, Wiley, New York (1977)
+Beck Caps. 13;
+
+Sakurai, secciones 3.6 y 3.7.
+
+Lecturas complementarias: Townsend, Caps. 9 y 10,  De mayor profundidad es el desarrollo de Gottfried en esta ocasión uno de los aspectos más interesantes que se desarrollan en este libro (casi que de manera exclusiva) es la solución al átomo de hidrógeno por métodos puramente algebraicos y usando las simetrías del problema de Coulomb. Para nuestro curso puede leer las secciones 3.6, 5.1 y 5.2.

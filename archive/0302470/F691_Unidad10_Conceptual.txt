@@ -1,3 +1,0 @@
-11: Descripción de la colisión de dos partículas. Derivación de la ecuación de Boltzmann. Ecuación de cambio para valores medios.. Ecuaciones de conservación e hidrodinámica.
-
-12: Probabilidades de transición y la ecuación maestra. Discusión del movimiento Browniano. Cálculo de las distribuciones de probabilidad. Análisis de Fourier de funciones aleatorias.

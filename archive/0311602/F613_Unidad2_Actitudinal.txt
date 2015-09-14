@@ -1,0 +1,7 @@
+Entender la importancia de la existencia de cantidades conservadas, y reconocer el valor que estas tienen en la solubilidad de problemas mecánicos. 
+Comprender el valor de una correcta elección del sistema de unidades como paso previo a la implementación de programas computacionales. 
+Comprender la la importancia de las soluciones dinámicas por encima de las soluciones geométricas en los problemas de mecánica celeste,  ya que las soluciones dinámicas son las herramientas más útiles al momento de predecir fenómenos astronómicos. 
+Valorar la importancia de los puntos de equilibrio de Lagrange para la ubicación de estratégica instrumentación científica. 
+Valorar la importancia del criterio de Tisserand para identificación de cometas. 
+
+  

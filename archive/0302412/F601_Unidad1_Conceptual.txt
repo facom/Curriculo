@@ -1,1 +1,7 @@
-Potencial central: C.C.O.C., Hamiltoniano, separación de variables, ecuación angular y su solución, solución analítica por series, espectro de energía, funciones de onda, diagrama angular de los orbitales, correciones.
+1: Teoría de Raleigh Schrodinger.
+2: Ecuación secular. Efecto Stark.
+3: Método variacional. Atomo de Helio.
+4: La función de onda semiclásica.
+5: Aproximación WKB.
+6: Aplicaciones del método WKB.
+

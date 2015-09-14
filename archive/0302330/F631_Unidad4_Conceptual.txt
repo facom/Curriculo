@@ -1,1 +1,10 @@
-	Introducción. Principio de Hamilton. Ecuaciones de movimiento de Lagrange en coordenadas generalizadas deducidas a partir del principio de Hamilton. Ecuaciones de Lagrange con multiplicadores indeterminados. Equivalencia de las ecuaciones de Lagrange y Newton. Conservación de la energía ( definición de la Función Hamiltoniana). Conservación de la Cantidad de Movimiento Lineal. Conservación de la Cantidad de Movimiento Angular. Ecuaciones canónicas del movimiento. Dinámica hamiltoniana, Transformaciones de Legendre. Ecuaciones de movimiento. Transformaciones puntulaes. Transformaciones en el espacio de fases. Transformaciones Canónicos o de contacto. La función generatriz de una transformación canónica. Corchetes de Poisson.
+Transformaciones de Legendre.
+Ecuaciones canónicas de movimiento de Hamilton.
+Notación simplética.
+Teoremas de conservación.
+Principio de mínima acción.
+Transformaciones canónicas.
+La función generatriz.
+Corchetes de Poisson.
+Método simplético, ecuaciones de movimiento.
+Teoremas de conservación.
