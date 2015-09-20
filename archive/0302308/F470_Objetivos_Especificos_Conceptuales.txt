@@ -1,3 +1,4 @@
-Al terminar el curso el estudiante estará en capacidad de: Utilizar las Leyes y los métodos de la Termodinámica (Ciclos y Potenciales) al estudio de distintos fenómenos en  sistemas macroscópicos, tanto  ideales como no ideales ej:  (gases reales, sólidos, líquidos, sistemas magnéticos).
-Usar los criterios de cambios de fase y describir el equilibrio en sistemas desde el punto de vista fenomenológico.
-Analizar los gases reales.
+•	Reconocer las Leyes de la Termodinámica.
+•	Diferenciar las magnitudes físicas fundamentales y derivadas y su respectiva unidad en el sistema internacional.
+•	Entender los conceptos básicos de temperatura, trabajo, calor, capacidad calorífica, entropía, y las distintas formas de energía.
+•	Describir adecuadamente y con lenguaje científico los fundamentos básicos de la teoría cinética de los gases ideales y de la mecánica estadística.

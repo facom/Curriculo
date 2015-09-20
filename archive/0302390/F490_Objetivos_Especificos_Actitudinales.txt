@@ -1,5 +1,8 @@
 • Conocer y desarrollar la derivación formal de los métodos numéricos.
 • Conocer la convergencia y análisis de error de los métodos numéricos, entendiendo el límite y la fiabilidad de estos en la solución de problemas.
-• Saber que tipo de métodos numéricos se pueden aplicar a situaciones específicas.
+• Saber que tipo de métodos numéricos se pueden aplicar a un problema determinado.
 • Saber implementar computacionalmente (programar) los métodos numéricos vistos.
-• Aprender a realizar pruebas de los métodos numéricos a través de comparación con soluciones analíticas conocidas.
+• Aprender a realizar pruebas de los métodos numéricos a través de comparación con soluciones analíticas conocidas, si es posible.
+. Crear herramientas computacionales para la solución de nuevos problemas.
+
+. Conocer paquetes de rutinas que se pueden instalar en Python.

@@ -1,0 +1,4 @@
+Se utiliza el gráfico de una función f(x) para estimar el rango de valores de x 
+en el cual la función f(x)=0, para usarlo en la solución numérica.
+
+Se explican gráficamente cada uno de los métodos para hallar raíces.

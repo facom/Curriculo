@@ -1,4 +1,1 @@
-Potenciales termodinámicos, Funciones Respuesta. 
-Relaciones de Maxwell.
-Aplicaciones a sistemas sencillos.
-3o  Ley, fundamentos.
+Motor de calor; eficiencia de un motor reversible; la segunda ley de la termodinámica; la equivalencia de las declaraciones de Kelvin-Planck y de Clausius de la segunda ley; ciclo de Carnot; escala absoluta de temperatura; aplicaciones. 

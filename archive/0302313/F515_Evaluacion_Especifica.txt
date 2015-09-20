@@ -1,2 +1,4 @@
-- Informes de prácticas de laboratorio.	75%
-- Pruebas escritas cortas.	        25%
+- Laboratorio 1                         20%
+- Laboratorio 2                         20%
+- Laboratorio 3                         30%
+- Laboratorio 4                         30%

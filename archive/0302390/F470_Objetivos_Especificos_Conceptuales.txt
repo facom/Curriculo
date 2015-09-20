@@ -1,5 +1,9 @@
-• Reconocer la motivación matemática de los métodos numéricos vistos.
-• Reconocer la motivación física de los métodos numéricos vistos.
-• Entender el concepto de solución aproximada, junto con sus capacidades y limitaciones.
-• Establecer la diferencia conceptual entre una solución analítica exacta y una solución numérica aproximada.
-• Reconocer la computación como un apoyo fundamental para la solución de problemas de interés actual.
+Solucionar con métodos numéricos problemas en Física y Astonomía que puedan no
+tener soluciones analíticas.
+
+Utilizar el lenguaje Python en la solución de problemas que exigen pesados cálculos numéricos que hacen imposible su solución de otra manera.
+
+Adiestrar al estudiante en la observación, interpretación y conclusiones de resultados de cálculos numéricos, y de las gráficas obtenidas.
+
+
+

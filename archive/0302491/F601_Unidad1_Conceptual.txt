@@ -1,4 +1,7 @@
-Hechos científicos y su construcción. La tecnología literaria de Boyle, de Steven Shapin.  
-Los conceptos científicos y su construcción. El concepto, de Ernest Mach.
-¿Qué es la ciencia ?. de Richard Feymann.
-¿Qué es la ley ?, de Richard Feymann. 
+El principio de inercia, y la definición de los conceptos de masa y fuerza.
+Principio de conservación del momento. 
+El concepto de estado en física.
+El concepto de interacción y la definición operacional del concepto de masa.
+El concepto de centro de masa.
+Equivalencia de un sistema compuesto y de una partícula puntual.
+La relatividad galileana y la invarianza de las leyes de Newton.

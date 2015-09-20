@@ -1,4 +1,27 @@
-Al terminar el curso el estudiante estará en capacidad de
-Resolver las ecuaciones básicas del electromagnetismo (Ecuación de Laplace ) haciendo énfasis en las condiciones de frontera.
+1) Formular las distintas ecuaciones y leyes de la Electrodinámica (en el vacío) utilizando las ecuaciones de Maxwell.
 
-Aplicar las leyes diferenciales de campo (ecuaciones de Maxwell) y las condiciones de frontera en la solución de problemas de campos electromagnéticos.
+2) Obtener las ecuaciones fundamentales para los campos estacionarios. Saber obtener las soluciones fundamentales de estas ecuaciones conocidas las fuentes del campo: densidad de carga y de corriente eléctricas. Lograr una comprensión física detallada de todos estos resultados.
+
+3) Saber llevar a cabo el desarrollo en multipolos para los campos electrostático y magnetostático. Lograr una comprensión física detallada del carácter de este desarrollo, así como de los distintos momentos multipolares y su uso en la Electrodinámica.
+
+4) Deducir las ecuaciones para las ondas electromagnéticas en el vacío y lograr una interpretación física detallada del concepto de onda electromagnética.
+
+5) Formular el concepto de onda monocromática plana y analizar sus principales propiedades, en especial, la polarización de las ondas.
+
+6) Formular el concepto de "paquete de ondas", lograr una interpretación física detallada del mismo, así como de los conceptos de "velocidad de fase" y "velocidad de grupo".
+
+7) Formular las leyes de conservación de la energía y del momentum lineal del sistema partículas-campo electromagnético.
+
+8) Resolver las ecuaciones de D'Alembert para los potenciales electrodinámicos, logrando una comprensión detallada del concepto de potencial retardado. Aplicar estos resultados al caso de una partícula cargada en movimiento arbitrario y obtener los campos de radiación.
+
+9) Llevar a cabo el análisis de multipolos del campo de radiación con una discusión detallada de los siguientes casos: radiación dipolar eléctrica, radiación dipolar magnética y radiación cuadripolar eléctrica. Saber aplicar estos resultados para estudiar la radiación por sistemas físicos concretos: cargas y sistemas de cargas aceleradas, antenas, etc.
+
+10) Formular el problema de la reacción de la radiación y saber analizar detalladamente las implicaciones físicas fundamentales de este efecto, así como los problemas que introduce en la teoría.
+
+11) Saber aplicar las leyes generales estudiadas a una serie de casos de especial interés como son: movimiento de partículas cargadas en campos eléctricos y   magnéticos, dispersión de ondas por cargas y sistemas de cargas, modelos clásicos de electrón, de átomo, etc.
+
+12) Saber establecer con precisión los límites de validez de la Electrodinámica clásica y alcanzar una mediana comprensión de las dificultades inherentes a la propia teoría (en particular, las relacionadas con el concepto de carga puntual).
+
+13) Elevar el dominio del idioma inglés mediante la estimulación de la lectura de textos sobre electrodinámica en esta lengua.
+
+14) Continuar su desarrollo en el uso de las técnicas computacionales mediante la orientación de ejercicios de electrodinámica que se resuelvan usando estos métodos.

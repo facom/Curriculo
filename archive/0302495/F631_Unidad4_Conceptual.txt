@@ -1,0 +1,2 @@
+Interacción de un átomo con un campo clásico: aproximaciones dipolar y de onda rotante, perturbación periódica y oscilaciones de Rabi en un sistema a dos niveles. Tratamiento el problema de dos niveles con campo cuantizado. Construcción del Hamiltoniano del modelo de Jaynes-Cummings. Resolución para interacción con estados de Fock, con estados coherentes y con estados térmicos. Estados vestidos de la radiación. Análisis de las oscilaciones de Rabi en el caso cuántico: colapsos y resurgimientos. Aproximación dispersiva en el modelo de Jaynes-Cummings.
+

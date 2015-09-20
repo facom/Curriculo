@@ -1,0 +1,2 @@
+Operador densidad y estados mezcla. Propagadores en el cuadro de interacción. Construcción matricial del operador de densidad. Evolución temporal. Aplicación para estados térmicos. Entrelazamiento cuántico: descomposición de Schmidt y entropías de von Neumann en el modelo de Jaynes-Cummings para estados mezclados. Representación de estados cuánticos en la esfera de Bloch.
+

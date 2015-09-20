@@ -1,6 +1,8 @@
-• Sistemas de ecuaciones.
-• Eliminación Gaussiana.
-• Estrategias de pivotes.
-• Inversas y determinantes.
-• Factorización LU.
-• Factorización de Cholesky.
+Solución de Sistemas de ecuaciones lineales.   
+Matrices transpuesta, conjugada, hermítica,  inversa.
+Determinantes, trazas.
+Operaciones matriciales.
+Autovalores y autofunciones.
+
+
+

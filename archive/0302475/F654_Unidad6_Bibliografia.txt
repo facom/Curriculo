@@ -1,5 +1,1 @@
-* R. Matínez Chavanz. Notas (1988).
- * S. Lipschutz.  Algebra Lineal. Schaum, Mc Graw-Hill, México, 1971.
-* G. D. Mostov y J. H. Sampson.  Algebra Lienal, Mc Graw-Hill, México, 1972.   
-* A. Lentin y J. Rivaud. Algebra Moderna, Aguilar, Madrid, 1972.
-* G. Birkhoff y S. Maclane.  Algebra Moderna, Editorial Vicens-Vives, Barcelona, 1963.
+

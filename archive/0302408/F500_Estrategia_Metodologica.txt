@@ -1,2 +1,3 @@
--	Exposición magistral del profesor.
--	Asignación de tareas.
+-Exposición magistral del profesor.
+-Talleres
+-Búsquedas de bibliografía y presentaciones breves de datos fenonmelógicos.

@@ -1,5 +1,5 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 28 Jul 2015 22:08:00 -050";
+$F010_AUTO_Fecha_Actualizacion="Tue, 08 Sep 2015 21:38:09 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";

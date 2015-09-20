@@ -1,1 +1,5 @@
-Hacer los cálculos para las Interacciones electrón-fotón, electrón-electrón, electrón- positrón, etc., partiendo de primeros principios.
+El estudiante debe comprender y asimilar 
+a) la cuantización del campo electromagnético como reducción a un conjunto de osciladores para cada modo y la construcción de nuevos operadores de campo.
+b) la caracterización de diferentes estados cuánticos de luz: estados de Fock, estados cuasiclásicos coherentes, estados squeesed, etc, sus propiedades básicas, sus formas de interacción con la materia y su fotodetección. La descripción de los estados de luz en el espacio de fase .
+c) el estudio del modelo básico de Jaynes-Cummings en la interacción radiación materia. Evolución dinámica de estados puros y mezclados con el formalismo general de la matriz densidad.
+d) el análisis y comprensión de experimentos fundamentales de la óptica cuántica, analizados desde su vertiente teórica.

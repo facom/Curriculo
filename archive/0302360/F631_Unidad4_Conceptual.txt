@@ -1,0 +1,2 @@
+Escritura de documentos en latex usando plantillas de Elsevier, Springer, etc.
+Tablas, insertando figuras, bibliografía

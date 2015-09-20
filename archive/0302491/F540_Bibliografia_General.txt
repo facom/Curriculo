@@ -1,12 +1,12 @@
-  ¿ Qué es la ciencia ?, de Richard Feymann.
-  ¿ Qué es la Ley ?, de Richard Feymann
-     Una bomba circunstancial. La tecnología literaria de Boyle, de Steven Shapin.
-     El concepto, de Ernest Mach.
-     Aprendizaje significativo. Fundamentación teórica y estrategias facilitadoras, de Marco A. Moreira.
-     Hacia un aprendizaje significativo de la energía: II de P. Sánchez. M. Massa.
-     ¿ Cómo construir un mapa conceptual ?, de Marco A. Moreira.
-     Uso de estrategia facilitadoras del aprendizaje significativo en los cursos de física introductoria, de Ricardo Chroback.
-    El aprendizaje significativo en la enseñanza de la física. Rodrigo Covaleda.
-     Modelos mentales, modelos conceptuales y modelamiento, de lleana Greca y Marco Moreira.
-     Aprendizaje significativo y modelos mentales: un estudio descriptivo, de R. M. Otero.
-     Capturing and modeling the process of conceptual change. Learning and instrucción, de Vosnadiu. S.               
+Física conceptual, Guillermo Pineda, Ude@.
+La evolución de los conceptos de la física, Arnold Aarons,
+La física, una aventura del pensamiento, A. Einstein, E. Infeld.
+Los conceptos de la física, Alonso Sepúlveda.
+Diálogos sobre los dos máximos sistemas del mundo, Galileo Galilei
+Special relativity, A. P. French
+Modern Physics, Serway, Moses, Mayer.
+Engines, energy and entropy, John Fenn
+Physics, concepts and connections, Art Hobson
+
+
+           

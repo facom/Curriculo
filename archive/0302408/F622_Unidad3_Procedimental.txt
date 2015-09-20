@@ -1,0 +1,1 @@
+Usar el concepto de tensor para explorar variedades diferenciables cuadridimensionales con métrica pseudo-riemanniana y formular ecuaciones básicas de dichas variedades, especialmente el concepto de curvatura y asociarlo con la física.

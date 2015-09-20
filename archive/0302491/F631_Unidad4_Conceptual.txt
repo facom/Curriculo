@@ -1,0 +1,5 @@
+Estados cuánticos y ecuaciones de onda.
+La función de onda.
+Probabilidad e incertidumbre cuántica.
+Espectroscopia.
+Qbits.

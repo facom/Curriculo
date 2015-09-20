@@ -1,3 +1,1 @@
-Fundamentos de la 1º  y 2º  Ley.
-Energía Interna, Calor y Entropía.
-Procesos cíclicos y máquinas térmicas.
+La naturaleza del calor; capacidad calorífica; calorimetría; la conservación de la energía; energía interna; aplicaciones de la primera ley; flujo de energía; estados organizados; flujo cuasi-estático del calor; gases ideales; teoría cinética. 

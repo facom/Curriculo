@@ -1,1 +1,1 @@
-Demostrar la Ley del cuadrado del inverso de la distancia y calcular el coeficiente de absorción de rayos gamma de varios materiales.
+Determinar el valor medio del espesor y el coeficiente de absorción del aluminio y del plomo para la radiación gamma nuclear.

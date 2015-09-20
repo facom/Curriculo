@@ -1,0 +1,9 @@
+• Enunciar y explicar el principio de interferencia y definir coherencia e incoherencia.
+• Presentar, explicar y analizar el concepto de interferencia de dos o más fuentes y encontrar la expresión matemática para los máximos y mínimos de intensidad.
+• Describir y aplicar el método de fasores para hallar la amplitud del campo eléctrico resultante de la interferencia de dos o más fuentes.
+• Explicar y analizar la interferencia producida por películas delgadas.
+• Explicar en detalle desde el punto de vista teórico y experimental el concepto de difracción.
+• Realizar el análisis teórico necesario para encontrar el patrón de difracción de Fraunhofer generado por una rendija.
+• Enunciar y aplicar el concepto de poder de resolución para una rendija y una abertura circular.
+• Estudiar y analizar los efectos combinados de interferencia y difracción producidos en el experimento de Young.
+• Describir el patrón de intensidad generado por una rejilla de difracción en la región de Fraunhofer y hallar el poder de resolución de la rejilla.

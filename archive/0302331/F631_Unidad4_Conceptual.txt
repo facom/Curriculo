@@ -1,1 +1,1 @@
-Polarización. Configuración circuital. Modelos de funcionamiento. Diseño de amplificadores análogos. Problemas. 
+Construccion, operación, configuraciones, acción amplificadora y limites de operación del transistor. Circuitos de polarización y diversas configuraciones de polarización del transistor. Aplicaciones. Problemas. 

@@ -3,3 +3,7 @@ a. Reconocer su afición por la lectura de revistas científicas.
 b. Practicar el idioma inglés, mediante la lectura y análisis de artículos científicos.
 c. Realizar exposiciones orales.
 d. Reconocer el ambiente de diálogo, discusión y oposición entre sus compañeros.
+e. Aprender a presentar ponencias en posters, orales, artículos.
+f. Aprender nociones básicas de Fortran, Origin y Mathematica
+g. Aprender a colsultar en las beses de datos Web of Science, JCR, Scopus  
+

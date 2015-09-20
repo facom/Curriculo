@@ -5,6 +5,19 @@
   BODY{
   font-family:Arial,Helvetica;
   }
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
   </style>
 </head>
 <body>
@@ -18,19 +31,10 @@
   </tr>
 </table>
 <p></p>
-<table border=0 width=650px style='border-collapse:collapse'>
-  <tr>
-    <td width=50%></td><td width=50%></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style='text-align:center;border:1px solid;;'>
-      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA 00 DEL MM/DD/CCYY.
-    </td>
-  </tr>
-</table>
+
 <p></p>
 <p></p>
+
 <p style="text-align:center;font-size:18px;width:650px">
   <b>PROGRAMA DE CIENCIAS PLANETARIAS</b>
 </p>
@@ -61,6 +65,7 @@
   </tr>
 </table>
 <p></p>
+
 <p><b>INFORMACIÓN GENERAL</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
@@ -72,7 +77,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Semestre</b></td>
-    <td width=60% style='border:1px solid;;'>5</td>
+    <td width=60% style='border:1px solid;;'>2015-2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Área</b></td>
@@ -134,7 +139,7 @@
   </thead>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Propósito del Curso:</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>Ofrecer una panorámica teórica del conocimiento acumulado sobre el Sistema Solar en particular y los sistemas planetarios en el Universo en general haciendo énfasis en los procesos físicos como la formación, la organización y la estructura de la materia en este nivel de organización y sus posibilidades de habitabilidad. </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Justificación:</b></td>
@@ -154,7 +159,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Contenido Resumido:</b></td>
-    <td width=60% style='border:1px solid;;'>1-Física y procesos planetarios<br/>2-Sistema Solar<br/>3-Exoplanetas y Habitabilidad<br/></td>
+    <td width=60% style='border:1px solid;;'>1-Física de los procesos planetarios<br/>2-Sistema Solar<br/>3-Exoplanetas y Habitabilidad<br/></td>
   </tr>
 </table>
 
@@ -167,7 +172,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Física y procesos planetarios</td>
+    <td width=60% style='border:1px solid;;'>Física de los procesos planetarios</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
@@ -294,7 +299,11 @@
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
     <td style='border:1px solid;;' valign=top>
-      Planetary Sciences. Imke de Patter, Jack Lissauer. Cambridge University Press. 2007<br/>Astrophysics of Planet Formation. Philip Armitage. Cambridge University Press. 2010.<br/>Exoplanets. Sara Seager.  University of Arizona Press, 2010.<br/>Planetary Science The Science Of Planets Around Stars.   Cole & Woolfson.  IoP. 2002.<br/>Physics of the Earth.  Stacey & Davies.  2008.<br/>Treatise on Geophysics.  Volume 10.  Spohn.  Elsevier, 2010.<br/>Encyclopedia of the Solar System.  Ed. McFadden, Weissman & Johnson. Elsevier, 2006.<br/>The New Solar System.  Ed. Beatty.  Cambridge.  1999.<br/>Extrasolar Planets and Astrobiology. Caleb A. Scharf.  University Science Books, 2008.<br/><br/><br/>Sitios web recomendados:<br/>http://exoplanet.eu<br/>http://kepler.nasa.gov<br/>http://solarsystem.nasa.gov/index.cfm<br/>http://adsabs.harvard.edu/<br/>Planetary Sciences. Imke de Patter, Jack Lissauer. Cambridge University Press. 2007<br/>Astrophysics of Planet Formation. Philip Armitage. Cambridge University Press. 2010.Planetary Sciences. Imke de Patter, Jack Lissauer. Cambridge University Press. 2007.<br/>Encyclopedia of the Solar System.  Ed. McFadden, Weissman & Johnson. Elsevier, 2006.<br/>The New Solar System.  Ed. Beatty.  Cambridge.  1999.Exoplanets. Sara Seager.  University of Arizona Press, 2010.<br/>Extrasolar Planets and Astrobiology. Caleb A. Scharf.  University Science Books, 2008.
+      Planetary Sciences. Imke de Patter, Jack Lissauer. Cambridge University Press. 2007<br/>Astrophysics of Planet Formation. Philip Armitage. Cambridge University Press. 2010.<br/>Exoplanets. Sara Seager.  University of Arizona Press, 2010.<br/>Planetary Science The Science Of Planets Around Stars.   Cole & Woolfson.  IoP. 2002.<br/>Physics of the Earth.  Stacey & Davies.  2008.<br/>Treatise on Geophysics.  Volume 10.  Spohn.  Elsevier, 2010.<br/>Encyclopedia of the Solar System.  Ed. McFadden, Weissman & Johnson. Elsevier, 2006.<br/>The New Solar System.  Ed. Beatty.  Cambridge.  1999.<br/>Extrasolar Planets and Astrobiology. Caleb A. Scharf.  University Science Books, 2008.<br/><br/><br/>Sitios web recomendados:<br/>http://exoplanet.eu<br/>http://kepler.nasa.gov<br/>http://solarsystem.nasa.gov/index.cfm<br/>http://adsabs.harvard.edu/<br/>
     </td>
   </tr>
 </table>
+<p style="font-size:10px">
+<b>Última actualización</b>: Mon, 14 Sep 2015 02:01:34 -0500<br/>
+<b>Firma Autorizada Facultad</b>: (No autorizado. Este documento es solo un borrador.)
+</p>

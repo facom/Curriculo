@@ -1,0 +1,5 @@
+1. Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
+2. Gilbert G., Aspect A. and Fabre c., Introduction to Quantum Optics; From the Semiclassical Approach to Quantized Light, Cambridge University Press, 2010.
+3. Scully, M. and Zubairy M., Quantum Optics, Cambridge University Press, 1997.
+4. Lambropoulos P and Petrosyan D. Fundamentals of Quantum Optics and Quantum Information, Springer Verlag, 2007
+5. Orszag M. Quantum Optics, Springer Verlag, 2008

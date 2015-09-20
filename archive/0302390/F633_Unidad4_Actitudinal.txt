@@ -1,0 +1,4 @@
+Observar lo que ocurre cuando se utilizan un número diferente de intervalos de integración, (muy pocos o demasiados).
+
+Observar los errores que se pueden cometer en derivación numérica cuando se escogen punbtos demasiado cercanos o demasiado alejados.
+

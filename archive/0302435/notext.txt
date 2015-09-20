@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 09 Sep 2015 19:44:47 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 10 Sep 2015 09:35:03 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="418";
 $F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="Jorge Mario Osorio Guillén";
+$F050_Nombre_Actualiza="daniel jaramillo";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302435";
 $F110_Nombre_Asignatura="Electromagnetismo II";

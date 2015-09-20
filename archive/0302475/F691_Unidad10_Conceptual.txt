@@ -1,1 +1,0 @@
-Espacios topológicos, definición. Compacidad, Conexidad, mapas continuos, ejemplos. Definición de homeonorfismos y ejrmplos. Definiciones de variedad, coordenadas, cartas y atlases. Espacio tangente y cotangente, vectores y campos vectoriales. Formas diferenciales en variedades, integración de formas.

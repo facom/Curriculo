@@ -1,0 +1,1 @@
+Poder mostrar que el universo es modelable en ciertas escalas como polvo (fluido perfecto). Usar este hecho para encontrar soluciones relativistas a la geometría del mismo.

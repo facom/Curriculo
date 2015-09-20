@@ -1,0 +1,5 @@
+- Emplear la descripción teórica de los osciladores armónicos, amortiguados, forzados y acoplados para describir el comportamiento de sistema físicos reales. 
+- Utilizar la teoría de ondas elásticas para describir los aspectos básicos de la propagación de ondas elástica en una barra, en un fluido y en una cuerda.
+- Utilizar los desarrollos teóricos en torno a las ondas electromagnéticas para describir su propagación y conceptos como la polarización y la presión de radiación. Además, describir los fenómenos de reflexión y refracción asociados a problemas reales.
+- Emplear las leyes de refracción y reflexión para describir y analizar la formación de imágenes por sistemas reflectivos y refractivos.
+- Aprovechar la teoría de la óptica física para describir y analizar los efectos asociados con la interferencia y difracción de ondas.

@@ -1,5 +1,20 @@
-•	J. D. Bjorken and S.D. Drell. Relativistic quantum mechanics.
-    ( Mc. Graw Hill B.C. N.Y.1964).
-•	R. P. Feynman. Quantum electrodynamics. (Benjamín P.C. N.Y. 1962).
-•	J.M. Jauch and F. Rohrlich. Theory of photons and electrons.
-    (Addison Wesley P.C. Cambridge 1955
+El texto guía básico del curso es el libro de Gerry y Knight, si bien hay otros manuales de estudio y consulta de gran utilidad:
+
+1.Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
+2.Barnnet S. and Radmore P., Methods in Theoretical Quantum Optics, Oxford University  
+3.Gilbert G., Aspect A. and Fabre c., Introduction to Quantum Optics; From the Semiclassical Approach to Quantized Light, Cambridge University Press, 2010.
+4.Scully, M. and Zubairy M., Quantum Optics, Cambridge University Press, 1997.
+5.Haroche S. and Raimond J-M, Exploring the quantum: Atoms, cavities and photons, Orford University Press, 2006.
+6.Lambropoulos P and Petrosyan D. Fundamentals of Quantum Optics and Quantum Information, Springer Verlag, 2007
+7.Walls D.F. and Milburn G.J. , Quantum Optics, Springer-Verlag, 1994.
+8.Mandel L and Wolf E, Optical Coherence and Quantum Optics, Cambridge University Press, 2005
+9.Klauder J.R.  and Sudarshan E.C.G. Fundamentals of Quantum Optics, Benjamin, 1968.
+10.Loudon R. The quantum theory of light,  Oxford University Press, 2000
+11.Glauber R. Quantum Theory of Optical Coherence: Selected papers and lectures, Wiley, 2007
+12.Shore B. Manupulating Quantum Structures using laser pulses, Cambrigde University Press, 2011
+13.Orszag M. Quantum Optics, Springer Verlag, 2008
+14.W. P. Schleich, E. Mayr, and D. KrÄahmer, Quantum optics in phase space, Wiley-VCH, Weinheim, 2000.
+15.A. M. Fox: Quantum optics: an introduction, Oxford University Press, 2006
+
+
+

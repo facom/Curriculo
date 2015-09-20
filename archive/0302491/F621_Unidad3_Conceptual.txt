@@ -1,0 +1,7 @@
+Teoría electromagnética y síntesis de Maxwell.
+Revisión conceptual de las ecuaciones de Maxwell.
+Discusión de los conceptos de gradiente, divergencia y rotacional.
+El concepto de campo electromagnético.
+El concepto de onda electromagnética.
+Ondas hertzianas.
+Invarianza de las ecuaciones de Maxwell y teoría de la relatividad.

@@ -1,1 +1,5 @@
-* R. Matínez Chavanz. Notas (1988).
+* George B. Arfken, Hans J. Weber, Frank E. Harris. Mathematical Methods for Physicists.
+
+* Steven Weinberg. Gravitation and Cosmology: Principles and applications of the general theory of relativity.
+
+*Notas del profesor 

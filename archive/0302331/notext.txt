@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 08 Sep 2015 10:46:14 -050";
+$F010_AUTO_Fecha_Actualizacion="Tue, 08 Sep 2015 15:53:41 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="418";
-$F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="Jorge Tobon";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302331";
 $F110_Nombre_Asignatura="Electrónica";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="Física Experimental";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2015-1";
+$F330_Semestre="2015-2";
 $F330_Semestre_Plan="4";
 $F340_Horario_clase="WV10-12";
 $F350_Requisitos="Electricidad y Magnetismo, Computadores en Física";

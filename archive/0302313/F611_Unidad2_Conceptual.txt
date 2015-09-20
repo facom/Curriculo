@@ -1,1 +1,2 @@
 Determinar el valor de la constante de Planck por medio del efecto fotoeléctrico.
+Estarán enfocados en la comprensión de conceptos como la naturaleza corpuscular de la luz y la determinación de la constante de Planck.

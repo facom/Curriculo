@@ -1,0 +1,4 @@
+No todos los métodos convergen; si no se estiman apropiadamente las condiciones
+iniciales, el algoritmo puede diverger.
+
+Cada algoritmo tiene un método para terminar la búsqueda de la raiz.  Se debe comprender cada criterio de terminación.

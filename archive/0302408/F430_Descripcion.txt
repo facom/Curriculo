@@ -1,4 +1,1 @@
-Lograr que el estudiante se familiarice con los conceptos y principios básicos de la teoría especial de la relatividad. 
-• Lograr que el estudiante comprenda las relaciones y diferencias entre los conceptos y las leyes relativistas, y los conceptos y leyes clásicas correspondientes. 
-• Lograr que el estudiante pueda trabajar problemas de cinemática y dinámica relativista usando el formalismo de los cuadrivectores. 
-• Introducir al estudiante en el estudio de la electrodinámica covariante.   
+Lograr que el estudiante pueda explicar la gravitación como un fenómeno de la geometría del espacio tiempo. En particular se exploran los conceptos matemáticos necesarios para ese propósito tales como tensores en una variedad diferenciable, métrica y curvatura. Luego se muestran los elementos físicos que llevan a conectar la física con la geometría (curvatura y materia) y los principios de la relatividad general. Se plantea la ecuación de Einstein y se resuelve para campo débil, ondas gravitacionales, distribuciones de materia esféricas y se plantean modelos sencillos pero importantes del universo.

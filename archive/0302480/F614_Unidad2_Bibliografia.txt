@@ -1,2 +1,3 @@
 * B. H. Bradsen, C. J. Joachain.   Physics of Atoms and Molecules. Longman & Prentice Hall, New York, 2003.
 * C. Sánchez del Río. Introducción a la Teoría del Átomo. Alhambra, Madrid, 1977
+* M. O. Scully, M. S. Zubairy. Quantum Optics. CUP, New York, 1997.

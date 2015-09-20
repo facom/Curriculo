@@ -1,8 +1,7 @@
-El curso será desarrollado a través de una metodología que vincula los siguientes aspectos:
+Se explica el fundamento teórico de un método numérico, se detalla el programa en Python, se discute la programación y su fundamento matemático y científico, se analizan los resultados, se estudian los errores que el método conlleva.
 
-La clase magistral
-La asignatura Métodos computacionales se fundamenta principalmente en la cátedra magistral con apoyo de material visual presentado en notebooks de iPython. Durante la clase magistral se desarrollan los contenidos conceptuales, incluyendo la derivación y motivación de los métodos numéricos a ser cubiertos durante clase. En una segunda parte de la clase se desarrollan problemas aplicados que involucren los métodos vistos en la primera parte.
+Se proponen tareas complementarias para ayudar al estudiante a aplicar el método a situaciones nuevas.
 
-Actividades independientes y asistidas
-Con el fin de profundizar los conceptos y sus aplicaciones a diversas situaciones, cada semana se proponen tareas aplicadas o teóricas con un conjunto de preguntas que los estudiantes deben resolver. La semana siguiente, durante clase, se hace un espacio para la discusión de los resultados obtenidos y las conclusiones que los estudiantes derivan de las tareas. En caso de haber una inconsistencia con los resultados, los estudiantes deben justificarlas apelando a la teoría de errores y a las limitaciones de la aplicabilidad de los métodos.
- 
+Cada estudiante comparte una carpeta de dropbox con el profesor en la cual coloca sus tareas, el profesor la corrige y califica.
+
+El fraude será severamente castigado.

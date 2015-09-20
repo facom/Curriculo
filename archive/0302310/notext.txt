@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 27 May 2015 18:10:40 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 29 May 2015 18:55:36 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="418";
 $F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="--";
+$F050_Nombre_Actualiza="Daniel Humberto Martínez Suárez";
+$F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0302310";
 $F110_Nombre_Asignatura="Física III";
 $F120_Tipo_Curso="--";

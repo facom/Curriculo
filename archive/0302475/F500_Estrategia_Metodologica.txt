@@ -1,3 +1,2 @@
 -	Conferencia magistral del profesor.
--	Solución de ejemplos, ejercicios y talleres.
--	El estudiante debe participar con tareas regulares.
+-	Solución de ejemplos y ejercicios.

@@ -6,5 +6,4 @@ Momentos de la CBE. Ecuaciones de Jeans en coordenadas cilíndricas. Ecuaciones 
 Aplicaciones: Dispersión de velocidades en la línea de la visual. Distribución de masa de un sistema esférico. Achatamiento de galaxias elípticas.
 Estructura de orbitas: Orbitas en un potencial esférico estático. Constantes de integrales de movimiento. Orbitas en potenciales de simetría axial. Orbitas semi-circulares: aproximación de epiciclo.
 Estructura de orbitas en la Vía Láctea. Cinemática galáctica. Constantes de Oort.
-Dinámica de sistemas de partículas: Fricción dinámica. Torques gravitacionales. Stripping.  
-Evolución galáctica. Evolución espectrofotométrica. Evolución química. Evolución de cúmulos estelares.
+Dinámica de sistemas de partículas: Fricción dinámica. Torques gravitacionales. Stripping.

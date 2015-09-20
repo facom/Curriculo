@@ -1,8 +1,10 @@
--L. C. Martin, “Technical Optics”, Vol. 1, Sir Isaac Pitman & Sons, Ltda.,
-Third Edition, Londres, 1959.
--M. Françon, N. Krauzman, J. P. Mathieu, M. May, “Experiments in Physical
-Optics”, Gordon and Breach Science Publishers, New York, 1970.
-- F.T.S. Yu, “Optical Information processing”, Wiley, New York (1990).
-- J. Shamir, “Optical System and Processes”, SPIE Press, Washington (1999).
-- H. Groos, “Handbook of optical systems”, Volume 2: Physical imaging Formation, Wiley-VCH, Germany (2005).
-- O.K. Erson, “Difraction, Fourier Optics and Imaging”, John Wiley & Sons, New Jersey (2007).  
+1. E. Hecht y A. Zajac.   Óptica.  Fondo Educativo Interamericano S. A., EEUU., 1977.
+2. F. A. Jenkins and M. E. White.   Fundamentals of Optics. McGraw-Hill, New York, 1957.
+3. M. Born and E. Wolf.   Principles of Optics.  Pergamon Press, Oxford, 1970.
+4. L. C. Martin, “Technical Optics”, Vol. 1, Sir Isaac Pitman & Sons, Ltda.,Third Edition, Londres, 1959.
+5. M. Françon, N. Krauzman, J. P. Mathieu, M. May, “Experiments in Physical Optics”, Gordon and Breach Science Publishers, New York, 1970.
+6. F.T.S. Yu, “Optical Information processing”, Wiley, New York (1990).
+7. J. Shamir, “Optical System and Processes”, SPIE Press, Washington (1999).
+8. H. Groos, “Handbook of optical systems”, Volume 2: Physical imaging Formation, Wiley-VCH, Germany (2005).
+9. O.K. Erson, “Difraction, Fourier Optics and Imaging”, John Wiley & Sons, New Jersey (2007).  
+

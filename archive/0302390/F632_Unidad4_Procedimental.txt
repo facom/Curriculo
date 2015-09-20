@@ -1,0 +1,8 @@
+Se ilustran los métodos para integración, se comparan con resultados analíticos.
+
+Se muestra cómo las integrales elípticas se pueden hallar numéricamente con facilidad mientras que las soluciones analíticas son demasiado complicadas.
+
+Para las derivadas numéricas se utilizan las series de Taylor para estimar los errores dependiendo del método.
+
+
+Métodos de Monte Carlo para integrales que no tienen solución analítica.

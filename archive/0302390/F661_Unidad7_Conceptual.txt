@@ -1,4 +1,4 @@
-• Ajuste de datos.
-• Generación de números aleatorios.
-• Técnicas de montecarlo.
+• Generación de números aleatorios con distribuciones normal, gaussiana y    exponencial decreciente.
+• Técnicas de montecarlo, caminos aleatorios, caminos aleatorios autoevitables.
+
 • Estadística descriptiva.

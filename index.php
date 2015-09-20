@@ -447,6 +447,13 @@ LISTA;
 }
 
 ////////////////////////////////////////////////////
+//CREA RESPALDO
+////////////////////////////////////////////////////
+if(isset($_GET["backup"])){
+  shell_exec("bash backup.sh");
+}
+
+////////////////////////////////////////////////////
 //LISTA DE CURSOS
 ////////////////////////////////////////////////////
 if(isset($_GET["planes_asignatura"])){
@@ -1493,6 +1500,11 @@ if($lista){
 //FOOTER
 ////////////////////////////////////////////////////
 footer:
+
+if($QADMIN==4){
+  echo "<a href='?backup'>Hacer respaldo</a> | <a href='tmp/backup-curriculo.tar.gz'>Descargar espaldo</a>";
+}
+
 $filetime=date(DATE_RFC2822,filemtime("index.php"));
 echo<<<FOOTER
 <hr/>

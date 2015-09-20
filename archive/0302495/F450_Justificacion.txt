@@ -1,1 +1,6 @@
-Estudiar los principios básicos de la teoría que rigen la interacción de la radiación con la materia   y aplicarles a algunos procesos fundamentales.
+El área de la óptica cuántica es uno de los campos de más intenso estudio en las últimas décadas que ha llevado a otorgar varios Premios Nobel en este área en los últimos tiempos, a saber:
+1997, Steven Chu, Claude-Cohen-Tannoudji y William D. Phillips, por la manipulación de átomos con luz.
+2001, Wolfgang Ketterle, Eric Allin Cornell y Carl Wieman, por la generación experimental de condensados de Bose-Einstein
+2005 Theodor W. Hänsch, Roy J. Glauber y John L. Hall, por el desarrollo de la espectroscopia de alta precisión y la teoría cuántica de la coherencia.
+2012 Serge Haroche y David J. Wineland, por la manipulación de sistemas cuánticos individuales de luz y materia,
+Tras los cursos de electrodinámica clásica y mecánica cuántica, el estudiante está preparado para abordar el estudio cuántico de la radiación.  Los estados cuánticos de la radiación pueden contener fuertes correlaciones cuánticas en su interacción con la materia (entrelazamiento) cuyas propiedades son sustanciales para entender fenómenos de la espectroscopía e interferometría de precisión y de la teoría cuántica del procesamiento y transporte de la información

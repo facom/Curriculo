@@ -1,1 +1,2 @@
-Investigar la Ley de Moseley por medio de la absorción de rayos x.
+Estudiar algunas características del contador Geiger-Müller. 
+Demostrar la ley del inverso del cuadrado de la distancia en la propagación de la radiación.

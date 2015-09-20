@@ -1,0 +1,1 @@
+En esta unidad se presenta el algoritmo matemático de las series de perturbaciones dinámicas de la mecánica cuántica y su rango de validez. 

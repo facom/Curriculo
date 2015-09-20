@@ -1,9 +1,9 @@
+B. H. Bransden, C. Joachain. Physics of Atoms and Molecules. Longman, New York, 1991.
+
 H. Friedrich. Theoretical Atomic Physics. Springer, New York, 1992
 
-C. Sánchez del Río.   Introducción a la Teoría del Atomo.   Alhambra, Madrid, 1977.
+C. Sánchez del Río. Introducción a la Teoría del Atomo. Alhambra, Madrid, 1977.
 
-L.D. Landan y E.M. Lifshitz, Mecánica Cuántica no Relativista, Reverte, Barcelona, 1975.
+L.D. Landau y E.M. Lifshitz. Mecánica Cuántica no Relativista. Reverte, Barcelona, 1975.
 
-M. Bethe. E. Salpeter. Quatum Mechanics of one and two electron systems, Springer, Berlín, 1957.
-
-En general, cualquier libro de Física Atómica y Molecular, Espectroscopía y Mecánica Cuántica.
+M. O. Scully, M. S. Zubairy. Quantum Optics. CUP, New York, 1997.

@@ -1,0 +1,1 @@
+En esta unidad se estudia el espacio de Hilbert para un conjunto de muchas partícula idénticas y se trabajan los algoritmos matemáticos analíticos para derivar un conjunto completo de vectores de estado para dicho espacio y un conjunto completo de operadores cuánticos en el mismo. 

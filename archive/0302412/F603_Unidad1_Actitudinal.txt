@@ -1,0 +1,3 @@
+En esta unidad se presenta el algoritmo matemático de las series de perturbaciones y su rango de validez y convergencia, y se hace una introducción al cálculo de variaciones.
+
+Se hace un análisis crítico del límite clásico de la mecánica cuántica y la relación que hay entre la óptica geométrica y la ondulatoria.

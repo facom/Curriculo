@@ -1,0 +1,1 @@
+ver secciones  8.5 y 8.7 de A survey of computational physics, para la interpolación de Lagrange y el fiteo de mínimos cuadrados.

@@ -1,3 +1,1 @@
-Reglas y aplicaciones.
-Transiciones de fase de 1o orden, 2o orden y orden superior. 
-Ecuaciones de Clapeyron y Ehrenfest.
+La entropía en los procesos reversibles e irreversibles; entropía de un gas ideal; producción de entropía debido a la difusión; propiedades generales de la entropía; aplicaciones del principio de entropía; interpretación estadística de entropía; entropía y desorden; tercera ley de la termodinámica. 

@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 08 Sep 2015 13:45:36 -050";
+$F010_AUTO_Fecha_Actualizacion="Tue, 08 Sep 2015 14:40:02 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="418";
 $F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="Boris Anghelo Rodríguez Rey";
+$F050_Nombre_Actualiza="Jhonny Castrillon";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302411";
 $F110_Nombre_Asignatura="Mecánica Cuántica I";

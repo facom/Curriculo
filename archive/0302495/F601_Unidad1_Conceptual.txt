@@ -1,10 +1,1 @@
-Recuento histórico. Ecuación de Pauli-Schrödinger.
-Principios de relatividad especial.
-Ecuación de klein-Gordon. Ecuación de Dirac.
-Diracología.
-Ecuación de Dirac para un electrón en un campo electromagnético
-El operador velocidad.
-El espín del electrón y la corriente.
-Más Diracología.
-Covairanza de la ecuación de Dirac.
-La matriz S.
+Ecuaciones de Maxwell, componentes longitudinales y transversales. Cuantización del campo monomodo. Estados de Fock o estados número de fotones. Fluctuaciones cuánticas y del vacío. Operadores de cuadratura. Introducción a campos multimodo. El problema de la fase cuántica.  

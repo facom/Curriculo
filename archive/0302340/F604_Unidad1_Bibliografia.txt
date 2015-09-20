@@ -1,2 +1,3 @@
-* F.A. Jenkins and M.E. White. Fundamentals of Optics. McGraw-Hill, New York, 1957.
-* M. Born and E. Wolf. Principles of Optics. Pergamon Press, Oxford, 1970  
+F.A. Jenkins and M.E. White. Fundamentals of Optics. McGraw-Hill, New York, 1957.
+M. Born and E. Wolf. Principles of Optics. Pergamon Press, Oxford, 1970
+R. Guenther, Modern Optics. Wyle, New York, 1990. 

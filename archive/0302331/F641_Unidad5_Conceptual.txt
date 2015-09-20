@@ -1,1 +1,1 @@
-Amplificadores de voltaje y corriente, ancho de banda, realimentación. Amplificador operacional y sus aplicaciones. Problemas.
+Amplificadores: de voltaje, corriente, transresistencia y transconductacia. Ancho de banda. Retroalimentación. Amplificadores operacionales y sus aplicaciones. Problemas.

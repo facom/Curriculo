@@ -1,0 +1,3 @@
+Observar como el computador produce errores en los cálculos.
+
+El computador no maneja infinitas cifras decimales.

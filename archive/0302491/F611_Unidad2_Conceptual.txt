@@ -1,8 +1,10 @@
-Diferencias entre Pedagogía-didáctica y Enseñanza-aprendizaje.
-Corrientes filosóficas y teorías de aprendizaje.
-Teoría Constructivista del aprendizaje: Aprendizaje significativo en la física, temática: La energía.
-Diseño de material potencialmente significativo.
-Estrategias de aprendizaje significativo: Mapas conceptuales. V de Gowin.
-Resolución de problemas, actividad experimental, situaciones problemáticas.
-Modelos y Modelización en la física.
-Propuestas temáticas.
+El concepto de equilibrio térmico.
+Origen de los conceptos de calor y temperatura. 
+Definición operativa del concepto de temperatura.
+Irreversibilidad de los procesos termodinámicos.
+El concepto de entropía.
+Teoría cinética del calor.
+Teoría atómica y corpuscular de la materia.
+Ley de conservación de la energía.
+Interpretación estadística del concepto de temperatura.
+Interpretación estad´stica del concepto de entropía.

@@ -1,1 +1,0 @@
-Definición de grupo. Grupos discretos y continuos. Definiciones de grupos simples 3 semisimples. Representación de un grupo, irreducibilidad. Grupo SU(2)  y sus representaciones. Representación producto, coeficientes de Clebsch- Gordon. Introd. A SU (3) .

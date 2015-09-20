@@ -1,1 +1,0 @@
-Producto tensorial de formas multilineales. Tensores. Algebra de tensores. Bases tensoriales. Cambio de base. Potencia tensorial de un espacio.

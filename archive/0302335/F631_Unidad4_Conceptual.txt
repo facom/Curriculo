@@ -1,1 +1,20 @@
-Fuerza magnética. Inducción magnética. Ley de Biot-Savart. Potencial vectorial. Ley de Ampere. Ecuación de continuidad. Expansión multipolar.
+1. Solución de las ecuaciones para los potenciales del campo electromagnético
+2. Identidad de Kirchhoff
+3. Función de Green para la ecuación de D’Alembert en el espacio abierto
+4. Potenciales retardados
+5. Campo electromagnético de una partícula cargada en movimiento arbitrario. Potenciales de Liénard-Wiechert
+6. Campo estático y campo de radiación
+7. Vector de Poynting en la región alejada de la fuente
+8. Potencia radiada. Fórmula de Larmor
+9. Dispersión de la radiación
+10. Dispersión de la radiación por partículas aisladas
+11. Dispersión de la radiación por partículas elásticamente ligadas
+12. Energía absorbida en el proceso de dispersión
+13. Reacción de la radiación
+14. Función de distribución espectral
+15. Función de distribución espectral para el oscilador armónico simple
+16. Función de distribución espectral para el oscilador amortiguado
+17. Desarrollo en multipolos para el campo de radiación
+18. Aproximación dipolar eléctrica para el campo de radiación
+19. Aproximación dipolar magnética para el campo de radiación
+20. Campo de radiación en la aproximación cuadrupolar eléctrica.

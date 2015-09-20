@@ -1,1 +1,1 @@
-Formas multilineales alternadas. Formas n-lineales alternadas sobre un espacio vectorial de dimensión n. Determinantes. Determinante de un sistema de vectores. Determinante de una matriz cuadrada. Determinante de un operador. Orientación del espacio en matemáticas y física.
+Introducciòn a la teoria de grupos. Generadores de grupos continuos. Momentum angular orbital. Acoplamiento de momentum angular orbital. Grupo de Lorentz homogeneo. Grupos discretos.

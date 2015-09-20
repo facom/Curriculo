@@ -1,3 +1,2 @@
-* Resolver problemas físicos usando funciones especiales.
-* Identificar la importancia de las diferentes funciones especiales para resolver problemas físicos.
-* Solucionar ecuaciones diferenciales no homogéneas.
+* Identificar la importancia de la teoría de SL.
+* Establecer relaciones de completez para las principales funciones especiales.

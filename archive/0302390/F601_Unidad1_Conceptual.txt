@@ -1,6 +1,7 @@
-• Introducción a Python.
-• Scripting básico y uso de librerías numéricas.
-• Graficación y uso de Notebooks de iPython.
-• Aritmética computacional.
-• Errores de redondeo.
-• Algoritmos y convergencia.
+• Repaso breve del Python
+• Estructura básica de un programa en Python.
+• Numpy y rutinas de graficación.
+• Operaciones aritméticas con reales y complejos.
+. Números aleatorios,  método del congruente lineal y problemas.
+• Errores: redondeo, truncamiento, sustracción cancelativa, precisión de la máquina.
+• Algoritmos .

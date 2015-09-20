@@ -1,0 +1,3 @@
+Escritura de códigos fuentes en Fortran.
+Rutinas, funciones.
+Integrales 1D, resolviendo ecuaciones trascendentales.

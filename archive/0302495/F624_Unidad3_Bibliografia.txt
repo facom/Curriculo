@@ -1,1 +1,6 @@
-•J. Leite Lopes. Introd.  a la electrodinámica cuántica. (Ed. Trillas, Mex. 1977).
+1. Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
+2. Barnnet S. and Radmore P., Methods in Theoretical Quantum Optics, Oxford University  
+3. Klauder J.R.  and Sudarshan E.C.G. Fundamentals of Quantum Optics, Benjamin, 1968.
+4. Mandel L and Wolf E, Optical Coherence and Quantum Optics, Cambridge University Press, 2005
+5. Glauber R. Quantum Theory of Optical Coherence: Selected papers and lectures, Wiley, 2007
+6. W. P. Schleich, E. Mayr, and D. KrÄahmer, Quantum optics in phase space, Wiley-VCH, Weinheim, 2000.

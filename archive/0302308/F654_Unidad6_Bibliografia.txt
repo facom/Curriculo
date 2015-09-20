@@ -1,0 +1,4 @@
+M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997 
+H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985
+D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008 
+S.F. Pate, American Journal of Physics, 67 (1999) 1111

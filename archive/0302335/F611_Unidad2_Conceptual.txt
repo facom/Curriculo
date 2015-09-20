@@ -1,1 +1,13 @@
-Polarización. Desplazamiento. Susceptibilidad. Condiciones de frontera.
+1. Principios básicos de la Magnetostática
+2. Ley de fuerzas de Ampere y ley de Biot-Savart
+3. Vector potencial magnético y transformaciones de calibración
+4. Fuerza de Lorentz
+5. Partícula cargada en presencia de un campo magnético
+6. Carga oscilante en presencia de un campo magnético. 
+7. Desarrollo en multipolos para el campo magnetostático
+8. Momentum magnético de un sistema de partículas puntuales
+9. Energía de interacción entre una corriente y un campo magnético exterior a ella
+10. Energía de interacción en la aproximación de multipolos
+11. Dipolo magnético en presencia de un campo magnético externo
+12. Precesión de Larmor
+13. Precesión de un dipolo en un campo magnético uniforme y constante

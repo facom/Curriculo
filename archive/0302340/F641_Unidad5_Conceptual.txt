@@ -1,4 +1,1 @@
- Suma de ondas de la misma frecuencia. Ondas estacionarias. Pulsos. Velocidad de grupo. Ondas anarmónicas periódicas. Ondas no periódicas. Anchos de banda. Interferencia. Interferómetros de división de frente de onda y de amplitud. Localización de franjas. Diferentes tipos de interferómetros. Teoría escalar de la difracción. Difracción de Fraunhofer y Fresnell. Holografía.
-Interferometría de Fourier. Las equaciones de Kirdhoff y Sommerfeld.
-El efecto de autoimagen. Redes de difracción .Elementos difractivos.
-Resolución de sistemas ópticos.
+Suma de ondas de la misma frecuencia. Ondas estacionarias. Pulsos. Velocidad de grupo. Ondas anarmónicas periódicas. Ondas no periódicas. Anchos de banda. Interferencia. Interferómetros de división de frente de onda y de amplitud. Localización de franjas. Diferentes tipos de interferómetros.

@@ -1,0 +1,3 @@
+Comparación de los diferentes métodos para observar la manera como cada uno realiza la interpolaciòn.
+
+Observar las derivadas en los puntos dados para la interpolaciòn. En algunos dichas derivadas no existen.

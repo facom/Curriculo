@@ -1,0 +1,2 @@
+Comprobar la naturaleza Poissoniana de un conjunto de medidas de conteo de la radiación cósmica.
+Aprender a ajustar una curva de datos experimentales y decidir lo apropiado del ajuste utilizando la función chi-cuadrado.

@@ -1,9 +1,11 @@
-* S. Lipschutz.  Algebra Lineal. Schaum, Mc Graw-Hill, México, 1971.
+* George B. Arfken, Hans J. Weber, Frank E. Harris. Mathematical Methods for Physicists.
 
-* G. D. Mostov y J. H. Sampson.  Algebra Lienal, Mc Graw-Hill, México, 1972.   
-* A. Lentin y J. Rivaud. Algebra Moderna, Aguilar, Madrid, 1972.
+* Steven Weinberg. Gravitation and Cosmology: Principles and applications of the general theory of relativity. 
 
-* G. Birkhoff y S. Maclane.  Algebra Moderna, Editorial Vicens-Vives, Barcelona, 1963.
+* Walter Greiner, Berndt Muller. Quantum Mechanics: Symmetries.
 
-* Chengand Li. Elemetary Participe Physics, capítulo 4.                       
+* Ta-Pei Cheng, Ling-Fong Li. Gauge theory of Elemetary Participe Physics.
+
+* Howard Georgi. Lie algebras in particle physics: from isospin to unified theories.
+                       
 * Notas del Profesor

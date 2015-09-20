@@ -1,3 +1,3 @@
-Al terminar el curso el estudiante estará en capacidad de:
-a.  Emplear su formación básica experimental, tomando la cuantización de la energía y los fundamentos de Física Nuclear  como pilares del desarrollo de la Física Moderna.
-b. Emplear con destreza y habilidad el instrumental específico: Aparato de Planck, Rayos X, Espectroscopios, Contadores Geiger y de centelleo, y otros.
+•	Reconocer las principales leyes que rigen la teoría de los experimentos que realizaron. Por ejemplo, ecuación de Einstein del efecto fotoeléctrico, ley de absorción de la radiación por la materia, ley de Stefan-Boltzmann, principio de incertidumbre de Heisenberg, hipótesis de Planck, hipótesis de Bohr, entre otras.
+•	Determinar órdenes de magnitud y las unidades en el sistema internacional de algunas magnitudes físicas fundamentales y derivadas.
+•	Tomar la cuantización de la energía y los fundamentos de las físicas cuántica, nuclear, estadística como pilares del desarrollo de la física contemporánea.

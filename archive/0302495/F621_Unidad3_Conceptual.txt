@@ -1,10 +1,3 @@
-	Dispersión elástica electrón-electrón y electrón-positrón.
-	Correcciones de segundo orden.
-	Cuantificación del campo mesónico escalar.
-	Absorbción  y emisión para mesones y fotones.
-	El efecto Compton.
-	Fórmula de Klein-Nishina.
-	Invaraianza gauge y efecto Compton.
-	Aniquilación de pares.
-	Bremsstrahlung.
-	Diagramas de cuarto orden.
+El operador densidad. Pureza, mezcla y entrelazamiento en los estados cuánticos. Distribuciones de cuasiprobabilidad en el espacio de fase. Representación P de Glauber-Sudarshan. Teorema de equivalencia óptico. Operadores normales, antinormales y simetrizados de Wigner. Representación Q de Husimi. Representación W de Wigner. Funciones características cuánticas y distribuciones de cuasiprobabilidad en el espacio de fase complejo. Estados squeezed o comprimidos. Operadores de squeezing. Campo eléctrico de los estados de luz comprimidos y principio de incertidumbre. Ecuaciones de autovalores de los estados squeezed y de los estados coherentes squeezed. Distribución de fotones de los estados squeezed. Algunas propiedades de los estados squeezed. Estados gato de radiación: una introducción.
+
+

@@ -1,0 +1,14 @@
+• Describir y definir los aspectos teóricos entorno a los osciladores armónicos simples.
+• Explicar la importancia que tienen las aproximaciones en Física y su efecto en la relación experimento-teoría.
+• Describir los aspectos teóricos relacionados con los osciladores amortiguados y sus diferencias respecto al comportamiento de un oscilador armónico simple.
+• Diferenciar entre los estados transitorio y estacionario en un sistema forzado.
+• Explicar y diferenciar las características fundamentales de la resonancia.
+• Describir y definir matemáticamente el movimiento oscilatorio y ondulatorio para sistemas físicos que soportan la propagación de oscilaciones y ondas.
+• Construir las ecuaciones de movimiento para sistemas acoplados con y sin amortiguamiento y encontrar las respectivas soluciones.
+• Identificar los modos normales de un sistema acoplado.
+• Hallar la ecuación diferencial que describe el movimiento de un sistema de N osciladores acoplados en el límite continuo.
+• Describir matemáticamente una onda armónica.
+• Diferenciar entre periodicidad espacial y temporal.
+• Explicar el concepto de fase y desfase.
+• Entender la diferencia entre una onda armónica y una onda real.
+• Explicar y describir la ecuación de onda y su relación con un sistema de N osciladores acoplados en el límite continuo.

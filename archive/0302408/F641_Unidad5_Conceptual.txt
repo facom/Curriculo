@@ -1,1 +1,1 @@
-Coordenadas generales y tensores. El símbolo de Christoffel y la derivada covariante. Coordenadas geodésicas. Transporte paralelo. El tensor de curvatura.
+Introducion  a  la  cosmologia relativista. Modelación del Universo.  Métrica de Friedman Robertson Walker, ecuaciones de Friedman, solucion de Universos dominados  por  materia,  radiacion  y  constante cosmologica.  Energía  y  materia    obscura  y aceleración del Universo. Ideas sobre Inflación. 

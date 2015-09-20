@@ -1,0 +1,2 @@
+(i)	Comprobar la naturaleza Gaussiana de la distribución de las frecuencias de conteo de la radiación gamma emitida por una fuente radiactiva.
+(ii)	Aprender a ajustar una curva de datos experimentales y decidir lo apropiado del ajuste utilizando la función chi-cuadrado.

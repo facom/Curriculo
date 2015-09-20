@@ -1,1 +1,42 @@
-* Sproll. Berkeley Physics Course. Wiley, 1966.
+Bibliografía básica:
+•	C.A. Barrero y D. Filipovic, Perspicacia en el Laboratorio de Física Moderna, Universidad de Antioquia, Medellín, 2004.
+•	Melissinos. Experiments in Modern Physics. Academic Press. 1966.
+•	J. Dunham. Modern Physics Laboratory Manual. Department of Physics. Middlebury College, Middlebury, USA. 1991. 
+•	D.W. Preston, E.R. Dietz and R.H. Good, The Art of Experimental Physics, John Wiley  Sons, New York.
+
+Bibliografía complementaria:
+•	Sproll. Berkeley Physics Course. Wiley. 1966.
+•	Berkeley Physics Laboratory, Parts C and D. McGraw Hill. 1969.
+
+
+Bibliografía recomendada:
+•	Manuales de manejo de los diferentes equipos.
+•	PHYWE, Manual de instrucciones del tubo de Franck-Hertz completo 09086.93, Göttingen, Alemania. 
+•	KEITHLEY INSTRUMENTS, Instruction Manual Models 610C, 610CR, Solid State Electrometers, Ohio, USA.
+•	Manual del equipo DAEDALON EP-05 del efecto fotoeléctrico.
+
+Revistas recomendadas:
+•	American Journal of Physics 
+(http://scitation.aip.org/content/aapt/journal/ajp)
+•	Reports on Progress in Physics 
+(http://iopscience.iop.org/0034-4885/)
+•	Physical Review Special Topics – Physics Education Research (https://journals.aps.org/prstper/issues) 
+•	The Physics Teacher 
+(http://scitation.aip.org/content/aapt/journal/tpt)
+•	Physics Education
+•	(http://iopscience.iop.org/0031-9120/)The Journal of Undergraduate Research in Physics (http://www.jurp.org/archives.html)
+•	School Science and Mathematics (http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1949-8594/issues)
+•	International Journal of Science and Mathematics Education (http://link.springer.com/journal/10763)
+•	Journal of Science Teacher Education (http://link.springer.com/journal/10972)
+
+Sitios web recomendados:
+•	    Universidad de Antioquia
+http://fisica.udea.edu.co/~mpaez/
+•	Carnegie Mellon University 
+http://www-meg.phys.cmu.edu/physics_33340/experiments/
+•	University of Tennessee
+http://www.phys.utk.edu/labs/modphys/
+•	Cornell University
+http://www.classe.cornell.edu/Public/CIPT/labs.html
+•	Colorado University (Phet, Interactive simulations, free online physics)
+http://phet.colorado.edu/

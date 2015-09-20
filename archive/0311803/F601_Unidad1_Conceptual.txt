@@ -1,5 +1,6 @@
 Introducción, presentación curso. Historia del capítulo de la astrofísica galáctica. 
 Historia: Herschel, Kapteyn, Shapley, Hubble. Conteos diferenciales de estrellas. Morfología básica de la Vía Láctea: Disco, Bulbo y halo.
-Clasificación morfológica. Galaxias elípticas: fotometría. Morfología, generalidades. Poblaciones estelares. Química.
+Clasificación morfológica. 
+Galaxias elípticas: fotometría. Morfología, generalidades. Poblaciones estelares. Química.
 Galaxias espirales: fotometría. Morfología, generalidades. Poblaciones estelares. Química.
 Observaciones: Fotometría superficial de galaxias.

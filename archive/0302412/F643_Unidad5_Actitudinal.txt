@@ -1,0 +1,1 @@
+En esta unidad se trabaja con los algoritmos matemáticos que llevan a la medida de Winer y su extensión a la mecánica cuántica. Tambien se muestra la manera apropiada de sacar raíces cuadradas de operadores diferenciales. 

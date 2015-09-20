@@ -1,1 +1,2 @@
-Determinar el valor de la relación e/m del electrón.
+Estará enfocado a determinar la razón de la carga a la masa del electrón.
+

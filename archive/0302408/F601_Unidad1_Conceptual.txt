@@ -1,1 +1,1 @@
-Transformaciones galileanas. Relatividad newtoniana. Electromagnetismo y relatividad newtoniana. Intentos de localizar el marco de referencia absoluto: Michelson-Morley. Los postulados de la Teoría Especial de la Relatividad.
+Sistemas coordenados Transformaciones de Lorentz, cálculo K para relatividad especial. Grupo de Lorentz y representaciones. Geodésicas de un espacio plano.

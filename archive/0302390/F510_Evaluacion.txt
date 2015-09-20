@@ -1,1 +1,7 @@
-El curso será evaluado a través de tres exámenes parciales de igual valor (25%) y un conjunto de tareas semanales con un valor total del 25%. Los exámenes parciales se dividen en dos partes: una parte teórica que se evalua durante una clase en 2 horas. La segunda parte es computacional y se desarrolla en la casa, con un plazo de entrega de entre 2 y 3 días. Cada una de estas partes corresponde al 50% del exámen.
+La evaluación busca que el estudiante:
+
+1) Permanentemente comprenda los métodos numéricos vistos y los pueda aplicar a nuevas situaciones.
+
+2) Se de cuenta de los conceptos que no ha entendido correctamente, o no los sabe aplicar, para que repase y logre una buena comprensión.
+
+3) Esté actualizado y tenga las bases para los temas que se tratarán en clases posteriores.

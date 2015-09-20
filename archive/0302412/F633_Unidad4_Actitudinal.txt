@@ -1,0 +1,1 @@
+En esta unidad se se emplea el algoritmo matemático de la integración por polos para derivar las distintas funciones de Green del operador de Schrodinger. De igual manera, se presenta el algoritmo inventado por Volterra para resolver, de manera perturbativa, las ecuaciones integrales de segunda clase.

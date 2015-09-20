@@ -1,2 +1,1 @@
-Ilustrar la Teoría de la Relatividad de una manera intuitiva, con ejemplos, casos particulares y  fenomenología.
-Desarrollar el formalismo riguroso de la teoría, para apreciar mejor su elegancia, concisión y generalidad.
+Se busca plantear y obtener la  ecuación de Einstein para casos especiales pero muy ilustraitivos y con la ayuda de observaciones y fenomenlogía dar cuenta de la relatividad general como teoría de la gravitación.

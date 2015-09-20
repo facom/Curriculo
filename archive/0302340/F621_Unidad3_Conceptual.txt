@@ -1,1 +1,1 @@
-El ojo. Anteojos. La lente de aumento. Oculares. Microscopio compuesto. El telescopio. La cámara fotográfica. La cámara oscura.
+Elementos de óptica de Fourier, convolución correlación. Interferometría de Fourier. Teoría escalar de la difracción. Las ecuaciones de Kirchhoff y Sommerfeld. Difracción de Fraunhofer y Fresnell.  Resolución de sistemas ópticos. El efecto de autoimagen. Redes de difracción. Elementos difractivos. Holografía, haces gaussianos.

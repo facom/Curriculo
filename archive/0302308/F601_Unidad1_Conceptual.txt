@@ -1,2 +1,1 @@
-Definiciones básicas de la termodinámica.
-Ley cero y Termometría.
+Definiciones básicas de la termodinámica; Sistema termodinámico; variables intensivas y extensivas; sistemas de equilibrio y de no-equilibrio; equilibrio térmico y la ley cero; temperatura, termometría; sistemas termodinámicos simples, trabajo.

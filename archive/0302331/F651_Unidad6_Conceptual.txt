@@ -1,1 +1,1 @@
-Sistemas numéricos. Algebra Booleana. Mapas de Karnaugh. Lógica combinatoria. Lógica secuencial. Circuitos especializados. Aplicaciones. 
+Sistemas numéricos.Compuertas lógicas. Diseño y simplificación de circuitos: Algebra Booleana y Mapas de Karnaugh. Lógica combinatoria. Lógica secuencial. Circuitos especializados. Aplicaciones. 

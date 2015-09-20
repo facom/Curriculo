@@ -1,1 +1,0 @@
-Ecuación de continuidad. Ley de Ampere-Maxwell. Corriente de desplazamiento. Ecuaciones de Maxwell. Condición de Lorentz. Transformación gauge. Leyes de conservación de energía. Momento lineal y momento angular.

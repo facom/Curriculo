@@ -1,6 +1,6 @@
-• Problemas de condición inicial.
+• Problemas con condiciones iniciales.
 • Métodos de primer orden: método de Euler.
-• Métodos de alto orden: métodos de Runge-Kutta, Leap-Frog.
+• Métodos de más alto orden: métodos de Runge-Kutta, Leap-Frog (Salto del sapo).
 • Sistemas de ecuaciones diferenciales.
-• Problemas de frontera.
+• Problemas con condiciones frontera.
 

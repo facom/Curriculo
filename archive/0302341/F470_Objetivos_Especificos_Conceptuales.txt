@@ -1,6 +1,3 @@
-Al terminar el curso el estudiante estará en capacidad de:
-a. Utilizar el equipo básico: Lentes, espejos, prismas, polarizadores, cámara CCD, etc.
- b. Analizar y describir los instrumentos ópticos.
-c. Distinguir las aproximaciones de Fraunhofer y Fresnel en difracción.
- d. Aplicar las  propiedades básicas de los campos ópticos coherentes.
-e. Implementar un sistema óptico que le permita realizar medidas.
+* Aplicar y afianzar las propiedades básicas de los campos ópticos coherentes.
+
+*Distinguir las aproximaciones de Fraunhofer y Fresnel en difracción.

@@ -1,3 +1,5 @@
-5.1 Solución a ecuaciones elípticas. Ecuación de Laplace y de Poisson. Aplicaciones al electromagnetismo. Aplicaciones a termodinámica.
-5.2 Problema no homogéneo con condiciones de contorno. Funciones de Green. Método de las imágenes.
-5.3 Funciones especiales de Hermite y Laguerre. Solución al oscilador armónico y al átomo de hidrógeno.
+
+4.1 Solución a ecuaciones de tipo parabólico. Ecuación del calor y ecuación de difusión.
+4.2 Separación de variables. Definición de problemas de contorno tipo Neumann y Dirichlet.
+4.3 Función de Green para ecuaciones parabólicas no homogéneas. Método de Autofunciones, Método directo.
+4.4 Funciones de Legendre. Funciones de Legendre generalizadas. Armónicos Esféricos y teorema de adición de armónicos esféricos. Expansión multipolar y función generatriz.
