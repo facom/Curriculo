@@ -1,3 +1,2 @@
-Adquirir los conocimientos básicos sobre el funcionamiento básico  de un computador.
-Conocer el lenguaje de programación C y usarlo en la solución de problemas específicos de interés para la Física.
-Distinguir las distintas herramientas computacionales disponibles que facilitan el trabajo del físico.
+Promover la creatividad y la productividad de los estudiantes con el entrenamiento teórico-práctico en métodos computacionales aplicables en la solución, modelación y simulaciones de problemas en Física y Astonomía.
+

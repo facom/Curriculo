@@ -1,4 +1,3 @@
-- Reconocer los diferentes tipos de coordenadas utilizadas en astronomía de posición.
-- Comparar diferentes sistemas de coordenadas celestes
-- Deducir las reglas de transformación entre los diferentes tipos de coordenadas
-
+Reconocer los diferentes tipos de coordenadas utilizadas en astronomía de posición.
+Comparar diferentes sistemas de coordenadas celestes.
+Deducir las reglas de transformación entre los diferentes tipos de coordenadas.

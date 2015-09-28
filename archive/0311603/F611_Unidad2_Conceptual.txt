@@ -1,1 +1,4 @@
-Se estudiara en esta sección los temas de la relatividad especial, y como sus conceptos pueden ser aplicados para entender fenómenos astrofísicos. 
+Relatividad especial
+Efecto Doppler relativista
+Aberración de la luz
+Equivalencia Masa-Energia

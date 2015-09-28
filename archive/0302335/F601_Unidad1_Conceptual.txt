@@ -1,19 +1,19 @@
-1. Ley de Coulomb
-2. Principio de Superposición. Intensidad del campo electrostático
-3. Ley de Gauss
-4. Potencial electrostático. Ecuación de Poisson
-5. Método de la función de Green para la solución del problema electrostático
-6. Identidad de Green. Funciones de Green
-7. Problemas de Dirichlet y Neumann
-8. Ejemplos de obtención de la función de Green
-9. Método de las imágenes para la solución del problema electrostático
-10. Método de separación de variables para la solución de la ecuación de Laplace
-11. Solución de la ecuación de Laplace en coordenadas cartesianas
-12. Solución de la ecuación de Laplace en coordenadas cilíndricas
-13. Solución de la ecuación de Laplace en coordenadas esféricas
-14. Desarrollo en multipolos del campo electrostático
-15. Momenta de multipolos y algunas de sus propiedades. Momenta de multipolos de una distribución de cargas puntuales
-16. Energía del campo electrostático
-17. Energía de interacción de un cuerpo cargado con un campo externo
-18. Dipolo eléctrico en presencia de un campo electrostático. 
-19. Radio clásico del electrón
+Ley de Coulomb.
+Principio de Superposición. Intensidad del campo electrostático.
+Ley de Gauss.
+Potencial electrostático. Ecuación de Poisson.
+Método de la función de Green para la solución del problema electrostático.
+Identidad de Green. Funciones de Green.
+Problemas de Dirichlet y Neumann.
+Ejemplos de obtención de la función de Green.
+Método de las imágenes para la solución del problema electrostático.
+Método de separación de variables para la solución de la ecuación de Laplace.
+Solución de la ecuación de Laplace en coordenadas cartesianas.
+Solución de la ecuación de Laplace en coordenadas cilíndricas.
+Solución de la ecuación de Laplace en coordenadas esféricas.
+Desarrollo en multipolos del campo electrostático.
+Momenta de multipolos y algunas de sus propiedades. Momenta de multipolos de una distribución de cargas puntuales.
+Energía del campo electrostático.
+Energía de interacción de un cuerpo cargado con un campo externo.
+Dipolo eléctrico en presencia de un campo electrostático. 
+Radio clásico del electrón-.

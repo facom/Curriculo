@@ -1,4 +1,15 @@
-1.	Purcell E. M. Berkeley Physics Course Vol. 2. Mc Graw Hill. 1965
-2.	Feynman R. P., Leighton R. B., Sands, M. The Feynman Lectures on Physics, Vol. 2. Addison-Wesley. 1964
-3.	Shadowitz A. Shadowitz A. Dover publications, Inc. 1975
-4.	4. Arenas G. Electricidad y Magnetismo. Universidad Nacional. 2008
+BIBLIOGRAFIA BASICA
+
+Sears, Zemanski, Young & Freedman, Física Universitaria Vol. 2. Pearson Addison-Wesley, 11 ed,  2004.
+
+Serway, Jewett, Fìsica Electricidad y magnetismo, Cengage Learning, 7 ed, 2005.
+
+Hans Ohanian, John Markert. Fisica para ingenieria y ciencias, 3 ed, Vol 2. Mc Graw Hill. 2007.
+
+Alonso, Finn Física, Campos y Ondas vol. 2. Addison-Wesley. 1998.
+
+BIBLIOGRAFIA COMPLEMENTARIA
+
+Feynman R. P., Leighton R. B., Sands, M. The Feynman Lectures on Physics, Vol. Addison-Wesley. 1964.
+
+Purcell E. M. Berkeley Physics Course Vol. 2. Mc Graw Hill. 1965.

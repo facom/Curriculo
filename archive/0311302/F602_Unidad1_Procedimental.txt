@@ -1,6 +1,6 @@
-• Conversión de unidades del Sistema Internacional a unidades de uso común en astronomía
-• Cálculo de distancias, masas, tiempos y energías en objetos y fenómenos astronómicos 
-• Análisis estadístico de datos observacionales.
-• Ajuste de variables a través del método de mínimos cuadrados. 
-• Ejercicios prácticos.
-• Representación correcta de datos por medio de gráficas.
+Conversión de unidades del Sistema Internacional a unidades de uso común en astronomía
+Cálculo de distancias, masas, tiempos y energías en objetos y fenómenos astronómicos 
+Análisis estadístico de datos observacionales.
+Ajuste de variables a través del método de mínimos cuadrados. 
+Ejercicios prácticos.
+Representación correcta de datos por medio de gráficas.

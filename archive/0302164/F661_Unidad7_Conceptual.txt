@@ -1,1 +1,3 @@
-El Gnuplot. Uso básico. Llamada desde un programa. Gráficas desde un programa en C. Resolución de pantalla. Coordenadas C. Resolución de pantalla. Areas de graficación. Comandos básicos de graficación: punto, línea, círculo, texto.
+Generación de números aleatorios con distribuciones normal, gaussiana y    exponencial decreciente.
+Técnicas de montecarlo, caminos aleatorios, caminos aleatorios autoevitables.
+Estadística descriptiva.

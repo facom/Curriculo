@@ -1,0 +1,5 @@
+Conocer las capacidades del lenguaje Python  y de programas que se pueden instalar en Python para aplicaciones específicas como: Matemática Simbólica (Sympy, Sage), Algebra Lineal (Numpy), Programas de graficación (Matplotlib) etc. Hay alrededor de 40 000 aplicaciones que se pueden instalar en el Python.
+
+Manejar diferentes rutinas numéricas en las que se debe conocer los datos de entrada, lo que la rutina produce y los posibles errores involucrados.
+
+Solucionar problemas semejantes a los expuestos en clase con los mismos métodos numéricos.

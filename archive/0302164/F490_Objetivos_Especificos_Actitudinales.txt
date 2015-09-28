@@ -1,0 +1,3 @@
+Capacitar al estudiante para que combine los conocimientos de   ciencia con métodos numéricos y las técnicas computacionales.
+
+Adiestrar al estudiante en la observación, interpretación y conclusiones de resultados de cálculos numéricos, y de las gráficas obtenidas.

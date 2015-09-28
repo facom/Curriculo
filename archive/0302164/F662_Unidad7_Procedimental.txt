@@ -1,0 +1,2 @@
+Se ilustran métodos para generar números aleatorios que estén distribuídos
+de acuerdo a una distribución gaussiana o una exponencial decreciente, y se comprueba con gráficos que realmente satisfacen estas distribuciones.

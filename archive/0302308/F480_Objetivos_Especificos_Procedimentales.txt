@@ -1,6 +1,9 @@
-•	Utilizar las leyes y los métodos de la termodinámica (ciclos y potenciales) al estudio de distintos fenómenos en sistemas macroscópicos, tanto ideales como no ideales (por ejemplo: gases reales, sólidos, líquidos, sistemas magnéticos).
-•	Usar los criterios de cambios de fase y describir el equilibrio en sistemas desde el punto de vista fenomenológico.
-•	Analizar los gases reales. 
-•	Enfrentar la solución a ejercicios y problemas con base a las teorías físicas.
-•	Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
-•	Hacer búsqueda bibliográfica y extraer la información relevante.
+Utilizar las leyes y los métodos de la termodinámica (ciclos y potenciales) al estudio de distintos fenómenos en sistemas macroscópicos, tanto ideales como no ideales (por ejemplo: gases reales, sólidos, líquidos, sistemas magnéticos).
+
+Usar los criterios de cambios de fase y describir el equilibrio en sistemas desde el punto de vista fenomenológico.
+
+Analizar los gases reales. 
+
+Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
+
+Hacer búsqueda bibliográfica y extraer la información relevante.

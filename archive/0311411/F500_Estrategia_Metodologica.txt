@@ -1,10 +1,1 @@
-Sesiones presenciales.  El curso tendrá 2 sesiones presenciales a la semana, dedicadas a la presentación de los contenidos teóricos y a la solución de problemas de aplicación.  Se harán sesiones de taller de ejercicios (problemas resueltos por el estudiante) y/o sesiones de actividad teórico-práctica (trabajo en el computador, demostración experimental).
-
-Talleres.  Los talleres son espacios para que el estudiante resuelva con el acompañamiento de un monitor problemas propuestos en el curso.  
-
-Actividades teórico-prácticas.  Como parte de la formación integral del estudiante y para favorecer el aprendizaje significativo de los contenidos del curso se realizarán en el semestre una serie de actividades “teórico-prácticas”.  Algunas de las actividades propuestas serán:
- 
-- Conferencias de científicos invitados:  Durante el semestre los estudiantes pueden tener contacto con profesionales de la astronomía que trabajan haciendo uso en la aplicación directa y permanente de los conceptos y principios teóricos mostrados en el curso.
-- Talleres computacionales: Se considera esta una actividad teórico-práctica fundamental en el curso.  El propósito es lograr que los estudiantes se familiaricen con herramientas informáticas de apoyo que les permitan facilitar la comprensión de algunos conceptos del curso.  
-
-Los talleres computacionales se pueden realizar en salas de computo de la Facultad de Ciencias Exactas y Naturales y con el acompañamiento de personal de apoyo específico.
+Sesiones presenciales.  El curso tendrá 2 sesiones presenciales a la semana, dedicadas a la presentación de los contenidos teóricos y a la solución de problemas de aplicación.  Se harán sesiones de taller de ejercicios (problemas resueltos por el estudiante) y/o sesiones de participación activa (trabajo en el computador, demostración experimental).

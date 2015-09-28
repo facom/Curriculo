@@ -1,4 +1,4 @@
-• Unidades en Astronomía, longitud, masa, tiempo, energía. Escalas en el universo.
-• Estadística de datos, modelo de Gauss, modelo de Poisson. 
-• Teoría de errores, Gráficos
-• Ajuste por mínimos cuadrados.
+Unidades en Astronomía, longitud, masa, tiempo, energía. Escalas en el universo.
+Estadística de datos, modelo de Gauss, modelo de Poisson. 
+Teoría de errores, Gráficos
+Ajuste por mínimos cuadrados.

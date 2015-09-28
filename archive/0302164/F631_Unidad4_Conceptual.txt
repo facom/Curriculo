@@ -1,1 +1,6 @@
-El uso de rutinas en la programación. Creación de una rutina en C. Argumentos de una rutina. Tipo de dato devuelto por una rutina. Variables locales a una rutina. Llamado a una rutina. Aplicaciones.
+Diferenciación numérica, método de la diferencia hacia adelante y de la diferencia central, segundas derivadas numéricas, errores.
+Integración numérica, método trapezoidal y de Simpson.
+Métodos de la cuadratura gaussiana .
+Método de von Neumann para integrales (Monte Carlo).
+Integrales impropias.
+Integrales múltiples.

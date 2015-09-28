@@ -1,1 +1,0 @@
-Editores de textos científicos. Estructura básica de un documento en LATEX. Enviroments en LATEX. Matemáticas en Latex. Formateado de un documento en LATEX.

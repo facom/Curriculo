@@ -1,7 +1,0 @@
-* E. Reyes Gómez. Notas de electrodinámica. Universidad de Antioquia (Notas de Clases).
-
-* David Griffiths. Introduction to electrodynamics 3rd Edition. Prentice Hall. 1999
-
-* J. D. Jackson. Classical electrodynamics 3rd Edition. John Wiley & Sons. 1999
-
-* Notas del profesor

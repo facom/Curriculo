@@ -1,1 +1,8 @@
-La mecánica cuántica ha sido fundamental para entender los fenómenos físicos internos de las estrellas y las nubes de gas interestelar. Por tanto, entender los fundamentos de la mecánica cuántica y su aplicación en la astrofísica son fundamentales.
+Efecto Compton
+Propagación de la luz en la materia. 
+Las propiedades “corpusculares” de la luz. 
+Ecuación de Schrodinger
+Pozo de potencial infinito y finito.
+Efecto túnel y oscilador armónico.
+Niveles atómicos.
+Átomo de Hidrogeno

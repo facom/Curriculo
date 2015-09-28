@@ -1,0 +1,1 @@
+Observar la facilidad con que se manejan los problemas que involucran matrices utilizando el paquete de Algebra Lineal del Numpy.

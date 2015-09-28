@@ -266,6 +266,7 @@ if(!isset($edita_curso)){
 $menu="";
 $menu.="<a href=index.php>Principal</a>";
 $menu.=" - <a href=index.php?planes_aprobados>Planes Aprobados</a>";
+$menu.=" - <a href=index.php?planes_preaprobados>Planes Pre aprobados</a>";
 if($QADMIN>1){
   $menu.=" - <a href=index.php?planes_asignatura>Planes en Edición</a>";
 }
@@ -288,7 +289,7 @@ $header=<<<HEADER
 $headbar
 <table width=100% border=0>
 <tr>
-<td width=10%><image src="$LOGOUDEA/udea_fcen.jpg"/ height=120px></td>
+<td width=100px><image src="$LOGOUDEA/udea_fcen.jpg"/ height=120px></td>
 <td valign=bottom>
   <b style='font-size:32'><$a href=index.php>Microcurriculos</a></b><br/>
   <b style='font-size:24'>Facultad de Ciencias Exactas y Naturales</b><br/>
@@ -377,6 +378,75 @@ MAIN;
 ////////////////////////////////////////////////////
 //LISTA TOTAL DE CURSOS
 ////////////////////////////////////////////////////
+if(isset($_GET["planes_preaprobados"])){
+
+  $page="$header";
+
+  //==================================================
+  //FORMULARIO
+  //==================================================
+  $input=generateSelection(array_values($INSTITUTOSPUBLIC),"ap_instituto",$ap_instituto);
+
+$page.=<<<FORMULARIO
+  <h4>Busca cursos preaprobados</h4>
+  <form>
+  <input type="hidden" name="planes_preaprobados">
+  <table border=0>
+  <tr><td>Instituto:</td><td>$input</td></tr>
+  <tr><td>Semestre:</td><td><input type="text" name="ap_semestre" value="$ap_semestre" maxlength=6 size=6></td></tr>
+  <tr><td>Nombre Curso:</td><td><input type="text" name="ap_nombre" value="$ap_nombre" size=20></td></tr>
+  <tr colspan=2><td><input type="submit" name="ap_submit" value="Muestre"></td></tr>
+  </table>
+  </form>
+FORMULARIO;
+
+  //==================================================
+  //LISTA DE PLANES APROBADOS
+  //==================================================
+  $aprobados="";
+  if($ap_instituto=="Profesor" or
+     $ap_instituto=="Administrador"){goto end_preaprobados;}
+  $listaaprob="";
+  $listapriv="";
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version from MicroCurriculos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto' AND F020_AUTH_Autorizacion_Vicedecano='Si' AND F040_AUTH_Acta_Fecha='000') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+  if(!($out=mysqli_query($db,$sql))){
+    die("Error:".mysqli_error($db));
+  }
+  $lista="";
+
+  while($row=mysqli_fetch_array($out)){
+    $codigo=$row[0];
+    $nombre=$row[1];
+    $instituto=$row[2];
+    $publica=$row[3];
+    $actualizacion=$row[4];
+    $usuario=$row[5];
+    $modifica=$row[6];
+    $autorizacion=$row[7];
+    $semestre=$row[8];
+    $semestreactual=$row[9];
+    $version=$row[10];
+    
+$listaaprob.=<<<LISTA
+<li>
+  Semestre $semestre : <a href='data/$codigo/$codigo-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
+LISTA;
+  if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 1){
+    $listaaprob.=" <sup style='font-size:8px'><a href='?ver_curso=$codigo&mode=Todos&nogen' target='_blank'>Ver</a> | <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a></sup>";
+  }
+    $listaaprob.="</li>";
+  }
+ end_preaprobados:
+  //LISTA PUBLICOS
+  if(!preg_match("/\w+/",$listaaprob)){$listaaprob="<i>(No se encontraron cursos)</i>";}
+  else{$listaaprob.="</ul>";}
+  //MUESTRA LISTAS
+  $aprobados.="<h4>$ap_instituto</h4><ul>$listaaprob</ul>";
+  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
+
+  echo $page;
+}
+
 if(isset($_GET["planes_aprobados"])){
 
   $page="$header";
@@ -384,16 +454,16 @@ if(isset($_GET["planes_aprobados"])){
   //==================================================
   //FORMULARIO
   //==================================================
-  $input=generateSelection(array_values($INSTITUTOS),"ap_instituto",$ap_instituto);
+  $input=generateSelection(array_values($INSTITUTOSPUBLIC),"ap_instituto",$ap_instituto);
 
 $page.=<<<FORMULARIO
-  <h4>Busca</h4>
+  <h4>Busca cursos aprobados</h4>
   <form>
   <input type="hidden" name="planes_aprobados">
   <table border=0>
   <tr><td>Instituto:</td><td>$input</td></tr>
   <tr><td>Semestre:</td><td><input type="text" name="ap_semestre" value="$ap_semestre" maxlength=6 size=6></td></tr>
-  <tr><td>Nombre Curso:</td><td><input type="text" name="ap_nombre" value="$ap_nombre" maxlength=6 size=6></td></tr>
+  <tr><td>Nombre Curso:</td><td><input type="text" name="ap_nombre" value="$ap_nombre" size=20></td></tr>
   <tr colspan=2><td><input type="submit" name="ap_submit" value="Muestre"></td></tr>
   </table>
   </form>
@@ -429,10 +499,10 @@ FORMULARIO;
     
 $listaaprob.=<<<LISTA
 <li>
-  Semestre $semestre : <a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
+  Semestre $semestre : <a href='data/$codigo/$codigo-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
 LISTA;
-  if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 0){
-    $listaaprob.=" - <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a>";
+  if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 1){
+    $listaaprob.="<sup style='font-size:8px'><a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target='_blank'>Ver</a> | <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a></sup>";
   }
     $listaaprob.="</li>";
   }
@@ -444,7 +514,8 @@ LISTA;
   $aprobados.="<h4>$ap_instituto</h4><ul>$listaaprob</ul>";
   $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
   echo $page;
-}
+ }
+
 
 ////////////////////////////////////////////////////
 //CREA RESPALDO
@@ -549,7 +620,7 @@ CONTENT;
        $instituto=="Administrador"){continue;}
     $listapub="";
     $listapriv="";
-    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version,F060_AUTH_Publica_Curso from MicroCurriculos where (F280_Instituto='$instituto' $filtra) order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+    $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version,F060_AUTH_Publica_Curso,F040_AUTH_Acta_Fecha from MicroCurriculos where (F280_Instituto='$instituto' $filtra) order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
     //echo "SQL: $sql<br/>";
     if(!($out=mysqli_query($db,$sql))){
       die("Error:".mysqli_error($db));
@@ -568,6 +639,7 @@ CONTENT;
       $semestreactual=$row[9];
       $version=$row[10];
       $publicado=$row[11];
+      $actafecha=$row[12];
       if($publicado=="Si"){$publicado="<i style='color:red'>Si</i>";}
       if($publicado=="No"){$publicado="<i style='color:blue'>No</i>";}
 
@@ -623,8 +695,15 @@ LISTA;
 	$enlace="Enlace para enviar al profesor: <i style='background-color:lightgray;padding:0px;'><a id='url_$codigo' urlbase='$urlcode' href='$showlink'>$showlink</a></i>";
 	$correo="Correo(s) para el envío: <input id='email_$codigo' type='text' size=50><input type='submit' value='Enviar' onclick='enviarPlan(\"$codigo\")'>";
       }
+      
+      if($autorizacion=="Si"){
+	$colorbox="lightblue";
+	if($actafecha=="000"){$colorbox="lightgreen";}
+      }
+      else{$colorbox="lightgray";}
+
 $listapriv.=<<<LISTA
-<li>
+<li style='background:$colorbox'>
   <a name='$codigo'></a>
   <a id="nombresend_$codigo" href='?ver_curso=$codigo&mode=Todos' target="_blank" nombresend="$nombre"><b>$nombre - $codigo</b></a>$editar<br/>
   <i style="text-decoration:underline">Última actualización</i>: $actualizacion - $usuario - $modifica <br/>
@@ -893,7 +972,8 @@ if(($accion=="Guardar" or $accion=="Reciclar" or $accion=="Archivar" or $accion=
     $result.="<i style='color:red'>El curso $codigo es nuevo.</i><br/>";
     $coursedir="$DATADIR/data/$codigo";
     if(file_exists("$coursedir") and $QADMIN<4){
-      $result.="<i style='color:red'>El curso con codigo $codigo ya existe.</i>";
+      $codigos=shell_exec("cd data;ls -md ???????");
+      $result.="<i style='color:red'>El curso con codigo $codigo ya existe.<br/>Estos son los códigos ya usados: $codigos</i>";
       $msg="<br/><i style='color:red'>El curso con codigo $codigo ya existe.</i>";
       goto end_archive;
     }
@@ -981,7 +1061,7 @@ momento todas las versiones de este curso serán nuevas.</i>";
     if(!mysqli_query($db,$sql)){
       die("Error:".mysqli_error($db));
     }else{
-      $result.="<i style='color:red'>Registro reciclado exitosamente.</i>";
+      $result.="<i style='color:red'>Registro reciclado exitosamente.</i><br/><br/>";
     }
   }
   //SAVE TEXT FIELDS
@@ -1154,7 +1234,7 @@ $buttons.=<<<BUTTONS
   Vaya rápido a un campo
 </a>
 </div>
-<div class="hidden" style="display:none;background:lightblue;padding:10px;margin:10px 0px 0px 0px;font-size:10px" id="tabla_contenido">
+<div style="display:none;background:lightblue;padding:10px;margin:10px 0px 0px 0px;font-size:10px" id="tabla_contenido">
 <b>Campos</b><br/>
 $tablacontenido
 <br/><br/>
@@ -1231,7 +1311,7 @@ FORM;
 //$page.=$buttons;
  $form="";
 $form=<<<FORM
-<a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);" style="font-size:12px">Mostrar/Ocultar todas las ayudas</a><br/><br/>
+<a id="mostrar" href="JavaScript:void(null)" onclick="$('.hidden').toggle('fast',null);" style="font-size:12px">Mostrar/Ocultar todas las ayudas</a> | 
 FORM;
 
   //CONTENT TABLE

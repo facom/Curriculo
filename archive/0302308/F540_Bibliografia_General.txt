@@ -1,39 +1,62 @@
  Bibliografía básica:
 
-•	M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997. 
-•	D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008.
-•	H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985.
-•	D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998.
+M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997. 
+
+D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008.
+
+H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985.
+
+D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998.
 
 Bibliografía de referencia y complementaria:
 
-•	D. Ter Haar, Elements of thermodynamics, Adison Wesley, Londres, 1968.
-•	E. Fermi, Thermodynamics, MacGraw Hill, New York, 1957.
-•	R. Kubo, Termodinámica, M. Holland, P., Amsterdam, 1971.
-•	C.J. Adkins, Termodinámica del equilibrio, Rerveté, Barcelona, 1997.
-•	Y.A. Çengel, M.A. Boles, Termodinámica, Séptima edición, McGraw Hill, México. 2012.
-•	Y.K. Lim, Ed., Problems and Solutions on Thermodynamics and statistical mechanics. World Scientifc, New Jersey, USA, 1990.
-•	J. Pellicer y J.A. Manzanares, 100 Problemas de Termodinámica, Alianza Editorial S.A., Madrid, 1996.
-•	P.G. Hewitt, Física Conceptual, Pearson Educación, Addison Wesley, México, 2007.
-•	Máximo y B. Alvarenga, Física General con Experimentos Sencillos, Oxford University Press México, Cuarta edición, 1998.
-•	R.E. Berg, A.Huffman, and L. Quakenbush (Compiladores), La Video Enciclopedia de Demostraciones de Física, The Education Group & Associates, Los Angeles, USA, 1998.
-•	V.M. Faires, C.M. Simmang, Termodinámica, Editorial Hispano Americana, México, 1982. 
+D. Ter Haar, Elements of thermodynamics, Adison Wesley, Londres, 1968.
+
+E. Fermi, Thermodynamics, MacGraw Hill, New York, 1957.
+
+R. Kubo, Termodinámica, M. Holland, P., Amsterdam, 1971.
+
+C.J. Adkins, Termodinámica del equilibrio, Rerveté, Barcelona, 1997.
+
+Y.A. Çengel, M.A. Boles, Termodinámica, Séptima edición, McGraw Hill, México. 2012.
+
+Y.K. Lim, Ed., Problems and Solutions on Thermodynamics and statistical mechanics. World Scientifc, New Jersey, USA, 1990.
+
+J. Pellicer y J.A. Manzanares, 100 Problemas de Termodinámica, Alianza Editorial S.A., Madrid, 1996.
+
+P.G. Hewitt, Física Conceptual, Pearson Educación, Addison Wesley, México, 2007.
+
+Máximo y B. Alvarenga, Física General con Experimentos Sencillos, Oxford University Press México, Cuarta edición, 1998.
+
+R.E. Berg, A.Huffman, and L. Quakenbush (Compiladores), La Video Enciclopedia de Demostraciones de Física, The Education Group & Associates, Los Angeles, USA, 1998.
+
+V.M. Faires, C.M. Simmang, Termodinámica, Editorial Hispano Americana, México, 1982. 
 
 Revistas científicas:
-•	American Journal of Physics 
+
+American Journal of Physics 
 (http://scitation.aip.org/content/aapt/journal/ajp)
-•	Reports on Progress in Physics 
+
+Reports on Progress in Physics 
 (http://iopscience.iop.org/0034-4885/)
-•	Physical Review Special Topics – Physics Education Research (https://journals.aps.org/prstper/issues) 
-•	The Physics Teacher 
+
+Physical Review Special Topics – Physics Education Research (https://journals.aps.org/prstper/issues) 
+
+The Physics Teacher 
 (http://scitation.aip.org/content/aapt/journal/tpt)
-•	Physics Education
+
+Physics Education
 (http://iopscience.iop.org/0031-9120/) 
-•	International Journal of Science and Mathematics Education (http://link.springer.com/journal/10763)
-•	Journal of Science Teacher Education 
+
+International Journal of Science and Mathematics Education (http://link.springer.com/journal/10763)
+
+Journal of Science Teacher Education 
 (http://link.springer.com/journal/10972)
 
 Sitios web:
-•	Colorado University (Phet, Interactive simulations, free online physics)
-       http://phet.colorado.edu/
-•	https://es.khanacademy.org/
+
+Colorado University (Phet, Interactive simulations, free online physics)
+       
+http://phet.colorado.edu/
+
+https://es.khanacademy.org/

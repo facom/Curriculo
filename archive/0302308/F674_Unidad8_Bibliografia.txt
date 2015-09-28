@@ -1,3 +1,6 @@
 D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008
-D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998
+
+D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to 
+Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998
+
 H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985

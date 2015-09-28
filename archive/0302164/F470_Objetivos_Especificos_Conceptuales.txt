@@ -1,8 +1,21 @@
-Al terminar el curso el estudiante estará en capacidad de:
-•	Entender los conceptos de: Software, Hardware, Sistema operativo, Lenguaje de Programación.
-•	Utilizar herramientas de Internet como: navegadores, ftp, telnet.
-•	Utilizar el sistema operativo LINUX y  las herramientas que este dispone para su trabajo como físico.
-•	Construir algoritmos simples para la solución de problemas numéricos relacionados con las ciencias.
-•	Escribir programas en el lenguaje de programación C que manejen la entrada y la salida, tanto desde y hacia el teclado, el monitor y el disco duro. 
-•	Escribir un documento simple en LATEX, formateandolo adecuadamente e incluyendo ecuaciones matemáticas y gráficas externas.
-•	Distinguir las herramientas científicas: Gnuplot, Mathematica, Matlab, Octave, Derive.
+Solucionar con métodos numéricos problemas en Física y Astonomía que puedan no
+tener soluciones analíticas.
+
+Utilizar el lenguaje Python en la solución de problemas que exigen pesados cálculos numéricos que hacen imposible su solución de otra manera.
+
+Conocer y desarrollar la derivación formal de los métodos numéricos.
+
+Conocer la convergencia y análisis de error de los métodos numéricos, entendiendo el límite y la fiabilidad de estos en la solución de problemas.
+
+Saber que tipo de métodos numéricos se pueden aplicar a un problema determinado.
+
+Saber implementar computacionalmente (programar) los métodos numéricos vistos.
+
+Aprender a realizar pruebas de los métodos numéricos a través de comparación con soluciones analíticas conocidas, si es posible.
+
+Crear herramientas computacionales para la solución de nuevos problemas.
+
+Conocer paquetes de rutinas que se pueden instalar en Python.
+
+
+

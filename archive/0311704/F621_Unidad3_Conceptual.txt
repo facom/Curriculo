@@ -1,3 +1,2 @@
-Mediante fundamentos físicos, y tratando de reproducir las observaciones de las atmósferas estelares, esta unidad esta dedicada al estudio de el interior de las estrellas. 
-
-Se estudiaran los fenómenos físicos relevantes a la producción de energía, los procesos dinámicos relacionados con la estructura estelar, y los procesos físico-químicos que llevan a la generación de los elementos químicos en el universo.
+Ecuación de estructura. Conservación de la masa. Ecuación de transporte.
+Transporte de energía. Flujo radiativo monocromático. Convección. Conducción.

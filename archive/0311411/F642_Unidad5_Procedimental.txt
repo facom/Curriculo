@@ -1,4 +1,4 @@
-- Deducir las horas de salida y puesta de un astro
-- Deducir el tiempo de paso por el meridiano del observador de un astro
-- Diferenciar entre los cálculos hechos para objetos puntuales (estrellas) y objetos extendidos (Sol - Luna)
-- Producir códigos numéricos para el cálculo de fenómenos astronómicos.
+Deducir las horas de salida y puesta de un astro.
+Deducir el tiempo de paso por el meridiano del observador de un astro.
+Diferenciar entre los cálculos hechos para objetos puntuales (estrellas) y objetos extendidos (Sol - Luna).
+Producir códigos numéricos para el cálculo de fenómenos astronómicos.

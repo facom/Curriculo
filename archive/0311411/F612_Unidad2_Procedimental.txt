@@ -1,5 +1,4 @@
-- Describir la clasificación de las estrellas según su brillo
-- Diferenciar entre conceptos como magnitud absoluta y magnitud aparente de un astro
-- Deducir las escalas de distancias en el cielo en términos de años luz y parsec
-- Deducir la distancia a la que se encuentra un objeto haciendo uso de la ley de Pogson
-
+Describir la clasificación de las estrellas según su brillo.
+Diferenciar entre conceptos como magnitud absoluta y magnitud aparente de un astro.
+Deducir las escalas de distancias en el cielo en términos de años luz y parsec.
+Deducir la distancia a la que se encuentra un objeto haciendo uso de la ley de Pogson.

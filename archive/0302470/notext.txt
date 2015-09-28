@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Fri, 11 Sep 2015 14:08:50 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 11 Sep 2015 14:16:10 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="418";
-$F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="Johans Restrepo Cárdenas";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302470";
 $F110_Nombre_Asignatura="Física Estadística";

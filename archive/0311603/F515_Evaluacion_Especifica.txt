@@ -1,4 +1,5 @@
 Dado que la evaluación puede ser variable, se presentará acá una posible separación de las actividades de evaluación:
+
 Quizes: 4 con un total del 10%
 Parciales: 3 con un total del 60%
 Exposición oral: 1 con un total del 20%

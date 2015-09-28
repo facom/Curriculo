@@ -1,5 +1,5 @@
-Estudiar los temas principales de la relatividad especial. Aca se estudiarán los efectos de la aberracion de la luz y el efecto dopler relativista, además de todos los fenómenos principales de la relatividad especial.
+Estudiar los temas principales de la relatividad especialm la aberracion de la luz, el efecto dopler relativista, además de todos los fenómenos principales de la relatividad especial.
 
-Estudiar los temas principales de la radiación de cuerpo negro. Aca se estudiarán los diagramas H-R, la relación índice color, los espectros estelares y la ley de Pogson.
+Estudiar los temas principales de la radiación de cuerpo negro y sus aplicaciones en astronomía, el diagrama H-R, la relación índice color, los espectros estelares y la ley de Pogson.
 
-Estudiar los temas principales de la Mecanica cuantica. Aca se estudiará el efecto compton, la teoria de de Broglie, la ecuacion de Schrodinger y el átomo de hidrógeno.
+Estudiar los temas principales de la Mecanica cuantica inclueyndo el efecto compton, la teoria de de Broglie, la ecuacion de Schrodinger y el átomo de hidrógeno.

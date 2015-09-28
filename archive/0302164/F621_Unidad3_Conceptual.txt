@@ -1,1 +1,5 @@
-Condicionales  (if, switch). Operadores de relación. Estructuras de repetición (for, do..while). Comandos de acción (break, continue, goto, exit). Funciones matemáticas en C.
+Interpolación lineal.
+Polinomio  de Lagrange,  problemas que conlleva, y soluciones.
+Diferencias divididas.
+Interpolación de Hermite.
+Interpolación con splines cúbicos.

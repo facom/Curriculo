@@ -1,4 +1,7 @@
-•	Reconocer las Leyes de la Termodinámica.
-•	Diferenciar las magnitudes físicas fundamentales y derivadas y su respectiva unidad en el sistema internacional.
-•	Entender los conceptos básicos de temperatura, trabajo, calor, capacidad calorífica, entropía, y las distintas formas de energía.
-•	Describir adecuadamente y con lenguaje científico los fundamentos básicos de la teoría cinética de los gases ideales y de la mecánica estadística.
+Reconocer las Leyes de la Termodinámica.
+
+Diferenciar las magnitudes físicas fundamentales y derivadas y su respectiva unidad en el sistema internacional.
+
+Entender los conceptos básicos de temperatura, trabajo, calor, capacidad calorífica, entropía, y las distintas formas de energía.
+
+Describir adecuadamente y con lenguaje científico los fundamentos básicos de la teoría cinética de los gases ideales y de la mecánica estadística.

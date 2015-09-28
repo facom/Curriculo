@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 02 Jun 2015 06:25:53 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F010_AUTO_Fecha_Actualizacion="Mon, 14 Sep 2015 15:58:21 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="418";
-$F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302341";
 $F110_Nombre_Asignatura="Laboratorio de Óptica";

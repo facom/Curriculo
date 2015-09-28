@@ -1,3 +1,2 @@
-Por medio de la construcción de un marco teórico  que enlaza el conocimiento de áreas tan diversas como la mecánica cuántica, la relatividad especial y la magneto hidrodinámica, la disciplina de astrofísica estelar permite al estudiante involucrarse de manera directa en problemas actuales en éste campo de estudio y le provee las herramientas suficientes para la solución de los mismos.
-Estructura estelar, atmósferas e interior de las estrellas y evolución de las mismas son los tópicos fundamentales que construyen éste curso
-
+Por medio de la construcción de un marco teórico que enlaza el conocimiento de áreas tan diversas como la mecánica cuántica, la relatividad especial y la magneto hidrodinámica, la astrofísica estelar permite al estudiante involucrarse de manera directa en problemas actuales en éste campo de estudio y le provee las herramientas suficientes para la solución de los mismos.
+El curso cubre temas que van desde la structura estelar, las atmósferas e interior de las estrellas y evolución de las mismas.

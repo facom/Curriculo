@@ -1,14 +1,14 @@
-1. Ley de conservación de la carga
-2. Ley de Lenz y ley de Faraday
-3. Ley de Ampere-Maxwell
-4. Interpretación física de las ecuaciones de Maxwell
-5. Potenciales del campo electromagnético
-6. Transformaciones generales de calibración. Calibración de Lorenz
-7. Ecuaciones de D’Alembert para los potenciales del campo
-8. Ley de conservación de la energía del campo electromagnético
-9. Ley de conservación del momentum lineal del campo electromagnético
-10. Ondas electromagnéticas
-11. Ondas planas
-12. Densidad de energía y vector de Poynting de la onda plana
-13. Polarización de las ondas planas
-14. Paquete de ondas
+Ley de conservación de la carga
+Ley de Lenz y ley de Faraday
+Ley de Ampere-Maxwell
+Interpretación física de las ecuaciones de Maxwell.
+Potenciales del campo electromagnético.
+Transformaciones generales de calibración. Calibración de Lorenz.
+Ecuaciones de D’Alembert para los potenciales del campo.
+Ley de conservación de la energía del campo electromagnético.
+Ley de conservación del momentum lineal del campo electromagnético.
+Ondas electromagnéticas.
+Ondas planas.
+Densidad de energía y vector de Poynting de la onda plana.
+Polarización de las ondas planas.
+Paquete de ondas.

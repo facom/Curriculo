@@ -1,0 +1,3 @@
+Se ilustran ejemplos de los métodos de interpolación. El polinomio de Lagrange de orden superior exhibe desviaciones en algunos puntos que no sirven para la interpolación.  Si se usan polinomios de Lagrange de segundo orden para interpolación de tres en tres puntos, mejora la interpolación.
+
+Con los splines cúbicos mejora la interpolación.

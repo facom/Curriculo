@@ -1,6 +1,7 @@
-1.1.	Carga eléctrica, ley de Coulomb.
-1.2.	Campo eléctrico, flujo de campo eléctrico y ley de Gauss.
-1.3.	Energía potencial eléctrica, potencial eléctrico para cargas puntuales y distribuciones continuas de carga, diferencia de potencial, ecuación de Poisson y Laplace.
-1.4.	Campos eléctricos a partir de potenciales, energía asociada a configuraciones electrostáticas.
-1.5.	Conductores, conductores en campos electrostáticos,  condensadores y capacitancia, energía almacenada en un condensador.
-1.6.	Dieléctricos, Polarizabilidad, energía electrostática en los dieléctricos.
+1. Carga eléctrica y campo eléctrico: Carga eléctrica. Cuantización de la carga, Ley de Coulomb, Campo eléctrico y fuerzas eléctricas. Campo eléctrico de distribuciones de cargas, movimiento de cargas en campos eléctricos.
+
+2. Ley de Gauss: Líneas de campo eléctrico, Carga y flujo eléctrico, Ley de Gauss. Aplicaciones, Campos en conductores.
+
+3. Potencial eléctrico: Energía potencial eléctrica, Energía de un sistema de cargas, Potencial eléctrico, Calculo de potenciales. Superficies equipotenciales, Potencial y campo, Gradiente del potencial.
+
+4. Capacitancia y Dieléctricos: Capacitores y capacitancia, Capacitores en serie y paralelo, Energía almacenada. Dipolo en campo, dieléctricos, polarización, susceptibilidad. Ley de Gauss en los dieléctricos, desplazamiento eléctrico.

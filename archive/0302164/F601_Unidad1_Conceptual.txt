@@ -1,1 +1,7 @@
-Funcionamiento básico del computador. Dispositivos de almacenamiento. Dispositivos de entradas y salida. El sistema operativo Linux. Editores texto: el editor gnu emacs. Introducción a Internet, Telnet, ftp,w.w.w. El correo electrónico.
+Repaso breve del Python
+Estructura básica de un programa en Python.
+Numpy y rutinas de graficación.
+Operaciones aritméticas con reales y complejos.
+Números aleatorios,  método del congruente lineal y problemas.
+Errores: redondeo, truncamiento, sustracción cancelativa, precisión de la máquina.
+Algoritmos.

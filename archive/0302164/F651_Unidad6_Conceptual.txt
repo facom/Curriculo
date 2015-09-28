@@ -1,1 +1,6 @@
-Arreglos: declaración, uso y aplicaciones. Punteros: declaración, uso y aplicaciones. Arreglos de caracteres. Estructuras: declaración, uso y aplicaciones. Uso de objetos especiales como argumentos de una función. Salida y entrada de datos hacia y desde el disco duro. Llamada a comandos del sistema operativo desde programa.
+Problemas con condiciones iniciales.
+Métodos de primer orden: método de Euler.
+Métodos de más alto orden: métodos de Runge-Kutta, Leap-Frog (Salto del sapo).
+Sistemas de ecuaciones diferenciales.
+Problemas con condiciones frontera.
+

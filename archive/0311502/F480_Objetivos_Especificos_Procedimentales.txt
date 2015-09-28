@@ -1,17 +1,32 @@
 Describir a partir de modelos físicos (Gravedad y mecánica de fluidos), los procesos involucrados en la formación de planetas rocosos y gigantes.
+
 Comparar los procesos de formación entre planetas rocosos y gigantes.
+
 Diferenciar las características de los procesos de acreción de planetas rocosos y núcleos de planetas gigantes. 
+
 Describir el interior de los planetas de acuerdo con los modelos numéricos y las propiedades de la materia a grandes presiones y temperaturas.
+
 Utilizar modelos numéricos para describir el interior planetario a partir de la solución de ecuaciones de equilibrio hidrostático.
+
 Utilizar modelos matemáticos y ecuaciones para calcular el tamaño de las magnetósferas planetarias.
+
 Diferenciar los tipos de minerales que componen los planetas rocosos, su origen y principales características.
+
 Diferenciar entre características endógenas y exógenas de las superficies planetarias.
+
 Utilizar modelos matemáticos y ecuaciones para calcular la energía implicada en la formación de cráteres de impacto, su tamaño y su clasificación.
+
 Diferenciar los principales cuerpos que componen el Sistema Solar.
 Organizar jerárquicamente los principales cuerpos que componen el Sistema Solar.
+
 Describir la principales características de los planetas del Sistema Solar y sus lunas. 
+
 Diferenciar entre los cuerpos menores del Sistema Solar, asteroides, cometas y TNO's. 
+
 Describir los principales métodos de detección de planetas extrasolares.
+
 Organizar datos observacionales de velocidad radial y tránsitos planetarios en curvas de velocidad y curvas de luz.
+
 Utilizar los datos y las curvas para deducir las masas y los radios de planetas extrasolares.
+
 Describir gráficamente la zona de habitabilidad de estrellas de la secuencia principal.

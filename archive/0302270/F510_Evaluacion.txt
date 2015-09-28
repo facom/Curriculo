@@ -1,15 +1,1 @@
-La evaluación consiste básicamente en la presentación, a lo largo del semestre académico programado por FCEN, de exámenes escritos, que hemos clasificado en “Examen de Seguimiento” (ES) y en “Examen Parcial” (EP), con la distribución de porcentajes, en  orden cronológico, dada por:
-
-1. ES sobre los temas impartidos en las sesiones 1-8. Tiene un valor del 10%. Se realizará como mínimo tres días después de la sesión 8, y un día antes, por lo menos, del primer EP.
-2. EP sobre los temas impartidos en las sesiones 1-8. Tiene un valor del 20%. Se realizará entre los días 7 y 10 después de la sesión 8. 
-3. ES sobre los temas impartidos en las sesiones 9-18. Tiene un valor del 10%. Se realizará como mínimo tres días después de la sesión 18. 
-Comentario 1: En el momento de realizarse esta prueba el estudiante llevaría evaluado el 40% de su curso, con lo que estaría justo en el umbral para tomar la decisión de continuar o no matriculado en el curso.
-4. EP sobre los temas impartidos en las sesiones 9-18. Tiene un valor del 25%. Se realizará entre los días 7 y 10 después de la sesión 18. 
-
-Comentario 2: Al estudiante que está indeciso de cancelar el curso o no, se le podría dar la oportunidad de intentar la realización de la prueba escrita, a sabiendas de que sólo antes de 15 minutos se le puede aceptar la cancelación, si lo decidió rotundamente así, ene ste momento de la prueba. La opción de supletorio en esta situación sería de completa autonomía del profesor.
-5. ES sobre los temas impartidos en las sesiones 19-28. Tiene un valor del 10%. SE realizará como mínimo tres días después de la sesión 28.
-6. EP sobre los temas impartidos en las sesiones 19-28. Tiene un valor del 20%. Se realizará entre los días 7 y 10 después de la sesión 28.
-7. ES sobre los temas impartidos en las sesiones 29-32. Tiene un valor del 5%. SE realizará como mínimo tres días después de la última sesión del curso, o en la semana programada por la FCEN para los finales.
-
-Comentario 3: Los exámenes son calificados por el grupo de profesores asistentes y de apoyo del curso de Mecánica, sometidos luego a una revisión o aval por parte del profesor titular, antes del conocimiento y revisión por parte de sus estudiantes. Además, los profesores asistentes deben presentar un informe detallado --al profesor titular-- sobre la situación de la evaluación: ¿se lograron o no los objetivos del aprendizaje?, ¿qué temas o conceptos fueron los de mayor dificultad?, etc.
- 
+La evaluación consiste básicamente en la presentación, a lo largo del semestre académico programado por FCEN, de exámenes escritos, que hemos clasificado en “Examen de Seguimiento” (ES) y en “Examen Parcial” (EP), con la distribución de porcentajes, en  orden cronológico.

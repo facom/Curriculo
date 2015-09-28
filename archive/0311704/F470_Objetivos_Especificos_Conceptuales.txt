@@ -1,5 +1,9 @@
-•Relacionar los procesos físicos que ocurren en las estrellas con las  propiedades de las regiones donde ellos tienen origen.
-•Identificar los diferentes momentos de radiación derivados de la definición de intensidad.
-•Resolver modelos simples de atmósferas estelares y formación de lineas espectrales y confrontarlos con datos reales.
-•Definir las formas de transferencia de energía al interior de las estrellas. 
-•Comprender los principales estadios de evolución estelar.
+Relacionar los procesos físicos que ocurren en las estrellas con las  propiedades de las regiones donde ellos tienen origen.
+
+Identificar los diferentes momentos de radiación derivados de la definición de intensidad.
+
+Resolver modelos simples de atmósferas estelares y formación de lineas espectrales y confrontarlos con datos reales.
+
+Definir las formas de transferencia de energía al interior de las estrellas. 
+
+Comprender los principales estadios de evolución estelar.

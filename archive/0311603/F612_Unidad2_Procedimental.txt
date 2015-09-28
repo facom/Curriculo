@@ -1,4 +1,0 @@
-- Relatividad especial
-- Efecto Doppler relativista
-- Aberración de la luz
-- Equivalencia Masa-Energia

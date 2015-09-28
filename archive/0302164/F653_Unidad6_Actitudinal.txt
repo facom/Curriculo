@@ -1,0 +1,1 @@
+El estudiante debe poder distinguer  entre el método de Euler y sus limitaciones y los otros métodos vistos.

@@ -2,6 +2,6 @@ Se explica el fundamento teórico de un método numérico, se detalla el program
 
 Se proponen tareas complementarias para ayudar al estudiante a aplicar el método a situaciones nuevas.
 
-Cada estudiante comparte una carpeta de dropbox con el profesor en la cual coloca sus tareas, el profesor la corrige y califica.
+Se utilizan aplicaciones en la nube para compartir información del contenido y las evaluaciones con los estudiantes.
 
 El fraude será severamente castigado.

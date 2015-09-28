@@ -1,6 +1,3 @@
-Pruebas escritas de dos horas sobre los temas de formación planetaria, interior, superficies, atmósferas y magnetósferas, Sistema Solar, Exoplanetasy habitabilidad (pueden ser dos o tres según se convenga con los estudiantes).
-Solución de problemas específicos sobre formación planetaria.
-Modelamiento númerico del interior planetario.
-Cálculo de energías y tamaños de cráteres de impacto.
-Exposiciones orales sobre principales características de los planetas del sistema solar y sus lunas.
-Descripción gráfica de la zona de habitabilidad de estrellas de secuencia principal de acuerdo con los criterios de habitabilidad.
+El curso será evaluado a través de pruebas parciales y una variedad de actividades de seguimiento. 
+Las pruebas parciales valen el 20% cada una y se dividen en actividades de solución de problemas de aplicación de la teoría para resolver por fuera de la clase y una prueba escrita presencial de 2 horas.
+Las actividades de seguimiento se componen de tareas, exposiciones, solución de problemas y talleres en general. Estas actividades tienen un valor total del 60% de la nota de la materia.

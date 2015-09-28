@@ -1,5 +1,5 @@
-• Definición de Longitud y Latitud.
-• Cálculo de distancias sobre una esfera.
-• Diferenciar entre los diferentes Sistemas de Coordenadas Celestes.
-• Manejo de la Carta Celeste.
-• Diferenciar el movimiento aparente del Sol, la Luna y los Planetas en la esfera celeste.
+Definición de Longitud y Latitud.
+Cálculo de distancias sobre una esfera.
+Diferenciar entre los diferentes Sistemas de Coordenadas Celestes.
+Manejo de la Carta Celeste.
+Diferenciar el movimiento aparente del Sol, la Luna y los Planetas en la esfera celeste.

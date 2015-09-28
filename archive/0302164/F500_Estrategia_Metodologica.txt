@@ -1,2 +1,7 @@
-Cada sesión de clase se divide en una primera hora teórica en la que se hace una presentación magistral del tema en curso que incluye la presentación de un programa ejemplo sobre el mismo. La segunda hora se dedica para realizar una actividad práctica en la sala de computo aplicando lo visto en la hora teórica.
-Después de cada sesión de clase se dejan propuestas actividades que el estudiante puede realizar por fuera de clase para practicar lo visto en la misma.
+Se explica el fundamento teórico de un método numérico, se detalla el programa en Python, se discute la programación y su fundamento matemático y científico, se analizan los resultados, se estudian los errores que el método conlleva.
+
+Se proponen tareas complementarias para ayudar al estudiante a aplicar el método a situaciones nuevas.
+
+Se utilizan aplicaciones en la nube para compartir información del contenido y las evaluaciones con los estudiantes.
+
+El fraude será severamente castigado.

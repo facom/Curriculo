@@ -1,7 +1,6 @@
-  Hallar una o varias raíces de una ecuación algebraica.
-• Algoritmo de la bisección.
-• Algoritmo de la regla falsa.
-  Algoritmo de la secante.
-• Algoritmo  de Newton-Raphson.
-  Ecuaciones trascendentales.
-• Análisis de errores.
+Algoritmo de la bisección.
+Algoritmo de la regla falsa.
+Algoritmo de la secante.
+Algoritmo  de Newton-Raphson.
+Ecuaciones trascendentales.
+Análisis de errores.

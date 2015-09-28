@@ -1,44 +1,28 @@
 Bibliografía básica:
-
-
-• Numerical Analysis, Richard L. Burden & Douglas Faires, Annette M. Burden, 10 E, Cengage Center, Boston, 2015.
-
-• Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The Cambridge University Press, 2007.
-
+Numerical Analysis, Richard L. Burden & Douglas Faires, Annette M. Burden, 10 E, Cengage Center, Boston, 2015.
+Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The Cambridge University Press, 2007.
 Computational Physics 3er Ed., Landau, Páez, Bordeianu, Wiley VCH, Weinheim, Germany, 2015.
 
-Descargue el libro de Landau, Pae<z y Bordeianu, A survey of computational physics  de:
-
-http://www.compadre.org/psrc/items/detail.cfm?ID=11578
-
-haga click en la cruz de View the primary document attached to this resource
-para comenzar a bajar este libro en Python.
+Libro de Landau, Paez y Bordeianu en línea, A survey of computational physics  de: http://www.compadre.org/psrc/items/detail.cfm?ID=11578
 
 Introduction to Numerical Programming, Titus Beu, CRC Press, Taylor & Francis Group, Boca Raton , Fl., 2014.
-
 
 Bibliografía complementaria:
 
 Python:
 Traducción española del manual de Python escrita por su creador Guido
-van Rossum:
-• http://pyspanishdoc.sourceforge.net/tut/tut.html
+van Rossum: http://pyspanishdoc.sourceforge.net/tut/tut.html
 
-• Manual escrito por Swaroop, A Byte of Phyton: (en inglés)
-http://www.swaroopch.org/notes/Python
+Manual escrito por Swaroop, A Byte of Phyton: (en inglés) http://www.swaroopch.org/notes/Python
 
-• Descargue el libro “Python para todos”, del mejicano Raúl González
-Duque:
-http://www.s3.com.mx/tutoriales/pythonparatodos.pdf
-
+Libro “Python para todos”, del mejicano Raúl González
+Duque: http://www.s3.com.mx/tutoriales/pythonparatodos.pdf
 
 Elementary Numerical Analysis, 3rd Ed.,Kendall Atkinson, Weimin Han, Wiley, New York, 2003.
 
-• Introduction to Computational and Programming Using Python, J. V. Guttag, The MIT Press, Cambridge, Mass., 2013
+Introduction to Computational and Programming Using Python, J. V. Guttag, The MIT Press, Cambridge, Mass., 2013
 
 Numerical Methods in Engineering with Python.
 Jaan Kiusalass., Cambridge University Press, Cambridge, 2013.
 Sitios web del curso: el curso cuenta con su propia página web:
 https://github.com/sbustamante/ComputationalMethods
-
-

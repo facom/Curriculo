@@ -1,24 +1,25 @@
 Bibliografía básica
-● S. Carrol & D. Ostlie, An Introduction to Modern Astrophysics, Ed. 2, 2006.
-● Jorge Zuluaga, Introducción a la Astrofísica, 1998.
-● R. A. Serway, C. Moses, C. Moyer, Modern Physics, 2005.
-● Jorge Zuluaga, Astrofísica Moderna, Notas de Clases, 2012.
+
+S. Carrol & D. Ostlie, An Introduction to Modern Astrophysics, Ed. 2, 2006.
+Jorge Zuluaga, Introducción a la Astrofísica, 1998.
+R. A. Serway, C. Moses, C. Moyer, Modern Physics, 2005.
+Jorge Zuluaga, Astrofísica Moderna, Notas de Clases, 2012.
+
 Otros textos
-● T. Padmanabhan, An Invitation to Astrophysics, World Scientific, 2006.
-● D. Prialnik, An Introduction to the Theory of Stellar Structure and Evolution, Cambridge, 2000.
-● H. Bradt, Astrophysical Processes, Cambridge, 2008.
-● Boer & Seggewiss, Stars and Stellar Evolution, EDP, 2008.
-● A. Tielens, The Physics and Chemistry of the Insterstellar Medium, Cambridge, 2005.
-● K. Robinson, Spectroscopy, Springer, 2007.
-● L. Spitzer, Physical Processes in the Intestellar Medium, Wiley, 2004.
-● L. Torre, Elementos de Relatividad, 2008.
-● D.McMahon.  Relativity Demystified.  McGraw­Hill.  2006.
-● T.A.   Moore.   Física,   Seis   Ideas   Fundamentales.   Tomo   II:   Las   Leyes   de   la   Física   son   Independientes
+
+T. Padmanabhan, An Invitation to Astrophysics, World Scientific, 2006.
+D. Prialnik, An Introduction to the Theory of Stellar Structure and Evolution, Cambridge, 2000.
+H. Bradt, Astrophysical Processes, Cambridge, 2008.
+Boer & Seggewiss, Stars and Stellar Evolution, EDP, 2008.
+A. Tielens, The Physics and Chemistry of the Insterstellar Medium, Cambridge, 2005.
+K. Robinson, Spectroscopy, Springer, 2007.
+L. Spitzer, Physical Processes in the Intestellar Medium, Wiley, 2004.
+L. Torre, Elementos de Relatividad, 2008.
+D.McMahon.  Relativity Demystified.  McGraw­Hill.  2006.
+T.A.   Moore.   Física,   Seis   Ideas   Fundamentales.   Tomo   II:   Las   Leyes   de   la   Física   son   Independientes
 de los Marcos de Referencia.  McGraw­Hill, 2003.
-● F. Halzen & A. Martin, Quarks & Leptons, Wiley, 1984.
-● H. F. Hameka, Quantum Mechanics: a conceptual approach, Wiley, 2004.
-● W. Greiner, Quantum Mechanis, an Introduction, Springer, 2001.
-● D. Chandler, Introduction to Modern Statistical Mechanics, 1987.
-● K. Krane, Física Moderna, Limusa, 1991
-
-
+F. Halzen & A. Martin, Quarks & Leptons, Wiley, 1984.
+H. F. Hameka, Quantum Mechanics: a conceptual approach, Wiley, 2004.
+W. Greiner, Quantum Mechanis, an Introduction, Springer, 2001.
+D. Chandler, Introduction to Modern Statistical Mechanics, 1987.
+K. Krane, Física Moderna, Limusa, 1991.

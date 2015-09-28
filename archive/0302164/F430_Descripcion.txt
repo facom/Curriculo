@@ -1,1 +1,2 @@
-Formar las competencias necesarias para afrontar los problemas no analíticos de forma computacional.  Hacer del computador una herramienta familiar al físico teórico.  
+El curso de Métodos Computacionales tiene propósito fundamental la introducción de métodos numéricos ampliamente usados en Física y Astronomía. Estos temas son abordados desde un contexto formal pero manteniendo una fuerte componente práctica y computacional, ilustrando además algunas aplicaciones en problemas de interés actual.
+

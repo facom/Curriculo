@@ -1,4 +1,3 @@
-- Reconocer los sistemas de coordenadas como una herramienta fundamental para la astronomía de posición.
-- Participar de los talleres en clase de transformación de coordenadas.
-- Participar del trabajo en equipo.
-  
+Reconocer los sistemas de coordenadas como una herramienta fundamental para la astronomía de posición.
+Participar de los talleres en clase de transformación de coordenadas.
+Participar del trabajo en equipo.

@@ -1,0 +1,4 @@
+Se solucionan problemas como el movimiento de un planeta o la caída libre con fricción del aire utilizando el método de Euler. Se explican sus limitaciones.
+
+Se utiliza el método de Runge Kutta y otros métodos para solución de ecuaciones 
+diferenciales de segundo orden.

@@ -1,4 +1,1 @@
-4 Tareas Cada una consiste en una asignación (en la mayoría de los casos escritura de un programa o algoritmo) que se pasará al profesor por medios electrónicos. 30,00%
-Examen	      20%
-Examen	      25%
-Examen	      25,00%
+El curso será evaluado con tres exámenes parciales con valores de 10%, 20%, 20%, tareas periódicas con un valor del 30% y un proyecto del final del curso con un valor del 20%. 

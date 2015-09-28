@@ -1,0 +1,3 @@
+Calcular campos eléctricos y potenciales de distribuciones de carga específicas.  Utilizar la ley de gauss para el cálculo de campos eléctricos en distribuciones de carga altamente simétricas.
+
+Estimar fuerzas magnéticas entre corrientes y sobre cargas en movimiento. Explicar los fenómenos de magnetización de la materia. 

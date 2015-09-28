@@ -63,8 +63,9 @@ $DATE=date(DATE_RFC2822);
 ////////////////////////////////////////////////////
 //RECUPERA INFORMACION DEL CURSO DE LA BASE DE DATOS
 $codemd5=substr(md5($ver_curso),0,6);
+
 $showlink="$SITEURL/links/$codemd5.html";
-$codelink="<p><div style='padding:20px;font-size:14px;background:lightgray'>Disponible para editar en: <a href='$showlink' target='_blank'>$showlink</a>.</div></p>";
+$codelink="<p><div style='padding:20px;font-size:14px;background:lightgray'>Este curso esta en edición y no es una versión distribuible.  Esta disponible para edición en: <a href='$showlink' target='_blank'>$showlink</a>.</div></p>";
 
 $table="MicroCurriculos";
 $tableid="F100_Codigo";
@@ -112,7 +113,11 @@ if($F020_AUTH_Autorizacion_Vicedecano=="Si"){
 $qaprob=1;
 $aprobado="";
 if(isBlank($F030_AUTH_Acta_Numero)){$qaprob=0;}
- 
+
+if($F020_AUTH_Autorizacion_Vicedecano=="Si"){
+  $codelink="";
+}
+  
 //==================================================
 //FORMATO PLANO
 //==================================================
@@ -211,6 +216,15 @@ if($mode=="FCEN" or $mode=="Todos"){
     </tr>
   </table>
 ";
+  }else{
+    $aprobado="<p><div style='padding:20px;font-size:14px;background:lightgray'>Este
+programa esta en proceso de aprobación por el Consejo de Facultad
+(última actualización $F010_AUTO_Fecha_Actualizacion).  Úselo
+solamente como fuente de información preliminar.  Una versión previa
+del curso puede encontarse en el enlace:<br/><center><a
+href=http://astronomia-udea.co/principal/Curriculo/planes.php>http://astronomia-udea.co/principal/Curriculo/planes.php</a></center>
+Allí se publicará también la versíón definitiva de este semestre una
+vez este aprobado.</a></div></p>";
   }
 
   $unidades="";
@@ -478,6 +492,15 @@ if($mode=="Vicedocencia" or $mode=="Todos"){
   </tr>
 </table>
 ";
+  }else{
+    $aprobado="<p><div style='padding:20px;font-size:14px;background:lightgray'>Este
+programa esta en proceso de aprobación por el Consejo de Facultad
+(última actualización $F010_AUTO_Fecha_Actualizacion).  Úselo
+solamente como fuente de información preliminar.  Una versión previa
+del curso puede encontarse en el enlace:<br/><center><a
+href=http://astronomia-udea.co/principal/Curriculo/planes.php>http://astronomia-udea.co/principal/Curriculo/planes.php</a></center>
+Allí se publicará también la versíón definitiva de este semestre una
+vez este aprobado.</a></div></p>";
   }
 
   $table="";

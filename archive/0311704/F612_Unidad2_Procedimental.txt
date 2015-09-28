@@ -1,3 +1,0 @@
-- Transferencia radiativa en estrellas. Balance de energía. Opacidad radiativa. Momentos radiativos. Ecuación de transferencia. Aproximación LTE. Equilibrio radiativo. Opacidad de Roseland.
-
-- Atmósferas . Atmósfera gris. Opacidad y ensanchamiento de línea. Formación de líneas atómicas. Ancho equivalente. Modelado atmosférico.

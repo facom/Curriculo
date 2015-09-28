@@ -1,3 +1,5 @@
-- Estudiar los procesos mas importantes de la física que llevaron a la astrofísica moderna y saber ubicarlos en la historia.
-- Estudiar y entender los fenómenos relacionados con la radiación de cuerpo negro y aplicarlos a los casos relevantes de la astrofísica.
-- Estudiar y entender los fenómenos relacionados con la mecánica cuántica y aplicarlos a los casos relevantes de la astrofísica.
+Estudiar los procesos mas importantes de la física que llevaron a la astrofísica moderna y saber ubicarlos en la historia.
+
+Estudiar y entender los fenómenos relacionados con la radiación de cuerpo negro y aplicarlos a los casos relevantes de la astrofísica.
+
+Estudiar y entender los fenómenos relacionados con la mecánica cuántica y aplicarlos a los casos relevantes de la astrofísica.

@@ -1,1 +1,3 @@
-Las atmósferas de las estrellas son la base de todo nuestro entendimiento respecto a ellas. Por tanto, estudiarlas y entender cada una de sus partes y composición es el objetivo principal de esta unidad.
+Transferencia radiativa en estrellas. Balance de energía. Opacidad radiativa. Momentos radiativos. Ecuación de transferencia. Aproximación LTE. Equilibrio radiativo. Opacidad de Roseland.
+
+Atmósferas . Atmósfera gris. Opacidad y ensanchamiento de línea. Formación de líneas atómicas. Ancho equivalente. Modelado atmosférico.

@@ -1,3 +1,5 @@
-1. Utilizar las leyes de Newton en la solución de problemas elementales, en sistemas reducidos a una partícula.
-2. Utilizar las leyes de Newton en la solución de problemas de dos cuerpos bajo fuerzas centrales.
-3. Utilizar las leyes de movimiento en la solución de problemas elementales de un cuerpo rígido.
+Utilizar las leyes de Newton en la solución de problemas elementales, en sistemas reducidos a una partícula.
+
+Utilizar las leyes de Newton en la solución de problemas de dos cuerpos bajo fuerzas centrales.
+
+Utilizar las leyes de movimiento en la solución de problemas elementales de un cuerpo rígido.

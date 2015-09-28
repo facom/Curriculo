@@ -1,4 +1,7 @@
 Manipular profesionalmente el telescopio para caracterizar las observaciones astronómicas.
+
 Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
+
 Manipular apropiadamente imágenes astronómicas, a través de su reducción, calibración y posterior análisis.
+
 Usar de forma apropiada las bases de datos astronómicos. 

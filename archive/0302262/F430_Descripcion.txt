@@ -1,1 +1,4 @@
-El curso de Física II es el segundo curso de física básica de la carrera.  En este curso se busca en particular introducir al estudiante en el estudio de los fenómenos electromagnéticos y en general la descripción usando campos de las interacciones electromagnéticas.
+El curso es una introducción a la teoría electromagnética.
+Al estudiante se le enseña  el manejo de las herramientas teóricas que le permitirán calcular  los campos y las fuerzas producidas por cargas y corrientes eléctricas.
+Se parte  de la descripción de la fuerza eléctrica, haciendo uso del  concepto de campo eléctrico, se continúa con la interacción magnética, se define el campo magnético y se determinan sus fuentes. Finalmente se concluye con inducción electromagnética asociada a los fenómenos dinámicos. 
+

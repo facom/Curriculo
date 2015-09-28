@@ -1,4 +1,7 @@
-El objetivo fundamental  es comenzar en el régimen electrostático y magnetostático y luego llegar las ecuaciones de Maxwell en el vacío. 
-Presentar los principios básicos y leyes fundamentales de la electricidad y el magnetismo desde un punto de vista clásico. 
-Incentivar en el estudiante la habilidad de aplicar estos principios y leyes a problemas de electrostática, magnetostática y electromagnetismo. 
-Dar al estudiante, a través de problemas y lecturas complementarias, una visión completa sobre el enorme campo de aplicaciones de los conceptos y leyes expuestas.
+Saber determinar la capacitancia de condensadores  con simetrías específicas. Comprender los instrumentos de medida para magnitudes eléctricas como voltaje, corriente y resistencias. 
+
+Saber calcular el campo magnético producido por corrientes y por materiales magnetizados. 
+
+Calcular fuerzas electromotrices inducidas por la variación de flujos de campos magnéticos.  Determinar inductancias para corrientes con dependencia de la geometría. 
+ 
+Determinar corrientes y voltajes en circuitos de corriente  alterna, en  función de la resistencia y reactancia de los elementos del circuito.

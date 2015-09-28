@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 10 Sep 2015 09:35:03 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 10 Sep 2015 13:06:44 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="418";
-$F040_AUTH_Acta_Fecha="19 DE SEPTIEMBRE DE 2005";
-$F050_Nombre_Actualiza="daniel jaramillo";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302435";
 $F110_Nombre_Asignatura="Electromagnetismo II";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="Física Teórica";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2015-1";
+$F330_Semestre="2015-2";
 $F330_Semestre_Plan="7";
 $F340_Horario_clase="M j 14-16";
 $F350_Requisitos="Electromagnetismo I";

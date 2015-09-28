@@ -1,3 +1,5 @@
 M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997 
+
 H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985 
+
 K. Andrew, American Journal of Physics 52 (1984) 492

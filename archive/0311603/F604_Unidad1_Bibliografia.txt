@@ -1,5 +1,4 @@
-Bibliografía básica
-● S. Carrol & D. Ostlie, An Introduction to Modern Astrophysics, Ed. 2, 2006.
-● Jorge Zuluaga, Introducción a la Astrofísica, 1998.
-● R. A. Serway, C. Moses, C. Moyer, Modern Physics, 2005.
-● Jorge Zuluaga, Astrofísica Moderna, Notas de Clases, 2012.
+S. Carrol & D. Ostlie, An Introduction to Modern Astrophysics, Ed. 2, 2006.
+Jorge Zuluaga, Introducción a la Astrofísica, 1998.
+R. A. Serway, C. Moses, C. Moyer, Modern Physics, 2005.
+Jorge Zuluaga, Astrofísica Moderna, Notas de Clases, 2012.
