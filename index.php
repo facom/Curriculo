@@ -523,6 +523,7 @@ FORMULARIO;
   $i=1;
   $semestre_titulo=0;
   $codigos=array();
+  $codigos_file=array();
   while($row=mysqli_fetch_array($out)){
     $codigo=$row[0];
     $nombre=$row[1];
@@ -536,8 +537,10 @@ FORMULARIO;
     $semestreactual=$row[9];
     $codigoid=$row[10];
     $version=$row[11];
-    //echo "$codigoid<br/>";
     $codigopublic="$codigo-v$version-$semestreactual";
+    $linkvicedocencia="public/latest/$codigo.pdf";
+    $linkfcen="public/latest/$codigo-FCEN.pdf";
+    $extrainfo="";
 
     //CHECK IF THIS IS A NEW SEMESTER
     if($semestre>$semestre_titulo){
@@ -556,9 +559,34 @@ FORMULARIO;
       array_push($codigos,$codigo);
     }
 
+    //CREATE COPY OF FILE IN LATEST DIRECTORY
+    if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
+	if(!in_array($codigo,$codigos_file)){
+	  array_push($codigos_file,$codigo);
+	  $latest_file="$DATADIR/public/latest/$codigo.pdf";
+	  $latest_fcen_file="$DATADIR/public/latest/$codigo-FCEN.pdf";
+	  $difile=0;
+	  if(file_exists($latest_file)){
+	    $difile=shell_exec("diff public/$codigopublic/$codigopublic-vicedocencia.pdf public/latest/$codigo.pdf");
+	  }else{
+	    $difile=1;
+	  }
+	  if($difile){
+	    echo "$latest_file has changed, copying...<br/>";
+	    shell_exec("cp public/$codigopublic/$codigopublic-vicedocencia.pdf public/latest/$codigo.pdf");
+	    shell_exec("cp public/$codigopublic/$codigopublic-FCEN.pdf public/latest/$codigo-FCEN.pdf");
+	  }
+	}
+	if($qall){
+	  $linkvicedocencia="public/$codigopublic/$codigopublic-vicedocencia.pdf";
+	  $linkfcen="public/$codigopublic/$codigopublic-FCEN.pdf";
+	}
+	$extrainfo="- $semestreactual - Version $version";
+      }
+
 $listaaprob.=<<<LISTA
 <li>
-  <a href='public/$codigopublic/$codigopublic-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a> (<a href='public/$codigopublic/$codigopublic-FCEN.pdf' target="_blank">Formato FCEN</a>)
+  <a href='$linkvicedocencia' target="_blank">$nombre - $codigo $extrainfo</a> (<a href='$linkfcen' target="_blank">Formato FCEN</a>)
 LISTA;
   if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 1){
     if(file_exists("tmp/aprobados.tar") and $i==1){shell_exec("rm tmp/aprobados.tar");}

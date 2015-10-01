@@ -1,5 +1,5 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 28 Sep 2015 19:35:53 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 07:16:39 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="1";
@@ -35,7 +35,7 @@ $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Investigación";
 $F320_Ciclo="Profundización";
 $F330_Semestre="2014-1";
-$F330_Semestre_Plan="10";
+$F330_Semestre_Plan="9";
 $F340_Horario_clase="Depende de Profesor";
 $F350_Requisitos="(CR) 130";
 $F360_Correquisitos="Ninguno";
