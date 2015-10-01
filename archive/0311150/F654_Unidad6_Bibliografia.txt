@@ -1,4 +1,3 @@
-*Bases de astrofísica. Alonso Sepúlveda. U. de A. 2014. 
-*Notas del Curso Fundamentos de Astrofísica. Jorge I. Zuluaga. Reimpresos U. de A.
- 2009. 
-*Consultas en la web: tabla de isótopos, tablas de partículas elementales, interacciones fundamentales, reacciones nucleares. 
+Elementos de Astrofísica, Alonso Sepúlveda, Editorial UdeA, 2104
+Los conceptos de la Física, Alonso Sepúlveda, Editorial UdeA, 2014
+Historia Fontana de la Astronomía y la Cosmología, John North, Fondo de Cultura Económica, Mèxico, 2001.

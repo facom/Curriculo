@@ -1,1 +1,3 @@
-argumentar cuadridimensionalmente la física y la diferencia con las ideas newtonianas de la misma. Mostrar que el grupo de Lorentz es el grupo de invarianza de las transformaciones de un observador a otro.
+Argumentar cuadridimensionalmente la física y la diferencia con las ideas newtonianas de la misma. 
+
+Mostrar que el grupo de Lorentz es el grupo de invarianza de las transformaciones de un observador a otro.

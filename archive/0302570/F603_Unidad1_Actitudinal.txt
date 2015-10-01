@@ -1,3 +1,5 @@
 Claridad en los rangos espaciales, de densidad y volumen en los cuales la aproximación de medio continuo es válida.
+
 Dominio de los conceptos fundamentales de densidad, presión y flotación.
+
 Dominio de la notación de índices y del álgebra tensorial básica.  

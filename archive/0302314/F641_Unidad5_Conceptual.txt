@@ -1,1 +1,1 @@
-Teoría de Einstein sobre el calor específico de los  sólidos. Modelo de Kronig-Penney. Zonas de Brillouin. Bandas de valencia y de conducción.
+Solución de la ecuación de Schrödinger para el átomo de Hidrógeno. Momento angular cuántico. Operadores de momento angular, algebra y obsevables. Principio de exclusión de Pauli. Fermiones y bosones. Tabla periódica de los elementos. 

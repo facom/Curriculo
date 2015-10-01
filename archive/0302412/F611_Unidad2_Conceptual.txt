@@ -1,2 +1,3 @@
-7: Variacióon de las constantes.
-8: Segunda regla de oro de Fermi.
+Variacióon de las constantes.
+
+Segunda regla de oro de Fermi.

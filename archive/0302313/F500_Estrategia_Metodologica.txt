@@ -1,22 +1,22 @@
 El curso será desarrollado a través de metodologías que vinculan los siguientes aspectos:
 
-•	La clase magistral
+La clase magistral
 El profesor presentará y discutirá con los estudiantes el programa del curso y las propuestas de prácticas a realizar: su fundamento teórico, su diseño y su montaje experimental. Se presenta la forma de desarrollar los proyectos. Durante la clase magistral se desarrollan los contenidos conceptuales y procedimentales y se motiva la participación del estudiantado mediante preguntas.
 
-•	Las actividades de laboratorio
+Las actividades de laboratorio
 Las prácticas de laboratorio se desarrollan en tres momentos: en primer lugar, con base en una lectura previa; en segundo lugar, en la sesión de laboratorio, trabajan sobre los datos experimentales y, por último, elaboran y exponen el informe de la práctica.
 
-•	Cuaderno de protocolo / Computador personal 
+Cuaderno de protocolo / Computador personal 
 El estudiante llevará un cuaderno de notas (ó un PC con) de los experimentos desarrollado durante el semestre. Este es un material esencial cuando el estudiante empieza a redactar, resumir y analizar los resultados finales de sus experimentos. En este se debe incluir las actividades a desarrollar, una descripción del esquema experimental, gráficas de resultados, etc. Antes de cada sesión o experimento el estudiante deberá traer consignado en su cuaderno (ó PC) los anteriores aspectos.
  
-•	Informes y videos 
+Informes y videos 
 En este nivel, el estudiante deberá presentar los informes según el formato de un artículo de revista científica. Se podrán presentar videos como parte del informe final.  
 
-•	Presentaciones orales 
+Presentaciones orales 
 En este nivel, los estudiantes deberán realizar dos tipos de exposiciones, una antes y otras después de desarrollar el laboratorio. El nivel de estas exposiciones será similar al de una presentación un evento científico nacional durante 20-25 minutos. Las exposiciones serán co-evaluadas por sus compañeros.
  
-•	Co-evaluaciones
+Co-evaluaciones
 Los estudiantes tendrán participación activa en las evaluaciones. Para este propósito los estudiantes realizaran co-evaluaciones de sus compañeros en tres momentos: (i) exposición antes de la realización de un laboratorio, (ii) exposición después de desarrollado un laboratorio, y (iii) evaluación de un informe individual. Se requiere hacer un entrenamiento previo a los estudiantes sobre cómo se evalúan las exposiciones y los informes. De esta manera el profesor debe entregar y explicar los formatos de evaluación respectivos. 
 
-•	Diseño y desarrollo de proyectos independientes
+Diseño y desarrollo de proyectos independientes
 Se realizarán dos (2) proyectos independientes durante el semestre en curso. El estudiante es libre de desarrollar su propia idea para la propuesta de Laboratorio-Proyecto. Pero debe tener en cuenta que solo dispone de 4 semanas para planificar la propuesta, completar el trabajo experimental de su propuesta y exponer los resultados. Por consiguiente no es conveniente diseñar o construir un nuevo aparato que sea muy complicado. Se pueden hacer montajes sencillos con elementos simples. También se puede planificar con equipos existentes en el laboratorio, en el almacén ó en otros laboratorios de la Universidad, haciendo un experimento de su propio diseño, refinamiento experimentos, o expandiendo el rango de medidas sugeridos en el Laboratorio-Tradicional. En este caso es probable que deba compartir equipos con otros estudiantes. Experimentos complicados pueden demandar considerable esfuerzo independiente. Luego debe preparar su trabajo teniendo en cuenta las necesidades de los otros. Algunas ideas pueden parecer simples en el papel, pero resultan ser imprácticas o imposibles de realizar en el laboratorio. Discuta ó asesore su propuesta con el profesor lo más pronto posible, a más tardar una semana antes de la entrega del proyecto y por lo tanto dos semana antes de la realización de la práctica. Esto con el propósito de asegurarse de tener un buen chance de realizar un proyecto exitoso. Algunos ejemplos de proyectos independientes exitosos realizados por estudiantes en semestres anteriores son: (i) determinación de la constante de Planck utilizando diodos emisores de luz (leds); (ii) construcción de una cámara de niebla y su uso en la detección de partículas cósmicas, (iii) determinación de la razón e/m del electrón utilizando campos eléctricos, ó también la combinación de campos eléctricos y magnéticos; (iv) Efecto Ramsauer Townsend; (v) efecto de la geometría del montaje de en la potencia de la radiación emitida por un cuerpo negro; (vi) absorción de rayos X ó rayos gamma por diferentes materiales; (vii) difracción de rayos X en diferentes materiales, (viii) automatización del experimento de Franck-Hertz; (ix) Espectros de emisión de gases de helio, neón, kriptón y argón; (x) Demostración de la independencia de la energía del foto-electrón con la variación en la intensidad de la radiación; (xi) Determinación del número de Avogadro y la constante de Boltzmann mediante el estudio del movimiento Browniano; (xii) Determinación de la velocidad cuadrática media de las moléculas de un gas; etc.

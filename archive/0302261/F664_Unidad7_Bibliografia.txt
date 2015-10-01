@@ -1,3 +1,4 @@
-R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.
-R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.
-P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.
+(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). 
+(F): Física Volumen I Marcelo Alonso and Edward J. Finn.
+(M): The Science of Mechanics, Ernst Mach.
+(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)

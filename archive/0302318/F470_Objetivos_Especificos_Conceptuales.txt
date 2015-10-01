@@ -1,10 +1,15 @@
-Al terminar el curso el estudiante estará en capacidad de:
+Describir y definir matemáticamente el movimiento oscilatorio y ondulatorio para sistemas físicos que soportan la propagación de oscilaciones y ondas.
 
-• Describir y definir matemáticamente el movimiento oscilatorio y ondulatorio para sistemas físicos que soportan la propagación de oscilaciones y ondas.
-• Construir las ecuaciones de movimiento y encontrar las soluciones en los casos de movimientos oscilatorios y/o ondulatorios.
-• Identificar los modos normales de un sistema discreto o continuo.
-• Describir y calcular algunos resultados en el dominio de las ondas electromagnéticas.
-• Analizar e identificar los comportamientos característicos de un fenómeno ondulatorio: reflexión, refracción, polarización, interferencia y difracción.
-• Calcular y dibujar posiciones y aumentos producidos por lentes o espejos de objetos reales o virtuales puestos frente a estos elementos ópticos.
-• Analizar y describir algunos instrumentos ópticos básicos como son el  microscopio y telescopio.
-• Analizar los patrones de intensidad obtenidos por interferencia y difracción en la región de Fraunhofer.
+Construir las ecuaciones de movimiento y encontrar las soluciones en los casos de movimientos oscilatorios y/o ondulatorios.
+
+Identificar los modos normales de un sistema discreto o continuo.
+
+Describir y calcular algunos resultados en el dominio de las ondas electromagnéticas.
+
+Analizar e identificar los comportamientos característicos de un fenómeno ondulatorio: reflexión, refracción, polarización, interferencia y difracción.
+
+Calcular y dibujar posiciones y aumentos producidos por lentes o espejos de objetos reales o virtuales puestos frente a estos elementos ópticos.
+
+Analizar y describir algunos instrumentos ópticos básicos como son el  microscopio y telescopio.
+
+Analizar los patrones de intensidad obtenidos por interferencia y difracción en la región de Fraunhofer.

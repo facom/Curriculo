@@ -1,1 +1,1 @@
-Moméntum para un sistema de muchas partículas. Centro de masa. Conceptos de fuerza externa e interna. Teorema del centro de masa. Leyes de conservación. Introducción a teoría de colisiones.
+Energía cinética, trabajo, teorema trabajo-energía, potencia, energía potencial; fuerzas conservativas, conservación de la energía; fuerzas disipativas; colisiones elásticas en una y dos dimensiones; colisiones inelásticas.

@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 24 Sep 2015 17:26:15 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 25 Sep 2015 08:34:12 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="1";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="";
+$F030_AUTH_Acta_Numero="34";
+$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311603";
 $F110_Nombre_Asignatura="Astrofísica Moderna";
 $F120_Tipo_Curso="Profesional";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomia";
 $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Astrofísica y Comología";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2015-2";
+$F330_Semestre="2014-1";
 $F330_Semestre_Plan="6";
 $F340_Horario_clase="MJ16-18";
 $F350_Requisitos="Termodinámica (302571)";

@@ -1,10 +1,19 @@
 Transformaciones de Legendre.
+
 Ecuaciones canónicas de movimiento de Hamilton.
+
 Notación simplética.
+
 Teoremas de conservación.
+
 Principio de mínima acción.
+
 Transformaciones canónicas.
+
 La función generatriz.
+
 Corchetes de Poisson.
+
 Método simplético, ecuaciones de movimiento.
+
 Teoremas de conservación.

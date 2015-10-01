@@ -1,1 +1,3 @@
-mostrar con propiedad que un objeto multilineal es un tensor. Construir el tensor momento energía para el caso de un fluido perfecto y usarlo para polvo.
+Mostrar con propiedad que un objeto multilineal es un tensor. 
+
+Construir el tensor momento energía para el caso de un fluido perfecto y usarlo para polvo.

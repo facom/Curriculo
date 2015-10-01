@@ -1,10 +1,3 @@
-Bibliografía básica:
-• Elementos de Astrofísica, Alonso Sepúlveda, Editorial UdeA, 2104
-• Los conceptos de la Física, Alonso Sepúlveda, Editorial UdeA, 2003
-• Historia Fontana de la Astronomía y la Cosmología, John North, Fondo de Cultura Económica, Mèxico, 2001 
-
-Bibliografía complementaria:
-• The Cambridge Concise History of Astronomy.  Michael Hoskin.  Cambridge University Press (August 21, 2008)
-• The Great Copernicus Chase and Other Adventures in Astronomical History.  Owen gingerich.  Cambridge University Press (September 25, 1992)
-
-Sitios web recomendados: En Wikipedia el estudiante puede rastrear información sobre temas específicos, tecleando palabras, nombres de conceptos y de teorías referentes a temas astronómicos.
+Elementos de Astrofísica, Alonso Sepúlveda, Editorial UdeA, 2104
+Los conceptos de la Física, Alonso Sepúlveda, Editorial UdeA, 2014
+Historia Fontana de la Astronomía y la Cosmología, John North, Fondo de Cultura Económica, Mèxico, 2001.

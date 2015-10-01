@@ -1,4 +1,6 @@
 Se busca que el estudiante comprenda las ventajas del formalismo Hamiltoniano sobre el Lagrangiano a la hora de estudiar desde un punto de vista teórico a los sistemas físicos.
+
 Valorar la importancia del formalismo Hamiltoniano en el nacimiento de las teorías físicas modernas, como la teoría cuántica y la física estadística. 
 Comprender la utilidad de los corchetes de Poisson en la búsqueda de cantidades conservadas. 
+
 Valorar la importancia de los integradores simplécticos en simulaciones astronómicas dada su alta precisión en la conservación de la energía y en la conservación de las trayectorias en el espacio de fases.  

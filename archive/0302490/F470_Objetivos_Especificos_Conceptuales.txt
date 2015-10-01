@@ -1,6 +1,9 @@
-Al terminar el curso el estudiante estará en capacidad de:
-a. Manejar adecuadamente los equipos de laboratorio.
-b. Utilizar alguno de los lenguajes de programación utilizados por los fabricantes de equipos de medida (lenguaje C, por ejemplo.
-c. Realizar trabajos de investigación experimental.
-d. Emplear los conocimientos básicos de control de medida.
-e. Medir y analizar algunos parámetros físicos.
+Manejar adecuadamente los equipos de laboratorio.
+
+Utilizar alguno de los lenguajes de programación utilizados por los fabricantes de equipos de medida (lenguaje C, por ejemplo.
+
+Realizar trabajos de investigación experimental.
+
+Emplear los conocimientos básicos de control de medida.
+
+Medir y analizar algunos parámetros físicos.

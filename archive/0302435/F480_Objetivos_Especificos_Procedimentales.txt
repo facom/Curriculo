@@ -1,4 +1,7 @@
-•	Utilizar las ecuaciones de Maxwell macroscópicas..
-•	Resolver la ecuaciones de Maxwell, por ejemplo, para un superconductor, un cristal, medio inhomogéneo,  entre otras situaciones.
-•	Resolver la ecuación de onda para un medio inhomogéneo, cristal, metamaterial, etc..
-•	Resolver la ecuación de onda para guías de onda y cavidades con secciones transver-sales diferentes.
+Utilizar las ecuaciones de Maxwell macroscópicas..
+
+Resolver la ecuaciones de Maxwell, por ejemplo, para un superconductor, un cristal, medio inhomogéneo,  entre otras situaciones.
+
+Resolver la ecuación de onda para un medio inhomogéneo, cristal, metamaterial, etc.
+
+Resolver la ecuación de onda para guías de onda y cavidades con secciones transver-sales diferentes.

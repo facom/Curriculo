@@ -1,1 +1,1 @@
-*Manual de referencia NI-488.2 de National Instruments.      
+Manual de referencia NI-488.2 de National Instruments.      

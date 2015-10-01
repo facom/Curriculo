@@ -1,4 +1,7 @@
-• Proponer algoritmos para solucionar problemas simples.
-• Identificar los procesos de manipulación de datos a nivel de hardware y software bajo los cuales opera el computador.
-• Comprender la importancia de la computación en la solución de problemas científicos desde el punto de vista de la automatización, la manipulación y la visualización de la información.
-• Reconocer la existencia de una amplia gama de herramientas computacionales útiles en el quehacer académico y científico.
+Proponer algoritmos para solucionar problemas simples.
+
+Identificar los procesos de manipulación de datos a nivel de hardware y software bajo los cuales opera el computador.
+
+Comprender la importancia de la computación en la solución de problemas científicos desde el punto de vista de la automatización, la manipulación y la visualización de la información.
+
+Reconocer la existencia de una amplia gama de herramientas computacionales útiles en el quehacer académico y científico.

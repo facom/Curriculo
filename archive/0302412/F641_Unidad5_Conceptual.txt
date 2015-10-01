@@ -1,3 +1,5 @@
-18: Partículas idénticas en cuántica.
-19: Ecuaciones relativistas.
-20: Integrales de trayectoria.
+Partículas idénticas en cuántica.
+
+Ecuaciones relativistas.
+
+Integrales de trayectoria.

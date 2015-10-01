@@ -1,11 +1,5 @@
-* George B. Arfken, Hans J. Weber, Frank E. Harris. Mathematical Methods for Physicists.
-
-* Steven Weinberg. Gravitation and Cosmology: Principles and applications of the general theory of relativity. 
-
-* Walter Greiner, Berndt Muller. Quantum Mechanics: Symmetries.
-
-* Ta-Pei Cheng, Ling-Fong Li. Gauge theory of Elemetary Participe Physics.
-
-* Howard Georgi. Lie algebras in particle physics: from isospin to unified theories.
-                       
-* Notas del Profesor
+George B. Arfken, Hans J. Weber, Frank E. Harris. Mathematical Methods for Physicists.
+Steven Weinberg. Gravitation and Cosmology: Principles and applications of the general theory of relativity. 
+Walter Greiner, Berndt Muller. Quantum Mechanics: Symmetries.
+Ta-Pei Cheng, Ling-Fong Li. Gauge theory of Elemetary Participe Physics.
+Howard Georgi. Lie algebras in particle physics: from isospin to unified theories.

@@ -1,9 +1,5 @@
-* J Schwinger, et all. Classical Electrodynamics.
-
-* D. R. Corson, P. Lorraine.  Introduction to Electromagnetic Fiels and Waves.
-
-* J. B. Marion.  Calssical Electromagnetic Radiation.
-
-* D. Griffits. Introduction to Electrodynamics
-
-* J. R. Reitz, F. J. Milford.  Fundamentos de Teoría Eelectromagnética.
+J Schwinger, et all. Classical Electrodynamics.
+D. R. Corson, P. Lorraine.  Introduction to Electromagnetic Fiels and Waves.
+J. B. Marion.  Calssical Electromagnetic Radiation.
+D. Griffits. Introduction to Electrodynamics.
+J. R. Reitz, F. J. Milford.  Fundamentos de Teoría Eelectromagnética.

@@ -1,3 +1,5 @@
-•	Reconocer las principales leyes que rigen la teoría de los experimentos que realizaron. Por ejemplo, ecuación de Einstein del efecto fotoeléctrico, ley de absorción de la radiación por la materia, ley de Stefan-Boltzmann, principio de incertidumbre de Heisenberg, hipótesis de Planck, hipótesis de Bohr, entre otras.
-•	Determinar órdenes de magnitud y las unidades en el sistema internacional de algunas magnitudes físicas fundamentales y derivadas.
-•	Tomar la cuantización de la energía y los fundamentos de las físicas cuántica, nuclear, estadística como pilares del desarrollo de la física contemporánea.
+Reconocer las principales leyes que rigen la teoría de los experimentos que realizaron. Por ejemplo, ecuación de Einstein del efecto fotoeléctrico, ley de absorción de la radiación por la materia, ley de Stefan-Boltzmann, principio de incertidumbre de Heisenberg, hipótesis de Planck, hipótesis de Bohr, entre otras.
+
+Determinar órdenes de magnitud y las unidades en el sistema internacional de algunas magnitudes físicas fundamentales y derivadas.
+
+Tomar la cuantización de la energía y los fundamentos de las físicas cuántica, nuclear, estadística como pilares del desarrollo de la física contemporánea.

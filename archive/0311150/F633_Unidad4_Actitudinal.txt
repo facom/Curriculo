@@ -1,6 +1,6 @@
-•Explicar los principios de la teoría gravitacional de Newton.
-•Explicar heliocéntricamente la retrogradación planetaria.
-•Enumerar las cónicas, diferenciarlas y describir sus propiedades.
-•Explicar con qué bases la teoría newtoniana evalúa las masas de la Tierra y el Sol. 
-•Describir con precisión el sistema geoheliocéntrico de Tycho Brahe. Dibujar sus círculos básicos.
-•Explicar la idea básica de la teoría de perturbaciones.
+Explicar los principios de la teoría gravitacional de Newton.
+Explicar heliocéntricamente la retrogradación planetaria.
+Enumerar las cónicas, diferenciarlas y describir sus propiedades.
+Explicar con qué bases la teoría newtoniana evalúa las masas de la Tierra y el Sol. 
+Describir con precisión el sistema geoheliocéntrico de Tycho Brahe. Dibujar sus círculos básicos.
+Explicar la idea básica de la teoría de perturbaciones.

@@ -1,7 +1,7 @@
-1- El primer libro sobre aplicaciones de la teoría matemática de grupos en la mecánica cuántica, traducido del alemán por  Griffin, J. J., fue: Wigner, E. P., 1959, ``Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra'', edición extendida y mejorada, Nueva York, Academic Press.
+El primer libro sobre aplicaciones de la teoría matemática de grupos en la mecánica cuántica, traducido del alemán por  Griffin, J. J., fue: Wigner, E. P., 1959, ``Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra'', edición extendida y mejorada, Nueva York, Academic Press.
 
-2- Hamermesh, M., 1989, ``Group Theory and Its Application to Physical Problems'', Nueva York, Dover  Publications.
+Hamermesh, M., 1989, ``Group Theory and Its Application to Physical Problems'', Nueva York, Dover  Publications.
 
-3- Gel'fand, I. M., Minlos, R. A. y Shapiro, Z., 1963, ``Representations of the Rotation and Lorentz Groups and their Applications'', Nueva York, Pergamon Press.
+Gel'fand, I. M., Minlos, R. A. y Shapiro, Z., 1963, ``Representations of the Rotation and Lorentz Groups and their Applications'', Nueva York, Pergamon Press.
 
 4- Kim, Y. S. y Noz, M., 1986, ``Theory and Applications of the Poincare Group'', Boston, D.  Reidel Publishing Company. 

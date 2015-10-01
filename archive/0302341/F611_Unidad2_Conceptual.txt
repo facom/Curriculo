@@ -1,5 +1,5 @@
-1. Zonas de Fresnel.
-2. Difracción. 
-3. Interferencia.
-4. Filtrado espacial usando la óptica de Fourier.
-5. Espectroscopía.
+Zonas de Fresnel.
+Difracción. 
+Interferencia.
+Filtrado espacial usando la óptica de Fourier.
+Espectroscopía.

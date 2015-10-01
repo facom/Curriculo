@@ -1,3 +1,5 @@
-1.	Hecht E. Optica. Addison Wesley. 2000
-2.	2.Jenkins F.A. and White H.E. Fundamentals of Optics. McGraw-Hill. 1950
-3.	Born M. and Wolf E. Principles of Optics. Cambridge University. 1997
+Hecht E. Optica. Addison Wesley. 2000
+
+Jenkins F.A. and White H.E. Fundamentals of Optics. McGraw-Hill. 1950
+
+Born M. and Wolf E. Principles of Optics. Cambridge University. 1997

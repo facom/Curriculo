@@ -5,6 +5,19 @@
   BODY{
   font-family:Arial,Helvetica;
   }
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
   </style>
 </head>
 <body>
@@ -18,19 +31,17 @@
   </tr>
 </table>
 <p></p>
-<table border=0 width=650px style='border-collapse:collapse'>
-  <tr>
-    <td width=50%></td><td width=50%></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style='text-align:center;border:1px solid;;'>
-      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA 418 DEL 19 DE SEPTIEMBRE DE 2005.
-    </td>
-  </tr>
-</table>
+<p><div style='padding:20px;font-size:14px;background:lightgray'>Este
+programa esta en proceso de aprobación por el Consejo de Facultad
+(última actualización Mon, 28 Sep 2015 18:04:49 -050).  Úselo
+solamente como fuente de información preliminar.  Una versión previa
+del curso puede encontarse en el enlace:<br/><center><a
+href=http://astronomia-udea.co/principal/Curriculo/planes.php>http://astronomia-udea.co/principal/Curriculo/planes.php</a></center>
+Allí se publicará también la versíón definitiva de este semestre una
+vez este aprobado.</a></div></p>
 <p></p>
 <p></p>
+
 <p style="text-align:center;font-size:18px;width:650px">
   <b>PROGRAMA DE MECÁNICA</b>
 </p>
@@ -45,23 +56,23 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>PROFESOR</b></td>
-    <td width=60% style='border:1px solid;;'>Grupo de profesores</td>
+    <td width=60% style='border:1px solid;;'>Shirlene Vega</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>OFICINA</b></td>
-    <td width=60% style='border:1px solid;;'>De acuerdo al profesor</td>
+    <td width=60% style='border:1px solid;;'>6-122</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>HORARIO DE CLASE</b></td>
-    <td width=60% style='border:1px solid;;'>Programación</td>
+    <td width=60% style='border:1px solid;;'>MJ8-10, L10-12</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>HORARIO DE ATENCIÓN</b></td>
-    <td width=60% style='border:1px solid;;'>De acuerdo al semestre académico</td>
+    <td width=60% style='border:1px solid;;'>M10-12, J12-14</td>
   </tr>
 </table>
 <p></p>
-<p><b>Nota 1</b>: <i style='color:red'>Este plan de asignatura es válido entre los semestres 2002-1 y 2014-2.</i></p>
+
 <p><b>INFORMACIÓN GENERAL</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
@@ -73,7 +84,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Semestre</b></td>
-    <td width=60% style='border:1px solid;;'><i style='color:red'>Este plan de asignatura es válido entre los semestres 2002-1 y 2014-2.</i></td>
+    <td width=60% style='border:1px solid;;'>2015-2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Área</b></td>
@@ -81,11 +92,11 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semanales</b></td>
-    <td width=60% style='border:1px solid;;'>4</td>
+    <td width=60% style='border:1px solid;;'>5</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semestrales</b></td>
-    <td width=60% style='border:1px solid;;'>64</td>
+    <td width=60% style='border:1px solid;;'>80</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>No. de créditos</b></td>
@@ -113,15 +124,15 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Requisitos</b></td>
-    <td width=60% style='border:1px solid;;'>Introducción a la Física</td>
+    <td width=60% style='border:1px solid;;'>Introducción a la Física (0302100)</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Corequisitos</b></td>
-    <td width=60% style='border:1px solid;;'>Geometría Vectorial, Cálculo I</td>
+    <td width=60% style='border:1px solid;;'>Geometría Vectoria (0303170), Cálculo I (0303195)</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Programas a los que se ofrece la materia</b></td>
-    <td width=60% style='border:1px solid;;'>Física</td>
+    <td width=60% style='border:1px solid;;'>Fisica y Astronomia</td>
   </tr>
 </table>
 
@@ -135,27 +146,27 @@
   </thead>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Propósito del Curso:</b></td>
-    <td width=60% style='border:1px solid;;'>Que el estudiante aprenda a reconocer y a aplicar las leyes y los principios que explican y predicen el comportamiento mecánico del universo.<br/></td>
+    <td width=60% style='border:1px solid;;'>Que el estudiante enuncie,  comprenda, describa, analice y utilice los conceptos y las leyes fundamentales de la mecánica newtoniana para una partícula y un sistema de muchas partículas; además que reconozca y valore la importancia de la argumentación rigurosa, y se forje insistentemente el buen hábito de la discusión respetuosa y bien argumentada sobre diferentes situaciones que en principio son explicadas desde el conocimiento de la mecánica. </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Justificación:</b></td>
-    <td width=60% style='border:1px solid;;'>Este curso constituye el fundamento de la inmensa mayoría de  los otros cursos de la carrera de física.</td>
+    <td width=60% style='border:1px solid;;'>La pertinencia<br/><br/>El curso de Mecánica representa el primer paso decisivo y seguro hacia la conceptualización de los fenómenos del mundo circundante, con los que se relaciona de forma más inmediata todo ser viviente. Históricamente, el camino seguro de la ciencia empezó con la mecánica, con el desarrollo del método experimental y la matematización de los fenómenos. Por esto, principalmente,  podemos estar seguros de la alta pertinencia de este curso para hacer parte del plan de formación de un físico: el éxito del proceso de enseñanza-aprendizaje de este curso, en el estudiante de física, es el paso significativo más importante hacia la configuración del perfil de físico, tal como está acordado y consignado  en el Documento Rector del Programa de Física de la Universidad de Antioquia.  Es un curso con el que  se inicia apreciablemente la reconfiguración de una mente científica, como reestructuración del pensamiento, en el joven estudiante; consecuentemente, lleva al estudiante a inquietarse y relacionarse de una manera nueva,  más “racional”, con los fenómenos del mundo físico. En otras palabras, el curso genera constantemente la situación de “provocación” de una transición desde la mirada “ingenua”, nacida de la experiencia inmediata de las cosas, acumulada desde que se nace, hacia la mirada crítica, en una primera instancia de la observación científica de los fenómenos. Por otra parte, la mecánica newtoniana ha servido de referente arquetípico para muchas otras disciplinas del conocimiento. <br/><br/>El curso de Mecánica, enmarcado en el Ciclo de Fundamentación,   es el prerrequisito académico para otros cursos que pertenecen al ciclo de profesionalización, principalmente el de Mecánica Clásica. Un aspecto importante a resaltar, es que facilita el refuerzo de los conocimientos matemáticos adquiridos en los cursos  “Matemáticas Básicas” y “Análisis I”, del semestre anterior, y motiva a la necesidad --a fin de obtener una mayor profundización, o una comprensión más completa de la mecánica newtoniana-- de estudiar el resto de cursos de matemáticas del programa de Física, como “Álgebra Lineal” y “Análisis Matemático II”, impartidos paralelamente al de Mecánica, y “Análisis III y IV”, y las “Físicas Matemáticas”, en los semestres siguientes, formando parte estos últimos del Ciclo de Profesionalización.<br/><br/><br/><br/><br/>El aporte al desarrollo de las competencias genéricas y específicas de la formación del físico <br/>(Conforme al Documento Rector del Programa de Física)<br/><br/>“Acorde con la misión institucional y con los aspectos que integran el quehacer institucional, el programa deberá hacer explícitas las competencias que espera que los estudiantes desarrollen en el proceso de formación académica y que lo capaciten para el ejercicio profesional. Con esto se trata de definir las características que deben desarrollar las personas que se van a formar, lo cual incluye conocimientos, habilidades, destrezas, valores y actitudes que los preparen para afrontar situaciones impredecibles y complejas en un mundo cambiante.” (Documento Rector 2011, página 13)<br/><br/>“Los programas de pregrado de la Facultad de Ciencias Exactas y Naturales tendrán como misión la formación de estudiantes comprometidos con una concepción integral del hombre, orientados al servicio de la comunidad, con actitud humana, crítica y ética, preparados para trabajar en equipos multidisciplinarios, altamente competentes para plantear y resolver problemas de manera efectiva e innovadora y con una sólida formación disciplinaria que les permita participar en labores investigativas ya sea básicas, aplicadas o educativas, en los campos de la Biología, la Física, la Química y la Matemática y para favorecer su versatilidad en el desempeño laboral”. (DR 2011, página 18)<br/><br/>Principalmente se espera que el curso de mecánica contribuya a la estructuración del pensamiento lógico y crítico del joven estudiante, como aporte a una lectura amplia y profunda del mundo; al mismo tiempo, que pueda ayudar a forjar el temple de la disciplina y de la perseverancia,  imprescindible en un estudio fructífero de la ciencia. En los aspectos más prácticos, y un poco más específicos, desarrollará en el estudiante habilidades de cálculo básico y de análisis de situaciones que tarde que temprano le servirán para “afrontar situaciones impredecibles y más complejas”, sea que se presente en un proyecto de investigación interdisciplinario, por ejemplo con ingenieros, o que se presente en un problema concreto a nivel de la industria. <br/><br/>Se espera también que aporte al rigor de la expresión oral científica; a la capacidad de realizar falsaciones, y a la formación para la comunicación y el debate; a poder sopesar cuidadosamente diferentes argumentaciones; a saber identificar falacias,  hipótesis falsas, hipótesis fuera de lugar; a agudizar la capacidad de identificar errores en los cálculos; etc.<br/><br/>La actualidad en importancia científica, cultural y social<br/><br/>La mecánica tiene tres siglos de historia, y no por ello ha perdido vigencia, esto porque representa una muy buena aproximación para la descripción de un gran conjunto de fenómenos a nivel macroscópico. Por otra parte, a nivel formal o teórico, es la teoría en la cual se debe reducir cualquier otra teoría física que describa mejor los fenómenos, con un alcance más abarcador. Concretamente, los dos pilares de la física contemporánea, es decir, la Mecánica Cuántica y la Relatividad Especial, se reducen, como caso límite, a la mecánica newtoniana; para la primera, cuando se pasa de lo micro a lo macro, y para la segunda, cuando se pasa de velocidades “cercanas a la de la luz a velocidades relativamente pequeñas, o muy inferiores a la de la luz. Esta característica es sintetizada  en un principio epistemológico, conocido como “Principio de Correspondencia”. <br/><br/>Desde otro punto de vista, a nivel del “progreso” social y cultural, la mecánica no ha perdido su capacidad de sorprender e impactar el pensamiento común del ser humano, no formado en disciplinas científicas, y aún a los mismos universitarios no ha dejado de asombrarnos. Por ejemplo, las monumentales construcciones de obras civiles, que parecen desafiar la Estática; o aquellos experimentos, aún sencillos, que se salen, en primera instancia, de una explicación basada en el sentido común, o de la intuición inmediata y común.<br/><br/>Las relaciones disciplinares e interdisciplinares<br/><br/>Básicamente  es  un prerrequisito pedagógico para cualquier otra asignatura de contenido netamente de física, del plan de formación, aún de la mecánica cuántica, como confrontación y correspondencia. Existe además relaciones, expresadas de forma más aplicadas y menos formales, con otras disciplinas de la FCEN, por ejemplo, a través de los cursos de Biofísica, los cuales forman parte del plan de asignaturas del programa de Biología.<br/><br/>La proyección académica y social de los contenidos de la asignatura en relación con el desarrollo del individuo, de la sociedad y de la profesión.</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivo General:</b></td>
-    <td width=60% style='border:1px solid;;'>Que el estudiante aprenda a reconocer y a aplicar las leyes y los principios que explican y predicen el comportamiento mecánico del universo.<br/></td>
+    <td width=60% style='border:1px solid;;'>Que el estudiante enuncie,  comprenda, describa, analice y utilice los conceptos y las leyes fundamentales de la mecánica newtoniana para una partícula y un sistema de muchas partículas; además que reconozca y valore la importancia de la argumentación rigurosa, y se forje insistentemente el buen hábito de la discusión respetuosa y bien argumentada sobre diferentes situaciones que en principio son explicadas desde el conocimiento de la mecánica. </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivos Específicos:</b></td>
     <td width=60% style='border:1px solid;;'>
-      Comprender las relaciones  cinemáticas involucradas en  el movimiento relativo de los objetos. Aprender a determinar las causas de los movimientos  y las características de las interacciones. Estudiar el movimiento de objetos bajo ciertas fuerzas de contacto y a distancia. Inducir principios y leyes de conservación de sistemas cerrados.<br/><br/>
-      <br/>
-      <br/>
+      Explicar las leyes de movimiento.<br/><br/>Comentar el punto de vista machiano de la mecánica.<br/><br/>Escribir y analizar el movimiento planetario.<br/><br/>Describir y analizar el movimiento oscilatorio.<br/><br/>Describir y analizar el movimiento de un cuerpo rígido.<br/><br/>Explicar y diferenciar las concepciones relativista y absolutista del espacio y del tiempo.<br/>
+      Utilizar las leyes de Newton en la solución de problemas elementales, en sistemas reducidos a una partícula.<br/><br/>Utilizar las leyes de Newton en la solución de problemas de dos cuerpos bajo fuerzas centrales.<br/><br/>Utilizar las leyes de movimiento en la solución de problemas elementales de un cuerpo rígido.<br/>
+      Fomentar el desarrollo del espíritu científico a través de la experiencia constante  del rigor demostrativo y de la argumentación sólida.<br/><br/>Cultivar la disciplina y el cumplimiento de las tareas asignadas, como lo de realizar lecturas preliminares.<br/><br/>Cultivar la puntualidad en la asistencia de las clases.<br/><br/>Incentivar la independencia y la autonomía en el estudio.<br/><br/>Estimular constantemente el pensamiento crítico.  <br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Contenido Resumido:</b></td>
-    <td width=60% style='border:1px solid;;'>1-Cinemática<br/>2-Leyes de la mecánica newtoniana.<br/>3-Aplicaciones básicas de las leyes de Newton.<br/>4-Trabajo y energía.<br/>5-Sistemas de partículas.<br/>6-Movimiento Planetario<br/>7-Oscilador Armónico<br/>8-Introducción a la dinámica del cuerpo rígido<br/>9-Más allá de la Mecánica newtoniana<br/></td>
+    <td width=60% style='border:1px solid;;'>1-Introducción: <br/>2-Cinematica de una particula<br/>3-Dinamica de una particula<br/>4-Momentum<br/>5-Trabajo y energia<br/>6-Dinamica del cuerpo rigido<br/>7-Gravitacion<br/>8-Movimiento Oscilatorio<br/>9-Teoria Especial de la Relatividad<br/></td>
   </tr>
 </table>
 
@@ -168,25 +179,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Cinemática</td>
+    <td width=60% style='border:1px solid;;'>Introducción: </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      presentación del programa; medidas y unidades; manejo de orden de magnitud: desde lo cosmológico hasta lo subatómico.<br/>
-      Concepto de vector, vector posición, vector velocidad, aceleración. Integración de las ecuaciones cinemáticas. Posición y velocidad relativa, sistemas de referencia, transformaciones de Galileo.<br/><br/>
+      presentación del programa; medidas y unidades; manejo de orden de magnitud: desde lo cosmológico hasta lo subatómico. <br/>
       <br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 2.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -195,25 +206,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Leyes de la mecánica newtoniana.</td>
+    <td width=60% style='border:1px solid;;'>Cinematica de una particula</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Partícula, masa, espacio y tiempo como cantidades absolutas. Primera Ley de Newton: Momentum lineal, inercia, medición de la masa, sistemas de referencia inerciales. Segunda Ley de Newton: Interacciones fundamentales y fuerzas, principio de superposición de fuerzas, fuerza resultante, ecuación de movimiento. Ejemplos de leyes de fuerza: Ley de gravitación universal de Newton y Ley de Coulomb. Tercera Ley de Newton.<br/>
-      <br/>
-      <br/>
+      Movimiento uniforme, movimiento uniformemente acelerado, movimiento general en una, dos y tres dimensiones; movimiento parabólico; movimiento relativo; movimiento circular; frecuencia, periodo, velocidad angular, velocidad tangencial, aceleración tangencial, aceleración centrípeta.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 3.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -222,25 +233,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Aplicaciones básicas de las leyes de Newton.</td>
+    <td width=60% style='border:1px solid;;'>Dinamica de una particula</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Rango de validez de la mecánica newtoniana. Solución de la ecuación de movimiento para fuerza constante, movimiento cerca de la superficie terrestre, fuerza de fricción entre cuerpos sólidos. Fuerza de fricción en fluidos. Componentes tangencial y normal de la fuerza Variables angulares, velocidad angular, movimiento circular, moméntum angular, torque, ecuación de movimiento<br/>
-      <br/>
-      <br/>
+      Leyes de Newton, marcos de referencia inercial y no-inercial; diagramas de cuerpo libre, aplicaciones elementales; tipos de fuerza: de “contacto”, tensión, normal, de viscosidad, electrostática, gravitacional de Newton.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn. <br/>(H): Introduction to the Principles of Mechanics, Walter Hauser.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 4.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -249,25 +260,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Trabajo y energía.</td>
+    <td width=60% style='border:1px solid;;'>Momentum</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Definición de trabajo y potencia. Teorema del trabajo y la energía cinética. Fuerzas conservativas. Energía potencial. Conservación de la energía mecánica. Ejemplos de energía potencial para sistemas conservativos. Discusión de curvas de energía potencial. Fuerzas no-conservativas y disipación de energía. <br/>
-      <br/>
-      <br/>
+      Dinámica de un sistema de partículas; conservación del momentum lineal; impulso; momentum y flujo de masa.<br/><br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 5.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -276,25 +287,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Sistemas de partículas.</td>
+    <td width=60% style='border:1px solid;;'>Trabajo y energia</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Moméntum para un sistema de muchas partículas. Centro de masa. Conceptos de fuerza externa e interna. Teorema del centro de masa. Leyes de conservación. Introducción a teoría de colisiones.<br/>
-      <br/>
-      <br/>
+      Energía cinética, trabajo, teorema trabajo-energía, potencia, energía potencial; fuerzas conservativas, conservación de la energía; fuerzas disipativas; colisiones elásticas en una y dos dimensiones; colisiones inelásticas.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 6.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -303,25 +314,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Movimiento Planetario</td>
+    <td width=60% style='border:1px solid;;'>Dinamica del cuerpo rigido</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Sistemas de dos partículas: fuerza central, análisis cualitativo del problema de Keppler. Las leyes de Kepler. Órbitas elípticas y circulares.<br/>
-      <br/>
-      <br/>
+      Movimiento del centro de masa, momento angular, momento de inercia, teorema de los ejes paralelos (o de Steiner); ecuaciones de movimiento de un cuerpo rígido, energía cinética de rotación, conservación del momento angular, ecuaciones de Euler, movimiento alrededor de un punto fijo, precesión y nutación.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>1</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(H): Introduction to the Principles of Mechanics, Walter Hauser.<br/><br/></td>
   </tr>
 </table><p><b>Unidad No. 7.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -330,25 +341,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Oscilador Armónico</td>
+    <td width=60% style='border:1px solid;;'>Gravitacion</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Oscilador armónico libre. Oscilador Forzado y amortiguado.<br/><br/>
-      <br/>
-      <br/>
+      Campo gravitacional, campo gravitacional de una distribución homogénea de masa, mareas; Leyes de Kepler, energía potencial gravitacional, velocidad de escape; órbitas cónicas, energía, radio medio, puntos de retorno, momento angular, excentricidad, movimiento planetario; sistemas no-inerciales, fuerzas ficticias, sistemas acelerados, principio de equivalencia.<br/><br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(M): The Science of Mechanics, Ernst Mach.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 8.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -357,25 +368,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Introducción a la dinámica del cuerpo rígido</td>
+    <td width=60% style='border:1px solid;;'>Movimiento Oscilatorio</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Definición de cuerpo rígido. Rotación de un cuerpo rígido con eje fijo: momento de inercia. Análisis cualitativo del movimiento giroscópico.<br/>
-      <br/>
-      <br/>
+      movimiento armónico simple, condiciones iniciales, sistema masa resorte, péndulo simple, péndulo físico, oscilaciones amortiguadas, oscilaciones amortiguadas forzadas, energía disipada, resonancia; osciladores acoplados, modos normales de oscilación.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/></td>
   </tr>
 </table><p><b>Unidad No. 9.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -384,25 +395,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>Más allá de la Mecánica newtoniana</td>
+    <td width=60% style='border:1px solid;;'>Teoria Especial de la Relatividad</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Introducción a la relatividad especial. Transformaciones de Lorentz en 1 dimensión. Sistemas inerciales y acelerados. Fuerzas Ficticias<br/>
-      <br/>
-      <br/>
+      Experimento de Michelson-Morley, postulados de la relatividad especial, transformación galileana, transformación de Lorentz, simultaneidad y orden de los eventos, contracción espacial, dilatación temporal, efecto Doppler relativista, la paradoja de los gemelos.<br/>
+      Estimar órdenes de magnitud de algunos observables físicos.<br/>Diferenciar diferentes escalas asociadas a un mismo observable físico.<br/>Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. <br/>Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.<br/>Describir y predecir el movimiento en un plano, dada las condiciones iniciales.<br/>Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.<br/>Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.<br/>“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. <br/>Explicar y diferenciar los sistemas de referencia inercial y no-inercial.<br/>Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.<br/>Clasificar y explicar diferentes tipos de fuerza.<br/>Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.<br/><br/>
+      Motivar el interés por desarrollar la argumentación rigurosa.<br/>Estimular  el deseo por el saber científico.<br/>Sensibilizar el intelecto por el placer estético inherente en el conocimiento científico.<br/>Reconocer abiertamente el error.<br/>No caer rendidos bajo la primera impresión de la argumentación, sin haber realizado primero un examen exhaustivo y concienzudo.<br/>Perseverar por encontrar el camino de deducción o de demostración lógica más simple.<br/>Crear e incentivar  el hábito de la discusión argumentada, eliminando la costumbre de la mera opinión sin fundamento sólido.<br/>Cultivar el sentido ético de la honradez para saber utilizar expresiones o ideas que no son conscientemente propias.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>1</td>
+    <td width=60% style='border:1px solid;;'></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978)<br/>(B): Introduction to the Relativity Principle, Gabriel Barton. (1999)<br/>(R): Introduction to Special Relativity, Robert Resnick. (1968)<br/></td>
   </tr>
 </table>
 
@@ -412,7 +423,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>METODOLOGÍA a seguir en el desarrollo del curso:</b>
       <p>
-	Se realizarán exposiciones magistrales de los temas centrales haciendo énfasis en el planteamiento de los problemas cuya solución corresponde a las teorías y principios descritos. Siempre que sea posible la exposición del problema estará apoyada en demostraciones prácticas y proyecciones de material audiovisual.
+	Las estrategias metodológicas se implementan en dos momentos importantes:<br/><br/>Cátedra magistral, impartida por el profesor titular del curso, de 1.5 horas por sesión, que viene a representar el tiempo de docencia directa, y 0.5 horas de participación directa del estudiante, como tiempo de docencia asistida. Dos sesiones por semana.<br/><br/>Actividades de realización de ejercicios (talleres) por parte del profesor asistente y de los estudiantes.  Una sesión de dos horas por semana.<br/><br/><br/>En el primer momento, el profesor titular se ayuda de mostraciones experimentales, mínimo una mostración cada dos semanas (cubriendo más o menos 8 en total), o de vídeos cortos sobre conferencias o simulaciones. También se da el espacio para provocar, a través de preguntas, la participación de los estudiantes en la forma de discusiones argumentadas, donde ellos  mismos puedan confrontarlas y evaluarlas.  También se da el espacio para la posibilidad del surgimiento de conjeturas –con fines de  refutabilidad (falsabilidad)--, que pretenden ser explicaciones a ciertas situaciones que aún no estarían en condiciones de comprenderse bien, según lo que se lleva impartido al momento de los temas; o que quizá se pueda sino comprender cabalmente después de estudiar otros temas en cursos posteriores o avanzados. También se proponen problemas, de tipo conceptual u operativo,  para que el estudiante resuelva en la misma clase, delante de sus compañeros, de forma oral, o de forma escrita y en el tablero.<br/><br/>En el segundo momento, el profesor asistente espera logar una mayor participación por parte del estudiante. Allí es donde se despliegan mejor las metodologías de participación directa del estudiante. Se realizan plenarias, conversatorios, exposiciones cortas, retroalimentación de las evaluaciones escritas, y sobre todo se realiza la solución y discusión de problemas concretos, tanto de tipo demostrativo y conceptual, como los sustancialmente procedimentales y operativos.<br/>
       </p>
     </td>
   </tr>
@@ -435,7 +446,7 @@
   </tr>
   <tr>
     <td style='border:1px solid;;' valign=top colspan=3>
-      Examen 25% <br/>Examen	25% <br/>Examen	25% <br/>Examen	25%	
+      1. ES sobre los temas impartidos en las sesiones 1-8. Tiene un valor del 10%. Se realizará como mínimo tres días después de la sesión 8, y un día antes, por lo menos, del primer EP.<br/>2.EP sobre los temas impartidos en las sesiones 1-8. Tiene un valor del 20%. Se realizará entre los días 7 y 10 después de la sesión 8. <br/>3. ES sobre los temas impartidos en las sesiones 9-18. Tiene un valor del 10%. Se realizará como mínimo tres días después de la sesión 18. <br/>Comentario 1: En el momento de realizarse esta prueba el estudiante llevaría evaluado el 40% de su curso, con lo que estaría justo en el umbral para tomar la decisión de continuar o no matriculado en el curso.<br/>4. EP sobre los temas impartidos en las sesiones 9-18. Tiene un valor del 25%. Se realizará entre los días 7 y 10 después de la sesión 18. <br/><br/>Comentario 2: Al estudiante que está indeciso de cancelar el curso o no, se le podría dar la oportunidad de intentar la realización de la prueba escrita, a sabiendas de que sólo antes de 15 minutos se le puede aceptar la cancelación, si lo decidió rotundamente así, ene ste momento de la prueba. La opción de supletorio en esta situación sería de completa autonomía del profesor.<br/>5. ES sobre los temas impartidos en las sesiones 19-28. Tiene un valor del 10%. SE realizará como mínimo tres días después de la sesión 28.<br/>6. EP sobre los temas impartidos en las sesiones 19-28. Tiene un valor del 20%. Se realizará entre los días 7 y 10 después de la sesión 28.<br/>7. ES sobre los temas impartidos en las sesiones 29-32. Tiene un valor del 5%. SE realizará como mínimo tres días después de la última sesión del curso, o en la semana programada por la FCEN para los finales.<br/><br/>Comentario 3: Los exámenes son calificados por el grupo de profesores asistentes y de apoyo del curso de Mecánica, sometidos luego a una revisión o aval por parte del profesor titular, antes del conocimiento y revisión por parte de sus estudiantes. Además, los profesores asistentes deben presentar un informe detallado --al profesor titular-- sobre la situación de la evaluación: ¿se lograron o no los objetivos del aprendizaje?, ¿qué temas o conceptos fueron los de mayor dificultad?, etc.
     </td>
   </tr>
 </table>
@@ -446,7 +457,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>Actividades de Asistencia Obligatoria:</b>
       <p>
-	Clases magistrales.
+	Todas las evaluaciones.
       </p>
     </td>
   </tr>
@@ -457,11 +468,11 @@
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
     <td style='border:1px solid;;' valign=top>
-      R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.<br/>R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.<br/>P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.
+      Bibliografía Básica (obligatoria)<br/><br/>(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). <br/><br/>Bibliografía de Referencia (complementaria)<br/><br/>(F): Física Volumen I Marcelo Alonso and Edward J. Finn.<br/>(M): The Science of Mechanics, Ernst Mach.<br/>(H): Introduction to the Principles of Mechanics, Walter Hauser.<br/>(B): Introduction to the Relativity Principle, Gabriel Barton. (1999)<br/>(R): Introduction to Special Relativity, Robert Resnick. (1968)<br/>(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)<br/><br/><br/>
     </td>
   </tr>
 </table>
 <p style="font-size:10px">
-<b>Última actualización</b>: Thu, 11 Jun 2015 08:53:35 -0500<br/>
+<b>Última actualización</b>: Mon, 28 Sep 2015 18:05:36 -0500<br/>
 <b>Firma Autorizada Facultad</b>: (No autorizado. Este documento es solo un borrador.)
 </p>

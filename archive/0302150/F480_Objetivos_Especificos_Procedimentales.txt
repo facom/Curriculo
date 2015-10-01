@@ -1,4 +1,7 @@
-• Familiarizarse con la elaboración de algoritmos, diagramas de flujo y peudocódigos como herramientas para la solución de problemas computacionales.
-• Emplear diferentes lenguajes de programación para codificar instrucciones que le permitan solucionar diferentes problemas de tipo numérico.
-• Usar herramientas de graficación de gran calidad para la representación datos.
-• Presentar informes usando altos estándares tipográficos con herramientas computacionales libres.
+Familiarizarse con la elaboración de algoritmos, diagramas de flujo y peudocódigos como herramientas para la solución de problemas computacionales.
+
+Emplear diferentes lenguajes de programación para codificar instrucciones que le permitan solucionar diferentes problemas de tipo numérico.
+
+Usar herramientas de graficación de gran calidad para la representación datos.
+
+Presentar informes usando altos estándares tipográficos con herramientas computacionales libres.

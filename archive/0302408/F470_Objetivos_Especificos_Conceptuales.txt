@@ -1,5 +1,9 @@
-• Lograr que el estudiante se familiarice con los conceptos y principios básicos de la teoría especial de la relatividad.  
-• Diferenciar la gravitación como un problema de la geometría del espacio tiempo y poder explicar la distribución de materia usando el tensor momento-energía.
-• Plantear la Ecuación de Einstein 
-• Construir y desarrollar soluciones sencillas de laEcuación de Einstein 
-• Usando las soluciones encontradas proveer una descripción de los agujeros negros y algunas cosmologías relativistas.
+Lograr que el estudiante se familiarice con los conceptos y principios básicos de la teoría especial de la relatividad.  
+
+Diferenciar la gravitación como un problema de la geometría del espacio tiempo y poder explicar la distribución de materia usando el tensor momento-energía.
+
+Plantear la Ecuación de Einstein 
+
+Construir y desarrollar soluciones sencillas de laEcuación de Einstein 
+
+Usando las soluciones encontradas proveer una descripción de los agujeros negros y algunas cosmologías relativistas.

@@ -1,4 +1,0 @@
-Ley de Gauss. Ecuaciones de Laplace y Poisson.
-Polarización de la materia y susceptibilidad eléctrica.
-Desplazamiento eléctrico y condiciones de frontera.
-Capacitancia. Energía del campo eléctrico.

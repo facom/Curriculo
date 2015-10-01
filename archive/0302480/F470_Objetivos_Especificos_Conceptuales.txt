@@ -1,9 +1,15 @@
-Al terminar el curso el estudiante estará en capacidad de:
-- Utilizar los conceptos y métodos básicos de la estructura y la espectroscopía atómica y molecular.
-- Clasificar los estados atómicos mediante la teoría de multipletes.
-- Conocer los modelos de partícula independiente en su utilidad y limitaciones.
-- Analizar la tabla periódica de los elementos.
-- Conocer los métodos de Hartree-Fock del campo autoconsistente.
-- Describir algunos espectros atómicos y moleculares.
-- Utilizar los conceptos de la teoría electromagnética clásica y de la óptica para la comprensión de la interacción de la luz con átomos y moléculas.
-- Utilizar algunas herramientas computacionales en la solución de ciertos problemas de física de átomos y moléculas.
+Utilizar los conceptos y métodos básicos de la estructura y la espectroscopía atómica y molecular.
+
+Clasificar los estados atómicos mediante la teoría de multipletes.
+
+Conocer los modelos de partícula independiente en su utilidad y limitaciones.
+
+Analizar la tabla periódica de los elementos.
+
+Conocer los métodos de Hartree-Fock del campo autoconsistente.
+
+Describir algunos espectros atómicos y moleculares.
+
+Utilizar los conceptos de la teoría electromagnética clásica y de la óptica para la comprensión de la interacción de la luz con átomos y moléculas.
+
+Utilizar algunas herramientas computacionales en la solución de ciertos problemas de física de átomos y moléculas.

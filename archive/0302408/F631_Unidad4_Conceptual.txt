@@ -1,1 +1,5 @@
-Métrica  de  Schwarzschild, estrellas y movimiento en un espacio con métrica de Schwarzschild. agujeros  negros (solución  interna  y  externa). Extensión de Kruskal y  diagramas  de Penrose.
+Métrica  de  Schwarzschild, estrellas y movimiento en un espacio con métrica de Schwarzschild. 
+
+Agujeros  negros (solución  interna  y  externa). 
+
+Extensión de Kruskal y  diagramas  de Penrose.

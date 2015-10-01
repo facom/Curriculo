@@ -1,5 +1,5 @@
-•Explicar el diagrama de Hertzsprung-Russell (H-R) y asociarlo con los colores de las estrellas. 
-•Dibujar cuadros sobre clasificación de partículas elementales, tipos espectrales de las estrellas y su evolución de las estrellas según su masa. 
-•Interpretar la tabla periódica en términos de sus componentes elementales, bariones y leptones quarks.
-•Describir los procesos nucleares básicos, alfa, beta, fisión, fusión. 
-•Enunciar los principios y detalles de la teoría del big bang y de la relatividad general.
+Explicar el diagrama de Hertzsprung-Russell (H-R) y asociarlo con los colores de las estrellas. 
+Dibujar cuadros sobre clasificación de partículas elementales, tipos espectrales de las estrellas y su evolución de las estrellas según su masa. 
+Interpretar la tabla periódica en términos de sus componentes elementales, bariones y leptones quarks.
+Describir los procesos nucleares básicos, alfa, beta, fisión, fusión. 
+Enunciar los principios y detalles de la teoría del big bang y de la relatividad general.

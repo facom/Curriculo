@@ -1,5 +1,5 @@
-4.1 Solución a ecuaciones hiperbólicas. Oscilaciones transversales en una cuerda. Oscilaciones longitudinales en cuerdas, varillas y resortes. Membranas oscilantes.
-4.2 Condiciones de frontera.
-4.3 Método de D’Alambert y separación de variables.
-4.4 Existencia y unicidad de la solución.
-4.5 Funciones de Bessel, Bessel modificada, Neumann y Neumann modificada.
+Solución a ecuaciones hiperbólicas. Oscilaciones transversales en una cuerda. Oscilaciones longitudinales en cuerdas, varillas y resortes. Membranas oscilantes.
+Condiciones de frontera.
+Método de D’Alambert y separación de variables.
+Existencia y unicidad de la solución.
+Funciones de Bessel, Bessel modificada, Neumann y Neumann modificada.

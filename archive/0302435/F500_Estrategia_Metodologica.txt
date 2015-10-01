@@ -1,2 +1,1 @@
-- Exposición  magistral del profesor.
-- Solución de problemas.
+Exposición  magistral del profesor. Solución de problemas.

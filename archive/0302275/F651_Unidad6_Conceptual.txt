@@ -1,4 +1,4 @@
-6.1. Estadistica. Población, muestra. Variables y representaciones
-6.2. Distribuciones de frecuencias, histogramas y polígonos de frecuencias
-6.3. Medidas de tendencia central, media aritmética, mediana, media geométrica, media armónica, RMS
-6.4. Desviación media , desviación estándar, varianza, momentos, sesgo, curtosis
+Estadistica. Población, muestra. Variables y representaciones
+Distribuciones de frecuencias, histogramas y polígonos de frecuencias
+Medidas de tendencia central, media aritmética, mediana, media geométrica, media armónica, RMS
+Desviación media , desviación estándar, varianza, momentos, sesgo, curtosis

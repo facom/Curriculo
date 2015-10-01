@@ -1,5 +1,9 @@
 Interpolación lineal.
+
 Polinomio  de Lagrange,  problemas que conlleva, y soluciones.
+
 Diferencias divididas.
+
 Interpolación de Hermite.
+
 Interpolación con splines cúbicos.

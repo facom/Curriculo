@@ -1,7 +1,13 @@
 Physics of Continuous Matter, B Lautrup, 2005 
+
 Fluid Mechanics, E. Lifshits, 1959
+
 A first course in Continuum Mechanics, Y. C. Fung, 1969.
+
 Mecánica del Medio Continuo. E. Levi, 1973.
+
 Theory and problems of Continuum Mechanics. G. E. Mase, 1970. 
+
 Introducción a la Mecánica de los Medios Continuos, J. Naranjo, 1992. 
+
 Mecánica de Medios continuos para Ingenieros, X. O. Olivella, 2007.

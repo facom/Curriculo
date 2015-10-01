@@ -1,2 +1,2 @@
-1. Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
-2. A. M. Fox: Quantum optics: an introduction, Oxford University Press, 2006
+Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005.
+A. M. Fox: Quantum optics: an introduction, Oxford University Press, 2006.

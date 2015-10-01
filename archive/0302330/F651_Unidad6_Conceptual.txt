@@ -1,6 +1,11 @@
 Definición y criterios de integralidad.
+
 Toros en el espacio de fase. 
+
 Teorema de Kolmogorov-Arnold-Moser. 
+
 Teorema de Poincare-Birkhoff.
+
 Movimiento caótico.
+
 Ejemplos.

@@ -1,9 +1,9 @@
-8.1.     Extremos de Funciones de Varias Variables.
-8.2.	 Extremo de Funcionales.
-8.3.	 Problema Elemental del Cálculo de Variaciones.
-8.4.	 Condiciones Suficientes.
-8.5.	 Extremo Condicionado.
-8.6.	 Generalización de Variables Independientes.
-8.7.	 Multiplicadores de Lagrange.
-8.8.	 Variación Sujeta a Restricciones.
-8.9.	Teorema Variacional de Rayleigh-Ritz
+Extremos de Funciones de Varias Variables.
+Extremo de Funcionales.
+Problema Elemental del Cálculo de Variaciones.
+Condiciones Suficientes.
+Extremo Condicionado.
+Generalización de Variables Independientes.
+Multiplicadores de Lagrange.
+Variación Sujeta a Restricciones.
+Teorema Variacional de Rayleigh-Ritz

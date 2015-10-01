@@ -1,19 +1,37 @@
 Campo de velocidades.
+
 Flujo incompresible.
+
 Conservación de la masa.
+
 Movimiento con el fluido.
+
 Dinámica del continuo.
+
 Cosmología newtoniana.
+
 Ecuación de Euler
+
 Ondas de sonido de baja amplitud.
+
 Flujo incompresible estable
+
 Flujo compresible estable
+
 Vorticidad
+
 Viscosidad cortante
+
 Flujo planar 
+
 Fluidos newtonianos incompresibles
+
 Clasificación de flujos
+
 Fluidos newtonianos compresibles
+
 Atenuación del sonido viscoso  
+
 Circulación
+
 Flujo de potencial

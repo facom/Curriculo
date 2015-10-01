@@ -1,7 +1,13 @@
 Mostrar que el espacio tiempo es una variedad diferenciable cuadridimensional con métrica pseudo-riemanniana.
+
 Mostrar cuando una ley física está escrita de forma covariante.
+
 Utilizar el concepto de curvatura para con el tensor de Riemann construir la ecuación de Einstein.
+
 Construir el tensor momento energía para casos sencillo de distribución de materia.
+
 Construir la derivada covariante.
+
 Resolver la ecuación de Einstein en casos sencillos de cuerpos esféricos y cosmología. 
+
 Buscar información fenomenológica que sirva de base para contrastar los resultados teóricos.

@@ -1,1 +1,3 @@
-Generalmente las rutinas generadoras de números aleatorios,  generan realmente  números seudoaleatorios.  Uso de  Semillas para mejorar la aleatoriedad.
+Generalmente las rutinas generadoras de números aleatorios,  generan realmente  números seudoaleatorios.  
+
+Uso de  Semillas para mejorar la aleatoriedad.

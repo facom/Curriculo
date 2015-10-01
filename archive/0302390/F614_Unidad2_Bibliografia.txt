@@ -1,3 +1,0 @@
-Numerical Analysis, Richard L. Burden & Douglas Faires, Annette M. Burden, 10 E, Cengage Center, Boston, 2015.
-Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The Cambridge University Press, 2007.
-Computational Physics 3er Ed., Landau, Páez, Bordeianu, Wiley VCH, Weinheim, Germany, 2015.

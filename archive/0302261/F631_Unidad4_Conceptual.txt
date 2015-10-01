@@ -1,1 +1,1 @@
-Definición de trabajo y potencia. Teorema del trabajo y la energía cinética. Fuerzas conservativas. Energía potencial. Conservación de la energía mecánica. Ejemplos de energía potencial para sistemas conservativos. Discusión de curvas de energía potencial. Fuerzas no-conservativas y disipación de energía. 
+Dinámica de un sistema de partículas; conservación del momentum lineal; impulso; momentum y flujo de masa.

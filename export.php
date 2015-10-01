@@ -202,7 +202,7 @@ if($mode=="FCEN" or $mode=="Todos"){
   
   if($qaprob){
     $aprobado="<table border=0 width=650 style='border-collapse:collapse'>
-    <tr><td width=50%></td><td width=10%></td><td width=20%></td><td width=10%></td><td></td></tr>
+    <tr><td width=50%></td><td width=10%></td><td width=5%></td><td width=10%></td><td></td></tr>
     <tr><td></td>
       <td colspan=4 style='text-align:center;$border;$colorgray'>
 	APROBADO CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES
@@ -261,9 +261,22 @@ vez este aprobado.</a></div></p>";
       $txtactitud="<p><i>Contenidos actitudinales:</i></p><blockquote>$actitudinal</blockquote>";
     }else{$txtactitud="";}
 
-    if(strpos($BibliogafiaCompleta,bibliografia)==FALSE){
+    $compara=strpos($BibliografiaCompleta,$bibliografia);
+
+    /*
+    echo "<hr/>Unidad $i:<br/>";
+    echo "Bibliografía Completa:<br/><pre>$BibliografiaCompleta</pre>";
+    echo "Bibliografía:<br/><pre>$bibliografia</pre>";
+    echo "Comparacion: $compara<br/>";
+    */
+    if($compara===false){
       $BibliografiaCompleta.="$bibliografia";
+      //echo "Bibliografía de Unidad $i no estaba en bibliografía completa<br/>";
+    }else{
+      //echo "Bibliografía de Unidad $i esta en bibliografía completa<br/>";
     }
+
+
 $unidades.=<<<UNIDADES
   <b>Unidad $i. $titulo</b> $semtxt<br/>
   $txtconcep
@@ -450,7 +463,8 @@ $table.=<<<TABLE
   </table>
   <p style="font-size:10px">
   <b>Última actualización</b>: $DATE<br/>
-  <b>Firma Autorizada Facultad</b>: $signature
+  <b>Versión legal</b>: La versión legal de este documento reposa en la Biblioteca de la Universidad de Antioquia y esta firmada por el Decano y el Director de Instituto.<br/>
+  <b>Firma Autorizada Facultad Versión Electrónica</b>: $signature
   </p>
 </body>
 </html>
@@ -806,7 +820,8 @@ $unidades
 </table>
 <p style="font-size:10px">
 <b>Última actualización</b>: $DATE<br/>
-<b>Firma Autorizada Facultad</b>: $signature
+<b>Versión legal</b>: La versión legal de este documento reposa en la Biblioteca de la Universidad de Antioquia y esta firmada por el Decano y el Director de Instituto.<br/>
+<b>Firma Autorizada Facultad Versión Electrónica</b>: $signature
 </p>
 
 TABLE;

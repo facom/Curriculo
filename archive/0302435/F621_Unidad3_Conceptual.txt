@@ -1,9 +1,9 @@
-- Propagación de ondas electromagnéticas en la materia (ecuaciones del
+Propagación de ondas electromagnéticas en la materia (ecuaciones del
 telégrafo y onda, el índice de refracción, coeficiente de extinción,
 profundidad de penetración, efecto piel, medios dispersivos, velocidad
 de fase y grupo, propiedades analíticas del índice de refracción,
 propagación en cristales, las relaciones de Kramers-Krönig).
-- Reflexión y transmisión (ecuaciones de Fresnel, reflexión total, ángulo
+Reflexión y transmisión (ecuaciones de Fresnel, reflexión total, ángulo
 de Brewster, índice de refracción negativo, metamateriales, efectos
 Kerr y Faraday).
-- Guías de ondas y cavidades resonantes.
+Guías de ondas y cavidades resonantes.

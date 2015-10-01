@@ -1,3 +1,5 @@
 Propiedades geométricas básicas de las curvas cónicas
+
 Cantidades cinemáticas y dinámicas básicas
+
 Leyes newtonianas del movimiento

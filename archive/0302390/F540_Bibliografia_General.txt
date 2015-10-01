@@ -1,6 +1,10 @@
 Bibliografía básica:
+
 Numerical Analysis, Richard L. Burden & Douglas Faires, Annette M. Burden, 10 E, Cengage Center, Boston, 2015.
-Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The Cambridge University Press, 2007.
+
+Numerical Recipes, the Art of Scientific Computing, William H. Press, Saul A. Teukolsky, William T. Vetterling & Brian P. Flannery. Third Edition. The 
+Cambridge University Press, 2007.
+
 Computational Physics 3er Ed., Landau, Páez, Bordeianu, Wiley VCH, Weinheim, Germany, 2015.
 
 Libro de Landau, Paez y Bordeianu en línea, A survey of computational physics  de: http://www.compadre.org/psrc/items/detail.cfm?ID=11578
@@ -24,5 +28,6 @@ Introduction to Computational and Programming Using Python, J. V. Guttag, The MI
 
 Numerical Methods in Engineering with Python.
 Jaan Kiusalass., Cambridge University Press, Cambridge, 2013.
+
 Sitios web del curso: el curso cuenta con su propia página web:
 https://github.com/sbustamante/ComputationalMethods

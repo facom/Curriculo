@@ -1,7 +1,12 @@
-1: Teoría de Raleigh Schrodinger.
-2: Ecuación secular. Efecto Stark.
-3: Método variacional. Atomo de Helio.
-4: La función de onda semiclásica.
-5: Aproximación WKB.
-6: Aplicaciones del método WKB.
+Teoría de Raleigh Schrodinger.
+
+Ecuación secular. Efecto Stark.
+
+Método variacional. Atomo de Helio.
+
+La función de onda semiclásica.
+
+Aproximación WKB.
+
+Aplicaciones del método WKB.
 

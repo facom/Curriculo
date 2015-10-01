@@ -1,4 +1,7 @@
 Comprender la importancia de la función Lagrangiana como la portadora de toda la información dinámica de un sistema físico. 
+
 Valorar la simplicidad en la derivación de las cantidades conservadas en el formalismo lagrangiano. 
+
 Apreciar los grandes aportes hechos por Euler y Lagrange en esta formulación alternativa de la mecánica. 
+
 Apreciar las ventajas del formalismo Lagrangiano frente al Newtoniano ante la solución de problemas dinámicos complejos. 

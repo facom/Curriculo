@@ -1,8 +1,8 @@
-•Interpretar, llevar a cabo y, en caso de ser necesario, adaptar las instrucciones de protocolos, guías y manuales.
-• Calcular el error en una medida a partir de las reglas correctas y siguiendo los principios de la lógica experimental.
-• Escribir los resultados de un experimento con las cifras significativas correctas.
-• Realizar gráficas utilizando el papel apropiado y mediante software desarrollado para éste fin.
-• Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
+Interpretar, llevar a cabo y, en caso de ser necesario, adaptar las instrucciones de protocolos, guías y manuales.
+Calcular el error en una medida a partir de las reglas correctas y siguiendo los principios de la lógica experimental.
+Escribir los resultados de un experimento con las cifras significativas correctas.
+Realizar gráficas utilizando el papel apropiado y mediante software desarrollado para éste fin.
+Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
 • Realizar interpolaciones y extrapolaciones de datos experimentales reportando  los rangos y grados de confiabilidad.
 • Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
 • Hacer búsqueda bibliográfica y extraer la información relevante.

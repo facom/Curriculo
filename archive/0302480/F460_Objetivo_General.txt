@@ -1,1 +1,4 @@
-Véase la descripción general del curso.
+Se estudian los elementos básicos de la estructura de átomos y moléculas.
+Se estudian los elementos básicos de la interacción de la luz con los átomos y las moléculas.
+Se aplica la mecánica cuántica como teoría esencial para la descripción de tales sistemas y procesos.
+Los conceptos de estructura y espectroscopía estudiados en este curso son esenciales en la química y otras áreas de la física.

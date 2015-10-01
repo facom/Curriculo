@@ -1,6 +1,0 @@
-Ley de Faraday-Henry. Inducción electromagnética.
-Inducción debido al movimiento de un conductor en un campo magnético. Forma diferencial de la ley de Faraday.
-Autoinducción. FEM inducida.
-Energía del campo magnético. Oscilaciones eléctricas.
-Circuitos acoplados. Principio de conservación de la carga.
-Ley de Ampere-Maxwell. Ecuaciones de Maxwell. Aplicaciones.

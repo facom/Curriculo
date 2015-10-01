@@ -1,3 +1,1 @@
-Exposición por parte del profesor, en dos sesiones de 1hora y 45 minutos cada una. Se complementa con   programas interactivos en Java y con las notas del Profesor Manuel Páez sobre un curso de Física Moderna presentes en la dirección electrónica:
-	http://fisica.udea.edu.co/mpaez
-En esta dirección aparecen  una sección dedicada a los programas interactivos en Java y  otra dedicada a unas notas de clase sobre relatividad (por el momento), en la cual se muestran vínculos (links) a otras páginas de otros lugares del mundo relacionadas con la relatividad especial
+Exposición por parte del profesor, búsquedas bibliográficas, talleres.

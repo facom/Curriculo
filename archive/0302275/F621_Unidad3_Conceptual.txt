@@ -1,5 +1,5 @@
-3.1. Integrales definidas. 
-3.2. Integrales de Contorno, Integrales de Línea
-3.3. Teorema de Cauchy-Goursat. Dominios.
-3.4. Integrales indefinidas. Primitiva 
-3.5. Integral de Cauchy. Derivadas de una función analítica.
+Integrales definidas. 
+Integrales de Contorno, Integrales de Línea
+Teorema de Cauchy-Goursat. Dominios.
+Integrales indefinidas. Primitiva 
+Integral de Cauchy. Derivadas de una función analítica.

@@ -1,7 +1,1 @@
-- Conocer métodos matemáticos concretos para resolver problemas de la Física.
-
-- Analizar métodos de solución de integrales complejas y reales, estudiar las aplicaciones conformes y describir modelos físicos con su ayuda.
-
-- Adquirir nociones de estadística básica.
-
-- Conocer y aplicar las nociones del cálculo variacional a sistemas Físicos.
+Conocer métodos matemáticos concretos para resolver problemas de la Física. Analizar métodos de solución de integrales complejas y reales, estudiar las aplicaciones conformes y describir modelos físicos con su ayuda. Adquirir nociones de estadística básica. Conocer y aplicar las nociones del cálculo variacional a sistemas Físicos.

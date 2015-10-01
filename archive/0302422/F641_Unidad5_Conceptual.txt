@@ -1,10 +1,10 @@
-5.1 Sólidos no cristalinos.
-5.2 Hacia un cristal real: Dislocaciones y defec tos
-5.3 Diamagnetismo and Paramagnetismo
-5.4 Ferromagnetismo and Antiferromagnetismo
-5.5 Nanoestructuras Sólidas
-5.6 Física de Superficies e interfaces
-5.7 Aleaciones
-5.8 Propiedades ópticas de sólidos.
-5.9 Plasmones, Polarones, and Polaritones.
-5.10 Superconductividad.
+Sólidos no cristalinos.
+Hacia un cristal real: Dislocaciones y defectos.
+Diamagnetismo and Paramagnetismo.
+Ferromagnetismo and Antiferromagnetismo.
+Nanoestructuras Sólidas.
+Física de Superficies e interfaces.
+Aleaciones.
+Propiedades ópticas de sólidos.
+Plasmones, Polarones, and Polaritones.
+Superconductividad.

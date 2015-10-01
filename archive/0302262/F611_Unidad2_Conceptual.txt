@@ -1,8 +1,8 @@
-1. Corriente, Resistencia y Fuerza electromotriz: Corriente eléctrica, Resistividad y Resistencia, Fuerza electromotriz y circuitos, Reglas de Kirchhoff, circuito RC.
+Corriente, Resistencia y Fuerza electromotriz: Corriente eléctrica, Resistividad y Resistencia, Fuerza electromotriz y circuitos, Reglas de Kirchhoff, circuito RC.
 
-2. Campo magnético y fuerzas magnéticas: Magnetismo, campo magnético, movimiento de partículas cargadas en un campo magnético. Fuerza magnética sobre un corriente en un conductor, Motor de corriente continua, Efecto Hall.
+Campo magnético y fuerzas magnéticas: Magnetismo, campo magnético, movimiento de partículas cargadas en un campo magnético. Fuerza magnética sobre un corriente en un conductor, Motor de corriente continua, Efecto Hall.
 
-3. Fuentes de Campo Magnético: Campo magnético de una carga en movimiento, campo magnético de una corriente en un conductor. Calculo de campos magnéticos de corrientes, fuerzas entre corrientes rectilíneas.
+Fuentes de Campo Magnético: Campo magnético de una carga en movimiento, campo magnético de una corriente en un conductor. Calculo de campos magnéticos de corrientes, fuerzas entre corrientes rectilíneas.
 
-4. Ley de Ampere: Circulación de un vector, Ley de Ampere, aplicaciones.
+Ley de Ampere: Circulación de un vector, Ley de Ampere, aplicaciones.
 Magnetización de la materia, Corrientes de magnetización. Materiales magnéticos.

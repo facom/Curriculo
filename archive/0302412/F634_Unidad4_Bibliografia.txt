@@ -1,5 +1,5 @@
-1- Taylor, J. R., 2006, ``Scattering Theory: The Quantum Theory of Nonrelativistic Collisions'', Nueva York, Dover Publications.
+Taylor, J. R., 2006, ``Scattering Theory: The Quantum Theory of Nonrelativistic Collisions'', Nueva York, Dover Publications.
 
-2- Newton, R. G., 1982, ``Scattering Theory of Waves and Particles'', segunda edición, Nueva York, Springer-Verlag.
+Newton, R. G., 1982, ``Scattering Theory of Waves and Particles'', segunda edición, Nueva York, Springer-Verlag.
 
-3- Wu, T-Y. y Ohmura, T., 2011, ``Quantum Theory of Scattering'', Nueva York, Dover Publications.
+Wu, T-Y. y Ohmura, T., 2011, ``Quantum Theory of Scattering'', Nueva York, Dover Publications.

@@ -1,7 +1,7 @@
-1. Inducción electromagnética: Ley de Faraday, Ley de Lenz, Fuerza electromotriz de movimiento.Campos eléctricos inducidos, Corrientes parasitas.
+Inducción electromagnética: Ley de Faraday, Ley de Lenz, Fuerza electromotriz de movimiento.Campos eléctricos inducidos, Corrientes parasitas.
 
-2. Inductancia: Inductancia mutua, Auto inductancia e inductores, Energía de Campo Magnético. Circuito RL, Circuito LC, Circuito RLC en serie.
+Inductancia: Inductancia mutua, Auto inductancia e inductores, Energía de Campo Magnético. Circuito RL, Circuito LC, Circuito RLC en serie.
 
-3. Corriente alterna: Fasores y corriente alterna, Resistencia y reactancia, Potencia, Circuitos RLC Resonancia, Transformadores. Impedancia compleja.
+Corriente alterna: Fasores y corriente alterna, Resistencia y reactancia, Potencia, Circuitos RLC Resonancia, Transformadores. Impedancia compleja.
 
-4. Ecuaciones de Maxwell: Corriente de desplazamiento, Ecuaciones de Maxwell en forma integral. Ecuaciones de Maxwell en forma diferencial, El vector potencial
+Ecuaciones de Maxwell: Corriente de desplazamiento, Ecuaciones de Maxwell en forma integral. Ecuaciones de Maxwell en forma diferencial, El vector potencial

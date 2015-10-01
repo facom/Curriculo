@@ -1,5 +1,5 @@
-- J. T McClave, T. Sincich. A first course in statistics. Estados Unidos: Pearson Education, 2006
-- Estadística elemental: lo esencial. - 10. Ed. México : Cengage Learning, 2008
-- J. E. Freund, I. Miller, M.  Miller. Estadística matemática con aplicaciones. México : Pearson Educación, 2000
-- D. D. Wackerly, W. Mendenhall, R. L. Scheaffer. Estadística matemática con aplicaciones. México : Thomson, 2002
-- E. Kreyszig. Introducción a la estadística matemática. México : Limusa Wiley, 1973
+J. T McClave, T. Sincich. A first course in statistics. Estados Unidos: Pearson Education, 2006
+Estadística elemental: lo esencial. - 10. Ed. México : Cengage Learning, 2008
+J. E. Freund, I. Miller, M.  Miller. Estadística matemática con aplicaciones. México : Pearson Educación, 2000
+D. D. Wackerly, W. Mendenhall, R. L. Scheaffer. Estadística matemática con aplicaciones. México : Thomson, 2002
+E. Kreyszig. Introducción a la estadística matemática. México : Limusa Wiley, 1973

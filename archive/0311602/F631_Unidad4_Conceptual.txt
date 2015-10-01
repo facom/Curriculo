@@ -1,7 +1,13 @@
 El espacio de fases y las variables canónico-conjugadas.
+
 Las ecuaciones canónicas de Hamilton.
+
 El hamiltoniano del problema de los dos cuerpos. 
+
 El hamiltoniano del problema circular restringido de los 3 cuerpos (CRTBP)
+
 Cantidades conservadas en el formalismo hamiltoniano y los corchetes de Poisson. 
+
 El principio de mínima acción.
+
 Las transformaciones canónicas y los integradores simplécticos

@@ -1,8 +1,8 @@
-- Energía y momentum macroscópico (vector de Poynting, tensor de
+Energía y momentum macroscópico (vector de Poynting, tensor de
 esfuerzo de Maxwell).
-- El principio de acción para la electrodinámica (energía, leyes de
+El principio de acción para la electrodinámica (energía, leyes de
 conservación).
-- Relatividad especial. Formulación covariante de la electrodinámica.
-- Lagrangiano para el campo electromagnético, simetrias, tensor de esfuerzos, leyes de conservación en formulación covariante.
-- Principios  estacionarios para la electroestática: Energía electrostática. Condiciones de frontera entre dos medios no magnéticos. Problemas con condiciones de frontera. Fuerza sobre aislantes.
-- Principios estacionarios para la magnetostática: Energía magnetostática. Condiciones de frontera entre dos medios. Potencial vectorial magnético. Proble-mas con condiciones de frontera. Problemas de Superconductividad.
+Relatividad especial. Formulación covariante de la electrodinámica.
+Lagrangiano para el campo electromagnético, simetrias, tensor de esfuerzos, leyes de conservación en formulación covariante.
+Principios  estacionarios para la electroestática: Energía electrostática. Condiciones de frontera entre dos medios no magnéticos. Problemas con condiciones de frontera. Fuerza sobre aislantes.
+Principios estacionarios para la magnetostática: Energía magnetostática. Condiciones de frontera entre dos medios. Potencial vectorial magnético. Proble-mas con condiciones de frontera. Problemas de Superconductividad.

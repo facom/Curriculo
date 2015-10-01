@@ -1,4 +1,7 @@
 Dominio de las ecuaciones de movimiento para sólidos sometidos a esfuerzos.
+
 Dominio de las ecuaciones de movimiento para sólidos sometidos a deformaciones.
+
 Claridad en el análisis de la respuesta del sólido sometido a esfuerzos y deformaciones.
+
 Entender la conservación de la energía en un sólido.

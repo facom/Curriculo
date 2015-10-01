@@ -1,1 +1,21 @@
-Suma de ondas de la misma frecuencia. Ondas estacionarias. Pulsos. Velocidad de grupo. Ondas anarmónicas periódicas. Ondas no periódicas. Anchos de banda. Interferencia. Interferómetros de división de frente de onda y de amplitud. Localización de franjas. Diferentes tipos de interferómetros.
+Suma de ondas de la misma frecuencia. 
+
+Ondas estacionarias. 
+
+Pulsos. 
+
+Velocidad de grupo. 
+
+Ondas anarmónicas periódicas. 
+
+Ondas no periódicas. 
+
+Anchos de banda. 
+
+Interferencia. 
+
+Interferómetros de división de frente de onda y de amplitud. 
+
+Localización de franjas. 
+
+Diferentes tipos de interferómetros.

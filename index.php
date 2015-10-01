@@ -75,6 +75,15 @@ require("$ROOTDIR/etc/database.php");
 require("$ROOTDIR/etc/PHPMailer/PHPMailerAutoload.php");
 
 ////////////////////////////////////////////////////
+//DATE
+////////////////////////////////////////////////////
+$YEAR=date("Y");
+$MONTH=date("n");
+if($MONTH<=7){$SEMESTER=1;}
+else{$SEMESTER=2;}
+$SEMSTRING="$YEAR-$SEMESTER";
+
+////////////////////////////////////////////////////
 //DESBLOQUEO SALIR
 ////////////////////////////////////////////////////
 $qprofesorsalir=0;
@@ -387,6 +396,17 @@ if(isset($_GET["planes_preaprobados"])){
   //==================================================
   $input=generateSelection(array_values($INSTITUTOSPUBLIC),"ap_instituto",$ap_instituto);
 
+  if(isBlank($ap_instituto)){
+    $ap_instituto="Instituto de Física";
+  }
+  if(isBlank($ap_semestre)){
+    $ap_semestre=$SEMSTRING;
+  }
+  if($ap_semestre==0){
+    $ap_semestre=$SEMSTRING;
+    $qall=1;
+  }
+
 $page.=<<<FORMULARIO
   <h4>Busca cursos preaprobados</h4>
   <form>
@@ -408,12 +428,14 @@ FORMULARIO;
      $ap_instituto=="Administrador"){goto end_preaprobados;}
   $listaaprob="";
   $listapriv="";
-  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version from MicroCurriculos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto' AND F020_AUTH_Autorizacion_Vicedecano='Si' AND F040_AUTH_Acta_Fecha='000') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F025_AUTH_Version from MicroCurriculos where (F330_Semestre<='$ap_semestre' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto' AND F020_AUTH_Autorizacion_Vicedecano='Si' AND F040_AUTH_Acta_Fecha='000') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
   if(!($out=mysqli_query($db,$sql))){
     die("Error:".mysqli_error($db));
   }
   $lista="";
 
+  $link="";
+  $i=1;
   while($row=mysqli_fetch_array($out)){
     $codigo=$row[0];
     $nombre=$row[1];
@@ -426,14 +448,17 @@ FORMULARIO;
     $semestre=$row[8];
     $semestreactual=$row[9];
     $version=$row[10];
-    
 $listaaprob.=<<<LISTA
 <li>
   Semestre $semestre : <a href='data/$codigo/$codigo-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
 LISTA;
   if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 1){
+    if(file_exists("tmp/preaprobados.tar") and $i==1){shell_exec("rm tmp/preaprobados.tar");}
+    shell_exec("tar rf tmp/preaprobados.tar -C data/$codigo $codigo-vicedocencia.pdf");
+    $link="<p>Descarga <a href=tmp/preaprobados.tar>Cursos pre aprobados</a></p>";
     $listaaprob.=" <sup style='font-size:8px'><a href='?ver_curso=$codigo&mode=Todos&nogen' target='_blank'>Ver</a> | <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a></sup>";
   }
+    $i++;
     $listaaprob.="</li>";
   }
  end_preaprobados:
@@ -442,7 +467,7 @@ LISTA;
   else{$listaaprob.="</ul>";}
   //MUESTRA LISTAS
   $aprobados.="<h4>$ap_instituto</h4><ul>$listaaprob</ul>";
-  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
+  $page.="<h2>Lista de Cursos Pre aprobados</h2>$aprobados$link";
 
   echo $page;
 }
@@ -455,6 +480,18 @@ if(isset($_GET["planes_aprobados"])){
   //FORMULARIO
   //==================================================
   $input=generateSelection(array_values($INSTITUTOSPUBLIC),"ap_instituto",$ap_instituto);
+
+  $qall=0;
+  if(isBlank($ap_instituto)){
+    $ap_instituto="Instituto de Física";
+  }
+  if(isBlank($ap_semestre)){
+    $ap_semestre=$SEMSTRING;
+  }
+  if($ap_semestre==0){
+    $ap_semestre=$SEMSTRING;
+    $qall=1;
+  }
 
 $page.=<<<FORMULARIO
   <h4>Busca cursos aprobados</h4>
@@ -477,12 +514,15 @@ FORMULARIO;
      $ap_instituto=="Administrador"){goto end_aprobados;}
   $listaaprob="";
   $listapriv="";
-  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre like '%$ap_semestre%' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura;";
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre<='$ap_semestre' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura,F330_Semestre DESC;";
   if(!($out=mysqli_query($db,$sql))){
     die("Error:".mysqli_error($db));
   }
   $lista="";
-  
+  $link="";
+  $i=1;
+  $semestre_titulo=0;
+  $codigos=array();
   while($row=mysqli_fetch_array($out)){
     $codigo=$row[0];
     $nombre=$row[1];
@@ -496,23 +536,48 @@ FORMULARIO;
     $semestreactual=$row[9];
     $codigoid=$row[10];
     $version=$row[11];
+    //echo "$codigoid<br/>";
+    $codigopublic="$codigo-v$version-$semestreactual";
+
+    //CHECK IF THIS IS A NEW SEMESTER
+    if($semestre>$semestre_titulo){
+      if($semestre==11){$semtxt="Electivas";}
+      else{$semtxt="Semestre $semestre";}
+      $listaaprob.="</ul><h5>$semtxt</h5><ul>";
+      $semestre_titulo=$semestre;
+    }else{
+      $listaaprob.="";
+    }
     
+    //CHECK IF COURSE HAS BEEN ALREADY SHOWN
+    if(in_array($codigo,$codigos)){
+      if(!$qall){continue;}
+    }else{
+      array_push($codigos,$codigo);
+    }
+
 $listaaprob.=<<<LISTA
 <li>
-  Semestre $semestre : <a href='data/$codigo/$codigo-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a>
+  <a href='public/$codigopublic/$codigopublic-vicedocencia.pdf' target="_blank">$nombre - $codigo - $semestreactual - Version $version</a> (<a href='public/$codigopublic/$codigopublic-FCEN.pdf' target="_blank">Formato FCEN</a>)
 LISTA;
   if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad") and 1){
+    if(file_exists("tmp/aprobados.tar") and $i==1){shell_exec("rm tmp/aprobados.tar");}
+    shell_exec("tar rf tmp/aprobados.tar -C public/$codigopublic $codigopublic-vicedocencia.pdf");
+    $link="<p>Descarga <a href=tmp/aprobados.tar>Cursos aprobados</a></p>";
     $listaaprob.="<sup style='font-size:8px'><a href='?ver_curso=$codigoid&source=public&mode=Todos&nogen' target='_blank'>Ver</a> | <a href='?carga_curso=$codigo&edita_curso&profesor' target='_blank'>Editar</a></sup>";
   }
     $listaaprob.="</li>";
+    $i++;
   }
  end_aprobados:
   //LISTA PUBLICOS
+
   if(!preg_match("/\w+/",$listaaprob)){$listaaprob="<i>(No se encontraron cursos)</i>";}
   else{$listaaprob.="</ul>";}
+  if(isBlank($ap_semestre)){$ap_semestre="<i>(Todos)</i>";}
   //MUESTRA LISTAS
-  $aprobados.="<h4>$ap_instituto</h4><ul>$listaaprob</ul>";
-  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados";
+  $aprobados.="<h4>$ap_instituto</h4>Semestre: $ap_semestre<br/><ul>$listaaprob</ul>";
+  $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados$link";
   echo $page;
  }
 
@@ -700,7 +765,11 @@ LISTA;
 	$colorbox="lightblue";
 	if($actafecha=="000"){$colorbox="lightgreen";}
       }
-      else{$colorbox="lightgray";}
+      else if(preg_match("/Si/",$publicado)){
+	$colorbox="lightyellow";
+      }else{
+	$colorbox="lightgray";
+      }
 
 $listapriv.=<<<LISTA
 <li style='background:$colorbox'>
@@ -1528,7 +1597,8 @@ TITULO;
  //REVISA DISPONIBILIDAD DE FORMATO
  //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  if(file_exists("$coursedir/$ver_curso-plano.html")){
-$filepdf="(<a href=$coursedir/$ver_curso-plano.pdf target=_blank>PDF</a>)";
+   $fdate=date ("F d Y H:i:s.",filemtime("$coursedir/$ver_curso-plano.html"));
+$filepdf="(<a href=$coursedir/$ver_curso-plano.pdf target=_blank>PDF</a>) - $fdate";
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-plano.html target=_blank>Formato plano</a>
   $filepdf
@@ -1537,7 +1607,8 @@ DESCARGA;
  }
 
  if(file_exists("$coursedir/$ver_curso-FCEN.html")){
-$filepdf="(<a href=$coursedir/$ver_curso-FCEN.pdf target=_blank>PDF</a>)";
+   $fdate=date ("F d Y H:i:s.",filemtime("$coursedir/$ver_curso-FCEN.html"));
+$filepdf="(<a href=$coursedir/$ver_curso-FCEN.pdf target=_blank>PDF</a>) - $fdate";
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-FCEN.html target=_blank>
   Formato FCEN
@@ -1546,7 +1617,8 @@ DESCARGA;
  }
 
  if(file_exists("$coursedir/$ver_curso-vicedocencia.html")){
-$filepdf="(<a href=$coursedir/$ver_curso-vicedocencia.pdf target=_blank>PDF</a>)";
+   $fdate=date ("F d Y H:i:s.",filemtime("$coursedir/$ver_curso-vicedocencia.html"));
+$filepdf="(<a href=$coursedir/$ver_curso-vicedocencia.pdf target=_blank>PDF</a>) - $fdate";
 $page.=<<<DESCARGA
 <a href=$coursedir/$ver_curso-vicedocencia.html target=_blank>
   Formato Vicedocencia

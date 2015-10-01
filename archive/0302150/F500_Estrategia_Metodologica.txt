@@ -1,8 +1,5 @@
 El curso será desarrollado a través de una metodología que vincula los siguientes aspectos:
 
-• La clase-taller
-Esta materia se fundamenta en el aprendizaje mediante el ejemplo: en la sesión de clase el profesor expone el funcionamiento básico de las instrucciones y se realizan  ejemplos de su uso. Posteriormente reta al estudiante a realizar actividades análogas, empleando diversas áreas del conocimiento científico. 
+La clase-taller: Esta materia se fundamenta en el aprendizaje mediante el ejemplo: en la sesión de clase el profesor expone el funcionamiento básico de las instrucciones y se realizan  ejemplos de su uso. Posteriormente reta al estudiante a realizar actividades análogas, empleando diversas áreas del conocimiento científico. 
 
-• Actividades independientes y asistidas
-
-Se propone una amplia gama de actividades independientes con periodicidad semanal donde el estudiante debe aplicar los conceptos tratados en clase en problemas heterogéneos. Parte de la realización de estas actividades será asesorada por el profesor durante un segmento de la clase.
+Actividades independientes y asistidas: Se propone una amplia gama de actividades independientes con periodicidad semanal donde el estudiante debe aplicar los conceptos tratados en clase en problemas heterogéneos. Parte de la realización de estas actividades será asesorada por el profesor durante un segmento de la clase.

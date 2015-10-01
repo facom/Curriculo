@@ -1,14 +1,14 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 14 Sep 2015 01:44:15 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 28 Sep 2015 17:59:56 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="000";
+$F030_AUTH_Acta_Numero="34";
+$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302270";
-$F110_Nombre_Asignatura="Fisica Básica I";
+$F110_Nombre_Asignatura="Física Básica I";
 $F120_Tipo_Curso="Básico";
 $F130_Asistencia="Obligatoria";
 $F140_Creditos="4";

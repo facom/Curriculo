@@ -5,6 +5,19 @@
   BODY{
   font-family:Arial,Helvetica;
   }
+  td{
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  
+  /* Non standard for webkit */
+  word-break: break-word;
+  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  } 
   </style>
 </head>
 <body>
@@ -18,19 +31,17 @@
   </tr>
 </table>
 <p></p>
-<table border=0 width=650px style='border-collapse:collapse'>
-  <tr>
-    <td width=50%></td><td width=50%></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style='text-align:center;border:1px solid;;'>
-      APROBADO EN EL CONSEJO DE FACULTAD DE CIENCIAS EXACTAS Y NATURALES ACTA 418 DEL 19 DE SEPTIEMBRE DE 2005.
-    </td>
-  </tr>
-</table>
+<p><div style='padding:20px;font-size:14px;background:lightgray'>Este
+programa esta en proceso de aprobación por el Consejo de Facultad
+(última actualización Fri, 25 Sep 2015 12:16:06 -050).  Úselo
+solamente como fuente de información preliminar.  Una versión previa
+del curso puede encontarse en el enlace:<br/><center><a
+href=http://astronomia-udea.co/principal/Curriculo/planes.php>http://astronomia-udea.co/principal/Curriculo/planes.php</a></center>
+Allí se publicará también la versíón definitiva de este semestre una
+vez este aprobado.</a></div></p>
 <p></p>
 <p></p>
+
 <p style="text-align:center;font-size:18px;width:650px">
   <b>PROGRAMA DE TERMODINÁMICA</b>
 </p>
@@ -45,22 +56,23 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>PROFESOR</b></td>
-    <td width=60% style='border:1px solid;;'>Grupo de Profesores</td>
+    <td width=60% style='border:1px solid;;'>Cesar Barrero</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>OFICINA</b></td>
-    <td width=60% style='border:1px solid;;'></td>
+    <td width=60% style='border:1px solid;;'>6-315</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>HORARIO DE CLASE</b></td>
-    <td width=60% style='border:1px solid;;'>Programación</td>
+    <td width=60% style='border:1px solid;;'>WV 10-12, J 16-18</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>HORARIO DE ATENCIÓN</b></td>
-    <td width=60% style='border:1px solid;;'>De acuerdo al semestre académico</td>
+    <td width=60% style='border:1px solid;;'>L16-18, J12-13</td>
   </tr>
 </table>
 <p></p>
+
 <p><b>INFORMACIÓN GENERAL</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
@@ -72,7 +84,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Semestre</b></td>
-    <td width=60% style='border:1px solid;;'>5</td>
+    <td width=60% style='border:1px solid;;'>2015-2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Área</b></td>
@@ -80,7 +92,7 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semanales</b></td>
-    <td width=60% style='border:1px solid;;'>4</td>
+    <td width=60% style='border:1px solid;;'>0</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Horas teóricas semestrales</b></td>
@@ -112,11 +124,11 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Requisitos</b></td>
-    <td width=60% style='border:1px solid;;'>Física III</td>
+    <td width=60% style='border:1px solid;;'>Física Básica III (0302401) </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Corequisitos</b></td>
-    <td width=60% style='border:1px solid;;'>Ninguno</td>
+    <td width=60% style='border:1px solid;;'>Física Matemática I (0302576)</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;'><b>Programas a los que se ofrece la materia</b></td>
@@ -134,27 +146,27 @@
   </thead>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Propósito del Curso:</b></td>
-    <td width=60% style='border:1px solid;;'>Dotar al estudiante de una formación básica para el tratamiento de la teoría de muchos cuerpos desde el punto de vista fenomenológico y macroscópico mediante el uso de las leyes de la Termodinámica.</td>
+    <td width=60% style='border:1px solid;;'>Dotar al estudiante de una formación básica para el tratamiento de la teoría de muchos cuerpos desde el punto de vista fenomenológico y macroscópico mediante el uso de las leyes de la termodinámica.<br/></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Justificación:</b></td>
-    <td width=60% style='border:1px solid;;'>El tratamiento fenomenológico que ofrece la Termodinámica es esencial para la comprensión macroscópica de la gran mayoría de los fenómenos que ocurren en la naturaleza y que involucran sistemas de muchas partículas. </td>
+    <td width=60% style='border:1px solid;;'>El curso de Termodinámica que se ofrece al Programa de  Física de la Facultad de Ciencias Exactas y Naturales, que se oferta en un semestre, pretende dotar al estudiante de herramientas suficientes para que pueda entender, explicar, modelar y aplicar diferentes fenómenos naturales desde el lenguaje científico. Se espera cultivar en el estudiante la capacidad de asombro y pregunta constante, buscando un acercamiento a la investigación y al planteamiento de preguntas respecto al mundo que lo rodea. Además, de generar un espíritu investigativo y lograr que ellos constantemente apliquen la lógica inductiva, deductiva o abductiva, para que se desempeñe competentemente en el área de las ciencias exactas y naturales. Así mismo, esta asignatura permite que los estudiantes se acerquen a situaciones de la vida natural, social o cultural al estudiar fenómenos, comportamientos o procesos, como por ejemplo, el efecto invernadero, cambio climático, uso racional de energía, sistemas biológicos y sistemas pequeños, entre otros. Los conceptos estudiados en esta asignatura les permiten el acercamiento riguroso a la Física Estadística, asignatura que cursarán más adelante en su carrera. El curso lleva a los estudiantes a comprender cómo emergen los comportamientos cooperativos macroscópicos de la materia ó de sistemas complejos en general a partir de un análisis microscópico ó de sus constituyentes elementales. En el curso se busca que el estudiante se acerque a las fuentes de información que le permitan conocer los desarrollos técnicos y tecnológicos de los siglos XX y XXI y en los que la mecánica estadística y sus axiomas hacen parte del soporte y su acervo conceptual. El curso además permite un acercamiento importante a otras áreas de la física y a otras disciplinas cuyo objeto principal de estudio es la dinámica y las propiedades de sistemas complejos y sistemas de muchas partículas. En el estado presente  de la Ciencia parece muy importante poder incluir un tópico más de los procesos irreversibles en el curso de termodinámica del Instituto de Física de la Universidad de Antioquia.</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivo General:</b></td>
-    <td width=60% style='border:1px solid;;'>Dotar al estudiante de una formación básica para el tratamiento de la teoría de muchos cuerpos desde el punto de vista fenomenológico y macroscópico mediante el uso de las leyes de la Termodinámica.</td>
+    <td width=60% style='border:1px solid;;'>Dotar al estudiante de una formación básica para el tratamiento de la teoría de muchos cuerpos desde el punto de vista fenomenológico y macroscópico mediante el uso de las leyes de la termodinámica.<br/></td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Objetivos Específicos:</b></td>
     <td width=60% style='border:1px solid;;'>
-      Al terminar el curso el estudiante estará en capacidad de: Utilizar las Leyes y los métodos de la Termodinámica (Ciclos y Potenciales) al estudio de distintos fenómenos en  sistemas macroscópicos, tanto  ideales como no ideales ej:  (gases reales, sólidos, líquidos, sistemas magnéticos).<br/>Usar los criterios de cambios de fase y describir el equilibrio en sistemas desde el punto de vista fenomenológico.<br/>Analizar los gases reales.<br/><br/>
-      <br/>
-      <br/>
+      Reconocer las Leyes de la Termodinámica.<br/><br/>Diferenciar las magnitudes físicas fundamentales y derivadas y su respectiva unidad en el sistema internacional.<br/><br/>Entender los conceptos básicos de temperatura, trabajo, calor, capacidad calorífica, entropía, y las distintas formas de energía.<br/><br/>Describir adecuadamente y con lenguaje científico los fundamentos básicos de la teoría cinética de los gases ideales y de la mecánica estadística.<br/><br/>
+      Utilizar las leyes y los métodos de la termodinámica (ciclos y potenciales) al estudio de distintos fenómenos en sistemas macroscópicos, tanto ideales como no ideales (por ejemplo: gases reales, sólidos, líquidos, sistemas magnéticos).<br/><br/>Usar los criterios de cambios de fase y describir el equilibrio en sistemas desde el punto de vista fenomenológico.<br/><br/>Analizar los gases reales. <br/><br/>Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.<br/><br/>Hacer búsqueda bibliográfica y extraer la información relevante.<br/><br/>
+      Enfrentarse a la solución a ejercicios y problemas con base a las teorías físicas.<br/><br/>Lograr que el estudiante correlacione la teoría con fenómenos de ocurrencia cotidiana. (trascienda)<br/><br/>Potencializar  la reflexión y la crítica sobre las teorías expresadas en libros científicos  e incluso en su profesor, para verlas no como verdades absolutas sino como una ciencia en construcción.<br/><br/>Reconocer la construcción colectiva de las teorías científicas y su posterior utilización en los desarrollos técnicos y tecnológicos.<br/><br/>Demostrar respeto por la autoría en las citaciones bibliográficas.<br/><br/>Comunicar las experiencias personales frente al trabajo desarrollado.<br/><br/>Generar una autoevaluación de su proceso de aprendizaje.<br/><br/>Compartir sus experiencias con el grupo de trabajo, con la idea de retroalimentar el aprendizaje.<br/><br/>Realizar el proceso de aprendizaje acompañado de las TIC’S<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Contenido Resumido:</b></td>
-    <td width=60% style='border:1px solid;;'>1-INTRODUCCIÓN<br/>2-PRIMERA Y SEGUNDA LEY DE LA TERMODINÁMICA<br/>3-METODOS DE LA TERMODINAMICA Y TERCERA LEY DE LA TE<br/>4-CONDICIONES DE EQUILIBRIO TERMODINAMICO Y TRANSICI<br/></td>
+    <td width=60% style='border:1px solid;;'>1-CONCEPTOS BÁSICOS, TEMPERATURA, LEY CERO <br/>2-PRIMERA LEY DE LA TERMODINÁMICA<br/>3-SEGUNDA LEY DE LA TERMODINÁMICA<br/>4-ENTROPÍA Y TERCERA LEY<br/>5-TERMODINÁMICA DE GASES REALES, LÍQUIDOS Y SÓLID<br/>6-RELACIONES GENERALES TERMODINÁMICAS<br/>7-TERMODINÁMICA DE LOS SISTEMAS ABIERTOS<br/>8-SISTEMAS DE NO-EQUILIBRIO<br/></td>
   </tr>
 </table>
 
@@ -167,25 +179,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>INTRODUCCIÓN</td>
+    <td width=60% style='border:1px solid;;'>CONCEPTOS BÁSICOS, TEMPERATURA, LEY CERO </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Definiciones básicas de la termodinámica.<br/>Ley cero y Termometría.<br/><br/>
-      <br/>
-      <br/>
+      Definiciones básicas de la termodinámica; Sistema termodinámico; variables intensivas y extensivas; sistemas de equilibrio y de no-equilibrio; equilibrio térmico y la ley cero; temperatura, termometría; sistemas termodinámicos simples, trabajo.<br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera. <br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>2,5</td>
+    <td width=60% style='border:1px solid;;'>2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>* Galileo Galilei.    Dialogue Concerning the two chief  World Systems. University of California Press.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997. <br/><br/>R. Baierlein, The Physics Teacher 28 (1990) 94</td>
   </tr>
 </table><p><b>Unidad No. 2.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -194,25 +206,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>PRIMERA Y SEGUNDA LEY DE LA TERMODINÁMICA</td>
+    <td width=60% style='border:1px solid;;'>PRIMERA LEY DE LA TERMODINÁMICA</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Fundamentos de la 1º  y 2º  Ley.<br/>Energía Interna, Calor y Entropía.<br/>Procesos cíclicos y máquinas térmicas.<br/><br/>
-      <br/>
-      <br/>
+      La naturaleza del calor; capacidad calorífica; calorimetría; la conservación de la energía; energía interna; aplicaciones de la primera ley; flujo de energía; estados organizados; flujo cuasi-estático del calor; gases ideales; teoría cinética. <br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>5</td>
+    <td width=60% style='border:1px solid;;'>2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>* Galileo Galilei.    Dialogue Concerning the two chief  World Systems. University of California Press.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997</td>
   </tr>
 </table><p><b>Unidad No. 3.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -221,25 +233,25 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>METODOS DE LA TERMODINAMICA Y TERCERA LEY DE LA TE</td>
+    <td width=60% style='border:1px solid;;'>SEGUNDA LEY DE LA TERMODINÁMICA</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Potenciales termodinámicos, Funciones Respuesta. <br/>Relaciones de Maxwell.<br/>Aplicaciones a sistemas sencillos.<br/>3o  Ley, fundamentos.<br/><br/>
-      <br/>
-      <br/>
+      Motor de calor; eficiencia de un motor reversible; la segunda ley de la termodinámica; la equivalencia de las declaraciones de Kelvin-Planck y de Clausius de la segunda ley; ciclo de Carnot; escala absoluta de temperatura; aplicaciones. <br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>3,5</td>
+    <td width=60% style='border:1px solid;;'>2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>* Heat and Thermodynamics. Nark W. Zemansky. 5º  Edición. Mc Graw Hill, 1968.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997</td>
   </tr>
 </table><p><b>Unidad No. 4.</b></p>
 <table border=0 width=650px style='border-collapse:collapse'>
@@ -248,25 +260,133 @@
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
-    <td width=60% style='border:1px solid;;'>CONDICIONES DE EQUILIBRIO TERMODINAMICO Y TRANSICI</td>
+    <td width=60% style='border:1px solid;;'>ENTROPÍA Y TERCERA LEY</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
     <td width=60% style='border:1px solid;;'>
-      Reglas y aplicaciones.<br/>Transiciones de fase de 1o orden, 2o orden y orden superior. <br/>Ecuaciones de Clapeyron y Ehrenfest.<br/><br/>
-      <br/>
-      <br/>
+      La entropía en los procesos reversibles e irreversibles; entropía de un gas ideal; producción de entropía debido a la difusión; propiedades generales de la entropía; aplicaciones del principio de entropía; interpretación estadística de entropía; entropía y desorden; tercera ley de la termodinámica. <br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
     </td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
-    <td width=60% style='border:1px solid;;'>1</td>
+    <td width=60% style='border:1px solid;;'>2</td>
   </tr>
   <tr>
     <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
   </tr>
   <tr>
-    <td width=40% style='border:1px solid;;' colspan=2>* Heat and Thermodynamics. Nark W. Zemansky. 5º  Edición. Mc Graw Hill, 1968.</td>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997 <br/><br/>H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985 <br/><br/>K. Andrew, American Journal of Physics 52 (1984) 492</td>
+  </tr>
+</table><p><b>Unidad No. 5.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>TERMODINÁMICA DE GASES REALES, LÍQUIDOS Y SÓLID</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Termodinámica de los gases reales; cantidades termodinámicas para los líquidos y sólidos puros; transiciones de fase de primer y segundo orden; fenómenos críticos. <br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>2</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997</td>
+  </tr>
+</table><p><b>Unidad No. 6.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>RELACIONES GENERALES TERMODINÁMICAS</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Potencial químico; transformaciones de Legendre; entalpía; energías libres de Helmholtz y Gibbs; principios extremos; relaciones de Maxwell; las relaciones de Euler; la relación de Gibbs-Duhem; el cubo termodinámico; ecuaciones de energía interna; ecuaciones TdS; ecuaciones de capacidad calorífica. <br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>1,5</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997 <br/><br/>H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985<br/><br/>D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008 <br/><br/>S.F. Pate, American Journal of Physics, 67 (1999) 1111</td>
+  </tr>
+</table><p><b>Unidad No. 7.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>TERMODINÁMICA DE LOS SISTEMAS ABIERTOS</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Equilibrio de fase; diagramas de fase; la ecuación de Clausius-Clapeyron; regla de fase de Gibbs; teorema de Duhem; equilibrio químico.<br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>1,5</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997<br/><br/>D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008 <br/><br/>H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985</td>
+  </tr>
+</table><p><b>Unidad No. 8.</b></p>
+<table border=0 width=650px style='border-collapse:collapse'>
+  <tr>
+    <td width=40%></td><td width=60%></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Tema(s) a desarrollar</b></td>
+    <td width=60% style='border:1px solid;;'>SISTEMAS DE NO-EQUILIBRIO</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>Subtemas</b></td>
+    <td width=60% style='border:1px solid;;'>
+      Equilibrio local; producción de entropía local; conducción del calor; conductividad térmica; radiación térmica; grado de reacción; afinidad; fuerzas y flujos termodinámicos; la relaciones de Onsager; rompimiento espontáneo de la simetría; estructuras disipativas<br/>
+      El estudiante con los conocimientos adquiridos está en capacidad de seleccionar, comparar, sistematizar, deducir, explicar, modificar y utilizar modelos para describir los procesos que experimenta un sistema físico cualquiera.<br/>
+      El propósito del curso es formar profesionales íntegros que puedan responder a las necesidades de la sociedad con un sentido ético y moral. Formación en cualidades apropiadas para desarrollar un trabajo planeado, ordenado, sistemático, consciente, que genere satisfacción y seguridad personal. Autoevaluación, con fines de que el estudiante se exija constantemente hacia el logro de los objetivos y hacia el mejoramiento continuo.<br/><br/>En este curso se enfatiza la potenciación de las capacidades para participar del trabajo colaborativo, fomentar el trabajo autónomo, el diálogo y el debate del conocimiento termodinámica, el respeto por las ideas de profesores y estudiantes, y la valoración cultural, ecológica y ética de situaciones donde se actué con el conocimiento termodinámico.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' valign=top><b>No. de semanas que se le dedicarán a esta unidad</b></td>
+    <td width=60% style='border:1px solid;;'>2</td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2><b>BIBLIOGRAFÍA BÁSICA correspondiente a esta unidad</b></td>
+  </tr>
+  <tr>
+    <td width=40% style='border:1px solid;;' colspan=2>D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008<br/><br/>D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to <br/>Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998<br/><br/>H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985</td>
   </tr>
 </table>
 
@@ -276,7 +396,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>METODOLOGÍA a seguir en el desarrollo del curso:</b>
       <p>
-	Para todo el seminario la metodología consiste en proponer un tema, sugerir una bibliografía y propiciar una discusión en la que profesor actúa como moderador.<br/>La Socialización de la Física se debe realizar en tres aspectos fundamentales, que describo a continuación.<br/>Presentación de conferencias (utilizando acetatos y el infocus) orales y murales. Presentación de un proyecto de investigación.<br/> Presentación un artículo científico, se le indicará un protocolo de alguna revista.<br/>
+	En todas las unidades se hace una introducción teórica, se analizan y discuten ejemplos y problemas. Se presentarán algunos videos y demostraciones relevantes. Se dan problemas, preguntas, experimentos sencillos, paradojas, simulaciones y artículos relevantes para estudiar en casa y después discutir en clase. Los estudiantes realizan una exposición de un tema de libre escogencia. El curso será desarrollado a través de una metodología que vincula los siguientes aspectos:<br/><br/>La clase magistral<br/>El curso de Termodinámica se fundamenta en clases magistrales, apoyándose en material visual utilizando diapositivas, material audiovisual mediante la proyección de películas cortas relacionadas con los temas respectivos, demostraciones sencillas y exposiciones por parte del estudiante. El estudiante debe además revisar el tema antes de la clase respectiva.<br/><br/>Lecturas, ejercicios, paradojas, simulaciones y experimentos sencillos<br/>Aspectos conceptuales relevantes al curso serán discutidos en clase por medio de lectura de documentos, soluciones de ejercicios y paradojas, simulaciones y realización de experimentos sencillos. Los estudiantes realizan estas actividades con anterioridad y después estos serán discutidos en clase en forma de preguntas a resolver. De forma similar se dejaran ejercicios que después serán desarrollados en clase por los estudiantes. <br/><br/>Videos, demostraciones y pre-exámenes<br/>Aspectos conceptuales relevantes al curso serán tratados por medio de la presentación de videos y demostraciones acompañados por preguntas para que los estudiantes las resuelvan en clase. Con el propósito de ayudarlos en la preparación de sus exámenes parciales, se realizarán pre-exámenes. Una vez presentados los pre-exámenes, los estudiantes recibirán las respectivas soluciones de los mismos. <br/><br/>Actividades independientes y asistidas<br/>Se realizan talleres donde se analizan ejercicios, problemas y se resuelven preguntas que han sido formuladas con anterioridad, donde se debe tener en cuenta los conceptos físicos. Atención en la oficina por parte del profesor,  buscando resolver las inquietudes y dudas que surjan al estudiante. Revisión de las evaluaciones realizadas, con el fin de corregir errores cometidos. <br/><br/>Exposición … afinando la mirada <br/>Los estudiantes, por parejas, preparan una exposición de un tema de interés y lo presentan a los asistentes al evento, durante 15 minutos.  Este será un ejercicio discursivo, con temáticas  que se profundizan por cuenta de los estudiantes según sus intereses o perspectivas personales y que les implica proyectar sus conocimientos hacia campos de aplicaciones muy variados.<br/>
       </p>
     </td>
   </tr>
@@ -299,7 +419,7 @@
   </tr>
   <tr>
     <td style='border:1px solid;;' valign=top colspan=3>
-      PARCIAL	  20%<br/>QUIZ	  10%<br/>PARCIAL	  25%<br/>PARCIAL	  20%<br/>PROBLEMAS 15 %
+      Cuatro parciales de 18 % c/u y taller 28 %<br/><br/>Taller incluye (28 %): Pre-exámenes, lecturas, videos, demostraciones, experimentos sencillos, simulaciones, y exposiciones.<br/><br/>Parcial 1: temas 1 y 2 (18%)<br/>Parcial 2: temas 3 y 4 (18%)<br/>Parcial 3: temas 5 y 6 (18%)<br/>Parcial 4: temas 7 y 8 (18%)<br/>Taller (28 %)
     </td>
   </tr>
 </table>
@@ -310,7 +430,7 @@
     <td style='border:1px solid;;' valign=top>
       <b>Actividades de Asistencia Obligatoria:</b>
       <p>
-	Clases magistrales
+	Clases magistrales y taller
       </p>
     </td>
   </tr>
@@ -321,11 +441,11 @@
 <table border=0 width=650px style='border-collapse:collapse'>
   <tr>
     <td style='border:1px solid;;' valign=top>
-            * Galileo Galilei. Discursos y Demostraciones Matemáticas. Ed. Nacional, Madrid, 1976.   <br/>      * Giorgio de Santillana. The Crimeo of Galileo. University of Chicago Press, Chicago, 1976.<br/>      * Stillman Drake. Galileo. Alianza Editorial, Madrid, 1980.<br/>      * Ludovico Geymonat. Galileo Galilei. Ed. Península, BARCELONA, 1986.<br/>* William Shea. La Revolución de Galileo Ed. Arial, Barcelona, 1983<br/>
+       Bibliografía básica:<br/><br/>M.W. Zemansky and R.H. Dittman, Heat and Thermodinamics, MacGraw Hill, Boston, USA, Seventh edition, 1997. <br/><br/>D. Kondepudi, Introduction to Modern Thermodynamics, John Wiley & Sons Ltd, West Sussex, England, 2008.<br/><br/>H.B. Callen, Thermodynamics and an Introduction to Thermostatistics, John Wiley & Sons Ltd, USA, 1985.<br/><br/>D. Kondepudi and I. Prigogine, Modern Thermodynamics: From Heat Engines to Dissipative Structure, John Wiley & Sons Ltd, West Sussex, England, 1998.<br/><br/>Bibliografía de referencia y complementaria:<br/><br/>D. Ter Haar, Elements of thermodynamics, Adison Wesley, Londres, 1968.<br/><br/>E. Fermi, Thermodynamics, MacGraw Hill, New York, 1957.<br/><br/>R. Kubo, Termodinámica, M. Holland, P., Amsterdam, 1971.<br/><br/>C.J. Adkins, Termodinámica del equilibrio, Rerveté, Barcelona, 1997.<br/><br/>Y.A. Çengel, M.A. Boles, Termodinámica, Séptima edición, McGraw Hill, México. 2012.<br/><br/>Y.K. Lim, Ed., Problems and Solutions on Thermodynamics and statistical mechanics. World Scientifc, New Jersey, USA, 1990.<br/><br/>J. Pellicer y J.A. Manzanares, 100 Problemas de Termodinámica, Alianza Editorial S.A., Madrid, 1996.<br/><br/>P.G. Hewitt, Física Conceptual, Pearson Educación, Addison Wesley, México, 2007.<br/><br/>Máximo y B. Alvarenga, Física General con Experimentos Sencillos, Oxford University Press México, Cuarta edición, 1998.<br/><br/>R.E. Berg, A.Huffman, and L. Quakenbush (Compiladores), La Video Enciclopedia de Demostraciones de Física, The Education Group & Associates, Los Angeles, USA, 1998.<br/><br/>V.M. Faires, C.M. Simmang, Termodinámica, Editorial Hispano Americana, México, 1982. <br/><br/>Revistas científicas:<br/><br/>American Journal of Physics <br/>(http://scitation.aip.org/content/aapt/journal/ajp)<br/><br/>Reports on Progress in Physics <br/>(http://iopscience.iop.org/0034-4885/)<br/><br/>Physical Review Special Topics – Physics Education Research (https://journals.aps.org/prstper/issues) <br/><br/>The Physics Teacher <br/>(http://scitation.aip.org/content/aapt/journal/tpt)<br/><br/>Physics Education<br/>(http://iopscience.iop.org/0031-9120/) <br/><br/>International Journal of Science and Mathematics Education (http://link.springer.com/journal/10763)<br/><br/>Journal of Science Teacher Education <br/>(http://link.springer.com/journal/10972)<br/><br/>Sitios web:<br/><br/>Colorado University (Phet, Interactive simulations, free online physics)<br/>       <br/>http://phet.colorado.edu/<br/><br/>https://es.khanacademy.org/
     </td>
   </tr>
 </table>
 <p style="font-size:10px">
-<b>Última actualización</b>: Fri, 29 May 2015 18:52:59 -0500<br/>
+<b>Última actualización</b>: Fri, 25 Sep 2015 12:16:20 -0500<br/>
 <b>Firma Autorizada Facultad</b>: (No autorizado. Este documento es solo un borrador.)
 </p>

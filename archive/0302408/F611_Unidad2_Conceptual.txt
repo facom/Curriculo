@@ -1,1 +1,13 @@
-Tensores   en   el   espacio-tiempo.   Campos tensoriales. El tensor energía-momentum. Tensor estrés energía en fluidos perfectos. Ecuaciones de Lagrange para campos continuos. Formulacion  lagrangiana  de  una  teoría  física  y simetrías. Tensor  de  Faraday  y  derivación  de  la  forma covariante de las ecuaciones de Maxwell con el método lagrangiano.  
+Tensores   en   el   espacio-tiempo.   
+
+Campos tensoriales. 
+
+El tensor energía-momentum. 
+
+Tensor estrés energía en fluidos perfectos. 
+
+Ecuaciones de Lagrange para campos continuos. 
+
+Formulacion  lagrangiana  de  una  teoría  física  y simetrías. 
+
+Tensor  de  Faraday  y  derivación  de  la  forma covariante de las ecuaciones de Maxwell con el método lagrangiano.  

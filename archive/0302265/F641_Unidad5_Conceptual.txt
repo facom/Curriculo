@@ -1,4 +1,0 @@
-Fuerza magnética sobre una carga en movimiento. Cargas en movimiento en un campo magnético. Espectrómetro de masas. El ciclotrón.
-Fuerza y torque magnético sobre una corriente eléctrica. 
-Campo magnético de una corriente cerrada y de una corriente rectilínea. Fuerzas entre corrientes.
-Campo magnético de una corriente circular y de una carga en movimiento.

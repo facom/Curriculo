@@ -1,7 +1,13 @@
 Repaso breve del Python
+
 Estructura básica de un programa en Python.
+
 Numpy y rutinas de graficación.
+
 Operaciones aritméticas con reales y complejos.
+
 Números aleatorios,  método del congruente lineal y problemas.
+
 Errores: redondeo, truncamiento, sustracción cancelativa, precisión de la máquina.
+
 Algoritmos.

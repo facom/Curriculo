@@ -1,3 +1,2 @@
-* J Schwinger, et all. Classical Electrodynamics.
-
-* D. Griffits. Introduction to Electrodynamics
+J Schwinger, et all. Classical Electrodynamics.
+D. Griffits. Introduction to Electrodynamics.

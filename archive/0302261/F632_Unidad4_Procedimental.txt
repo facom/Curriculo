@@ -1,0 +1,12 @@
+Estimar órdenes de magnitud de algunos observables físicos.
+Diferenciar diferentes escalas asociadas a un mismo observable físico.
+Diferenciar el carácter vectorial y escalar de los conceptos de desplazamiento, velocidad y aceleración. 
+Diferenciar, comparar y explicar los conceptos de velocidad media e instantánea, y así también para la aceleración.
+Describir y predecir el movimiento en un plano, dada las condiciones iniciales.
+Diferenciar los diferentes tipos de velocidad y de aceleración en un movimiento en un plano, curvilíneo y circular.
+Comparar las descripciones cartesiana y polar del movimiento de una partícula en un plano.
+“Inducir” las leyes de Newton a partir de otras observaciones experimentales distintas a las mostraciones realizadas en clase. 
+Explicar y diferenciar los sistemas de referencia inercial y no-inercial.
+Utilizar diagramas de cuerpo libre en la solución de problemas de la estática y de la dinámica.
+Clasificar y explicar diferentes tipos de fuerza.
+Predecir el movimiento en una dimensión de una partícula dada la expresión matemática de la fuerza.

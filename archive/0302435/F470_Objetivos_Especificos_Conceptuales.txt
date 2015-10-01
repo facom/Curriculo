@@ -1,5 +1,9 @@
-•	Explicar, desde el punto de vista de la física, la diferencia y el comportamiento de ais-lantes y metales interactuando con campos eléctrico y magnético.
-•	Entender las relaciones constitutivas para aislantes, metales, superconductores, mate-riales diamagnéticos, paramagnéticos, ferromagnéticos, antiferromagnéticos, etc..
-•	Entender la propagación de ondas en la materia.
-•	Entender los fenómenos de reflexión y transmisión de ondas.
-•	Entender la propagación de ondas en guías de ondas y cavidades resonantes.
+Explicar, desde el punto de vista de la física, la diferencia y el comportamiento de ais-lantes y metales interactuando con campos eléctrico y magnético.
+
+Entender las relaciones constitutivas para aislantes, metales, superconductores, mate-riales diamagnéticos, paramagnéticos, ferromagnéticos, antiferromagnéticos, etc.
+
+Entender la propagación de ondas en la materia.
+
+Entender los fenómenos de reflexión y transmisión de ondas.
+
+Entender la propagación de ondas en guías de ondas y cavidades resonantes.

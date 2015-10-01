@@ -1,4 +1,4 @@
-2.1 Redes Cristalinas. Simetrías de translación. 
-2.2 Funciones periódicas. Red recíproca y sus propiedades
-2.3 Difración de Rayos X Reglas de selección.
-2.4 Teorema de Bloch. Reducción a una zona de Brillouin.  Condiciones de Frontera y conteo de estados cuánticos y aproximación del cuasicontinuo
+Redes Cristalinas. Simetrías de translación. 
+Funciones periódicas. Red recíproca y sus propiedades.
+Difración de Rayos X Reglas de selección.
+Teorema de Bloch. Reducción a una zona de Brillouin.  Condiciones de Frontera y conteo de estados cuánticos y aproximación del cuasicontinuo.

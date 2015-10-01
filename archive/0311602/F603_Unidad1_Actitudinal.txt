@@ -1,3 +1,5 @@
 El valor de la geometría en los problemas de mecanica celeste. 
+
 La importancia de la demostración de las formulas básica de las cónicas en física.
+
 La importancia de las fuerzas ficticias para la descripción correcta de los fenómenos físicos en sistemas no inerciales.  

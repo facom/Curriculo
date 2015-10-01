@@ -1,9 +1,13 @@
-Al terminar el curso el estudiante estará en capacidad de:
-a. Reconocer su afición por la lectura de revistas científicas.
-b. Practicar el idioma inglés, mediante la lectura y análisis de artículos científicos.
-c. Realizar exposiciones orales.
-d. Reconocer el ambiente de diálogo, discusión y oposición entre sus compañeros.
-e. Aprender a presentar ponencias en posters, orales, artículos.
-f. Aprender nociones básicas de Fortran, Origin y Mathematica
-g. Aprender a colsultar en las beses de datos Web of Science, JCR, Scopus  
+Reconocer su afición por la lectura de revistas científicas.
 
+Practicar el idioma inglés, mediante la lectura y análisis de artículos científicos.
+
+Realizar exposiciones orales.
+
+Reconocer el ambiente de diálogo, discusión y oposición entre sus compañeros.
+
+Aprender a presentar ponencias en posters, orales, artículos.
+
+Aprender nociones básicas de Fortran, Origin y Mathematica.
+
+Aprender a colsultar en las beses de datos Web of Science, JCR, Scopus.

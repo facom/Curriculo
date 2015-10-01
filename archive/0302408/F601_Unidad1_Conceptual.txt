@@ -1,1 +1,7 @@
-Sistemas coordenados Transformaciones de Lorentz, cálculo K para relatividad especial. Grupo de Lorentz y representaciones. Geodésicas de un espacio plano.
+Sistemas coordenados Transformaciones de Lorentz. 
+
+Cálculo K para relatividad especial. 
+
+Grupo de Lorentz y representaciones. 
+
+Geodésicas de un espacio plano.

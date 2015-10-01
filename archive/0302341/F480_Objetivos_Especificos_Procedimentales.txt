@@ -1,7 +1,7 @@
-*Verificar de forma experimental los conceptos aprendidos en el curso de óptica. 
+Verificar de forma experimental los conceptos aprendidos en el curso de óptica. 
 
-*Describir y dar cuenta del uso  y potencialidad los instrumentos ópticos.
+Describir y dar cuenta del uso  y potencialidad los instrumentos ópticos.
 
-*Diseñar y construir montajes ópticos.
+Diseñar y construir montajes ópticos.
 
-*Analizar la validez de los resultados experimentales en función de los errores   
+Analizar la validez de los resultados experimentales en función de los errores   

@@ -1,3 +1,5 @@
 Revisión de las formulaciones elementales de la mecánica: Leyes de movimiento de Newton.
+
 Teoremas de conservación para una partícula, extensión al caso de muchas partículas. 
+
 Limitaciones de la mecánica Newtoniana.

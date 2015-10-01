@@ -1,3 +1,5 @@
-*Fortalecer las ayudas para poder realizar un mejor trabajo en el área experimental.
-*Implementar la idea de control de la medida y por consiguiente del experimento.
-*Generalizar la ideas del equipo de control adaptable a varios experimentos (equipo flexible).
+Fortalecer las ayudas para poder realizar un mejor trabajo en el área experimental.
+
+Implementar la idea de control de la medida y por consiguiente del experimento.
+
+Generalizar la ideas del equipo de control adaptable a varios experimentos (equipo flexible).

@@ -1,24 +1,47 @@
 Enumerar las propiedades geométricas básicas de las curvas cónicas, parábolas, elipses e hipérbolas.
+
 Enumerar las cantidades cinemáticas y dinámicas básicas, así como las leyes fundamentales que las relacionan, usadas para describir el estado dinámico de una partícula o un sistema de partículas en la teoría newtoniana del movimiento.
+
 Escribir las ecuaciones de movimiento de un sistema de partículas que interactúan gravitacionalmente (problema de los N-cuerpos)
+
 Definir el concepto de constante o integral de movimiento en el formalismo vectorial de la mecánica.
+
 Escribir las ecuaciones de movimiento de un sistema de 2 partículas que interactúan gravitacionalmente (problema de los dos cuerpos). 
+
 Identificar las relaciones matemáticas existentes entre las propiedades dinámicas de un sistema de dos cuerpos (masas, momento angular, energía) y las propiedades geométricas (semilatus rectum, excentricidad) de la trayectoria que ellos describen.
+
 Definir el concepto de restricción (constraint) y enumerar sus tipos.
+
 Enunciar el principio de D'Alambert.
+
 Enunciar el principio de Hamilton.
+
 Enumerar las condiciones necesarias para definir el Lagrangiano de un sistema.
+
 Definir e identificar las variables cíclicas y los momentos generalizados de un sistema conocido su Lagrangiano.
+
 Mostrar a través del concepto de variables cíclicas y momentums generalizados como las simetrías de un sistema y de su Lagrangiano están asociadas con la conservación de cantidades físicas.
+
 Definir el potencial efectivo y usarlo para clasificar las órbitas del problema de dos cuerpos sometidos a una fuerza central así como para encontrar los valores límite de la variable radial.
+
 Definir los elementos orbitales clásicos que permiten identificar la orientación de una órbita cónica en el espacio de 3 dimensiones.
+
 Discutir las razones que hacen imposible la solución analítica al problema de los 3 cuerpos y las condiciones requeridas para obtener soluciones restringidas.
+
 Definir la constante de Jacobi y su relación con la energía en el sistema de los tres cuerpos.
+
 Definir el concepto de curvas de cero velocidad y la manera cómo estas se usan para estudiar las propiedades del sistema restringido circular de los tres cuerpos.
+
 Enumerar algunas aplicaciones de las propiedades reconocidas del problema restringido circular de los tres cuerpos.
+
 Explicar conceptualmente porque algunos puntos de Lagrange pueden ser puntos estables mientras que otros pueden ser inestables.
+
 Enumerar las condiciones requeridas para que el Hamiltoniano coincida con la energía de un sistema y para que esta cantidad se conserve.
+
 Definir una transformación canónica y enumerar las condiciones requeridas para que lo sean.
+
 Definir los exponentes de Lyapunov como una medida del caos presente en un sistema dinámico. 
+
 Introducir el concepto de Diagrama de Poincaré y deducir propiedades observables del sistema a partir de él. 
+
 Enunciar el teorema de Kolmogorov-Arnold-Moser y su aplicación a la estabilidad de órbitas cuasiperiódicas relacionadas con la existencia de pequeñas perturbaciones a los movimientos keplerianos. 

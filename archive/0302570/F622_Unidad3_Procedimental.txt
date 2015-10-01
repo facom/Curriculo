@@ -1,14 +1,27 @@
 Fricción.
+
 Concepto de esfuerzo.
+
 Nueve componentes del tensor de esfuerzos.
+
 Equilibrio mecánico.
+
 Simetría del tensor de esfuerzos.
+
 Concepto de desplazamiento.
+
 Deformación local.
+
 Significado geométrico del tensor de deformaciones.
+
 Trabajo y energía.
+
 Deformaciones finitas.
+
 Ley de Hook.
+
 Ley de Hook en materiales isotrópicos.
+
 Deformación uniforme estática.
+
 Energía de deformación.

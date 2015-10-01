@@ -1,4 +1,7 @@
 Clase magistral con participación del estudiante en la deducción de resultados teóricos, solución de problemas y ejercicios prácticos.
+
 Consulta por parte de los estudiantes de las fuentes bibliográficas recomendadas, para ampliar los temas y enriquecer discusiones propuestas por el docente en clase.
+
 Complementación de la teoría por parte de los estudiantes mediante problemas propuestos en clase.
+
 Cada estudiante debe elegir un proyecto final del curso donde aplique las temáticas vistas en el curso, que incluya un desarrollo teórico y un resultado numérico. 

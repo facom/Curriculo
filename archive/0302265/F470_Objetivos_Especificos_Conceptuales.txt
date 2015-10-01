@@ -1,8 +1,0 @@
-Al terminar el curso el estudiante estará en capacidad de:
-Identificar los principios que rigen el movimiento oscilatorio aplicándolos a situaciones prácticas.
-Describir cualitativa y cuantitativamente el comportamiento de los cuerpos que interactúan a partir de las Leyes de Kepler y Newton de la Gravitación Universal.
-Identificar y calcular las fuerzas y los campos de fuerza asociados a la carga eléctrica.
-Elaborar las leyes de Campo Eléctrico y Magnético en medios materiales.
-Plantear la relación que existe entre la electricidad y el magnetismo para obtener las ecuaciones de Maxwell y entrar así las bases de la teoría electromagnética clásica.
-Identificar las leyes de la electricidad y el magnetismo condensadas en las Ecuaciones de Maxwell.
-Resolver problemas de interés práctico y científico aplicando el conocimiento logrado.

@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 14 Sep 2015 01:51:45 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 25 Sep 2015 13:03:37 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="000";
+$F030_AUTH_Acta_Numero="34";
+$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302491";
 $F110_Nombre_Asignatura="Didáctica Para Físicos";
 $F120_Tipo_Curso="Profundización";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="Didáctica";
 $F320_Ciclo="Profundización";
-$F330_Semestre="2015-2";
+$F330_Semestre="2015-1";
 $F330_Semestre_Plan="8";
 $F340_Horario_clase="WV10-12";
 $F350_Requisitos="Física Moderna (0302314)";

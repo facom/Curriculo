@@ -1,11 +1,11 @@
-3.1. Fundamentos de termodinámica: conceptos de temperatura y calor, teoría cinético-corpuscular, concepto de presión, estados de la materia, transiciones de fase, leyes de Boyle, Gay-Lussac, Ecuación de Estado del Gas Ideal, mecanismos de transferencia  de calor, espectro electromagné-tico. Fundamentos de los hornos de microondas. (6 horas).
+Fundamentos de termodinámica: conceptos de temperatura y calor, teoría cinético-corpuscular, concepto de presión, estados de la materia, transiciones de fase, leyes de Boyle, Gay-Lussac, Ecuación de Estado del Gas Ideal, mecanismos de transferencia  de calor, espectro electromagné-tico. Fundamentos de los hornos de microondas.
 
-3.2. Los Modelos Atómicos: La espectroscopía. Los rayos catódicos. Ra-diactividad. Partículas elementales. (4 horas).  
+Los Modelos Atómicos: La espectroscopía. Los rayos catódicos. Ra-diactividad. Partículas elementales.
 
-3.3. Mecánica Cuántica: Cuantización y modelo atómico de Bohr. Ecuación de Schrödinger. La función de onda. El Principio de Incertidumbre. La dua-lidad onda-partícula. Interpretación y aspectos actuales de la Mecánica Cuántica. (8 horas).
+Mecánica Cuántica: Cuantización y modelo atómico de Bohr. Ecuación de Schrödinger. La función de onda. El Principio de Incertidumbre. La dua-lidad onda-partícula. Interpretación y aspectos actuales de la Mecánica Cuántica.
 
-3.4. Teoría de la Relatividad: Relatividad especial. Transformaciones de Lorentz. Consecuencias del movimiento a altas velocidades: dilatación del tiempo, contracción de la longitud. Equivalencia de masa y energía. Crea-ción y aniquilación de partículas. (6 horas).
+Teoría de la Relatividad: Relatividad especial. Transformaciones de Lorentz. Consecuencias del movimiento a altas velocidades: dilatación del tiempo, contracción de la longitud. Equivalencia de masa y energía. Crea-ción y aniquilación de partículas.
 
-3.5. Cosmología: La evolución del universo. La gran explosión y la radia-ción cósmica. Las fuerzas fundamentales. Materia y energía oscura. El LHC: el experimento de mayor valor financiero en nuestra historia y la búsqueda del bosón de Higgs. (8 horas). 
+Cosmología: La evolución del universo. La gran explosión y la radia-ción cósmica. Las fuerzas fundamentales. Materia y energía oscura. El LHC: el experimento de mayor valor financiero en nuestra historia y la búsqueda del bosón de Higgs.
 
-3.6. Perspectivas de la Física. Nanociencia y nanotecnología. Proyección de la investigación actual en física. (2 horas).
+Perspectivas de la Física. Nanociencia y nanotecnología. Proyección de la investigación actual en física.

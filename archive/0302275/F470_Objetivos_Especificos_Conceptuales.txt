@@ -1,8 +1,7 @@
-	Al terminar el curso el estudiante estará en capacidad de:
-a. Resolver con habilidad ejercicios que involucren el cálculo diferencial e integral de funciones de variable compleja.
+Resolver con habilidad ejercicios que involucren el cálculo diferencial e integral de funciones de variable compleja.
 
-b. Manejar las series de potencia y sus aplicaciones. Conocer y aplicar   las transformaciones conformes a problemas concretos de la Física.
+Manejar las series de potencia y sus aplicaciones. Conocer y aplicar   las transformaciones conformes a problemas concretos de la Física.
 	
-c. Conocer y manejar algunas de las definiciones y aplicaciones básicas de la estadística matemática en la física
+Conocer y manejar algunas de las definiciones y aplicaciones básicas de la estadística matemática en la física
 
-d. Resolver y aplicar los elementos de cálculo variacional en la solución de problemas de la física y el manejo de las ecuaciones de Euler-Lagrange.
+Resolver y aplicar los elementos de cálculo variacional en la solución de problemas de la física y el manejo de las ecuaciones de Euler-Lagrange.

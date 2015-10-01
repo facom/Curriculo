@@ -1,4 +1,7 @@
-9: Adición vectorial en cuántica.
-10: Coeficientes de Clebsh-Gordon.
-11: Momento angular total.
-12: Símbolos 3j, 6j y teorema de Wigner-Eckhart.
+Adición vectorial en cuántica.
+
+Coeficientes de Clebsh-Gordon.
+
+Momento angular total.
+
+Símbolos 3j, 6j y teorema de Wigner-Eckhart.

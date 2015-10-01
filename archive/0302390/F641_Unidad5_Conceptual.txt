@@ -1,8 +1,9 @@
-Solución de Sistemas de ecuaciones lineales.   
-Matrices transpuesta, conjugada, hermítica,  inversa.
+Solución de Sistemas de ecuaciones lineales.
+   
+Matrices transpuesta, conjugada, hermítica, inversa.
+
 Determinantes, trazas.
+
 Operaciones matriciales.
+
 Autovalores y autofunciones.
-
-
-

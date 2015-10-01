@@ -1,3 +1,5 @@
 Reconocer la Física de Medios Continuos como un área fundamental para la formación de Físicos y Astrónomos
+
 Valorar las aproximaciones de la Física Clásica para el estudio de los sistemas físicos propios de la vida cotidiana
+
 Reconocer la necesidad y la importancia de la Física Computacional para solucionar situaciones propias del estudio de medios continuos 

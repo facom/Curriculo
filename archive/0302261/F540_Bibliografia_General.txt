@@ -1,3 +1,14 @@
-R. A. Serway,  FISICA tomo I, McGraw Hill, 1997.
-R. E. Eisberg, L. S. Lerner, FISICA Fundamentos y aplicaciones, McGrawHill, 1983.
-P. M. Fishbane, s. Gasiorowicz, S. T. Thrnton, FISICA para ciencias e ingeniería, Prentice Hall, 1994.
+Bibliografía Básica (obligatoria)
+
+(K): An Introduction to Mechanics, Daniel Kleppner, Robert J. Kolenkow. (1978). 
+
+Bibliografía de Referencia (complementaria)
+
+(F): Física Volumen I Marcelo Alonso and Edward J. Finn.
+(M): The Science of Mechanics, Ernst Mach.
+(H): Introduction to the Principles of Mechanics, Walter Hauser.
+(B): Introduction to the Relativity Principle, Gabriel Barton. (1999)
+(R): Introduction to Special Relativity, Robert Resnick. (1968)
+(S): Física Universitaria, Sears, Zemanski, Young y Freedman. (2004)
+
+

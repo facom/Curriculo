@@ -1,1 +1,1 @@
-Sistemas de dos partículas: fuerza central, análisis cualitativo del problema de Keppler. Las leyes de Kepler. Órbitas elípticas y circulares.
+Movimiento del centro de masa, momento angular, momento de inercia, teorema de los ejes paralelos (o de Steiner); ecuaciones de movimiento de un cuerpo rígido, energía cinética de rotación, conservación del momento angular, ecuaciones de Euler, movimiento alrededor de un punto fijo, precesión y nutación.

@@ -1,3 +1,3 @@
-* Aplicar y afianzar las propiedades básicas de los campos ópticos coherentes.
+Aplicar y afianzar las propiedades básicas de los campos ópticos coherentes.
 
-*Distinguir las aproximaciones de Fraunhofer y Fresnel en difracción.
+Distinguir las aproximaciones de Fraunhofer y Fresnel en difracción.

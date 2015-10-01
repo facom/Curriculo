@@ -1,6 +1,6 @@
-2.1. Electricidad: La carga eléctrica. Atracción y repulsión eléctrica. Pro-ceso de carga por frotación y por inducción. Ley de Coulomb. Fuerza eléc-trica. Corriente eléctrica. Ley de Ohm. Campo eléctrico.  (2 horas).
+Electricidad: La carga eléctrica. Atracción y repulsión eléctrica. Pro-ceso de carga por frotación y por inducción. Ley de Coulomb. Fuerza eléc-trica. Corriente eléctrica. Ley de Ohm. Campo eléctrico.
 
-2.2. Magnetismo: Magnetostática. El campo magnético. Ley de Ampere. Inducción electromagnética. Ley de Faraday. Ondas de radio-Experimento de Hertz. (2 horas).
+Magnetismo: Magnetostática. El campo magnético. Ley de Ampere. Inducción electromagnética. Ley de Faraday. Ondas de radio-Experimento de Hertz.
 
-2.3. Leyes de Maxwell: El campo electromagnético. Teoría electromagnética de la luz. Óptica geométrica y óptica física. (2 horas).
+Leyes de Maxwell: El campo electromagnético. Teoría electromagnética de la luz. Óptica geométrica y óptica física.
 

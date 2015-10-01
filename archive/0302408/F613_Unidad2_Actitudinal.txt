@@ -1,1 +1,3 @@
-Plantear las leyes físicas en forma tensorial. Con so de lagrangianos apropiados encontrar las leyes de la física en forma variacional.
+Plantear las leyes físicas en forma tensorial. 
+
+Con el uso de lagrangianos apropiados encontrar las leyes de la física en forma variacional.

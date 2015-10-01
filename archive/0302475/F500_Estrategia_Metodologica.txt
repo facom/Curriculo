@@ -1,2 +1,1 @@
--	Conferencia magistral del profesor.
--	Solución de ejemplos y ejercicios.
+Conferencia magistral del profesor. Solución de ejemplos y ejercicios.

@@ -1,4 +1,0 @@
-• F. Reif, Fundamentos de Física Estadística y Térmica, Mc Graw-Hill, New York, 1968.
-• R. K. Pathria. Statistical Mechanics, Second edition. Butterworth Heinemann. Oxford, 2001.
-• Donald A. McQuarrie. Statistical Mechanics, Harper & Row Publishers, 1976.
-•David. P. Landau and Kurt Binder. A Guide to Monte Carlo Simulations in Statistical Physics. Cambridge, University Press, Second Editions, 2000.

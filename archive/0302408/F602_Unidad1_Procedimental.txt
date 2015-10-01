@@ -1,1 +1,3 @@
-mostrar el momento y la posición como cuadrivectores. Usar el grupo de Lorentz apropiadamente. 
+Mostrar el momento y la posición como cuadrivectores. 
+
+Usar el grupo de Lorentz apropiadamente. 

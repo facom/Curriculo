@@ -1,2 +1,1 @@
-Propiedades  estáticas de los núcleos: masa, radio, momentos de cuadrupolo. Energías de ligadura. Fórmula semiempírica de masa. Números mágicos. Modelo de capas. Niveles excitados. Dispersión de electrones por núcleos. Densidad nuclear y factores de forma.
-Reacciones nucleares. Decaimientos alfa, beta y gama. Fusión y fisión.  Otros modelos nucleares.
+Fenómenos que llevan a la idea de partícula fundamental vs partículas compuestas. Clasificación de las partículas según su fenomenología. Leptones, bariones, mesones.Leyes de conservación de algunos números cuánticos. Teoría de los quarks. Cromodinámica. Reacciones entre partículas y decaimientos.

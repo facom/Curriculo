@@ -1,3 +1,3 @@
-* Arfken G. y Weber H. Mathematical Methods for Physicist, Editorial Academic Press, London, 2001.
-* Sepulveda A. Lecciones de Física Matemática, Editorial Universidad de Antioquia, Medellín, 2004.
-* Tijonov A. y Samarsky A. Ecuaciones de la Física Matemática, Editorial Mir, Moscu, 1972.
+Arfken G. y Weber H. Mathematical Methods for Physicist, Editorial Academic Press, London, 2001.
+Sepulveda A. Lecciones de Física Matemática, Editorial Universidad de Antioquia, Medellín, 2004.
+Tijonov A. y Samarsky A. Ecuaciones de la Física Matemática, Editorial Mir, Moscu, 1972.

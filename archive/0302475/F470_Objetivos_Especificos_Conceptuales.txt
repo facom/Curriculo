@@ -1,4 +1,5 @@
-Al terminar el curso el estudiante estará en capacidad de:
-a. Identificar y describir las propiedades algebráicas, métricas y analíticas de los espacios de Euclides y  Minkowski.
-b. Utilizar el álgebra tensorial y exterior.
-c. Contruir los espacios de Hermite y de Hilbert, y en cada caso el álgebra de operadores.
+Identificar y describir las propiedades algebráicas, métricas y analíticas de los espacios de Euclides y  Minkowski.
+
+Utilizar el álgebra tensorial y exterior.
+
+Contruir los espacios de Hermite y de Hilbert, y en cada caso el álgebra de operadores.

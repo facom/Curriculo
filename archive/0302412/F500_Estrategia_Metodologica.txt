@@ -1,2 +1,3 @@
--	Exposición magistral del profesor.
--	Asignación de tareas.
+Exposición magistral del profesor.
+
+Asignación de tareas.

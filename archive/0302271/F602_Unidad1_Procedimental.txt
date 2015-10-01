@@ -1,6 +1,6 @@
-• Calcular el error en una medida a partir de las reglas correctas y siguiendo los principios de la lógica experimental.
-• Escribir los resultados de un experimento con las cifras significativas correctas.
-• Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
-• Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud,ángulo, temperatura, tiempo.
-• Hacer búsqueda bibliográfica y extraer la información relevante.
-• Realizar el histograma de un grupo de datos y determinar parámetros como la media, la desviación estándar, la correlación.
+Calcular el error en una medida a partir de las reglas correctas y siguiendo los principios de la lógica experimental.
+Escribir los resultados de un experimento con las cifras significativas correctas.
+Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
+Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud,ángulo, temperatura, tiempo.
+Hacer búsqueda bibliográfica y extraer la información relevante.
+Realizar el histograma de un grupo de datos y determinar parámetros como la media, la desviación estándar, la correlación.

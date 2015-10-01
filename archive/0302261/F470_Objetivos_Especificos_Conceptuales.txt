@@ -1,1 +1,11 @@
-Comprender las relaciones  cinemáticas involucradas en  el movimiento relativo de los objetos. Aprender a determinar las causas de los movimientos  y las características de las interacciones. Estudiar el movimiento de objetos bajo ciertas fuerzas de contacto y a distancia. Inducir principios y leyes de conservación de sistemas cerrados.
+Explicar las leyes de movimiento.
+
+Comentar el punto de vista machiano de la mecánica.
+
+Escribir y analizar el movimiento planetario.
+
+Describir y analizar el movimiento oscilatorio.
+
+Describir y analizar el movimiento de un cuerpo rígido.
+
+Explicar y diferenciar las concepciones relativista y absolutista del espacio y del tiempo.

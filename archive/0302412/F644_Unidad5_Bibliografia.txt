@@ -1,5 +1,5 @@
-1- Feynman,  R. P., 1942, ``The Principle of Least Action in Quantum Mechanics'', tesis doctoral, Ann Arbor, Princeton University; Feynman, R. P., 1948; ``The Space-Time Formulation of Nonrelativistic Quantum Mechanics'', Reviews of Modern Physics, 20(2), pp. 367-387; Feynman, R. P. y  Hibbs, A. R., 2010 ``Quantum Mechanics and Path Integrals'', corregido por Styer. D. F., Nueva York, Dover Publcations.
+Feynman,  R. P., 1942, ``The Principle of Least Action in Quantum Mechanics'', tesis doctoral, Ann Arbor, Princeton University; Feynman, R. P., 1948; ``The Space-Time Formulation of Nonrelativistic Quantum Mechanics'', Reviews of Modern Physics, 20(2), pp. 367-387; Feynman, R. P. y  Hibbs, A. R., 2010 ``Quantum Mechanics and Path Integrals'', corregido por Styer. D. F., Nueva York, Dover Publcations.
 
-2- Dirac, P. A. M., 1958, ``The Principles of Quantum Mechanics'', cuarta edición, Oxford, Oxford University Press.
+Dirac, P. A. M., 1958, ``The Principles of Quantum Mechanics'', cuarta edición, Oxford, Oxford University Press.
 
 Un libro excelente de mec\'anica cu\'antica relativista es el de Bjorken, J. D. y Drell, S. D., 1964, ``Relativistic Quantum Mechanics'', Nueva York, McGraw-Hill.

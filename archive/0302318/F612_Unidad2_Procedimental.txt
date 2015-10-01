@@ -1,7 +1,13 @@
-• Describir y definir los aspectos teóricos entorno a la propagación de una onda elástica en una barra, en un fluido y en una cuerda.
-• Explicar la reflexión y transmisión de ondas desde el punto de vista teórico y práctico. 
-• Describir y analizar los aspectos teóricos relacionados con las ondas planas, las ondas esféricas y las ondas estacionarias mencionado la visualización experimental de este tipo de ondas.
-• Diferenciar entre una onda viajera y una onda estacionaria.
-• Explicar y analizar el efecto Doppler y describir los pulsos.
-• Hallar la relación que existe entre los campos eléctrico y magnético en una onda electromagnética plana, describir el espectro electromagnético y definir el vector de Poynting.
-• Explicar los conceptos de polarización y presión de radiación.
+Describir y definir los aspectos teóricos entorno a la propagación de una onda elástica en una barra, en un fluido y en una cuerda.
+
+Explicar la reflexión y transmisión de ondas desde el punto de vista teórico y práctico. 
+
+Describir y analizar los aspectos teóricos relacionados con las ondas planas, las ondas esféricas y las ondas estacionarias mencionado la visualización experimental de este tipo de ondas.
+
+Diferenciar entre una onda viajera y una onda estacionaria.
+
+Explicar y analizar el efecto Doppler y describir los pulsos.
+
+Hallar la relación que existe entre los campos eléctrico y magnético en una onda electromagnética plana, describir el espectro electromagnético y definir el vector de Poynting.
+
+Explicar los conceptos de polarización y presión de radiación.

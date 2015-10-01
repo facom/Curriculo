@@ -1,1 +1,5 @@
-Calcular en forma rigurosa y detallada procesos físicos realistas y comparar los resultados obtenidos con las medidas experimentales disponibles en la literatura respectiva. Lo anterior en problemas tanto en la física atómica como en la nuclear y en la de partículas elementales.
+Calcular en forma rigurosa y detallada procesos físicos realistas. 
+
+Comparar los resultados obtenidos con las medidas experimentales disponibles en la literatura respectiva. 
+
+Lo anterior en problemas tanto en la física atómica como en la nuclear y en la de partículas elementales.

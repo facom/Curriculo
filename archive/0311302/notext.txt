@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 14 Sep 2015 02:14:09 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 25 Sep 2015 08:34:48 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="";
+$F030_AUTH_Acta_Numero="34";
+$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311302";
 $F110_Nombre_Asignatura="Astronomía Práctica I";
 $F120_Tipo_Curso="Básico";

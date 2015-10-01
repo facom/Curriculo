@@ -1,3 +1,5 @@
 Dominio en la definición formal de presión y flotación y la relación entre ellas.
+
 Claridad en las condiciones que garantizan el equilibrio hidrostático.
+
 Aplicar el equilibro hidrostático para un modelo simple de planeta y estrella. 

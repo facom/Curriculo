@@ -16,4 +16,4 @@ Momenta de multipolos y algunas de sus propiedades. Momenta de multipolos de una
 Energía del campo electrostático.
 Energía de interacción de un cuerpo cargado con un campo externo.
 Dipolo eléctrico en presencia de un campo electrostático. 
-Radio clásico del electrón-.
+Radio clásico del electrón.

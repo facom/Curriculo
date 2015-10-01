@@ -1,5 +1,9 @@
-13: Ecuación integral de Schrodinger.
-14: Funciones de Green.
-15: Aproximación de Born.
-16: Ondas parciales.
-17: Desarrollos generales.
+Ecuación integral de Schrodinger.
+
+Funciones de Green.
+
+Aproximación de Born.
+
+Ondas parciales.
+
+Desarrollos generales.

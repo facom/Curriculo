@@ -1,4 +1,4 @@
-1.      Formación de Imágenes.  
-2.	Aumento del telescopio.
-3.	Modelos de ojos miopes e hipermétropes.
-4.	Polarización y ángulo de Brewster.
+Formación de Imágenes.  
+Aumento del telescopio.
+Modelos de ojos miopes e hipermétropes.
+Polarización y ángulo de Brewster.

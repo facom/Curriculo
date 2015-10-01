@@ -1,6 +1,6 @@
-1. Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
-2. A. M. Fox: Quantum optics: an introduction, Oxford University Press, 2006
-3. Gilbert G., Aspect A. and Fabre c., Introduction to Quantum Optics; From the Semiclassical Approach to Quantized Light, Cambridge University Press, 2010.
-4. Scully, M. and Zubairy M., Quantum Optics, Cambridge University Press, 1997.
-5. Haroche S. and Raimond J-M, Exploring the quantum: Atoms, cavities and photons, Orford University Press, 2006.
-6. Shore B. Manupulating Quantum Structures using laser pulses, Cambrigde University Press, 2011
+Gerry C. and Knight P., Introductory Quantum Optics, Cambridge University Press, 2005
+A. M. Fox: Quantum optics: an introduction, Oxford University Press, 2006
+Gilbert G., Aspect A. and Fabre c., Introduction to Quantum Optics; From the Semiclassical Approach to Quantized Light, Cambridge University Press, 2010.
+Scully, M. and Zubairy M., Quantum Optics, Cambridge University Press, 1997.
+Haroche S. and Raimond J-M, Exploring the quantum: Atoms, cavities and photons, Orford University Press, 2006.
+Shore B. Manupulating Quantum Structures using laser pulses, Cambrigde University Press, 2011

@@ -1,6 +1,11 @@
 Algoritmo de la bisección.
+
 Algoritmo de la regla falsa.
+
 Algoritmo de la secante.
+
 Algoritmo  de Newton-Raphson.
+
 Ecuaciones trascendentales.
+
 Análisis de errores.

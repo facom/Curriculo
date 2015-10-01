@@ -1,12 +1,12 @@
-1- Schiff, L. I., 1968, ``Quantum Mechanics'', tercera edici\'on, Nueva York, McGraw-Hill.
+Schiff, L. I., 1968, ``Quantum Mechanics'', tercera edici\'on, Nueva York, McGraw-Hill.
 
-2- Landau, L. y Lifchitz, E., 1966, ``Physique th\'eorique. III: M\'ecanique quantique: th\'eorie non relativiste'', Moscu, Mir. El original de la obra es en ruso, pero hay traducciones al ingles (Nueva York, Addison-Wesley), al espanol (Barcelona, Reverte) y a varios otros idiomas.
+Landau, L. y Lifchitz, E., 1966, ``Physique th\'eorique. III: M\'ecanique quantique: th\'eorie non relativiste'', Moscu, Mir. El original de la obra es en ruso, pero hay traducciones al ingles (Nueva York, Addison-Wesley), al espanol (Barcelona, Reverte) y a varios otros idiomas.
 
-3- Messiah, A., 1964, ``Quantum Mechanics'', vols. I y II, Nueva York, North-Holland. (El original esta en frances).
+Messiah, A., 1964, ``Quantum Mechanics'', vols. I y II, Nueva York, North-Holland. (El original esta en frances).
 
-4- D. Park. ``Introduction to Quantum Mechanics''. McGraw-Hill. New York.
+D. Park. ``Introduction to Quantum Mechanics''. McGraw-Hill. New York.
 
-5-  Cohen C-Tannoudji, Diu B, Laloe F. ``Quantum Mechanics'', Vol. I y II. Wisley, N. Y. 1977
+Cohen C-Tannoudji, Diu B, Laloe F. ``Quantum Mechanics'', Vol. I y II. Wisley, N. Y. 1977
 
-6- Sakurai J J. ``Modern Quantum Mechanics''. Addison-Wesley. 1994
+Sakurai J J. ``Modern Quantum Mechanics''. Addison-Wesley. 1994
 

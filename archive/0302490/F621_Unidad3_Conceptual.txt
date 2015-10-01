@@ -1,1 +1,1 @@
-	Ejercicios prácticos de manejo de datos. Instrumentos virtuales. Papel de control, diagrama de bloques, Icono-conector. Comunicación serial RS232. Manejo de equipo de laboratorio.
+Ejercicios prácticos de manejo de datos. Instrumentos virtuales. Papel de control, diagrama de bloques, Icono-conector. Comunicación serial RS232. Manejo de equipo de laboratorio.

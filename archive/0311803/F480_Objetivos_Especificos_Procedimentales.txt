@@ -1,4 +1,7 @@
-Interpretar resultados observacionales fotométricos y espectrométricos de galaxias y agrupaciones de galaxias
-Construir y usar modelos analíticos para modelar la dinámica de galaxias y sistemas autogravitantes
+Interpretar resultados observacionales fotométricos y espectrométricos de galaxias y agrupaciones de galaxias.
+
+Construir y usar modelos analíticos para modelar la dinámica de galaxias y sistemas autogravitantes.
+
 Interpretar resultados observacionales de la estructura a gran escala del universo, como galaxy surveys, radiación cósmica de fondo, etc.
+
 Enfrentar la lectura de artículos y textos avanzados en el tema.

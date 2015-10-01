@@ -1,11 +1,21 @@
 El problema de los N cuerpos y sus constantes de movimiento.
+
 El problema de los dos cuerpos y su reducción al problema equivalente de un cuerpo.
+
 Constantes de movimiento en el problema de los dos cuerpos. 
+
 Solución geométrica al problema de los dos cuerpos 
+
 Cálculos numéricos en mecánica celeste. 
+
 Elementos orbitales y solución al problema de los dos cuerpos en el tiempo.  
+
 El problema de los tres cuerpos.
+
 Ecuaciones de movimiento en el problema de los 3 cuerpos para sistemas inerciales y rotantes.
+
 La constante de Jacobi y las regiones de exclusión. 
+
 Los puntos de Lagrange y su estabilidad.
+
 El criterio de Tisserand para la identificación de cometas.

@@ -1,3 +1,5 @@
 Esfuerzos
+
 Deformaciones
+
 Elasticidad lineal 

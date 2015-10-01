@@ -1,1 +1,0 @@
-Concepto de vector, vector posición, vector velocidad, aceleración. Integración de las ecuaciones cinemáticas. Posición y velocidad relativa, sistemas de referencia, transformaciones de Galileo.

@@ -1,9 +1,17 @@
 Motivación al formalismo Hamiltoniano presentando las implicaciones entre la geometría del espacio de fases y la interpretación del mundo observable. 
+
 Derivación de las ecuaciones canónicas de Hamilton partiendo de las ecuaciones de Euler-Lagrange. 
+
 Derivación del Hamiltoniano del problema de los dos cuerpos
+
 Derivación del Hamiltoniano del CRTBP.
+
 Derivación de la forma funcional de un corchete de Poisson. 
+
 Deducción de cantidades conservadas partiendo de la función Hamiltoniana y de los corchetes de Poisson. 
+
 Derivación del principio de mínima acción.
+
 Derivación de las transformaciones canónicas de tipo 1 y su aplicación a la solución del oscilador armónico. 
+
 Implemetación computacional de algorítmos simplécticos simples y su aplicación a problemas físicos ya conocidos, como el problema de los dos cuerpos. 

@@ -1,5 +1,5 @@
-•Calcular las masas de la Tierra y el Sol utilizando la teoría de la gravitación universal. 
-•Realizar dibujos alusivos a la unificación newtoniana de las físicas celeste y terrestre.  
-•Dibujar  las cónicas mediante cortes de conos con planos. 
-•Explicar la teoría de gravitación, la forma de la Tierra, las perturbaciones planetarias . 
-•Explicar las mareas, fenómeno astronómico de orden cotidiano.
+Calcular las masas de la Tierra y el Sol utilizando la teoría de la gravitación universal. 
+Realizar dibujos alusivos a la unificación newtoniana de las físicas celeste y terrestre.  
+Dibujar  las cónicas mediante cortes de conos con planos. 
+Explicar la teoría de gravitación, la forma de la Tierra, las perturbaciones planetarias . 
+Explicar las mareas, fenómeno astronómico de orden cotidiano.

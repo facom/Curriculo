@@ -1,14 +1,29 @@
 Textos guía básicos:
+
 Héctor Álzate, Física de las Ondas, Universidad de Antioquia, 2007.
+
 Alicia Guerrero de Mesa, Oscilaciones y Ondas, Universidad Nacional de Colombia 2015 
+
 Textos complementarios:
-Oscilaciones y ondas,  José Antonio Gorri Ochoa, Alfons Albareda Tiana, Eliezer Toribio Millán, Universidad Politécnica de Cataluña, 1998.
+
+Oscilaciones y ondas,  José Antonio Gorri Ochoa, Alfons Albareda Tiana, Eliezer 
+Toribio Millán, Universidad Politécnica de Cataluña, 1998.
+
 Frank S. Crawford, Ondas, Universidad de California, Berkeley, 1994.
+
 Anthony P. French, Vibraciones y Ondas, Reverté, 1974.
+
 Hecht-Zajac, Optica, Ed. Addison-Wesley, 2000, Madrid.
-M. Alonso y E. Finn, Física,  Vol. I y Vol. II. Fondo Educativo Interamericano, S.A.
+
+M. Alonso y E. Finn, Física,  Vol. I y Vol. II. Fondo Educativo Interamericano, 
+S.A.
+
 Sears et al., Física Universitaria, 11a  ed., Pearson Educación, 2005, México.
+
 R. Serway, R. Beichner, Física, Vol. 1 y Vol. 2; Ed. McGraw Hill, 2002, México.
+
 Halliday et al., Física Vol. I y Vol II, Ed. C.E.S.A., 2002, México.
+
 Tipler y Mosca, Física, Vol. 1 y Vol. 2, Ed. Reverté, 2003, Barcelona.
+
 Gettys et al., Física, Vol. 1 y Vol. 2, Ed. McGraw Hill, 2005, México.

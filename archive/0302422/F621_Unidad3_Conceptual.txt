@@ -1,6 +1,6 @@
-3.1 Modelo de electrón libre. 
-3.2 Aproximación de electrones en un potencial periódico  y Concepto de bandas de energía. Aproximación de electrones “casi” libres y  fuertemente ligados. 
-3.3 Metales. Semiconductores. Semimetales. Aislantes.
-3.4 Dinámica de electrones. Aproximación semiclásica. Masa efectiva. Huecos. Interacción electrón-hueco. Estados de impurezas.
-3.5 Superficies de Fermi y metales.
-3.6 Relación de dispersión energía vs. Vector  ,  . Densidad de estados. Singularidades de Van Hove.
+Modelo de electrón libre. 
+Aproximación de electrones en un potencial periódico  y Concepto de bandas de energía. Aproximación de electrones “casi” libres y  fuertemente ligados. 
+Metales. Semiconductores. Semimetales. Aislantes.
+Dinámica de electrones. Aproximación semiclásica. Masa efectiva. Huecos. Interacción electrón-hueco. Estados de impurezas.
+Superficies de Fermi y metales.
+Relación de dispersión energía vs. Vector  ,  . Densidad de estados. Singularidades de Van Hove.

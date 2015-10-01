@@ -1,3 +1,5 @@
-* Reconocer el uso de las diferentes funciones especiales 
-* Proponer soluciones a diversas ecuaciones diferenciales de segundo orden
-* Comprender la teoría de Sturm Liouville 
+Reconocer el uso de las diferentes funciones especiales.
+
+Proponer soluciones a diversas ecuaciones diferenciales de segundo orden.
+
+Comprender la teoría de Sturm Liouville.

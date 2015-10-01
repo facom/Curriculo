@@ -1,17 +1,24 @@
 Pequeñas oscilaciones:
- 
-* Planteamiento del problema.
-* Modos normales de oscilación: caso degenerado y caso no-degenerado
-* Ejemplos.
+
+Planteamiento del problema.
+
+Modos normales de oscilación: caso degenerado y caso no-degenerado
+
+Ejemplos.
 
 Dinámica del cuerpo rígido.
 
-* Momento angular y energía cinética alrededor de un punto.
-* Tensor y matriz de inercia. 
-* Diagonalización dela matriz de inercia.
-* Ángulos de Euler. 
-* Ecuaciones de Euler para un cuerpo rígido. 
-* Movimiento libre del Sólido rígido. Trompo simétrico con un punto fijo.  Trompo con el punto fijo en un campo gravitacional.
+Momento angular y energía cinética alrededor de un punto.
+
+Tensor y matriz de inercia. 
+
+Diagonalización dela matriz de inercia.
+
+Ángulos de Euler. 
+
+Ecuaciones de Euler para un cuerpo rígido. 
+
+Movimiento libre del Sólido rígido. Trompo simétrico con un punto fijo.  Trompo con el punto fijo en un campo gravitacional.
 
 Fuerzas centrales
  

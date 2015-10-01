@@ -1,4 +1,7 @@
 El Hamiltoniano de Henon-Heiles
+
 Los diagramas de Poincaré
+
 Exponentes de Lyapunov
+
 El teorema de Kolmogorov-Arnold-Moser

@@ -1,3 +1,5 @@
 Ecuación de Hamilton-Jacobi.
+
 Variables de acción-ángulo. 
+
 Ejemplos.

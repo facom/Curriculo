@@ -4,5 +4,4 @@ Se muestra cómo las integrales elípticas se pueden hallar numéricamente con f
 
 Para las derivadas numéricas se utilizan las series de Taylor para estimar los errores dependiendo del método.
 
-
 Métodos de Monte Carlo para integrales que no tienen solución analítica.

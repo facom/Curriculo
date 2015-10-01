@@ -1,2 +1,2 @@
-* Identificar la importancia de la teoría de SL.
-* Establecer relaciones de completez para las principales funciones especiales.
+Identificar la importancia de la teoría de SL.
+Establecer relaciones de completez para las principales funciones especiales.

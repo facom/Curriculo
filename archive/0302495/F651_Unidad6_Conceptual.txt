@@ -1,7 +1,5 @@
 Serán tópicos muy seleccionados en función del tiempo disponible y los intereses de los estudiantes.
-•	Estudio cuántico de la interferometría con divisores de haz.
-•	Interacciones disipativas y decoherencia cuántica.
-•	Experimentos fundamentales de la Optica Cuántica  1) Experimentos de Handbury Brown-Twiss 2) Experimentos de Hong-Ou-Mandel y tests de la Mecánica Cuántica
-•	Atómos en cavidades cuánticas QED.
-
-
+Estudio cuántico de la interferometría con divisores de haz.
+Interacciones disipativas y decoherencia cuántica.
+Experimentos fundamentales de la Optica Cuántica  1) Experimentos de Handbury Brown-Twiss 2) Experimentos de Hong-Ou-Mandel y tests de la Mecánica Cuántica
+Atómos en cavidades cuánticas QED.

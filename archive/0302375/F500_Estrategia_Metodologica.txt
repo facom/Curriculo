@@ -1,3 +1,1 @@
-- Conferencia magistral del profesor.
-- Ejemplos.
-- Solución de ejercicios en clase.
+Conferencia magistral del profesor. Ejemplos. Solución de ejercicios en clase.

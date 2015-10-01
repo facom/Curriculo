@@ -1,8 +1,8 @@
-7.1. Suceso simple, espacio muestral.
-7.2. Enfoque clásica de probabilidad. Probabilidad por frecuencia relativa. 
-7.3. Sucesos independientes y dependientes.
+Suceso simple, espacio muestral.
+Enfoque clásica de probabilidad. Probabilidad por frecuencia relativa. 
+Sucesos independientes y dependientes.
 Sucesos mutuamente excluyentes.
-7.4. Distribuciones de probabilidad discreta y continua.
-7.5. Relación entre teoría de probabilidad y conjuntos.
-7.6. Distribuciones: Binomial, Gaussiana, Poisson, Multinomial.
-7.7.Algunas distribuciones de la Física Estadística  
+Distribuciones de probabilidad discreta y continua.
+Relación entre teoría de probabilidad y conjuntos.
+Distribuciones: Binomial, Gaussiana, Poisson, Multinomial.
+Algunas distribuciones de la Física Estadística  

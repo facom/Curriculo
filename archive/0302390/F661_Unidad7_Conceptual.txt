@@ -1,3 +1,4 @@
 Generación de números aleatorios con distribuciones normal, gaussiana y    exponencial decreciente.
+
 Técnicas de montecarlo, caminos aleatorios, caminos aleatorios autoevitables.
 Estadística descriptiva.

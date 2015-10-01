@@ -1,7 +1,13 @@
-• Dominar los principios de la teoría elemental de propagación de errores.
-• Diferenciar entre los conceptos de exactitud y precisión.
-• Manejar los conceptos básicos estadísticos para el análisis de problemas de una sola variable.
-• Conocer las definiciones metrológicas de longitud, ángulo, masa, tiempo, temperatura, presión.
-• Conocer los fundamentos y la lógica del método experimental.
-• Conocer las buenas prácticas para el registro de experimentos.
-• Identificar las partes que componen un informe de resultados experimentales tipo artículo científico.
+Dominar los principios de la teoría elemental de propagación de errores.
+
+Diferenciar entre los conceptos de exactitud y precisión.
+
+Manejar los conceptos básicos estadísticos para el análisis de problemas de una sola variable.
+
+Conocer las definiciones metrológicas de longitud, ángulo, masa, tiempo, temperatura, presión.
+
+Conocer los fundamentos y la lógica del método experimental.
+
+Conocer las buenas prácticas para el registro de experimentos.
+
+Identificar las partes que componen un informe de resultados experimentales tipo artículo científico.

@@ -1,15 +1,15 @@
-*Reproducir la solución conceptual o matemática de algunos problemas claves en el desarrollo de la astronomía antigua y en el renacimiento (reconocimiento de la redondez de la Tierra y medida de su radio, medida de la altura de una montaña, del ancho de un rio, del ángulo entre dos estrellas, del ancho angular del Sol y la Luna, de la distancia a los cuerpos celestes).
+Reproducir la solución conceptual o matemática de algunos problemas claves en el desarrollo de la astronomía antigua y en el renacimiento (reconocimiento de la redondez de la Tierra y medida de su radio, medida de la altura de una montaña, del ancho de un rio, del ángulo entre dos estrellas, del ancho angular del Sol y la Luna, de la distancia a los cuerpos celestes).
 
-*Explicar el funcionamiento de los instrumentos antiguos de medición astronómica: clepsidras, compás astronómico, medidores de ángulos, esfera armilar.
+Explicar el funcionamiento de los instrumentos antiguos de medición astronómica: clepsidras, compás astronómico, medidores de ángulos, esfera armilar.
 
-*Formular las características particulares del calendario juliano y del calendario juliano gregoriano. Enumerar las necesidades prácticas que exigen la construcción de calendarios. 
+Formular las características particulares del calendario juliano y del calendario juliano gregoriano. Enumerar las necesidades prácticas que exigen la construcción de calendarios. 
 
-*Reconocer  las diferencias entre un telescopio reflector y uno refractor. 
+Reconocer  las diferencias entre un telescopio reflector y uno refractor. 
 
-*Representar las propiedades observacionales y físicas de una estrella en el diagrama de Hertzsprung-Russell. 
+Representar las propiedades observacionales y físicas de una estrella en el diagrama de Hertzsprung-Russell. 
 
-*Predecir cualitativamente las etapas de la evolución de una estrella de acuerdo con su masa, y del universo a partir del big bang. 
+Predecir cualitativamente las etapas de la evolución de una estrella de acuerdo con su masa, y del universo a partir del big bang. 
 
-*Observar que la primera matemática que fue aplicada a los cielos fue la aritmética (por los babilonios) seguida de la geometría (por los griegos).
+Observar que la primera matemática que fue aplicada a los cielos fue la aritmética (por los babilonios) seguida de la geometría (por los griegos).
 
-*Valorar la astronomía como una disciplina basada en la medición y la teorización, y en este contexto analizar la diferencia entre la astronomía y la astrología.
+Valorar la astronomía como una disciplina basada en la medición y la teorización, y en este contexto analizar la diferencia entre la astronomía y la astrología.

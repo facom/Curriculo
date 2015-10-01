@@ -1,3 +1,5 @@
-21: Transformaciones canónicas cuánticas.
-22: Homogeneidad del espacio tiempo.
-23: Los cuadros de la mecánica cuantica.
+Transformaciones canónicas cuánticas.
+
+Homogeneidad del espacio tiempo.
+
+Los cuadros de la mecánica cuantica.
