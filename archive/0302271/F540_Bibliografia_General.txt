@@ -4,4 +4,5 @@ Daryl W. Preston and Eric R. Dietz. (1991). The Art of Experimental Physics. Joh
 R.K. Shukla and Anchal Sivastava (2006). Practical Physics.New Age International Limited, Publishers.
 Profesores del Instituto de Física (1994 – 2001) - Guías de Laboratorio de Física del Instituto de Física.
 Ignacio Ferrin. Guia Fina, Física Experimental I (2014). 
-Gil, Salvador. (2014). Experimentos de Física usando las TIC y elementos de bajo costo. Alfaomega
+Gil, Salvador. (2014). Experimentos de Física usando las TIC y elementos de bajo costo. Alfaomega.
+Lyons, Louis. A Practical Guide to data Analysis for Physical Science Students. Cambridge, University Press. 

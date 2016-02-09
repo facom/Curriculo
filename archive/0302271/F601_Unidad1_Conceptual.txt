@@ -1,7 +1,5 @@
-Introducción al error: (1) importancia de determinar el error, (2) Error sistemático y error aleatorio, (3) tipos de error sistemático (4) exactitud y precisión (5) reporte del error (cifras significativas, redondeo, etc). 
+Introducción al error: (1) importancia de determinar el error, (2) Error sistemático y error aleatorio(incertidumbre del instrumento, aleatoriedad de la muestra a medir, aleatoriedad en la medida del instrumento), (3) exactitud y precisión,(4) reporte del error (cifras significativas, redondeo, error relativo, error absoluto,partes por millón, intervalo de confianza, etc), (5) Reglas de error para funciones básicas. 
 
-Tratamiento estadístico para una variable: (1) conjunto de medidas y distribución de las medidas, (2) error en la medida y error en el promedio de las medidas, (3) distribución gaussiana, (4) error en el error, (5) tratamiento de funciones y (6) ponderación de los resultados. 
+Estadística descriptiva para una variable: (1) distribución e histograma, (2) media, varianza y desviación estándar (de la muestra y de la población; diferencia entre varianza de la muestra y varianza de la media de la muestra); (3) Distribución gaussiana.
 
-Tratamiento del error: (1) cálculo práctico del error, (2) manejo de funciones de alta complejidad, (3) procedimientos experimentales y de determinación del error.
-
-Lógica experimental y sentido común: (1) secuencia de medidas, (2) variaciones sistemáticas, (3) medidas relativas, (4) medidas nulas, (5) Sentido común en la experimentación.
+(TC+C) Lógica experimental y sentido común: (1) Medidas directas e indirectas, (2)simetria en la medición, (3) secuencia de medidas, (4) variaciones sistemáticas, (5) medidas relativas, (6) medidas nulas, (7) Sentido común en la experimentación,(8) sentido común en el error.
