@@ -1,0 +1,3 @@
+Reconocer la importancia del uso de el sistema operativo Linux.
+
+Diferenciar las partes que componen el sistema operativo Linux y como usarlas.

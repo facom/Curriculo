@@ -1,3 +1,1 @@
-Elementos de algoritmia y pseudocódigo, pruebas de escritorio, compiladores e intérpretes de comandos. 
-Fundamentos de C: Tipos de datos, entrada y salida de datos, ciclos, condicionales, funciones, números aleatorios, vectores y arreglos, punteros, lectura y escritura de archivos. 
-Fundamentos de Python: Tipos de datos, entrada y salida de datos, ciclos, condicionales, funciones, números aleatorios, vectores y arreglos, lectura y escritura de archivos. 
+Elementos de pseudo-código, diagramas de flujo, variables, rutinas y condicionales.

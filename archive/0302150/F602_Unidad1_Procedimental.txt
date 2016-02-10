@@ -1,0 +1,3 @@
+Reconocer las partes del sistema operativo Linux a través del uso de la consola de comando, la conección remota y la manipulacion de archivos.
+
+Realizar actividades que conlleven el aprendizaje de las herramientas básicas del sistema operativo.

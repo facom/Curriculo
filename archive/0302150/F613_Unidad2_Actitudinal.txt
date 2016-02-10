@@ -1,0 +1,3 @@
+Reconocer la importancia del uso de el los pseudo-códigos para la elaboración de programas computacionales.
+
+Diferenciar las partes que componen la algorítmia.

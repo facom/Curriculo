@@ -1,3 +1,2 @@
-Funcionamiento del computador, Hardware y software, memoria, procesadores, dispositivos de entrada y salida. 
 Sistema operativo Linux, manipulación de archivos, manejo de la Shell, comandos básicos, uso de editores de texto plano.
 Representación decimal, binaria y hexadecimal, representación de caracteres, operaciones con enteros y de punto flotante, uso de paréntesis, incrementos y decrementos, comparación de números, toma de decisiones. 

@@ -1,0 +1,4 @@
+Learning Python, Mark Lutz.
+Introducción a la programación con Python, Andrés Marzal.
+http://code-reference.com
+Manuales y documentación de referencia librerías python online.

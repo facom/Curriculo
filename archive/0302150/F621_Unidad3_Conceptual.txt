@@ -1,3 +1,1 @@
-Graficadores: scripts de graficación en gnuplot, matplotlib y hojas de cálculo. 
-Latex: Editores, tipos de documentos, artículos, libros, presentaciones (beamer) y pósters.
-Gestión de bibliografía: bibtex y Mendeley 
+Elementos principales del código Python, variables, condicionales, listas y vectores, iteraciones, subrutinas, escritura y lectura de archivos, Numpy, MatPlotLib y Scipy/Panda

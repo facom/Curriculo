@@ -1,0 +1,3 @@
+Reconocer los diferentes aspectos del lenguaje de programación Python.
+
+Realizar diferentes tipos de códigos para la solución de problemas en diversos ambitos.

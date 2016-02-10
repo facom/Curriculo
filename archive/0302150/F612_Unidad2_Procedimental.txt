@@ -1,0 +1,5 @@
+Reconocer las diferentes partes de los metodos para generar algorítmos computacionales.
+
+Diagramar los algorítmos a través de diagramas de flujos conceptuales.
+
+Aprender los diferentes tipos de variables, rutinas y condicionales necesarios para la programacón.
