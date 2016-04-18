@@ -1,1 +1,6 @@
-C. Kittel, Introduction to Solid State Physics, John Wiley, New York, 2005, 8th edition.
+- J. Sólyom, Fundamentals Of The Physics Of Solids, Volumes I, II, III, 2010, Springer. 
+- E. Kaxiras, Atomic And Electronic Structure Of Solids, 2003, Cambridge University Press.
+- N. W. Ashcroft, N. D. Mermin; Solid State Physics, 1976, W.B. Saunders Company.
+- M.S. Dresselhaus, G. Dresselhaus, A. Jorio, Group Theory: Application to the Physics of Condensed Matter, 2008, Springer.
+- R. M. Martin, Electronic Structure: Basic Theory and Practical Methods, 2004, Cambridge.
+- M. P. Marder, Condensed Matter Physics, 2000, John Wiley & sons.

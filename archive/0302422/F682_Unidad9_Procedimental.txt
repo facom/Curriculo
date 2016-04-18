@@ -1,0 +1,2 @@
+Demostración de las propiedades eléctricas de las Junturas de Josephson.
+Demostración de la importancia de la fase de la función de onda en las propiedades de la corriente  de Josephson.

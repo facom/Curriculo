@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 28 Sep 2015 12:30:25 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="Si";
-$F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="34";
-$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F010_AUTO_Fecha_Actualizacion="Tue, 16 Feb 2016 09:21:49 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F020_AUTH_Autorizacion_Vicedecano="No";
+$F025_AUTH_Version="3";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Nelson Vanegas";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302314";
 $F110_Nombre_Asignatura="Física Moderna";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Física";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="Física Básica";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2015-1";
+$F330_Semestre="2014-2";
 $F330_Semestre_Plan="5";
 $F340_Horario_clase="MJ10-12";
 $F350_Requisitos="Cálculo III (0303295), Oscilaciones y Ondas (0302318)";

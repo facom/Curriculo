@@ -1,0 +1,3 @@
+Utilización de diferentes modelos físicos para el cálculo del espectro energético de un sólido.
+Obtención analítica de las propiedades fundamentales del espectro energético de los sólidos en el marco de cada aproximación.
+Discusión de la dinámica de los electrones en un sólido cristalino.

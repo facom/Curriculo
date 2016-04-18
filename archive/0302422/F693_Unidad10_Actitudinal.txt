@@ -1,0 +1,3 @@
+Análisis de los orígenes de la Teoría del funcional de la densidad.
+Descripción de las aproximaciones LDA y GGA.
+Alusión a otros tipos de funcionales de intercambio-correlación. 

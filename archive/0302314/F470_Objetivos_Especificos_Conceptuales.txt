@@ -2,9 +2,9 @@ Comprender los experimentos y los desarrollos de la física en los finales del S
 
 Comprender los fundamentos de la Teoría Especial de la Relatividad y aplicarla a problemas usando datos fenonológicos.
 
-Aprehender las ideas de dualidad onda - partícula e incertidumbre usando fenomenología.
+Aprehender las ideas de dualidad onda - partícula e incertidumbre usando fenomenología y explicando con ejemplos esta dualidad así como el principio de incertidumbre de Heisenberg.
 
-Comprender los fundamentos de la Teoría Cuántica.
+Comprender los fundamentos de la Teoría Cuántica y dar ejemplos de problemas y sus soluciones cuanticas explicando las diferencias con sistemas clásicos.
 
 Plantear y resolver problemas utilizando la ecuación de Schrödinger para  problemas sencillos.
 

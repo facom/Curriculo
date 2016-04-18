@@ -1,0 +1,1 @@
+Efecto Josephson. Principios y consideraciones generales. Junturas Josephson. Efecto Josephson DC y obtención de las ecuaciones para la corriente. Efecto Josephson AC y obtención de las ecuaciones para la corriente. Juntura de Josephson en un campo magnético externo y obtención de las ecuaciones correspondientes para la corriente.

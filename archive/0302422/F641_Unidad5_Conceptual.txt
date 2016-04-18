@@ -1,10 +1,9 @@
 Sólidos no cristalinos.
 Hacia un cristal real: Dislocaciones y defectos.
-Diamagnetismo and Paramagnetismo.
-Ferromagnetismo and Antiferromagnetismo.
+Diamagnetismo y Paramagnetismo.
+Ferromagnetismo y Antiferromagnetismo.
 Nanoestructuras Sólidas.
 Física de Superficies e interfaces.
 Aleaciones.
 Propiedades ópticas de sólidos.
-Plasmones, Polarones, and Polaritones.
 Superconductividad.

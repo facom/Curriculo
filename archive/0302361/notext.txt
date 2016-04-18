@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 06:55:11 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
+$F010_AUTO_Fecha_Actualizacion="Tue, 09 Feb 2016 16:21:28 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="3";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="vonderpahlen";
+$F050_Nombre_Actualiza="federico.vonderpahlen";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302361";
 $F110_Nombre_Asignatura="Seminario II";

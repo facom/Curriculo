@@ -1,1 +1,1 @@
-Mostrar que la física newtoniana no puede explicar la naturaleza a velocidades cercanas a la de la luz o a nivel microscópico.
+Mostrar con ejemplos concretos que la física newtoniana no puede explicar la naturaleza a velocidades cercanas a la de la luz o a nivel microscópico y construir explicaciones relativistas o cuánticas alternativas a la explicación clásica.

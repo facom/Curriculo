@@ -1,4 +1,6 @@
 Primer examen parcial. Unidades 1-2	25%
-Segundo examen parcial. Unidades 3-4:	25%
-Tercer examen parcial. Unidades 5-7:	25%
-Tareas y miniproyectos de simulación:	25%
+Miniproyecto de simulación 1                  10%
+Quiz                                                          5%
+Segundo examen parcial. Unidades 3-4:	20%
+Tercer examen parcial. Unidades 5-7:	20%
+Miniproyectos de simulación 2,3:	        20%

@@ -1,4 +1,4 @@
 Redes Cristalinas. Simetrías de translación. 
 Funciones periódicas. Red recíproca y sus propiedades.
-Difración de Rayos X Reglas de selección.
+Difracción de Rayos X Reglas de selección.
 Teorema de Bloch. Reducción a una zona de Brillouin.  Condiciones de Frontera y conteo de estados cuánticos y aproximación del cuasicontinuo.

@@ -1,5 +1,5 @@
 EXAMEN Unidad 1 y 2	20%
-EXAMEN Unidad 3 y 4	20% 
-EXAMEN Unidad 5	        20%
-EXAMEN Unidad 6	        20%
+EXAMEN Unidad 3 	20% 
+EXAMEN Unidad 4 y 5     20%
+EXAMEN Unidad 5 y 6	20%
 Seguimiento             20%

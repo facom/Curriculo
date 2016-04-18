@@ -1,0 +1,7 @@
+– Formular la fuerza de Lorentz para un conjunto de partículas cargadas que conforman un átomo.  –
+– Introducir los conceptos de momento dipolar eléctrico y momento dipolar magnético del átomo.
+– Introducir el concepto de cantidades macroscópicas.  Presentar las ecuaciones de Maxwell macroscópicas y la noción de relaciones constitutivas.
+– Presentar el modelo de Drude para una descripción de la conducción.  Superconductividad y las ecuaciones de London.
+– Modelos de la polarización de un material, relación entre polarización y campo eléctrico, suceptibilidad y permitividad eléctricas.  
+– Momentum canónico y ecuaciones de movimiento.  Definición de momento magnético intrínseco.
+– Magnetización ante un campo magnético externo, diamagnetismo y paramagnetismo, suceptibilidad y permitividad magnéticas.    Distinción entre campo externo y local.  Descripción de ferromagnetismo y otros tipos de ordenamiento magnético.    

@@ -1,2 +1,4 @@
-J Schwinger, et all. Classical Electrodynamics.
-D. Griffits. Introduction to Electrodynamics.
+J. Schwinger, et al. Classical Electrodynamics.
+W. Greiner. Classical Electrodynamics.
+A. Garg, Classical Electromagnetism in a Nutshell.
+J. D. Jackson, Classical Electrodynamics.

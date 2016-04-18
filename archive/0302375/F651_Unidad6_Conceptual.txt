@@ -1,3 +1,4 @@
-Solución a ecuaciones elípticas. Ecuación de Laplace y de Poisson. Aplicaciones al electromagnetismo. Aplicaciones a termodinámica.
-Problema no homogéneo con condiciones de contorno. Funciones de Green. Método de las imágenes.
-Funciones especiales de Hermite y Laguerre. Solución al oscilador armónico y al átomo de hidrógeno.
+Solución a ecuaciones elípticas. Ecuación de Laplace y de Poisson. Aplicaciones al electromagnetismo Y la termodinámica.
+Funciones de Hermite, función generatriz, relaciones de recurrencia, ortogonalidad, fórmula de Rodríguez y aplicaciones.
+Funciones de Laguerre, forma integral, relaciones de recurrencia, ortogonalidad, fórmula de Rodríguez y aplicaciones.
+Definición de la función Gamma. Representación integral. Propiedades y aplicaciones. 

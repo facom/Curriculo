@@ -1,0 +1,1 @@
+Formulación de los modelos de Heisenberg e Ising para la descripción de sistemas magnéticos. Demostración teórica de la existencia de las ondas de spin.

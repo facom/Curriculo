@@ -1,3 +1,7 @@
-Operadores de segundo orden.
-Autofunciones y autovalores.
-Completez. Funciones especiales.
+Espacios de funciones. Espacios infinito-dimensionales, bases ortonormales. Norma y producto interno.
+Espacios de Hilbert y L2. Funciones ortogonales. Ortogonalización de Gram-Schmidt en espacios de funciones. 
+Operadores de segundo orden: lineales, adjunto, autoadjunto y hermítico.
+Autofunciones y autovalores. Función delta de Dirac de forma general.  
+Ortogonalidad de Autofunciones. Funciones especiales.
+Problema de Sturm-Liouville.
+ecuaciones lineales inhomogéneas.  Función de Green. Cálculo de algunas funciones de Green en una dimensión. Solución no homogénea.

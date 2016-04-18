@@ -1,0 +1,3 @@
+Descripción de las propiedades mecánicas de los sistemas sólidos.
+Valoración de la validez de los modelos de Einstein y Debye.
+Descripción de estos modelos.

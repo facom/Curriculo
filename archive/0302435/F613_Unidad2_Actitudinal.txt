@@ -1,0 +1,2 @@
+–   Formulación de ecuaciones de trabajo y energía para el sistema partículas-campos: identificación de energía y momentum del campo electromagnético.
+–  Electrodinámica en formulación covariante.  Cuadrivectores, cuadritensores, transformaciones, ecuaciones de movimiento y leyes de conservación. 

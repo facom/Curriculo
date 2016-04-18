@@ -1,0 +1,4 @@
+- J. Sólyom, Fundamentals Of The Physics Of Solids, Volumes I, II, III, 2010, Springer. 
+- E. Kaxiras, Atomic And Electronic Structure Of Solids, 2003, Cambridge University Press.
+- N. W. Ashcroft, N. D. Mermin; Solid State Physics, 1976, W.B. Saunders Company.
+- M. P. Marder, Condensed Matter Physics, 2000, John Wiley & sons.

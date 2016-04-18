@@ -1,0 +1,5 @@
+Deducción de las propiedades de los modos vibracionales de un sólido a partir de postulados generales.
+Utilización de los postulados de la Física Clásica y de la Física Cuántica para la descripción de los modos vibracionales de un cristal.
+Demostración de las propiedades de la matriz dinámica.
+Discusión de los modelos de Einstein y Debye, e implicación de estos modelos en el cálculo del calor específico de los sistemas sólidos.
+Obtención de la conductividad térmica de un sólido a partir del modelo de fonón.

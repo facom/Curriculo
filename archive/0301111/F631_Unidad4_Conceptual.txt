@@ -1,0 +1,29 @@
+Relación química-biología:
+Revisión conceptos básicos en química orgánica.
+Agua: molécula soporte de la vida en la tierra.
+Carbono y diversidad molecular.
+“El poder del sol”.
+
+Estructura de macromoléculas biológicas:
+Estructura y función de Aminoácidos y proteínas.
+Azucares y polisacáridos.
+Lípidos.
+Nucleótidos y ácidos nucléicos.
+Aplicación bioquímica: El problema de la resistencia a insecticidas y la estructura de proteínas.
+
+Estructura, tipos y funciones de la célula biológica:
+Historia de la célula.
+Tipos de célula.
+Membranas biológicas: estructura vs función.
+Organelas: núcleo, mitocondrias, cloroplastos, retículo endoplásmico, aparato de Golgi, ribosomas, lisosomas.
+Componentes extracelulares: pared, matriz extracelular
+
+Introducción al metabolismo y conservación de energía:
+Metabolismo: autótrofos, heterótrofos y combinaciones; anaerobios, facultativos y aerobios.
+Vías bioquímicas catabólicas
+Vías bioquímicas anabólicas
+Energía: Respiración celular, fotofosforilación, fosforilación de sustratos.
+
+Video: Metabolismo del Etanol
+
+Taller: Estructura, metabolismo y tipos de células

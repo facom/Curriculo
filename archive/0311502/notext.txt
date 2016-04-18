@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Fri, 25 Sep 2015 12:36:46 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 06:24:56 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F050_Nombre_Actualiza="pablo.cuartas";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311502";
 $F110_Nombre_Asignatura="Ciencias Planetarias";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomía, Física";
 $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="--Física--";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2014-1";
+$F330_Semestre="2014-2";
 $F330_Semestre_Plan="5";
 $F340_Horario_clase="MJ10-12";
 $F350_Requisitos="Física Básica III (0302401)";

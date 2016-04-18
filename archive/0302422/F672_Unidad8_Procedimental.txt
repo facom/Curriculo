@@ -1,0 +1,3 @@
+Formulación de la teoría de Ginzburg-landau a partir de la teoría de las transiciones de fase de segundo orden.
+Alusión al carácter general (termodinámico) de las ecuaciones de Ginzburg-Landau. Reducción de la teoría de Ginzburg-Landau a la teoría de London-London.
+

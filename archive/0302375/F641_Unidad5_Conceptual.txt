@@ -1,4 +1,6 @@
 Solución a ecuaciones de tipo parabólico. Ecuación del calor y ecuación de difusión.
-Separación de variables. Definición de problemas de contorno tipo Neumann y Dirichlet.
-Función de Green para ecuaciones parabólicas no homogéneas. Método de Autofunciones, Método directo.
-Funciones de Legendre. Funciones de Legendre generalizadas. Armónicos Esféricos y teorema de adición de armónicos esféricos. Expansión multipolar y función generatriz.
+Expansión del potencial eléctrico. Funciones de Legendre. Función generatriz, relaciones de recurrencia, ortogonalidad.
+Fórmula de Rodríguez y aplicaciones. Funciones asociadas de Legendre.
+Armónicos esféricos.
+Operadores de momento angular.
+Autofunciones del operador momento angular. Operadores escalera y aplicaciones para construcción de autofunciones y ortogonalización.

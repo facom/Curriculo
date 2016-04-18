@@ -1,6 +1,8 @@
-J Schwinger, et all. Classical Electrodynamics.
+J. Schwinger, et al. Classical Electrodynamics.
 W. Greiner. Classical Electrodynamics.
-D. R. Corson, P. Lorraine.  Introduction to Electromagnetic Fiels and Waves.
-J. B. Marion.  Calssical Electromagnetic Radiation.
+A. Zangwill, Modern Electrodynamics.
+A. Garg, Classical Electromagnetism in a Nutshell.
+J. D. Jackson, Classical Electrodynamics.
+D. R. Corson, P. Lorraine.  Introduction to Electromagnetic Fields and Waves.
+J. B. Marion.  Classical Electromagnetic Radiation.
 D. Griffits. Introduction to Electrodynamics.
-J. R. Reitz, F. J. Milford.  Fundamentos de Teoría Eelectromagnética.

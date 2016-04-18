@@ -1,13 +1,19 @@
-Al terminar el curso el estudiante debe entender los principales conceptos, teorías y modelos de la física del estado sólido y utilizarlos en la formulación de explicaciones cuantitativas de fenómenos simples asociados a la estructura cristalina de los sólidos. Debe comprender los modelos que explican el origen microscópico de características fenomenológicas tales como la conductividad eléctrica, el calor específico, la constante dieléctrica, absorción o dispersión de excitaciones colectivas, etc. El estudiante estará en capacidad de:
+Al terminar el curso el estudiante debe entender los principales conceptos, teorías y modelos de la física del estado sólido y utilizarlos en la formulación de explicaciones cualitativas y cuantitativas de fenómenos simples asociados a la estructura cristalina de los sólidos. Debe comprender los modelos que explican el origen microscópico de características fenomenológicas tales como la conductividad eléctrica, el calor específico, la constante dieléctrica, absorción o dispersión de excitaciones colectivas, etc. El estudiante estará en capacidad de:
 
 Identificar la estructura de los sólidos cristalinos.
 
 Explicar el comportamiento de un electrón en un campo periódico.
 
+Explicar las diferentes aproximaciones para el cálculo del espectro energético de un sólido.
+
 Interpretar la clasificación los sólidos por su espectro energético.
 
-Formular la teoría de las vibraciones.
+Formular la teoría de las vibraciones desde los puntos de vista clásico y cuántico.
 
-Explicar e interpretar las transiciones de fase.
+Explicar e interpretar las transiciones de fase y los fenómenos de transporte.
 
 Analizar las propiedades magnéticas de los sólidos.
+
+Describir el fenómeno de la Superconductividad.
+
+Enunciar los postulados de la teoría del funcional de la densidad.

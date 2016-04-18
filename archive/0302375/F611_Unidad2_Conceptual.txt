@@ -1,3 +1,3 @@
 Ecuaciones Diferenciales Parciales Lineales. Clasificación de las Ecuaciones Parciales Lineales de segundo orden con coeficientes variables y constantes.
-Reducción de las ecuaciones Diferenciales parciales a sus formas canónicas. Ecuación secular.
-Condiciones de frontera en problemas unidimensionales. Clasificación.
+Reducción de las ecuaciones Diferenciales parciales a sus formas canónicas. 
+Separación de variables en coordenadas cartesianas. Unicidad de la solución de la EDO de segundo grado. Condiciones de frontera. 

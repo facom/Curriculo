@@ -164,8 +164,8 @@ function sendMail($email,$subject,$message,$headers="")
   $mail->SMTPAuth = true;
   $mail->Username = $GLOBALS["EMAIL_USERNAME"];
   $mail->Password = $GLOBALS["EMAIL_PASSWORD"];
-  $mail->setFrom($mail->Username, 'Sistema de Solicitud de Comisiones FCEN/UdeA');
-  $mail->addReplyTo($mail->Username, 'Sistema de Solicitud de Comisiones FCEN/UdeA');
+  $mail->setFrom($mail->Username, 'Planes de Asignatura FCEN/UdeA');
+  $mail->addReplyTo($mail->Username, 'Planes de Asignatura FCEN/UdeA');
   $mail->addAddress($email,"Destinatario");
   $mail->Subject=$subject;
   $mail->CharSet="UTF-8";

@@ -1,0 +1,3 @@
+Descripción de los diferentes tipos de sólidos de acuerdo con las propiedades de sus espectros energéticos.
+Descripción de los conceptos de superficie de Fermi, potencial químico, masa efectiva, par electrón-hueco, etc.
+Valoración de los efectos de las impurezas y los excitones en las propiedades ópticas de los sólidos.

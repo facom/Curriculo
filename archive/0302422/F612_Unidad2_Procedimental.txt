@@ -1,0 +1,2 @@
+Utilización de las propiedades de simetría para la obtención del comportamiento de los electrones en un sólido periódico.
+Demostración del Teorema de Bloch.

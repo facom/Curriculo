@@ -1,0 +1,2 @@
+Demostración de los teoremas de  Hohenberg-Kohn.
+Demostración de las ecuaciones de Kohn-Sham.

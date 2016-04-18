@@ -1,0 +1,4 @@
+– Trabajo realizado por los campos electromagnéticos.  Densidad de energía para medio macroscópico lineal. Vector de Poynting. Conservación del momento lineal, tensor de esfuerzo de Maxwell.
+– Lagrangiano para partícula en campos eléctrico y magnético.  Lagrangiano campo electromagnético.  Acción electrodinámica: ecuaciones de Maxwell y energía. Conservación de momento lineal y angular.   
+– Postulados relatividad especial. Transformaciones de Lorentz.  Cuadrivectores y Cuadritensores. Tensor de campo.  Ecuaciones de Maxwell.
+– Lagrangiano para el campo electromagnético en términos del tensor de campo.  Tensor de esfuerzo canónico.  Tensor de esfuerzos canónico simétrico.  Conservación de energía y momento lineal.
