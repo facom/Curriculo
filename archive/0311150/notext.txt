@@ -1,12 +1,12 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 05:05:12 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 06:16:15 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="3";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
-$F060_AUTH_Publica_Curso="No";
+$F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311150";
 $F110_Nombre_Asignatura="Fundamentación en Astronomía";
 $F120_Tipo_Curso="Básico";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomía";
 $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Astronomía Básica";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2015-2";
+$F330_Semestre="2014-2";
 $F330_Semestre_Plan="1";
 $F340_Horario_clase="MJ8-10";
 $F350_Requisitos="Ninguno";

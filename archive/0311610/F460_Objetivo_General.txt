@@ -1,1 +1,2 @@
-Aplicar herramientas avanzadas de análisis para la obtención y análisis de datos astronómicos.
+- Aplicar herramientas avanzadas de reducción y análisis de observaciones astronómicas.  
+- Familiarizarse con los detectores CCD y en particular con las técnicas de la fotometría CCD.

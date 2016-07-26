@@ -1,3 +1,7 @@
-El curso será evaluado a través de pruebas parciales y una variedad de actividades de seguimiento. 
-Las pruebas parciales valen el 20% cada una y se dividen en actividades de solución de problemas de aplicación de la teoría para resolver por fuera de la clase y una prueba escrita presencial de 2 horas.
-Las actividades de seguimiento se componen de tareas, exposiciones, solución de problemas y talleres en general. Estas actividades tienen un valor total del 60% de la nota de la materia.
+- Dos (2) pruebas escritas. Valor: 10% (Total 20%).
+
+- Se entregarán cuatro (4) Set Problems: 1) Formación Planetaria. 2) Características de los planetas, interior, superficies y atmósferas, 3) Sistema Solar, 4) Exoplanetas y habitabilidad. Cada set problem tiene un valor del 15% (Total 60%). 
+
+- El estudiante desarrollará un programa de computador que calculé y grafique las características del interior. Se presentará un informe escrito tipo artículo. Valor: 10%
+
+- Participación en actividades académicas: Los estudiantes deberán partcipar al menos en tres (3) seminarios y tres (3) Journal Clubs durante el semestre. Su participación vale un 10% de la nota del curso.

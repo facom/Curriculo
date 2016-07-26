@@ -1,8 +1,7 @@
 Inestabilidad de Jeans con materia oscura
 Condiciones iniciales y radiación cósmica de fondo
 Régimen no lineal de formación de estructuras: Aproximación de Zel’dovich, Colapso esférico.
-La estructura del universo a gran escala. Cúmulos y grupos de galaxias. Distribución de masa en el universo. Espectro de potencia observado. Función de correlación.
-Formación y evolución de galaxias: Pseudo-modelo de formación de galaxias.
+La estructura del universo a gran escala. Cúmulos y grupos de galaxias. Formación y evolución de galaxias: Pseudo-modelo de formación de galaxias.
 Formación y evolución de galaxias: Pseudo-modelo de formación de galaxias. La formación de la Vía Láctea. 
 Evolución galáctica. Evolución espectrofotométrica. Evolución química. Evolución de cúmulos estelares.
 El zoológico galáctico: AGNs, seyferts

@@ -1,0 +1,3 @@
+Deriva la ecuación de transferencia radiativa y la aplica para algunos casos simples.
+
+Interactúa con software de distribución libre para la simulación de atmósferas estelares y formación de lineas espectrales  

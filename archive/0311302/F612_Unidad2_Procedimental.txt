@@ -1,5 +1,11 @@
-Definición de Longitud y Latitud.
-Cálculo de distancias sobre una esfera.
-Diferenciar entre los diferentes Sistemas de Coordenadas Celestes.
-Manejo de la Carta Celeste.
-Diferenciar el movimiento aparente del Sol, la Luna y los Planetas en la esfera celeste.
+Prácticas rotativas sobre los siguientes tópicos:
+1- Busquedas en la Web
+2- Dia Juliano
+3- Satelites meteorologicos
+4- Precesion de Coordenadas
+5- Efemerides de cometa o asteroide
+6- Crepúsculo astronomico
+7- Astrométrica, Makali'i
+8- Calculo del azimuth y la altura de un astro
+9- Masa del Sol
+10- Periodo de rotacion del Sol

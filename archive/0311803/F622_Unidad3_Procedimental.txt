@@ -1,4 +1,3 @@
-Inestabilidad gravitacional y formación de estructuras
-CMB y condiciones iniciales
-Agrupaciones de galaxias y el universo a gran escala
-Evolución de las galaxias en el contexto cosmológico
+Reconocer la física detras de la Inestabilidad gravitacional y formación de estructuras
+Identificar el rol de fenomenos fisicos como CMB y su relacion con las condiciones iniciales
+Cuantificar la forma como se observan las Agrupaciones de galaxias y el universo a gran escala

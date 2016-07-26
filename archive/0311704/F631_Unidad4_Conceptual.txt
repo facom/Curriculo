@@ -1,3 +1,5 @@
-Modelo del núcleo. Fusión nuclear y nucleosíntesis. Secuencia principal. Cadenas protón-protón. Ciclo CNO. Quema de Helio. Caminos en el diagrama H-R. Quema de Fe. Remanentes estelares.
+Modelo del núcleo. Modelo de la gota. Modelo de Capas. Números mágicos. Fusión nuclear y nucleosíntesis. Zero-Age Mean sequence. Trayectorias de Hayashi. Secuencia principal. Cadenas protón-protón. Ciclo CNO. Quema de Helio. Caminos en el diagrama H-R. Quema de Fe. Evolución más allá del Fe. Remanentes estelares.
 
-Objetos compactos. Estrellas de neutrones. Pulsares. Magnetars. Nebulosas planetarias. Agujeros
+Objetos compactos. Estrellas de neutrones. Pulsares. Magnetars. Nebulosas planetarias. Agujeros negros.
+
+Poblaciones estelares e introducción al medio interestelar

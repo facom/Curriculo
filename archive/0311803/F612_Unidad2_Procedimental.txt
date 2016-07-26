@@ -1,5 +1,4 @@
 Calculo de Teoría de potenciales
 Calculo de Condiciones de Equilibrio de sistemas no colisionales
-Estructura de órbitas estelares
-Dinámica de sistemas de partículas: la ecuación de Boltzmann no colisional
-Dinámica de sistemas de partículas: las ecuaciones de Jeans
+Calcular Estructura de órbitas estelares
+Usar la CBE para cuantificar condiciones e equilibrio de un sistema no colisional

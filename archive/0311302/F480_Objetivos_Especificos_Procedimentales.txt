@@ -1,11 +1,7 @@
-Identificar la orientación geográfica y astronómica.
-
-Utilizar apropiadamente un telescopio básico – no profesional.
-
-Representar gráficamente datos e interpretarlos.
-
-Asignar errores a una medida.
-
-Conocer la propagación de errores y ajustes básicos.
-
-Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
+-Identificar la orientación geográfica y astronómica.
+-Utilizar apropiadamente herramientas básicas de observación astronómica.
+-Representar gráficamente datos e interpretarlos.
+-Aprender a asignar errores a una medida.
+-Conocer la propagación de errores y ajustes básicos.
+-Usar el método estadístico de mínimos cuadrados.
+-Analizar gráficas infiriendo información y haciendo predicciones a partir de   ellas.

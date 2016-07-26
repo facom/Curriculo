@@ -1,0 +1,5 @@
+Desarrollar matemáticamente los conceptos básicos que se necesitan para entender la teoría de la radiación del cuerpo negro.
+
+Analizar las consecuencias de la teoría de la radiación del cuerpo negro en el ámbito de la Astrofísica
+
+Aplicar los conceptos de la teoría de la radiación del cuerpo negro a diferentes casos Astrofísicos.

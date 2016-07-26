@@ -1,5 +1,1 @@
-Construcción de instrumentos de observación antigüos.
-Montaje y puesta a punto de un telescopio óptico.
-Uso correcto de lentes y objetivos.
-Diferenciación de los tipos de montura.
-Observación astronómica básica.
+- Observación astronómica básica.

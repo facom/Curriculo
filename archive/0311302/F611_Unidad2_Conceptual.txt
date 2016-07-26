@@ -1,3 +1,14 @@
+1- Busquedas en la Web
+2- Dia Juliano
+3- Satelites meteorologicos
+4- Precesion de Coordenadas
+5- Efemerides de cometa o asteroide
+6- Crepúsculo astronommico
+7- Astrometrica, Makalii
+8- Masa del Sol
+9- Periodo de rotacion del Sol
+
+
 Coordenadas Geográficas y ubicación del observador.
 Sistemas de Coordenadas Celestes.
 El movimiento aparente de los cuerpos celestes.

@@ -1,7 +1,13 @@
-Enfrentar la solución a ejercicios y problemas con base a las teorías físicas.
+Describir los principales hitos históricos que llevaron a la construcción de la astrofisica estelar
 
-Familiarizarse con el manejo básico de las bases de datos astronómicas con contenidos de astrofísica estelar.
+Enfrentar la solución de ejercicios y problemas con base en las teorías físicas.
+
+Conocer los sistemas de clasificación estelar y aplicar las características físicas derivadas de los espectros para entender los diferentes tipos de estrellas
+
+Familiarizarse con el manejo básico de las bases de datos astronómicas con contenidos de astrofisica estelar.
 
 Construir programas sencillos para analizar información gráficamente.
 
 Ajustar espectros modelados con datos observacionales reales.
+
+Describir los procesos de transferencia de energía que tienen lugar en el interior estelar 

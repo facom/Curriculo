@@ -1,4 +1,3 @@
-Contexto histórico
-La vía láctea
-Propiedades observacionales de las galaxias
-Esquemas de clasificación galáctica
+Reconocer el desarrollo historico de la astrofísica galactica
+Identificar las diferentes componentes de la Vía Láctea y ubicarse en ella.
+Ser capaz de clasificar galaxias 

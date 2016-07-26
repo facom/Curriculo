@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 06 Oct 2015 09:43:58 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F010_AUTO_Fecha_Actualizacion="Tue, 09 Feb 2016 13:27:12 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="3";
-$F030_AUTH_Acta_Numero="";
+$F030_AUTH_Acta_Numero="000";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Esteban Silva Villa";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302150";
 $F110_Nombre_Asignatura="Fundamentación en Computación";

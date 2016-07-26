@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 10 Feb 2016 13:01:29 -050";
-$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F010_AUTO_Fecha_Actualizacion="Wed, 10 Feb 2016 15:18:07 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="3";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Oscar Alberto Zapata Noreña";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302375";
 $F110_Nombre_Asignatura="Física Matemática II";
@@ -49,7 +49,7 @@ $F600_Unidad1_Titulo="COORDENADAS CURVILINEAS ORTOGONALES";
 $F605_Unidad1_Semanas="2";
 $F610_Unidad2_Titulo="INTRODUCCIÓN A ECUACIONES DIFERENCIALES PARCIALES";
 $F615_Unidad2_Semanas="2";
-$F620_Unidad3_Titulo="FUNCIONES ORTOGONALES Y TEORÍA DE STURM-LIOUVILLE.";
+$F620_Unidad3_Titulo="FUNCIONES ORTOGONALES Y TEORÍA DE STURM-LIOUVILLE";
 $F625_Unidad3_Semanas="4";
 $F630_Unidad4_Titulo="FUNCIONES DE BESSEL";
 $F635_Unidad4_Semanas="2";

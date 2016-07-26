@@ -1,10 +1,15 @@
-Radiación de Cuerpo Negro. 
-La luz producida por objetos incandescentes. 
-Principios de física estadística. 
-Descripción estadística de la luz. 
-La catástrofe Ultravioleta. 
-El espectro de Planck. 
-Relación entre la luz y las propiedades físicas de los objetos astronómicos. 
-Sistemas fotométricos. 
-El diagrama color­magnitud.
+Efecto Compton
 
+Propagación de la luz en la materia. 
+
+Las propiedades “corpusculares” de la luz. 
+
+Ecuación de Schrodinger
+
+Pozo de potencial infinito y finito.
+
+Efecto túnel y oscilador armónico.
+
+Niveles atómicos.
+
+Átomo de Hidrógeno

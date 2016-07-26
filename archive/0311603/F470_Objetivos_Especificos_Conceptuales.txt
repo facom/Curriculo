@@ -1,5 +1,5 @@
-Estudiar los temas principales de la relatividad especialm la aberracion de la luz, el efecto dopler relativista, además de todos los fenómenos principales de la relatividad especial.
+Estudiar los conceptos básicos de la Relatividad especial, la aberración de la luz y el efecto Dopler relativista en astrofísica, a través de un repaso histórico de esta teoría y su aplicación a la astronomía y la astrofísica, lo que proporcionará al estudiante bases fundamentales para su formación.
 
-Estudiar los temas principales de la radiación de cuerpo negro y sus aplicaciones en astronomía, el diagrama H-R, la relación índice color, los espectros estelares y la ley de Pogson.
+Estudiar los conceptos básicos de la Radiación del cuerpo negro y sus aplicaciones en astronomía, el diagrama H-R, la relación índice color, los espectros estelares y la ley de Pogson, La ley de Stefan-Boltzmann, la ley Wien y la ley de Rayleigh-Jeans, haciendo uso de la astronomía como herramienta de aprendizaje, de tal manera que el estudiante entienda los procesos físicos relacionados a estos fenómenos en el universo.
 
-Estudiar los temas principales de la Mecanica cuantica inclueyndo el efecto compton, la teoria de de Broglie, la ecuacion de Schrodinger y el átomo de hidrógeno.
+Estudiar los conceptos básicos de la Mecánica cuántica, el efecto Compton, la teoría de de-Broglie, la ecuación de Schrodinger, el átomo de hidrógeno y el núcleo atómico, haciendo uso de conceptualizaciones teóricas, y de esta manera entender como la física de los fenómenos sub-atómicos se relaciona con la física de los objetos astrofísicos.

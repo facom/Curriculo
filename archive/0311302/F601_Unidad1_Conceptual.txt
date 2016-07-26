@@ -1,4 +1,8 @@
-Unidades en Astronomía, longitud, masa, tiempo, energía. Escalas en el universo.
-Estadística de datos, modelo de Gauss, modelo de Poisson. 
-Teoría de errores, Gráficos
-Ajuste por mínimos cuadrados.
+- Medidas de longitud, masa, temperatura, tiempo, volumen, densidad.
+- Conversión de unidades, cifras significativas, rendondeo, orden de magnitud 
+- Ordenes de magnitud del Universo observable.
+- Calculo y propagación de errores.
+- Estadística de datos, campana de Gauss, modelo de Poisson, distribución normal. 
+- Graficos profesionales, lineal, semi-log, log-log, histograma.
+- Minimos cuadrados.
+

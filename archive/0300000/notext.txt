@@ -1,14 +1,14 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 24 Sep 2015 13:23:46 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 24 Sep 2015 13:32:10 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F050_Nombre_Actualiza="Leonardo Augusto";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0300000";
-$F110_Nombre_Asignatura="Nombre Asignatura";
+$F110_Nombre_Asignatura="Curso Doctoral II - Grupo 3 - 2016-I";
 $F120_Tipo_Curso="--";
 $F130_Asistencia="--";
 $F140_Creditos="--";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="";
 $F300_Area_Academica="--";
 $F310_Campo_Formacion="--";
 $F320_Ciclo="--";
-$F330_Semestre="2015-1";
+$F330_Semestre="2014-2";
 $F330_Semestre_Plan="10";
 $F340_Horario_clase="";
 $F350_Requisitos="";

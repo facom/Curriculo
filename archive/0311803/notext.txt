@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 07:08:12 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 11 Jul 2016 12:25:43 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Pablo";
+$F050_Nombre_Actualiza="Juan Carlos Munoz";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311803";
 $F110_Nombre_Asignatura="Galaxias y Cosmología";

@@ -4,3 +4,5 @@ Clasificación morfológica.
 Galaxias elípticas: fotometría. Morfología, generalidades. Poblaciones estelares. Química.
 Galaxias espirales: fotometría. Morfología, generalidades. Poblaciones estelares. Química.
 Observaciones: Fotometría superficial de galaxias.
+Espectros de galaxias.
+Gas, polvo y extinción por el ISM

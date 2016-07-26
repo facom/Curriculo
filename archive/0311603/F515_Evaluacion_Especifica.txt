@@ -1,6 +1,8 @@
-Dado que la evaluación puede ser variable, se presentará acá una posible separación de las actividades de evaluación:
+Dado que la evaluación puede ser variable, se presentará a continuación una posible separación de las actividades de evaluación:
 
-Quizes: 4 con un total del 10%
-Parciales: 3 con un total del 60%
-Exposición oral: 1 con un total del 20%
-Discusión de articulos: 2 con un total del 10%
+Seguimiento a través de conjuntos de problemas (5%)
+Seguimiento en participación de actividades de comunidad académica (5%)
+Seguimineto a través de 4 Quizes (10%)
+Evaluación de contenidos a través de 2 Parciales (2x20%)
+Evaluación de procedimientos a través de Exposición oral (10%)
+Evaluación sumativa a través de un Examen final (30%)

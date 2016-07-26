@@ -1,4 +1,4 @@
-Introducción a las bases de datos y Data mining
-Bases de datos publicas
-El observatorio astronómico virtual
-Introducción al uso de IRAF
+- Identificar fuentes online para la adquisición de datos astronómicos de calidad
+- Aprender a buscar y adquirir información de las bases de datos
+- Aprender a manipular datos de bases de datos 
+- Desarrollar habilidades básicas en el uso de IRAF y otros procesadores de imagenes. 

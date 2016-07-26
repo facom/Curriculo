@@ -1,2 +1,4 @@
 Ecuación de estructura. Conservación de la masa. Ecuación de transporte.
 Transporte de energía. Flujo radiativo monocromático. Convección. Conducción.
+Gradientes radiativo, conductivo y convectivo. Criterio de Schwarchild. Equilibrio convectivo. estructura del Sol. Ecuación de estado. 
+

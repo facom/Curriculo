@@ -1,8 +1,9 @@
-El ojo.
-Astrolabios, sextantes, cuadrantes y otros instrumentos antigüos.
-Los telescopios ópticos.
-Tipos de monturas.
-Lentes y Objetivos.
-Instrumentación de un telescopio.
-Astronomía en otras longitudes de onda.
-Uso básico del telescopio óptico.
+- Instrumentación astronómica:
+- El ojo. Los telescopios ópticos. Refractores y reflectores. Tipos de monturas.
+- Uso del telescopio. Orientación al polo. 
+- Instrumentación de un telescopio: cámaras CCD, espectrógrafos.
+- Escala de magnitudes fotométricas.
+
+- Observación astronómica:
+- La luna, el sol, el cielo profundo, planetas, asteroides, cometas, galaxias, nebulosas, cúmulos estelares, etc. 
+- Manejo de atlas y cartas celestes.

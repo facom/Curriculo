@@ -1,7 +1,5 @@
-Usar técnicas específicas de análisis en las observaciones astronómicas.
-
-Aplicar, de forma práctica, los conceptos de la fotometría y espectroscopía digital y su análisis.
-
-Comprender el uso de las bases de datos astronómicas como valiosa fuente de información de calidad científica.
-
-Aplicar las técnicas estadísticas básicas en astronomía observacional.
+- Familiarizarse con los detectores CCD. 
+- Usar técnicas específicas de análisis en las observaciones astronómicas.
+- Comprender el uso de las bases de datos astronómicas como valiosa fuente de información.
+- Aplicar las técnicas estadísticas básicas en astronomía observacional.
+- Aplicar, de forma práctica, los conceptos de la fotometría digital CCD y su análisis.

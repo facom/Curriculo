@@ -1,7 +1,8 @@
 El curso será desarrollado a través de una metodología que vincula los siguientes aspectos:
 
-La clase magistral: esta matéria se fundamenta principalmente en la cátedra magistral con apoyo de material visual presentado en diapositivas. Los estudiantes deben leer o consultar sobre el tema, antes de la clase. Durante la clase magistral se desarrollan los contenidos conceptuales y se motiva la participación del estudiantado mediante preguntas, se realizan ejercicios/problemas por parte del profesor para enseñar los contenidos procedimentales.
+Clase magistral: esta materia se fundamenta principalmente en la cátedra magistral con apoyo de material visual presentado en diapositivas. Los estudiantes deben leer o consultar sobre el tema, antes de la clase. Durante la clase magistral se desarrollan los contenidos conceptuales y se motiva la participación del estudiantado mediante preguntas. 
+En clase el docente presenta algunas aplicaciones prácticas que apuntan a fortalecer los contenidos procedimentales.
 
-Actividades independientes y asistidas. Talleres temáticos: Habrá una asignación por unidad de problemas sobre las temáticas específicas, incluyendo sesiones y problemas computacionales que permitan integrar las unidades conceptuales y el análisis de datos simulados y observacionales
+Actividades independientes y asistidas. Talleres temáticos: habrá una asignación por unidad de problemas sobre las temáticas específicas, incluyendo sesiones y problemas computacionales que permitan integrar las unidades conceptuales y el análisis de datos simulados y observacionales
 
-Seminarios: cada unos de los estudiantes escogerá un tema de actualidad en astrofísica estelar y hará una exposición del mismo frente al curso.
+Seminarios: cada unos de los estudiantes escogerá un tema de actualidad en astrofísica estelar y hará una exposición del mismo en escenarios diversos que van desde la sala de clase, pasando por los los espacios de comunidad hasta escenarios de cara al público general.

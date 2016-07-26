@@ -1,1 +1,4 @@
-Informes de prácticas, 100%.
+- Guía sobre métodos matemáticos, 25%
+- Examen de métodos matemáticos, 25%
+- Informes de prácticas rotativas, 25%.
+- Informes de practicas observacionales, 25%

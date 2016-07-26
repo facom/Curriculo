@@ -1,12 +1,9 @@
-Bibliografía básica
-
+Bibliografía básica:
 S. Carrol & D. Ostlie, An Introduction to Modern Astrophysics, Ed. 2, 2006.
-Jorge Zuluaga, Introducción a la Astrofísica, 1998.
 R. A. Serway, C. Moses, C. Moyer, Modern Physics, 2005.
-Jorge Zuluaga, Astrofísica Moderna, Notas de Clases, 2012.
+R.M. Eisberg, Fundaments of Modern Physics. 
 
-Otros textos
-
+Otros textos:
 T. Padmanabhan, An Invitation to Astrophysics, World Scientific, 2006.
 D. Prialnik, An Introduction to the Theory of Stellar Structure and Evolution, Cambridge, 2000.
 H. Bradt, Astrophysical Processes, Cambridge, 2008.
@@ -23,3 +20,5 @@ H. F. Hameka, Quantum Mechanics: a conceptual approach, Wiley, 2004.
 W. Greiner, Quantum Mechanis, an Introduction, Springer, 2001.
 D. Chandler, Introduction to Modern Statistical Mechanics, 1987.
 K. Krane, Física Moderna, Limusa, 1991.
+
+Se deja al estudiante la consulta a través de la red, ya que la información allí plasmada puede ser de gran ayuda.

@@ -1,6 +1,11 @@
-Pruebas escritas de dos horas sobre los temas de formación planetaria, interior, superficies, atmósferas y magnetósferas, Sistema Solar, Exoplanetasy habitabilidad (pueden ser dos o tres según se convenga con los estudiantes).
-Solución de problemas específicos sobre formación planetaria.
-Modelamiento númerico del interior planetario.
-Cálculo de energías y tamaños de cráteres de impacto.
-Exposiciones orales sobre principales características de los planetas del sistema solar y sus lunas.
-Descripción gráfica de la zona de habitabilidad de estrellas de secuencia principal de acuerdo con los criterios de habitabilidad.
+- Pruebas escritas sobre los temas del curso. 
+
+- Solución de problemas específicos sobre los temas del curso.  
+
+- Modelamientos númericos de propiedades planetarias.   
+
+- Exposiciones orales. 
+
+- Construcción de gráficas.
+
+- Participación en actividades acadécmicas. 

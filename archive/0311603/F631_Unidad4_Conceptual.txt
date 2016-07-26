@@ -1,8 +1,0 @@
-Efecto Compton
-Propagación de la luz en la materia. 
-Las propiedades “corpusculares” de la luz. 
-Ecuación de Schrodinger
-Pozo de potencial infinito y finito.
-Efecto túnel y oscilador armónico.
-Niveles atómicos.
-Átomo de Hidrogeno

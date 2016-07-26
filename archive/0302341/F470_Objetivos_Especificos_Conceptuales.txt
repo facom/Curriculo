@@ -1,3 +1,5 @@
+Manejar adecuadamente las ideas básicas en el uso y diseño de instrumentos ópticos basados en la óptica geométrica y la óptica física.
+
 Aplicar y afianzar las propiedades básicas de los campos ópticos coherentes.
 
 Distinguir las aproximaciones de Fraunhofer y Fresnel en difracción.

@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 08 Mar 2016 10:29:59 -050";
+$F010_AUTO_Fecha_Actualizacion="Wed, 09 Mar 2016 12:09:35 -050";
 $F015_AUTO_Usuario_Actualizacion="Instituto de Biología";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Manuel Moreno Ochoa";
+$F050_Nombre_Actualiza="Maria Cristina Lopez Gallego";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0301111";
 $F110_Nombre_Asignatura="Fundamentos en Biología";

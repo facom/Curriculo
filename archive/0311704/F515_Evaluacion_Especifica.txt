@@ -1,3 +1,7 @@
-En el curso se realizaran 3 parciales del 33% cada uno. Estos exámenes serán entregados a los estudiantes para que los realicen en un plazo de mínimo 24 horas, y podrán ser llevados a sus casas.
+En el curso se realizaran 2 parciales del 25% cada uno. Los exámenes podrán ser llevados a cabo en tiempo de clase o como en el caso de incluir problemas computacionales podrán ser concluidos en tiempo propio del estudiante
 
-La realización de estos exámenes con posibilidad de llevárselos para la casa tiene como intención la interacción de los estudiantes entre si, lo que les ayudara a elevar el entendimiento del tema. Para que se evite la copia directa de el examen, se escojera un estudiante aleatoriamente, quien deberá sustentar los resultados encontrados y presentados en el examen.
+Un 20% de la evaluación estará dado en términos de la presentación de unseminario
+
+Un 10% estará soportado en la realización de una producción escrita tipo ensayo que estimule el fortalecimiento de competencias de escritura.
+
+El 20% restante estará asociado al seguimiento durante el curso y podrá estar representado en la solución de conjuntos de problemas o formulación de pequeños proyectos a ser desarrollados durante el semestre.

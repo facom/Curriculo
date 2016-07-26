@@ -1,5 +1,3 @@
-Como una ciencia exacta, la astronomía requiere de la observación para validar sus modelos, para asegurar que describe la realidad observable. Como tal, los profesionales de astronomía deben ser capaces de adelantar observaciones que les permita recolectar evidencia valiosa para desarrollar su trabajo, así como deben estar en capacidad de analizar dichos resultados observacionales.
+Como una ciencia exacta, la Astronomía requiere de la observación para validar sus modelos, para asegurar que describe la realidad observable. Como tal, los profesionales de astronomía deben ser capaces de adelantar observaciones que les permita recolectar evidencia valiosa para el desarrollo de su trabajo, así como deben estar en capacidad de analizar dichos resultados observacionales.
 
-El objetivo del curso Astronomía practica I es ofrecer un primer acercamiento del estudiante al trabajo observacional en astronomía, permitirle conocer en una primera aproximación las técnicas y herramientas usadas en el quehacer de la observación astronómica, todas ellas conceptos y herramientas necesarias para adelantar de forma apropiada su formación futura así como los retos de su profesión.
-
-El astrónomo necesita tener habilidades para de realizar experimentos y observaciones para hacer de su trabajo uno de naturaleza propiamente científica.
+El astrónomo necesita tener habilidades para de realizar observaciones que validen su trabajo científico.  Por tanto los tres laboratorios son de gran importancia para su formación. 

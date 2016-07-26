@@ -1,10 +1,10 @@
 El curso será desarrollado a través de una metodología que vincula los siguientes aspectos:
 
-Preparación previa a la practica
+Preparación previa a la practica:
 Previo a cada práctica, el estudiante debe leer los contenidos de las actividades a desarrollar en la actividad de ese día, esto con el fin de ayudar a optimizar el uso de tiempo durante la clase.
 
-Exposición magistral
+Exposición magistral:
 Exposición magistral del profesor de los conceptos asociados a la teoría y métodos a aplicar en la solución de problemas. Introducción y explicación de los problemas. 
 
-Trabajo individual asistido
+Trabajo individual/grupal asistido
 Luego de la exposición de los conceptos básicos, viene una parte de trabajo del estudiante asociado con cada práctica. Cada practica está diseñada para permitir que el estudiante aplique los contenidos asociados al tema de la clase o actividad del día. El trabajo del estudiante estará siempre supervisado por el profesor.

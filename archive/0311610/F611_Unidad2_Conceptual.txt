@@ -1,4 +1,5 @@
-Bases de datos astronómicos: Bases de datos y catálogos, bases de imágenes de archivo.
-Uso de telescopios a distancia y telescopios robóticos.
-El observatorio astronómico virtual
-Introducción al uso de IRAF
+- Bases de datos astronómicos: Bases de datos y catálogos, bases de imágenes de archivo: Vizier, Simbad, Aladin, Mast, SDSS.
+- Bases de datos bibliográficas: Arxiv, ADS
+- Herramientas para la maniulación de tablas de datos: Topcat
+- Introducción a los Telescopios robóticos y observación remota.
+- Introducción al uso de IRAF y otros procesadores de imagenes. 

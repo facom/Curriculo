@@ -1,2 +1,3 @@
-Funcionamiento de cámaras CCD: Exposición, estadística de Poisson del conteo de fotones, características de las cámaras CCD, lectura, ruidos y defectos.
-Fotometría digital- Fotometría CCD: Reducción de imágenes astronómicas, fotometría de apertura, fotometría PSF, fotometría de objetos extendidos.
+- Funcionamiento de cámaras CCD: Exposición, estadística de Poisson del conteo de fotones, características de las cámaras CCD, lectura, ruidos y defectos cosméticos.
+- Reducción de imagenes CCD: correcciones por Bias, Flat field, Dark current.
+- Fotometría de apertura: Fotometría de apertura exploratoria, fotometría de apertura rápida. Conversión de magnitudes.

@@ -1,4 +1,5 @@
-Una introducción a la astronomía practica. Juan Carlos Muñoz, 2010
-To measure the sky: An introduction to Observational astronomy, Frederick Chromey, Cambridge University Press, 2010.
-Handbook of CCD astromony, second edition, Steve B. Howell, Cambridge University Press, 2006.
-The handbook of astronómical Image processing, R. Berry & J. Burnell, Willman-Bell, 2005
+- "Laboratorio de Astronomía usando herramientas gratis de internet", Ignacio Ferrín, 2013.
+- Notas de clase, Una introducción a la astronomía practica. Juan Carlos Muñoz, 2010
+- To measure the sky: An introduction to Observational astronomy, Frederick Chromey, Cambridge University Press, 2010.
+- Handbook of CCD astromony, second edition, Steve B. Howell, Cambridge University Press, 2006.
+- The handbook of astronómical Image processing, R. Berry & J. Burnell, Willman-Bell, 2005

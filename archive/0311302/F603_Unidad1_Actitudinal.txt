@@ -1,2 +1,1 @@
-Reconocer a la Astronomía como una ciencia Observacional Exacta.
-Reconocer la importancia del tratamiento correcto de los datos observacionales.
+- Reconocer la importancia del análisis matemático de los datos observacionales.

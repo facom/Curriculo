@@ -1,3 +1,11 @@
-Uso de Monturas y seguimiento
-Uso adecuado de Sistemas de enfoque
-Reconocimiento de las Características (adecuadas) de la imagen
+- Comprender el funcionamiento de Monturas y seguimiento de telescopios
+- Caracterizar cuantitatívamente las propiedades de una imagen astronómica
+- Extraer información científica de ellas.
+
+- Ejercicios prácticos:
+- Reducción de una imagen CCD
+- Análisis basico de una imagen CCD.
+- Determinación del valor maximo o minimo de una función.
+- Método de Xi-squared
+- Prueba de Kolgoromov-Smirnoff
+- Aladin y Simbad

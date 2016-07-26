@@ -1,10 +1,6 @@
-Realizar una primera aproximación a la observación astronómica.
-
-Desarrollar experiencia en la práctica observacional sin telescopio.
-
-Comprender el funcionamiento básico del telescopio.
-
-Aplicar las técnicas de solución de problemas.
-
-Usar las herramientas básicas de análisis de datos.
-
+- Conocer el cielo.
+- Desarrollar experiencia en la práctica observacional con y sin telescopio.
+- Comprender de forma práctica los diferentes sistemas de coordenadas celestes.
+- Usar herramientas matemáticas básicas de análisis de datos, como la propagación de errores y el Método de los Mínimos Cuadrados. 
+- Aprender a hacer gráficos profesionales utilizando un graficador profesional.
+- Comprender el papel que juega la Astrometría dentro de la Astronomía y la Astrofísica.
