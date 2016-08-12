@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 19 Jul 2016 09:50:11 -050";
+$F010_AUTO_Fecha_Actualizacion="Sun, 24 Jul 2016 20:03:11 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="2";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="i";
+$F050_Nombre_Actualiza="ignacio.ferrin";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311610";
 $F110_Nombre_Asignatura="Astronomía Práctica II";
@@ -43,8 +43,8 @@ $F370_Sede="Ciudad Universitaria Medellín";
 $F380_Profesores_Responsables="Danilo González";
 $F390_Profesores_Oficinas="ITM";
 $F400_Horario_atencion="MJ 18-19";
-$F410_Profesores_Elaboran="Juan Carlos Muñoz  e Ignacio Ferrín";
-$F420_Correos_Electronicos="juan.munozc@udea.edu.co";
+$F410_Profesores_Elaboran="Ignacio Ferrín y Juan Carlos Muñoz";
+$F420_Correos_Electronicos="ignacio.ferrin@udea.edu.co, juan.munozc@udea.edu.co";
 $F600_Unidad1_Titulo="El telescopio y la caracterización de las observa";
 $F605_Unidad1_Semanas="3";
 $F610_Unidad2_Titulo="Bases de datos astronómicos";

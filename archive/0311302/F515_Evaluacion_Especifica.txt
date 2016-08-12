@@ -1,4 +1,5 @@
-- Guía sobre métodos matemáticos, 25%
-- Examen de métodos matemáticos, 25%
-- Informes de prácticas rotativas, 25%.
-- Informes de practicas observacionales, 25%
+- El método científico, 20%
+- Guía sobre métodos matemáticos, 20%
+- Examen de métodos matemáticos, 20%
+- Informes de prácticas rotativas, 20%.
+- Informes de practicas observacionales, 20%

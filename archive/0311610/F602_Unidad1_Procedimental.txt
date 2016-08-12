@@ -5,7 +5,6 @@
 - Ejercicios prácticos:
 - Reducción de una imagen CCD
 - Análisis basico de una imagen CCD.
-- Determinación del valor maximo o minimo de una función.
-- Método de Xi-squared
+- Método de Xi-cuadrado
 - Prueba de Kolgoromov-Smirnoff
-- Aladin y Simbad
+- Uso de herramientas basicas de internet, Aladin, Simbad y otras

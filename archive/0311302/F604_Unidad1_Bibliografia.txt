@@ -1,5 +1,6 @@
 - "Laboratorio de Astronomia Utilizando Herramientas Gratis de Internet".
 Ignacio Ferrin, UdeA. 
+- "El Método Científico".  I. Ferrin, 2013. UdeA.
 - "Una introducción a la astronomía practica". Juan Carlos Muñoz.
 - "To measure the sky: An introduction to Observational astronomy", Frederick Chromey, Cambridge University Press, 2010.
 - "Introductory Astronomy". Paul A. Mason, Hector Noriega-Mendoza, Joni Marie Clark. Hayden McNeil, 2014.

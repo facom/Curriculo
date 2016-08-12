@@ -1,10 +1,11 @@
-La evaluación comprende tres parciales 
+La evaluación comprende cuatro parciales 
 
-Primero: 34%; Examen presencial: 75%   	Talleres: 25%  
-Segundo: 33%; Examen presencial: 75%   	Talleres: 25%
-Tercero: 33%; Examen presencial: 75%  	Trabajo:  25%
+Primero: 20%; Examen presencial: 75%   	Talleres: 25%  
+Segundo: 20%; Examen presencial: 75%   	Talleres: 25%
+Tercero: 30%; Examen presencial: 75%  	Trabajo:  25%
+Cuarto:  30%; Trabajo y Presentacion
 
 Cada examen presencial escrito supone el 75% de la calificación del parcial: 
-el 25% restante se calificará con la elaboración y entrega de Talleres de problemas que se suministrarán a los estudiantes para cada parcial y que deberán entregar al mismo día del examen.
+el 25% restante se calificará con la elaboración y entrega de Talleres de problemas que se suministrarán a los estudiantes para cada parcial y que deberán entregar al mismo día de la fecha del examen para su evaluación.
 
-En el tercer parcial el estudiante elaborará un trabajo en un área específica de las aplicaciones de la óptica cuántica que deberá exponer como ponencia durante la clase.
+En el cuarto parcial el estudiante elaborará un trabajo en un área específica de las aplicaciones de la óptica cuántica que deberá preparar, entregar una sinopsis y exponer dicho trabajo como ponencia en clase. 

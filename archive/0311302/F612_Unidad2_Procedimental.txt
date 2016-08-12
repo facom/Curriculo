@@ -9,3 +9,4 @@ Prácticas rotativas sobre los siguientes tópicos:
 8- Calculo del azimuth y la altura de un astro
 9- Masa del Sol
 10- Periodo de rotacion del Sol
+11- Otras adicionales

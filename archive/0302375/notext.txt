@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 10 Feb 2016 15:18:07 -050";
+$F010_AUTO_Fecha_Actualizacion="Thu, 14 Jul 2016 15:43:18 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="3";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F050_Nombre_Actualiza="Oscar Alberto Zapata Noreña";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302375";
 $F110_Nombre_Asignatura="Física Matemática II";
@@ -13,8 +13,8 @@ $F120_Tipo_Curso="Profesional";
 $F130_Asistencia="Obligatoria";
 $F140_Creditos="4";
 $F150_Intensidad_HDD="64";
-$F160_Intensidad_HDA="0";
-$F170_Intensidad_TI="128";
+$F160_Intensidad_HDA="32";
+$F170_Intensidad_TI="96";
 $F180_Horas_Teoricas_Semanales="4";
 $F183_Horas_Practicas_Semanales="0";
 $F186_Horas_Teorico_Practicas_Semanales="0";

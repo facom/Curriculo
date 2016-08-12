@@ -1,4 +1,2 @@
-Formación de Imágenes.  
-Aumento del telescopio.
-Modelos de ojos miopes e hipermétropes.
-Polarización y ángulo de Brewster.
+1. Concepto de objeto e imagen óptica (Ej: Formación de Imágenes reales y virtuales, medida de distancias focales, aumentos, instrumentos ópticos, dispersión cromática, espectrómetros).  
+2. Concepto de Polarización y aplicación de tal concepto en medidas experimentales (Ej: ángulo de Brewster, polarímetros, moduladores de cristal líquido).

@@ -7,6 +7,7 @@
 7- Astrometrica, Makalii
 8- Masa del Sol
 9- Periodo de rotacion del Sol
+10- Otras adicionales
 
 
 Coordenadas Geográficas y ubicación del observador.

@@ -1,4 +1,4 @@
-Solución a ecuaciones hiperbólicas. Oscilaciones transversales en una cuerda. Oscilaciones longitudinales en cuerdas, varillas y resortes. Membranas oscilantes.
+Solución a ecuaciones hiperbólicas: oscilaciones transversales en una cuerda, oscilaciones longitudinales en cuerdas, varillas y resortes, membranas oscilantes.
 Ecuación de Bessel.
 Funciones de Bessel de primera clase. Función generatriz, relaciones de recurrencia, ortogonalidad, aplicaciones.
 Forma integral.  Funciones de Neumann.  Funciones de Hankel y esférica. 

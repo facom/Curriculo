@@ -1,4 +1,4 @@
-Solución a ecuaciones elípticas. Ecuación de Laplace y de Poisson. Aplicaciones al electromagnetismo Y la termodinámica.
+Solución a ecuaciones elípticas: ecuación de Laplace y de Poisson en electromagnetismo y termodinámica.
 Funciones de Hermite, función generatriz, relaciones de recurrencia, ortogonalidad, fórmula de Rodríguez y aplicaciones.
 Funciones de Laguerre, forma integral, relaciones de recurrencia, ortogonalidad, fórmula de Rodríguez y aplicaciones.
 Definición de la función Gamma. Representación integral. Propiedades y aplicaciones. 

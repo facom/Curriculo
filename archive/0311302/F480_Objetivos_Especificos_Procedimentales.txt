@@ -4,4 +4,5 @@
 -Aprender a asignar errores a una medida.
 -Conocer la propagación de errores y ajustes básicos.
 -Usar el método estadístico de mínimos cuadrados.
+-Saber hacer gráficas profesionales.
 -Analizar gráficas infiriendo información y haciendo predicciones a partir de   ellas.

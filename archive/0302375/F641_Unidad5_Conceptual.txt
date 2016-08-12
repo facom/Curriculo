@@ -1,4 +1,4 @@
-Solución a ecuaciones de tipo parabólico. Ecuación del calor y ecuación de difusión.
+Solución a ecuaciones de tipo parabólico: ecuación del calor y ecuación de difusión.
 Expansión del potencial eléctrico. Funciones de Legendre. Función generatriz, relaciones de recurrencia, ortogonalidad.
 Fórmula de Rodríguez y aplicaciones. Funciones asociadas de Legendre.
 Armónicos esféricos.

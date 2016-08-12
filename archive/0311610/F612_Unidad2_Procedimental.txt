@@ -1,4 +1,4 @@
-- Identificar fuentes online para la adquisición de datos astronómicos de calidad
+- Identificar fuentes online para la adquisición de datos astronómicos
 - Aprender a buscar y adquirir información de las bases de datos
 - Aprender a manipular datos de bases de datos 
-- Desarrollar habilidades básicas en el uso de IRAF y otros procesadores de imagenes. 
+- Desarrollar habilidades básicas en el uso procesadores digitales de imágenes. 
