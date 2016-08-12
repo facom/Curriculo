@@ -1,3 +1,6 @@
+BACKDIR=archive/backup
+BACKFILE=microcurriculos
+
 clean:
 	@echo "Basic cleaning..."
 	@find . -name "*~" -exec rm -rf {} \;
@@ -25,6 +28,19 @@ pull:
 create:
 	@echo "Resetting tables..."
 	@mysql --user='root' -p < tables.sql
+
+backup:
+	@echo "Backuping Curriculo..."
+	@bash backup.sh 
+
+restore:
+	@echo "Restoring table Quakes..."
+	@-cat $(BACKDIR)/dump/$(BACKFILE)* > $(BACKDIR)/$(BACKFILE).tar.7z
+	@-p7zip -d $(BACKDIR)/$(BACKFILE).tar.7z
+	@-tar xf $(BACKDIR)/$(BACKFILE).tar
+	@echo "Enter root mysql password..."
+	@mysql -u root -p $(BACKFILE) < $(BACKDIR)/$(BACKFILE).sql
+	@-rm $(BACKDIR)/$(BACKFILE)*
 
 permissions:
 	@chown -R www-data.www-data .

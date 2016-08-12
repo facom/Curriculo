@@ -721,6 +721,7 @@ CONTENT;
     $lista="";
     while($row=mysqli_fetch_array($out)){
       $codigo=$row[0];
+      if($codigo=="0300000"){continue;}
       $nombre=$row[1];
       $instituto=$row[2];
       $publica=$row[3];
@@ -1107,6 +1108,10 @@ if(($accion=="Guardar" or $accion=="Reciclar" or $accion=="Archivar" or $accion=
     $codigoid=$F000_AUTO_Codigoid;
   }
 
+  if($codigo=="0300000"){
+    $result.="<i style=color:red>No puede guardar o archivar el curso plantilla</i>";
+    goto end_archive;
+  }
   ////////////////////////////////////////////////////
   //GUARDANDO REGISTRO
   ////////////////////////////////////////////////////
@@ -1154,6 +1159,10 @@ momento todas las versiones de este curso serán nuevas.</i>";
     $qnew=0;
   }
   if($accion=="Reciclar"){
+    if($codigo=="0300000"){
+      header("Refresh:0;url=index.php?carga_curso=0300000&edita_curso");
+      return;
+    }
     $sql="delete from MicroCurriculos where F100_Codigo=\"$codigo\";";
     if(!mysqli_query($db,$sql)){
       die("Error:".mysqli_error($db));

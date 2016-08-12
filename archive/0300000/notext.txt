@@ -1,14 +1,14 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 26 Jul 2016 11:15:58 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 12 Aug 2016 08:14:03 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="1";
 $F030_AUTH_Acta_Numero="11";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Elizabet Cano";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0300000";
-$F110_Nombre_Asignatura="Tópicos Avanzados en Física Atómica I - Grupo 1 - 2016-II";
+$F110_Nombre_Asignatura="Plantilla";
 $F120_Tipo_Curso="Básico";
 $F130_Asistencia="--";
 $F140_Creditos="--";
