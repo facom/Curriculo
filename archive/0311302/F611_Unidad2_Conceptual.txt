@@ -4,10 +4,11 @@
 4- Precesion de Coordenadas
 5- Efemerides de cometa o asteroide
 6- Crepúsculo astronommico
-7- Astrometrica, Makalii
-8- Masa del Sol
-9- Periodo de rotacion del Sol
-10- Otras adicionales
+7- Herramientas para hacer astrometría y procesamiento digital de imágenes
+8- Máximo y mínimo de una función
+9- Masa del Sol
+10- Periodo de rotacion del Sol
+11- Otras adicionales
 
 
 Coordenadas Geográficas y ubicación del observador.

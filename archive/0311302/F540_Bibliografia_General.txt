@@ -1,6 +1,7 @@
 Bibliografía básica:
 - Ferrin, Ignacio. Laboratorio de Astronomía I: Guía Fina. 2013. Instituto de Física – UdeA.
 - Ferrín, Ignacio. El Método Cientifico.  2013. UdeA. 
+- Ferrín, Ignacio. Laboratorio de Astronomia Usando Herramientas Gratis de Internet. UdeA, 2016.
 
 Bibliografía complementaria:
 - Mason, Paul; Noriega-Mendoza, Hector; Clark, Joni Marie. Virtual Laboratory Exercises for Introductory Astronomy. 2014. Hayden-McNeil. Plymouth, USA.  

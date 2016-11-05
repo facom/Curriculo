@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 12 Jul 2016 15:26:29 -050";
-$F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F010_AUTO_Fecha_Actualizacion="Mon, 29 Aug 2016 13:05:05 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Carlos Molina";
+$F030_AUTH_Acta_Numero="29";
+$F040_AUTH_Acta_Fecha="31 de agosto de 2016";
+$F050_Nombre_Actualiza="";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311704";
 $F110_Nombre_Asignatura="Astrofísica Estelar";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomía";
 $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Astrofísica y Comología";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2014-2";
+$F330_Semestre="2016-2";
 $F330_Semestre_Plan="7";
 $F340_Horario_clase="LW 12-14";
 $F350_Requisitos="Astrofísica Moderna (0311603)";

@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 19 Jul 2016 00:13:42 -050";
+$F010_AUTO_Fecha_Actualizacion="Fri, 29 Jul 2016 09:20:56 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="3";
-$F030_AUTH_Acta_Numero="";
-$F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="ignacio.ferrin";
+$F030_AUTH_Acta_Numero="29";
+$F040_AUTH_Acta_Fecha="31 de agosto de 2016";
+$F050_Nombre_Actualiza="";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311302";
 $F110_Nombre_Asignatura="Astronomía Práctica I";

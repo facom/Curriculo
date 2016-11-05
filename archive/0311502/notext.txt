@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Wed, 13 Jul 2016 16:22:22 -050";
+$F010_AUTO_Fecha_Actualizacion="Wed, 13 Jul 2016 16:57:29 -050";
 $F015_AUTO_Usuario_Actualizacion="Profesor";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
+$F030_AUTH_Acta_Numero="000";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Pablo Cuartas Restrepo";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311502";
 $F110_Nombre_Asignatura="Ciencias Planetarias";

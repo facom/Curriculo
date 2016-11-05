@@ -1,1 +1,1 @@
-- Tener una visión panorámica de algunas herramientas astronómicas.
+- Utilizar algunas herramientas astronómicas disponibles en internet

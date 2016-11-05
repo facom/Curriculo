@@ -1,4 +1,4 @@
-- Instrumentación astronómica:
+- Instrumentación astronómica
 - El ojo. Los telescopios ópticos. Refractores y reflectores. Tipos de monturas.
 - Uso del telescopio. Orientación al polo. 
 - Instrumentación de un telescopio: cámaras CCD, espectrógrafos.

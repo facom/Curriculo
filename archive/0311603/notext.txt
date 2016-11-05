@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 11 Jul 2016 12:23:24 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 29 Aug 2016 13:01:29 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="";
+$F030_AUTH_Acta_Numero="000";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Esteban Silva Villa";
+$F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0311603";
 $F110_Nombre_Asignatura="Astrofísica Moderna";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomia";
 $F300_Area_Academica="Astronomía";
 $F310_Campo_Formacion="Astrofísica y Comología";
 $F320_Ciclo="Profesionalización";
-$F330_Semestre="2014-2";
+$F330_Semestre="2016-2";
 $F330_Semestre_Plan="6";
 $F340_Horario_clase="MJ16-18";
 $F350_Requisitos=" Ciencias Planetarias (311502)";

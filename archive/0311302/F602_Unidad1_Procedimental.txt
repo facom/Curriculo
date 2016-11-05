@@ -2,6 +2,6 @@ Ejercicios prácticos de:
 - Medidas de longitud, masa, temperatura, tiempo, volumen, densidad.
 - Conversión de unidades, cifras significativas, rendondeo, orden de magnitud, ordenes de magnitud del Universo observable.
 - Calculo y propagación de errores.
-- Estadística de datos, campana de Gauss, modelo de Poisson, distribución normal. 
+- Estadística de datos, campana de Gauss. 
 - Graficos profesionales, lineal, semi-log, log-log, histograma.
 - Minimos cuadrados.

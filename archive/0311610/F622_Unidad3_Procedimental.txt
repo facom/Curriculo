@@ -1,5 +1,5 @@
 - Comprender el Funcionamiento de la cámara CCD
-- Entender la Estadística del conteo de fotones y sus implicaciones en la observación astronómica
+- Entender la estadística del conteo de fotones y sus implicaciones en la observación astronómica
 - Aprender los procedimientos de reducción de imágenes astronómicas
 - Aprender los Procedimientos de fotometría de apertura
 

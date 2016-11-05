@@ -5,4 +5,5 @@
 -Conocer la propagación de errores y ajustes básicos.
 -Usar el método estadístico de mínimos cuadrados.
 -Saber hacer gráficas profesionales.
+-Saber ajustar una función a unos datos
 -Analizar gráficas infiriendo información y haciendo predicciones a partir de   ellas.

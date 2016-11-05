@@ -1,9 +1,9 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Thu, 01 Oct 2015 06:16:15 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 11 Jul 2016 12:19:28 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="No";
+$F020_AUTH_Autorizacion_Vicedecano="Si";
 $F025_AUTH_Version="3";
-$F030_AUTH_Acta_Numero="";
+$F030_AUTH_Acta_Numero="000";
 $F040_AUTH_Acta_Fecha="";
 $F050_Nombre_Actualiza="Jorge Zuluaga";
 $F060_AUTH_Publica_Curso="Si";

@@ -1,7 +1,9 @@
 En el curso se realizaran 2 parciales del 25% cada uno. Los exámenes podrán ser llevados a cabo en tiempo de clase o como en el caso de incluir problemas computacionales podrán ser concluidos en tiempo propio del estudiante
 
-Un 20% de la evaluación estará dado en términos de la presentación de unseminario
+Un 20% de la evaluación estará dado en términos de la presentación de un seminario
 
 Un 10% estará soportado en la realización de una producción escrita tipo ensayo que estimule el fortalecimiento de competencias de escritura.
 
-El 20% restante estará asociado al seguimiento durante el curso y podrá estar representado en la solución de conjuntos de problemas o formulación de pequeños proyectos a ser desarrollados durante el semestre.
+El 15% restante estará asociado al seguimiento durante el curso y podrá estar representado en la solución de conjuntos de problemas o formulación de pequeños proyectos a ser desarrollados durante el semestre.
+
+Un 5% se destinará para la participación en las actividades de la comunidad Académica de Astronomía.

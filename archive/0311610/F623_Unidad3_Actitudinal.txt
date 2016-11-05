@@ -1,4 +1,4 @@
-Reconocer los detectores CCD como instrumentos científicos
-reconocer las capacidades y limitaciones de los detectores CCD
-Reconocer las limitaciones y alcances de una observación astronómica
-Reconocer la observación como el canal de experimentación de la astronomía y astrofísica
+- Reconocer los detectores CCD como instrumentos científicos
+- Reconocer las capacidades y limitaciones de los detectores CCD
+- Reconocer las limitaciones y alcances de una observación astronómica
+- Reconocer la observación como el método de recoleccion de datos de la Astronomía y Astrofísica

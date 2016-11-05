@@ -5,7 +5,7 @@ Prácticas rotativas sobre los siguientes tópicos:
 4- Precesion de Coordenadas
 5- Efemerides de cometa o asteroide
 6- Crepúsculo astronomico
-7- Astrométrica, Makali'i
+7- Herramientas para hacer astrometría y procesamiento digital de imágenes
 8- Calculo del azimuth y la altura de un astro
 9- Masa del Sol
 10- Periodo de rotacion del Sol

@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Tue, 15 Mar 2016 11:51:03 -050";
-$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F010_AUTO_Fecha_Actualizacion="Wed, 29 Jun 2016 13:59:10 -050";
+$F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="";
 $F030_AUTH_Acta_Numero="11";
 $F040_AUTH_Acta_Fecha="18/03/2015";
-$F050_Nombre_Actualiza="Elizabet Cano";
+$F050_Nombre_Actualiza="";
 $F060_AUTH_Publica_Curso="No";
 $F100_Codigo="0301111";
 $F110_Nombre_Asignatura="Fundamentos en Biología";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Biología";
 $F300_Area_Academica="Biología";
 $F310_Campo_Formacion="Biología";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2016-1";
+$F330_Semestre="2016-2";
 $F330_Semestre_Plan="1";
 $F340_Horario_clase="L 14-16, WV 10-12";
 $F350_Requisitos="Ninguno";
