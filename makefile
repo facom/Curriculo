@@ -1,5 +1,6 @@
 BACKDIR=archive/backup
 BACKFILE=microcurriculos
+DATABASE=Curriculo
 
 clean:
 	@echo "Basic cleaning..."
@@ -39,7 +40,7 @@ restore:
 	@-p7zip -d $(BACKDIR)/$(BACKFILE).tar.7z
 	@-tar xf $(BACKDIR)/$(BACKFILE).tar
 	@echo "Enter root mysql password..."
-	@mysql -u root -p $(BACKFILE) < $(BACKDIR)/$(BACKFILE).sql
+	@mysql -u root -p $(DATABASE) < $(BACKDIR)/$(BACKFILE).sql
 	@-rm $(BACKDIR)/$(BACKFILE)*
 
 permissions:
