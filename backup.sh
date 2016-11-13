@@ -6,7 +6,7 @@ dirback="archive/backup"
 
 mysqldump -u root -p Curriculo > archive/backup/$filename.sql
 echo "Compressing..."
-tar cf archive/backup/$filename.tar archive/backup/$filename.sql $filename
+tar cf archive/backup/$filename.tar archive/backup/$filename.sql 
 tar cf archive/backup/$filename.tar archive/???????
 p7zip archive/backup/$filename.tar
 echo "Splitting..."
