@@ -16,8 +16,8 @@ cleandata:clean
 cleanall:clean cleandata
 
 commit:
-	@echo "Commiting changes..."
-	@git commit -am "Commit"
+	@-echo "Commiting changes..."
+	@-git commit -am "Commit"
 	@git push origin master
 
 pull:
