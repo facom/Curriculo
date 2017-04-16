@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 28 Sep 2015 07:58:05 -050";
-$F015_AUTO_Usuario_Actualizacion="Facultad";
-$F020_AUTH_Autorizacion_Vicedecano="Si";
-$F025_AUTH_Version="2";
-$F030_AUTH_Acta_Numero="34";
-$F040_AUTH_Acta_Fecha="30 DE SEPTIEMBRE DE 2015";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F010_AUTO_Fecha_Actualizacion="Wed, 25 Jan 2017 11:11:17 -050";
+$F015_AUTO_Usuario_Actualizacion="Profesor";
+$F020_AUTH_Autorizacion_Vicedecano="No";
+$F025_AUTH_Version="3";
+$F030_AUTH_Acta_Numero="";
+$F040_AUTH_Acta_Fecha="";
+$F050_Nombre_Actualiza="Usuario";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302318";
 $F110_Nombre_Asignatura="Oscilaciones y Ondas";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Física, Matemáticas";
 $F300_Area_Academica="Física";
 $F310_Campo_Formacion="Física Básica";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2015-1";
+$F330_Semestre="2017-1";
 $F330_Semestre_Plan="4";
 $F340_Horario_clase="MJ8-10, L10-12";
 $F350_Requisitos="Electricidad y Magnetismo (0302262)";

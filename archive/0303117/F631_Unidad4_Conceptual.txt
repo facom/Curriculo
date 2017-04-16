@@ -1,0 +1,5 @@
+
+
+Suma de segmentos; Diferencia de segmentos; Relación "ser menor que" entre dos segmentos y sus propiedades.
+
+

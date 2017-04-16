@@ -1,0 +1,5 @@
+Usar tablas de verdad
+Establecer las reglas fundamentales de la lógica y su uso en demostración matemática
+Demostrar por inducción teoremas sencillos.
+Usar reglas y operaciones de teoría de conjuntos 
+Diferenciar y usar conjuntos numéricos y las reglas de manipulación de los mismos en intervalos.

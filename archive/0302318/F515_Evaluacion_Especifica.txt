@@ -1,9 +1,9 @@
-Parcial 1: 15% 
-Parcial 2: 20% 
-Parcial 3: 20% 
-Parcial 4: 15% 
+Parcial 1: 15%	Martes 7 marzo
+Parcial 2: 20% 	Martes 4 de abril
+Parcial 3: 20%   Martes 16 de mayo
+Parcial 4: 15% 	Martes 6 de junio
 
-Prueba corta 1: 7%
-Prueba corta 2: 8%
-Prueba corta 3: 8%
-Prueba corta 4: 7%
+Prueba corta 1: 7%	Lunes 6 de marzo
+Prueba corta 2: 8%	Lunes 3 de abril
+Prueba corta 3: 8%	Lunes 15 de mayo
+Prueba corta 4: 7%	Lunes 5 de junio

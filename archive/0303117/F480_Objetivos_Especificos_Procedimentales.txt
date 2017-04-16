@@ -1,0 +1,4 @@
+
+Usar las reglas de la lógica, tablas de verdad y técnicas de demostración.
+Hacer uso de las operaciones entre conjuntos
+Demostrar teoremas de geometría euclidiana.

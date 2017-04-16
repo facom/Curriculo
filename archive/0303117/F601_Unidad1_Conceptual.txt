@@ -1,0 +1,5 @@
+
+a) Lógica proposicional y métodos de prueba: Proposiciones y operaciones lógicas; proposiciones condicionales, tablas de verdad; métodos de demostración; inducción matemática. La lógica y argumentación, paradojas y falacias.
+b) Teoría elemental de conjuntos: Conjuntos y subconjuntos; operaciones con conjuntos; propiedades de las relaciones; relaciones de equivalencia.
+
+ 
