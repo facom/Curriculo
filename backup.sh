@@ -8,6 +8,7 @@ mysqldump -u root -p Curriculo > archive/backup/$filename.sql
 echo "Compressing..."
 tar cf archive/backup/$filename.tar archive/backup/$filename.sql 
 tar rf archive/backup/$filename.tar archive/???????
+tar rf archive/backup/$filename.tar public/???????-??-????-?
 p7zip archive/backup/$filename.tar
 echo "Splitting..."
 cd archive/backup/dump
