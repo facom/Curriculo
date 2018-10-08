@@ -1,1 +1,11 @@
-Teoría de probabilidades, independencia estadística, funciones distribución, análisis combinatorio, promedios estadísticos, promedios en mecánica cuántica. Problema del paseo aleatorio en una y dos dimensiones. Introducción al método Monte Carlo, generadores de números aleatorios y simulación numérica del problema del paseo aleatorio
+Principios básicos de estadística (2.5 semanas):
+Presentación del curso.
+Macroestados y microestados. 
+Teoría de probabilidades.
+Extensividad.
+Independencia estadística.
+Análisis combinatorio y pruebas de Bernoulli.
+Paseos aleatorios y funciones distribución.
+Distribución de velocidades de Maxwell.
+Promedios estadísticos.
+Simulación numérica. Método Monte Carlo y cadenas de Markov.

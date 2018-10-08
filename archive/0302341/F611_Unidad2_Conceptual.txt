@@ -1,5 +1,4 @@
-Zonas de Fresnel.
-Difracción. 
-Interferencia.
-Filtrado espacial usando la óptica de Fourier.
-Espectroscopía.
+1. Interferencia (Ej: Interferómetros por división de frente de onda o por división de amplitud, Espectroscopía).
+2. Difracción (Ej: Zonas de Fresnel, Filtrado espacial usando la óptica de Fourier, Elementos Ópticos Difractivos, Holografía digital).
+3. (opcional) Medidas y caractarización de Frentes de Onda.
+4. (opcional) Transmisión por Fibra Óptica.

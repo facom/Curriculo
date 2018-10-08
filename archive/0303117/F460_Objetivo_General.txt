@@ -1,5 +1,4 @@
 
-
 Proporcionar a los estudiantes de primer semestre de las carreras del Instituto de Física los elementos, conceptos y herramientas de matemáticas indispensables para su carrera y el lenguaje matemático utilizado en la misma, desde las ideas básicas de argumentación, demostración y lógica, hasta elementos de geometría fundamentales para encarar el cálculo y la física en tres dimensiones. 
 
 

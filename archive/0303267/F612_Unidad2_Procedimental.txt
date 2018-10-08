@@ -1,0 +1,3 @@
+Usar el álgebra de los complejos con propiedad
+Mostrar con argumentos las propiedades de las funciones complejas.
+Establecer qué funciones son univaluadas y cuales multivaluadas.

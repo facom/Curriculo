@@ -1,1 +1,12 @@
-Colectividades microcanónica, canónica y gran canónica. Sistemas en contacto térmico con un depósito de calor. Descripción basada en un modelo de Ising de un paramagneto ideal, y descripción clásica de una molécula en un gas ideal. Espacio de fases. Funciones partición y cálculo de valores medios. Conexión con la Termodinámica. Funciones y variables de estado. Entropía del punto cero. Sistemas compuestos y funciones extensivas.
+Colectividades (2.5 semanas): 
+Colectividades de Gibbs.
+Postulados.
+Equilibrio Termodinámico.
+Ensambles microcanónico, canónico y gran canónico. 
+Número de microestados de un gas ideal (G.I.) (formulaciones clásica y cuántica).
+Vacancias en sólidos.
+Sistema de dos niveles.
+Modelo de Ising.
+Funciones partición y gran partición.
+Valores medios y fluctuaciones.
+Teorema de equipartición de la energía.

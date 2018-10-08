@@ -1,0 +1,2 @@
+Establecer las convergencia de una serie usando diferentes criterios de convergencia.
+Establecer los radios de convergencia de diferentes series de potencias complejas.

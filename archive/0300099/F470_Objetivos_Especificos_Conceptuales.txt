@@ -1,0 +1,3 @@
+Deducir las ecuaciones de la evolución del Universo y soluciones cosmológicas relevantes. 
+Calcular las propiedades del Universo, como la edad, el tamaño del horizonte, la temperatura y la densidad de entropía, en momentos específicos durante su evolución, asumiendo condiciones realistas. 
+Obtener la abundancia de partículas (por ejemplo, neutrinos, WIMP, bariones) y los límites de masa basados en las propiedades de las interacciones de partículas en el plasma primordial en un escenario de evolución cosmológica particular y con datos astrofísicos actuales.  

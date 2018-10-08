@@ -1,0 +1,1 @@
+Definición. Propiedades. Leyes del algebra. Representación geométrica y polar. Complejo conjugado. Valor absoluto. Extracción de raíces. Funciones complejas, funciones notables de variable compleja: exponencial, logaritmo, trigonométricas e hiperbólicas. Propiedades de esas funciones, rango y dominio.

@@ -1,0 +1,1 @@
+Concepto de límite de variables complejas, continuidad y definición de derivada. Condiciones de Cauchy-Riemann. Funciones analíticas (holomorfas), funciones armónicas.

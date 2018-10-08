@@ -463,8 +463,8 @@ $table.=<<<TABLE
   </table>
   <p style="font-size:10px">
   <b>Última actualización</b>: $DATE<br/>
-  <b>Versión legal</b>: La versión legal de este documento reposa en la Biblioteca de la Universidad de Antioquia y esta firmada por el Decano y el Director de Instituto.<br/>
-  <b>Firma Autorizada Facultad Versión Electrónica</b>: $signature
+  <b>Versión legal</b>: La versión legal de este documento reposa en la División de Gestión Documental de la Universidad de Antioquia.<br/>
+  <!--<b>Firma Autorizada Facultad Versión Electrónica</b>: $signature-->
   </p>
 </body>
 </html>
@@ -820,8 +820,9 @@ $unidades
 </table>
 <p style="font-size:10px">
 <b>Última actualización</b>: $DATE<br/>
-<b>Versión legal</b>: La versión legal de este documento reposa en la Biblioteca de la Universidad de Antioquia y esta firmada por el Decano y el Director de Instituto.<br/>
-<b>Firma Autorizada Facultad Versión Electrónica</b>: $signature
+<!--<b>Versión legal</b>: La versión legal de este documento reposa  en la División de Gestión Documental de la Universidad de Antioquia.<br/>-->
+<b>Para fines legales sólo es válida la copia de este documento con el sello de la División de Gestión Documental de la Universidad de Antioquia.</b>
+<!--<b>Firma Autorizada Facultad Versión Electrónica</b>: $signature-->
 </p>
 
 TABLE;

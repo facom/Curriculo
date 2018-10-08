@@ -1,0 +1,4 @@
+Construir los elementos diferenciales de área, línea y volumen en diferentes coordenadas de R3 
+Calcular las expresiones los operadores rotacional, divergencia, gradiente y laplaciano en distintas coordenadas.
+Pasar de un sistema a otro expresiones matemática comunes en física, aplicar el concepto de Jacobiano para cambios de coordenadas
+Usar identidades vectoriales para encontrar la ecuación de onda a partir de las ecuaciones de Maxwell y otros ejemplos similares.

@@ -1,0 +1,1 @@
+Plantea y resuelve problemas que involucren la resolución de triángulos, fórmulas de adición de seno y coseno. Además, establece las relaciones entre vectores y la solución de problemas que involucren el cálculo de distancias.

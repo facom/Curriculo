@@ -1,0 +1,1 @@
+Sucesión de números complejos, convergencia. Series de Taylor y McLaurin para complejos, convergencia y criterios de convergencia y convergencia, convergencia uniforme. Propiedades de las series de potencias, derivadas e integrales. Singularidades y polos. 

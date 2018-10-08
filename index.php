@@ -492,6 +492,8 @@ if(isset($_GET["planes_aprobados"])){
     $ap_semestre=$SEMSTRING;
     $qall=1;
   }
+  //PARA QUE APAREZCAN TODAS LAS VERSIONES
+  $qall=1;
 
 $page.=<<<FORMULARIO
   <h4>Busca cursos aprobados</h4>
@@ -499,7 +501,8 @@ $page.=<<<FORMULARIO
   <input type="hidden" name="planes_aprobados">
   <table border=0>
   <tr><td>Instituto:</td><td>$input</td></tr>
-  <tr><td>Semestre:</td><td><input type="text" name="ap_semestre" value="$ap_semestre" maxlength=6 size=6></td></tr>
+  <!--<tr><td>Semestre:</td><td><input type="text" name="ap_semestre" value="$ap_semestre" maxlength=6 size=6></td></tr>-->
+  <tr><td valign="top">Versíón:</td><td><input type="text" name="ap_version" value="$ap_version" maxlength=3 size=3><br/><i style="color:red;font-size:12px">Indíquelo como una condición, ej. "=1", ">1". Deje en blanco para mostrar todas las versiones</a></td></tr>
   <tr><td>Nombre Curso:</td><td><input type="text" name="ap_nombre" value="$ap_nombre" size=20></td></tr>
   <tr colspan=2><td><input type="submit" name="ap_submit" value="Muestre"></td></tr>
   </table>
@@ -513,8 +516,17 @@ FORMULARIO;
   if($ap_instituto=="Profesor" or
      $ap_instituto=="Administrador"){goto end_aprobados;}
   $listaaprob="";
+
+  if(isBlank($ap_version)){
+    $ap_version=">0";
+  }
+  //echo "Versión en blanco.<br/>";
+
   $listapriv="";
-  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre<='$ap_semestre' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura,F330_Semestre DESC;";
+  //$sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F330_Semestre<='$ap_semestre' AND F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto') order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura,F330_Semestre DESC;";
+  //Esta linea se introdujo para que salgan todas las versiones
+  $sql="select F100_Codigo,F110_Nombre_Asignatura,F280_Instituto,F060_AUTH_Publica_Curso,F010_AUTO_Fecha_Actualizacion,F015_AUTO_Usuario_Actualizacion,F050_Nombre_Actualiza,F020_AUTH_Autorizacion_Vicedecano,F330_Semestre_Plan,F330_Semestre,F000_AUTO_Codigoid,F025_AUTH_Version from MicroCurriculos_Publicos where (F110_Nombre_Asignatura like '%$ap_nombre%' AND F280_Instituto='$ap_instituto' AND F025_AUTH_Version+0$ap_version) order by F330_Semestre_Plan*1,F100_Codigo,F110_Nombre_Asignatura,F330_Semestre DESC;";
+
   if(!($out=mysqli_query($db,$sql))){
     die("Error:".mysqli_error($db));
   }
@@ -553,7 +565,8 @@ FORMULARIO;
     }
     
     //CHECK IF COURSE HAS BEEN ALREADY SHOWN
-    if(in_array($codigo,$codigos)){
+    //INTRODUJE EL OR 0 PARA QUE APAREZCAN TODAS LAS VERSIONES
+    if(in_array($codigo,$codigos) or 0){
       if(!$qall){continue;}
     }else{
       array_push($codigos,$codigo);
@@ -561,10 +574,16 @@ FORMULARIO;
 
     //CREATE COPY OF FILE IN LATEST DIRECTORY
     if($QADMIN and ($instituto=="$INSTITUTO" or $INSTITUTO=="Facultad")){
-	if(!in_array($codigo,$codigos_file)){
+	if(!in_array($codigo,$codigos_file) or 1){
 	  array_push($codigos_file,$codigo);
 	  $latest_file="$DATADIR/public/latest/$codigo.pdf";
 	  $latest_fcen_file="$DATADIR/public/latest/$codigo-FCEN.pdf";
+	  $curso_file="public/$codigopublic/$codigopublic-vicedocencia.pdf";
+	  if(!file_exists($curso_file)){
+	    //echo "El archivo $curso_file no existe<br/>";
+	  }
+	  //echo "Latest $latest_fcen_file...<br/>";
+	  //echo "This version public/$codigopublic/$codigopublic-vicedocencia.pdf...<br/>";
 	  $difile=0;
 	  if(file_exists($latest_file)){
 	    $difile=shell_exec("diff public/$codigopublic/$codigopublic-vicedocencia.pdf public/latest/$codigo.pdf");
@@ -572,7 +591,7 @@ FORMULARIO;
 	    $difile=1;
 	  }
 	  if($difile){
-	    echo "$latest_file has changed, copying...<br/>";
+	    //echo "$latest_file has changed, copying...<br/>";
 	    shell_exec("cp public/$codigopublic/$codigopublic-vicedocencia.pdf public/latest/$codigo.pdf");
 	    shell_exec("cp public/$codigopublic/$codigopublic-FCEN.pdf public/latest/$codigo-FCEN.pdf");
 	  }
@@ -604,7 +623,8 @@ LISTA;
   else{$listaaprob.="</ul>";}
   if(isBlank($ap_semestre)){$ap_semestre="<i>(Todos)</i>";}
   //MUESTRA LISTAS
-  $aprobados.="<h4>$ap_instituto</h4>Semestre: $ap_semestre<br/><ul>$listaaprob</ul>";
+  //$aprobados.="<h4>$ap_instituto</h4>Semestre: $ap_semestre<br/><ul>$listaaprob</ul>";
+  $aprobados.="<h4>$ap_instituto</h4><ul>$listaaprob</ul>";
   $page.="<h2>Lista de Cursos Aprobados</h2>$aprobados$link";
   echo $page;
  }

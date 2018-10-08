@@ -1,1 +1,7 @@
-Partículas idénticas y requisitos de simetría. Comentarios sobre las funciones de onda en sistemas de N partículas. Estadísticas de Bose-Einstein (BE) y Fermi-Dirac (FD). Principio de exclusión de Pauli. Degeneración, números de ocupación y conteo de estados en las estadísticas MB, BE y FD. Estadística MB corregida.
+Aplicaciones de las Estadísticas cuánticas (3 semanas):
+Conducción eléctrica, gas de electrones.
+Nivel de Fermi.
+Gas de fotones, radiación de cuerpo negro.
+Modelos de Einstein y Debye de sólidos.
+Condensación Bose-Einstein y ecuación de estado.
+Operador Matriz densidad.

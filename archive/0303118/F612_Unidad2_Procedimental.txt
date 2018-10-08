@@ -1,0 +1,2 @@
+Expresa en lenguaje algebraico una relación dada mediante un enunciado.
+Identifica los elementos de una función y la analiza a partir de sus características.

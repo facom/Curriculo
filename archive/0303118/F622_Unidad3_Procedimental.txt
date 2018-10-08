@@ -1,0 +1,1 @@
+Resuelve analíticamente ecuaciones e inecuaciones haciendo uso de las propiedades correspondientes al tipo de ecuación e inecuación que se plantea.

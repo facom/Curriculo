@@ -1,0 +1,3 @@
+	Utilizar herramientas algorítmicas para operar con funciones reales y con expresiones algebraicas y trigonométricas.
+	Asimilar los conceptos matemáticos y su relación con problemas de ciencias.
+	Aplicar en cursos posteriores los conocimientos adquiridos en este curso.

@@ -1,0 +1,1 @@
+Calcular integrales impropias usando el método de residuos.

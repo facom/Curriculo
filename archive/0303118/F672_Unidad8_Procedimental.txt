@@ -1,0 +1,1 @@
+Comprende el concepto de lugar geométrico para resolver problemas de contexto real, haciendo uso de las representaciones cartesianas y las propiedades geométricas de dichos lugares.

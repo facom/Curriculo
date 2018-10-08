@@ -1,0 +1,1 @@
+Ley de senos y cosenos. Aplicaciones. Vectores (introducción), suma y resta de vectores, multiplicación de un vector por un escalar, producto escalar y vectorial de vectores, significado geométrico de las operaciones con vectores. Aplicaciones a la física. Forma polar de números complejos y teorema de Moivre.

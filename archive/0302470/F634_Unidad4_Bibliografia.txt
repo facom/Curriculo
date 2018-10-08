@@ -1,0 +1,13 @@
+•	Walter Greiner, Ludwig Neise and Horst Stöcker. Thermodynamics and Statistical Mechanics. Springer 1997.
+•	Federick Reif. Fundamentals of Statistical and Thermal Physics, Mc Graw-Hill, International Edition, 1985.
+•	Jordi Ortín Rull y José María Sancho Herrero. Curso de Física Estadística. Universidad de Barcelona, 2006.
+•	R. K. Pathria. Statistical Mechanics. Butterworth-Heinemann. Second Edition. 2001.
+•	Mateo Díaz Peña. Termodinámica Estadística. Editorial Alhambra, 1979.
+•	James P. Sethna, Statistical Mechanics, Oxford University Press, 2008.
+•	Donald A. McQuarrie. Statistical Mechanics, Harper & Row Publishers, 1976.
+•	Kerson Huang. Statistical Mechanics, Second edition. John Wiley & Sons. New York, 1987.
+•	C. Kittel. Thermal Physics, John Wiley & Sons, New York, 1969.
+•	L. Landau y E, Lifshitz, Física Estadística, Pergamon Press, London.
+•	David. P. Landau and Kurt Binder. A Guide to Monte Carlo Simulations in Statistical Physics. Cambridge, University Press, Third Edition, 2009.
+•	Tom M. Apostol. Calculus, volumen 2. Segunda edición. Editorial Reverté S.A., 1986.
+•	Werner Krauth. Statistical Mechanics: Algorithms and Computations. Oxford Master Series in Statistical, Computational, and Theoretical Physics. Oxford University Press 2006.

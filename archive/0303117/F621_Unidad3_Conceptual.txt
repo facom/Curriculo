@@ -1,3 +1,2 @@
-
 Propiedades; Segmentos; Teorema de separación del plano por una línea; Teorema de separación de una línea por un punto; Rayos, ángulos e interior de un ángulo; Coordenadas para rayos; Teorema de la barra cruzada. 
 

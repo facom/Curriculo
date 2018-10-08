@@ -1,0 +1,1 @@
+Singularidades y residuos. Teorema de residuos. Polos y singularidades esenciales. Métodos para determinar residuos. Resolución de integrales complejas y reales con el método de residuos. Integrales impropias con ceros reales. Integración de funciones multivaluadas y otras aplicaciones. 

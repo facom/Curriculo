@@ -1,0 +1,1 @@
+Comprende el concepto de sucesión y la notación sumatoria ampliamente utilizadas en matemáticas avanzadas para la solución de problemas, además se introduce el principio de inducción matemática que permite aprehender los principales resultados relacionados con sucesiones y sumas.

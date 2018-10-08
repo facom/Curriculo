@@ -1,3 +1,5 @@
+El método científico: (1) Aspectos generales del método científico (Observación, hipótesis, planteamiento del problema, experimentación, resultados, conclusiones)
+
 Introducción al error: (1) importancia de determinar el error, (2) Error sistemático y error aleatorio(incertidumbre del instrumento, aleatoriedad de la muestra a medir, aleatoriedad en la medida del instrumento), (3) exactitud y precisión,(4) reporte del error (cifras significativas, redondeo, error relativo, error absoluto,partes por millón, intervalo de confianza, etc), (5) Reglas de error para funciones básicas. 
 
 Estadística descriptiva para una variable: (1) distribución e histograma, (2) media, varianza y desviación estándar (de la muestra y de la población; diferencia entre varianza de la muestra y varianza de la media de la muestra); (3) Distribución gaussiana.

@@ -1,0 +1,6 @@
+El sistema de evaluación a seguir es el siguiente: 
+
+1. Cuatro examenes parciales acumulativos del 20 % cada uno, con una duración de dos horas, en los cuales se evaluará el manejo operativo y conceptual, y las aplicaciones. Estos parciales tendrán como propósito evaluar los contenidos conceptuales y procedimentales. El primer examen parcial corresponderá a las dos primeras
+unidades, el segundo a la unidad 3, el tercero a las unidades 4 y 5 (hasta funciones asociadas de Legendre) y el cuarto examen a las unidades 5 (desde armónicos esféricos)  y 6. Durante el semestre se dejará un conjunto de problemas como preparación de cada examen.
+
+2. Un seguimiento del 20% consistente de 4 pruebas cortas (de 5% cada una) realizadas en la clase taller.  

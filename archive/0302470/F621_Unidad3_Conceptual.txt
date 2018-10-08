@@ -1,1 +1,4 @@
-Paramagnetismo clásico y cuántico. Funciones de Brillouin y Langevin. Leyes de escalamiento. Modelo de Heisenberg. Simulación Monte Carlo y dinámica Metropolis aplicada al estudio de un paramagneto ideal con espín S=1/2.
+Tópicos especiales (1.5 semanas): Paramagnetismo clásico y cuántico.
+Funciones de Langevin y Brillouin.
+Modelos de Ising y Heisenberg clásico.
+Ecuación maestra y ecuación de balance detallado. Densidad de estados. Simulación Monte Carlo y dinámica de Metropolis aplicada al estudio de un paramagneto ideal.

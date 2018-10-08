@@ -5,6 +5,6 @@ Realizar gráficas utilizando el papel apropiado y mediante software desarrollad
 Analizar gráficas infiriendo información y haciendo predicciones a partir de ellas.
 Realizar interpolaciones y extrapolaciones de datos experimentales reportando  los rangos y grados de confiabilidad.
 Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
-Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud,ángulo, temperatura, tiempo, corriente y voltaje.
+Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud, ángulo y tiempo.
 Hacer búsqueda bibliográfica y extraer la información relevante.
 Realizar el histograma de un grupo de datos y determinar parámetros como la media, la desviación estándar, la correlación.

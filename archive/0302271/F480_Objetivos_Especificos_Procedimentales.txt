@@ -12,7 +12,7 @@ Realizar interpolaciones y extrapolaciones de datos experimentales reportando  l
 
 Llevar correctamente un cuaderno de laboratorio y presentar los resultados en un formato tipo artículo científico.
 
-Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud,ángulo, temperatura, tiempo.
+Elegir y utilizar apropiadamente los diferentes instrumentos que se tienen para realizar medidas de masa, longitud, ángulo y tiempo.
 
 Hacer búsqueda bibliográfica y extraer la información relevante.
 

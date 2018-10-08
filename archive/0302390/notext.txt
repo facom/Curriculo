@@ -1,11 +1,11 @@
 <?php
-$F010_AUTO_Fecha_Actualizacion="Mon, 28 Sep 2015 14:53:46 -050";
+$F010_AUTO_Fecha_Actualizacion="Mon, 11 Jul 2016 12:31:30 -050";
 $F015_AUTO_Usuario_Actualizacion="Facultad";
 $F020_AUTH_Autorizacion_Vicedecano="No";
 $F025_AUTH_Version="3";
 $F030_AUTH_Acta_Numero="";
 $F040_AUTH_Acta_Fecha="";
-$F050_Nombre_Actualiza="Jorge Zuluaga";
+$F050_Nombre_Actualiza="";
 $F060_AUTH_Publica_Curso="Si";
 $F100_Codigo="0302390";
 $F110_Nombre_Asignatura="Métodos Computacionales";
@@ -34,7 +34,7 @@ $F290_Programas_Academicos="Astronomía, Física";
 $F300_Area_Academica="Computación";
 $F310_Campo_Formacion="Física Computacional";
 $F320_Ciclo="Fundamentación";
-$F330_Semestre="2015-2";
+$F330_Semestre="2014-2";
 $F330_Semestre_Plan="3";
 $F340_Horario_clase="WV12-14";
 $F350_Requisitos="Algebra Lineal (0303208), Fundamentación en Computación (0302150)";

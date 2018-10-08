@@ -1,0 +1,1 @@
+Comprende los sistemas de ecuaciones para modelar y resolver problemas reales, además, modelar regiones en el plano a través de desigualdades para identificar regiones plausibles para encontrar la solución de problemas.

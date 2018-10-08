@@ -1,1 +1,7 @@
-Distribución de velocidades de Maxwell. Cálculo de promedios. Densidad de estados. Introducción a la dinámica molecular y simulaciones off-lattice de gases ideales. Estadística de Maxwell-Boltzman (MB). Partículas distinguibles. Paradoja de Gibbs. Teorema de equipartición de la energía. Comentarios sobre las funciones de onda en sistemas de dos partículas.
+Estadísticas Cuánticas (3 semanas): 
+Clasificación de los sistemas estadísticos.
+Funciones de onda de partículas distinguibles.
+Funciones de onda de partículas idénticas (fermiones y bosones).
+Números de ocupación.
+Estadísticas de Fermi-Dirac (FD), Bose-Einstein (BE) y Maxwell-Boltzmann corregida (MB).
+Conteo de microestados en las estadísticas cuánticas y densidad de estados.
